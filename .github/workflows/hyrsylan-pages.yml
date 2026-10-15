@@ -1,0 +1,26 @@
+name: Hyrsylän koulu — nimettyjen alisivujen selvitys
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/hyrsylan_page_hunt.py
+      - .github/workflows/hyrsylan-pages.yml
+permissions:
+  contents: read
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/hyrsylan_page_hunt.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hyrsylan-archived-pages
+          path: reports/hyrsylan-pages.json
+          retention-days: 60
+          if-no-files-found: warn
