@@ -76,7 +76,8 @@ def test_view(browser, mobile=False):
     if mobile:
         page.goto(f"{BASE}/#/alku")
         page.locator('#navigation a[href="#/koulu"]').click()
-        check(page.locator("body").get_attribute("data-page")=="koulu", "Mobile menu navigation failed")
+        page.wait_for_function("document.body.dataset.page === 'koulu'", timeout=12000)
+        check(page.locator("body").get_attribute("data-page")=="koulu", "Mobile primary navigation failed")
         overflow=page.evaluate("document.documentElement.scrollWidth-window.innerWidth")
         check(overflow<=8,f"Mobile horizontal overflow is {overflow}px")
     check(not errors, f"Uncaught JavaScript browser errors: {errors}")
