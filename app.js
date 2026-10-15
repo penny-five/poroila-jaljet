@@ -34,6 +34,10 @@ extras.push(
 );
 extras.push({id:'S33',date:'2002–2003',title:'Hyrsylän koulu: 60 oppilasta',publisher:'Tilastokeskus / oppilaitosluettelo 2002–2003',group:'Katalogit',url:'https://www.doria.fi/bitstream/handle/10024/155491/xkjarj_200200_2003_dig.pdf?isAllowed=y&sequence=1',note:'Tilastokeskuksen luetteloon on merkitty Hyrsylän koulu, oppilaitosnumero 08043, ja 60 oppilasta 20.9.2002.'});
 extras.push({id:'S28',date:'23.5.2013',title:'Nummi-Pusula – KOULUT, palautettu HTML-tallenne',publisher:'Common Crawl / CC-MAIN-2013-20 (WARC)',group:'Avoimet viitteet',url:'https://github.com/penny-five/poroila-jaljet/actions/runs/38749281218',note:'Vuoden 2013 alkuperäinen koulusivun HTML palautettiin WARC-arkistosta. Se mainitsee Hyrsylän koulun ja linkittää vuoden 2011 opetussuunnitelma-asiakirjaan sekä vuoden 2012 kouluoppaaseen. Alkuperäisliitteiden sisältöä ei ole vielä luettu.'});
+extras.push(
+{id:'S34',date:'3.9.2014',title:'Heijastimia Hyrsylään ekaluokkalaisille',publisher:'Lotta Paakkunainen / aikalaisblogi',group:'Aikalaisblogit',url:'https://nummentie.blogspot.com/2014/?m=0',note:'Julkinen koulukäynnin kuvaus vuodelta 2014: ensimmäisen luokan oppilaat keskustelivat liikenneturvallisuudesta ja saivat heijastimia. Ei yksittäisten oppilaiden elämäkerta.'},
+{id:'S35',date:'5.12.2017',title:'Uhanalainen lähikoulu – lakkautusten jälkiseuranta',publisher:'Lotta Paakkunainen / julkinen kunnallispoliittinen kannanotto',group:'Aikalaisblogit',url:'https://lottapaakkunainen.com/tag/koulukyyti/page/2/',note:'Kirjoittajan mukaan koulujen sulkemisen vaikutuksia perheisiin ei ollut seurattu riittävästi. Tämä on julkinen kannanotto, ei itsenäinen tutkimus eikä entisten oppilaiden lausunto.'}
+);
 const sources=[...originals,...extras];
 const byId=Object.fromEntries(sources.map(s=>[s.id,s]));
 const enc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
