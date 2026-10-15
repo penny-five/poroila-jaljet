@@ -15,6 +15,11 @@ extras.push(
 {id:'S18',date:'29.11.2011',title:'Nummi-Pusulan koulusivuston sivukartta: Hyrsylän koulu ja kolme alisivua',publisher:'Internet Archive / kunnan koulusivusto',group:'Avoimet viitteet',url:'https://web.archive.org/web/20111129034532/http://www.nummi-pusula.fi:80/koulut/sivukartta.asp?kieli=246',note:'Sivukartassa nimetyt alasivut: Hyrsylän koulu, Hyrsylän Vanhemmat, Kouluelämää ja Japanilainen viikko Hyrsylän koulussa. Alisivujen tekijyyttä tai sisältöä ei ole tarkistettu.'},
 {id:'S19',date:'2.3.2015',title:'Hyrsylän koulun vanhempien palveluverkkokannanotto ja SWOT',publisher:'Hyrsylän koulun vanhemmat / dokumentin jäljennös',group:'Avoimet viitteet',url:'https://abcdocz.com/doc/3735113/hyrsyl%C3%A4-kannanotto-ja-swot',note:'Kannanotto vuodelta 2015 kuvaa koulun rakennushistoriaa, 41 oppilaan tilannetta, kolmessa yhdysluokassa annettua opetusta sekä vanhempien näkemyksiä koulun tulevaisuudesta. Asiakirja ei liity suoraan Poroilan rehtorikauteen.'}
 );
+extras.push(
+{id:'S20',date:'2008',title:'Nummi-Pusulan koulut – alkuperäinen kouluportaali',publisher:'Nummi-Pusula / Internet Archive',group:'Avoimet viitteet',url:'https://web.archive.org/web/20081203121419/http://www.nummi-pusula.fi:80/koulut/default.asp?',note:'Avattu vuoden 2008 kunnan koulusivun tallenne mainitsee Hyrsylän kunnan alakoulujen joukossa sekä Hyrsylässä järjestettävän joulukuun tapahtuman.'},
+{id:'S21',date:'2015',title:'Hyrsylän koulun toiminnan siirto Oinolaan',publisher:'Lohjan kaupungin tilinpäätös 2015',group:'Avoimet viitteet',url:'https://www.lohja.fi/kaupunki-ja-hallinto/lohjan-kaupunki/strategia-ja-talous/attachment/tp2015/',note:'Kaupunki raportoi Hyrsylän koulutoiminnan siirtyneen Oinolan koulun yhteyteen elokuussa 2015.'},
+{id:'S22',date:'2016',title:'Hyrsylän koulun muodollinen lakkauttaminen',publisher:'Lohjan kaupungin talousarvio 2016',group:'Avoimet viitteet',url:'https://www.lohja.fi/kaupunki-ja-hallinto/lohjan-kaupunki/strategia-ja-talous/attachment/ta_2016_hyvaksytty/',note:'Vuoden 2016 talousarvion mukaan koulu lakkautetaan 1.8.2016. Koulutoiminnan siirto 2015 ja lakkautus 2016 ovat eri tapahtumia.'}
+);
 const sources=[...originals,...extras];
 const byId=Object.fromEntries(sources.map(s=>[s.id,s]));
 const enc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
