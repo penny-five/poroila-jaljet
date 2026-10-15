@@ -1,4 +1,4 @@
-name: Julkaise Poroila / Jäljet GitHub Pagesiin
+name: Julkaise Hyrsylä / Jäljet GitHub Pagesiin
 
 on:
   push:
@@ -28,6 +28,7 @@ jobs:
       - name: Kokoa julkaistavat tiedostot
         shell: bash
         run: |
+          python3 scripts/site_audit.py
           mkdir -p _site
           cp index.html app.js research-data.js style.css .nojekyll _site/
           test -s _site/index.html
