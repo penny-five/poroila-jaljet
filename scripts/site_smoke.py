@@ -26,7 +26,7 @@ def test_view(browser, mobile=False):
     errors=[]
     page.on("pageerror", lambda err: errors.append(str(err)))
     page.goto(f"{BASE}/#/alku", wait_until="domcontentloaded")
-    page.locator("#sourceList .source-entry").first.wait_for(timeout=20000)
+    page.locator("#sourceList .source-entry").first.wait_for(state="attached", timeout=20000)
     board_count=page.locator("#corkboard .node").count()
     check(board_count>=14, f"Corkboard only has {board_count} cards")
     check(page.locator("#strings .string-line").count()>=12, "Corkboard links did not render")
@@ -35,7 +35,7 @@ def test_view(browser, mobile=False):
 
     for route in ROUTES:
         page.goto(f"{BASE}/#/{route}",wait_until="domcontentloaded")
-        page.wait_for_function("(id) => document.body.dataset.page === id", route, timeout=12000)
+        page.wait_for_function("(id) => document.body.dataset.page === id", arg=route, timeout=12000)
         check(page.locator(f"main > section#{route}").is_visible(), f"Page invisible: {route}")
         check("HYRSYLÄ" in page.title(), f"Wrong page title: {page.title()}")
         visible=page.locator("main > section:not([hidden])").count()
