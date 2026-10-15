@@ -46,5 +46,17 @@
     "sha256": "fd4e33ca55ba4ffc98d15ade4db12f03decd62f23897ae71bcb266676b2d9cfb",
     "width": 1280,
     "height": 275
+  },
+  {
+    "file": "hyk-mbnet-20010428.jpg",
+    "title": "HYK / MBnet / 28.4.2001",
+    "archive_url": "https://web.archive.org/web/20010428205240/http://koti.mbnet.fi/~hyk/",
+    "original_url": "http://koti.mbnet.fi/~hyk/",
+    "archive_timestamp": "20010428205240",
+    "screenshot_date": "2026-10-15",
+    "note": "Alkuperäinen siirtymäsivu ennen viiden sekunnin automaattista ohjausta. Taustakuva puuttuu arkistonäkymästä; sitä ei ole rekonstruoitu.",
+    "sha256": "e2ad231b9ca66d63f39b686c656b1dde0d687b6bfc28fb37abeff4e89be4b787",
+    "width": 1280,
+    "height": 720
   }
 ]
