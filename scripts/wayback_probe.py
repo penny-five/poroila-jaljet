@@ -13,6 +13,11 @@ from datetime import datetime, timezone
 from urllib import error, parse, request
 
 TARGETS = [
+    {"label": "Alkuperäinen Saunalahti-sivusto / alisivut", "url": "http://www.saunalahti.fi/poroila/", "scope": "prefix"},
+    {"label": "Alkuperäinen Saunalahti-sivusto / etusivu", "url": "http://www.saunalahti.fi/poroila/", "scope": "exact"},
+    {"label": "Saunalahti ilman www-alkua", "url": "http://saunalahti.fi/poroila/", "scope": "prefix"},
+    {"label": "DNA Internet / tukikirjeet", "url": "http://kotisivu.dnainternet.net/poroila/tukikirjeita.htm", "scope": "exact"},
+    {"label": "DNA Internet / kirjoitussivu", "url": "http://kotisivu.dnainternet.net/poroila/130525.htm", "scope": "exact"},
     {"label": "Poroilan kotisivu / kaikki alisivut", "url": "http://kotisivu.dnainternet.net/poroila/", "scope": "prefix"},
     {"label": "Poroilan kotisivu / täsmäosoite", "url": "http://kotisivu.dnainternet.net/poroila/", "scope": "exact"},
     {"label": "Länsi-Uusimaa 27.9.2005", "url": "https://www.lansi-uusimaa.fi/arkisto/2005/27-09/lehti/1461218.shtml", "scope": "exact"},
