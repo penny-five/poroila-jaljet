@@ -198,3 +198,19 @@ main > section[hidden], #pageTrail[hidden] {display:none!important}
 .legacy-research-note{margin:25px 0;padding:18px 25px;border-left:3px solid var(--orange);background:#29261f;color:#dbd2c4;font:13px/1.8 var(--sans)}
 @media(max-width:850px){.legacy-file-groups{grid-template-columns:1fr}}
 @media(max-width:460px){.legacy-file-row{align-items:flex-start}.legacy-file-row a{max-width:100px}}
+
+/* Lähteestä suoraan poimitut mutta erillisinä väitteinä käsiteltävät koulumuistot */
+.archive-primary-notes{margin:35px 0;border:1px solid #846b4d;padding:clamp(23px,4vw,50px);background:#17211e}
+.archive-primary-notes h3{font:normal clamp(41px,5vw,75px)/1.04 var(--serif);margin:18px 0 25px}
+.archive-primary-notes h3 em{color:var(--orange)}
+.archive-primary-intro{font:16px/1.8 var(--sans);color:#cad0c6;max-width:990px}
+.archive-note-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:28px 0}
+.archive-note-grid article{display:flex;flex-direction:column;border:1px solid var(--stroke);background:#232722;padding:23px;min-width:0}
+.archive-note-grid span{font:10px/1.7 var(--mono);color:var(--orange)}
+.archive-note-grid h4{font:normal 32px/1.05 var(--serif);margin:17px 0}
+.archive-note-grid p{font:14px/1.75 var(--sans);color:#bbc1b8}
+.archive-note-grid small{margin-top:auto;border-top:1px solid var(--stroke);padding-top:15px;font:10px/1.7 var(--mono);color:#9ca49a}
+.archive-primary-source{display:flex;gap:18px;flex-wrap:wrap;border-top:1px solid var(--stroke);padding-top:22px;font:10px/1.75 var(--mono)}
+.archive-primary-source a{color:var(--orange);text-decoration:none}
+.archive-primary-source span{color:var(--muted)}
+@media(max-width:1000px){.archive-note-grid{grid-template-columns:1fr}}
