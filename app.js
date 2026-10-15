@@ -77,7 +77,7 @@ const copy=document.getElementById('copyOriginal');copy.addEventListener('click'
 const menu=document.getElementById('menuToggle'),nav=document.getElementById('navigation');menu.addEventListener('click',()=>{const visible=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(visible))});nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
 
 /* Sivunäkymien reititys: GitHub Pages -yhteensopivat jaettavat hash-URL:t. */
-const pageNames={alku:'Etusivu',kartta:'Yhteyskartta',aineisto:'Tutkintalinjat',hypoteesit:'Hypoteesit',aikajana:'Aikajana',fiktiot:'Fiktiiviset muistiinpanot',lahteet:'Lähteet'};
+const pageNames={alku:'Etusivu',kartta:'Yhteyskartta',aineisto:'Tutkintalinjat',hypoteesit:'Hypoteesit',aikajana:'Aikajana',koulu:'Hyrsylän koulu',arkisto:'Verkkoarkisto',fiktiot:'Fiktiiviset muistiinpanot',lahteet:'Lähteet'};
 function showPage(){
   const raw=decodeURIComponent((location.hash||'').replace(/^#\/?/,'')).split('/')[0];
   const page=Object.prototype.hasOwnProperty.call(pageNames,raw)?raw:'alku';
