@@ -33,6 +33,7 @@ extras.push(
 {id:'S32',date:'1997–1998',title:'Hyrsylän ala-aste: 70 oppilasta',publisher:'Tilastokeskus / oppilaitosluettelo',group:'Katalogit',url:'https://doria.fi/bitstream/handle/10024/159304/xopluok_199700_1998_dig.pdf?isAllowed=y&sequence=1',note:'Tilastokeskuksen luettelo antaa Hyrsylän ala-asteen oppilasmääräksi 70 lukuvuonna 1997–1998.'}
 );
 extras.push({id:'S33',date:'2002–2003',title:'Hyrsylän koulu: 60 oppilasta',publisher:'Tilastokeskus / oppilaitosluettelo 2002–2003',group:'Katalogit',url:'https://www.doria.fi/bitstream/handle/10024/155491/xkjarj_200200_2003_dig.pdf?isAllowed=y&sequence=1',note:'Tilastokeskuksen luetteloon on merkitty Hyrsylän koulu, oppilaitosnumero 08043, ja 60 oppilasta 20.9.2002.'});
+extras.push({id:'S28',date:'23.5.2013',title:'Nummi-Pusula – KOULUT, palautettu HTML-tallenne',publisher:'Common Crawl / CC-MAIN-2013-20 (WARC)',group:'Avoimet viitteet',url:'https://github.com/penny-five/poroila-jaljet/actions/runs/38749281218',note:'Vuoden 2013 alkuperäinen koulusivun HTML palautettiin WARC-arkistosta. Se mainitsee Hyrsylän koulun ja linkittää vuoden 2011 opetussuunnitelma-asiakirjaan sekä vuoden 2012 kouluoppaaseen. Alkuperäisliitteiden sisältöä ei ole vielä luettu.'});
 const sources=[...originals,...extras];
 const byId=Object.fromEntries(sources.map(s=>[s.id,s]));
 const enc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
@@ -78,6 +79,7 @@ document.getElementById('resetBoard').addEventListener('click',()=>{nodeData.for
 document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(x=>x.classList.toggle('active',x===b));const f=b.dataset.filter;document.querySelectorAll('.node').forEach(el=>{const n=nodeData.find(x=>x.id===el.dataset.id);const hit=f==='all'||n.type===f||(f==='open'&&(n.type==='open'||['letter','kekkonen','salla'].includes(n.id)));el.classList.toggle('dim',!hit);});}));
 window.addEventListener('resize',lines);
 const timeline=[...DATA.timeline.map(x=>({year:+x.year,title:x.title,description:x.text,refs:x.refs||[],open:x.open})),
+ {year:2013,title:'Kunnan koulusivun HTML palautettu Common Crawlista',description:'23.5.2013 tallennettu Nummi-Pusulan koulusivun alkuperäinen HTML mainitsee Hyrsylän ja linkittää koulun yleisiin asiakirjoihin. Ei oppilaiden omia tekstejä.',refs:['S28']},
  {year:2002,title:'Hyrsylän koulussa 60 oppilasta',description:'Tilastokeskuksen 20.9.2002 oppilaitosluettelossa oppilaitostunnuksen 08043 Hyrsylän koulussa oli 60 oppilasta.',refs:['S33']},
  {year:1905,title:'Hyrsylän kansakoulu virallisessa perustamisluettelossa',description:'Suomenmaan virallisessa tilastossa Hyrsylän koulu mainitaan lukuvuonna 1905–1906 Nummelle perustettujen kansakoulujen joukossa.',refs:['S23']},
  {year:1939,title:'Miehiä kokoontuu koululle – myöhemmin julkaistu muistitieto',description:'Olavi Leikolan vuonna 2019 julkaistun juhlapuheen mukaan koululla kokoontui lokakuussa 1939 lähes 300 liikekannalle kutsuttua. Sotavuoden alkuperäisiä asiakirjoja ei ole tässä tarkistettu.',refs:['S25'],open:true},
