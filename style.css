@@ -88,3 +88,10 @@ main > section[hidden], #pageTrail[hidden] {display:none!important}
 .dig-provenance{font-size:13px;color:var(--muted);line-height:1.8}
 @media(max-width:1000px){.dig-split{grid-template-columns:1fr}.dig-column-header{min-height:auto;margin-bottom:30px}.dig-facts,.dig-process{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.dig-hero h2{font-size:54px}.dig-facts{grid-template-columns:repeat(2,1fr)}.dig-facts>div{padding:15px}.dig-method{padding:17px;gap:12px}.dig-method h3{font-size:26px}.dig-tree-root{padding:18px}.dig-child-pages{margin-left:22px;padding-left:18px}.dig-dot{left:-27px}.dig-process{grid-template-columns:1fr 1fr;gap:9px}.dig-process>div{padding:15px}}
+
+/* Arkistosivupuun linkit ovat alkuperäiseen sivukarttaan perustuvia hakupolkuja. */
+.dig-child-pages li>a{flex:1;min-width:130px;color:var(--ink);text-decoration:none;line-height:1.45}
+.dig-child-pages li>a:hover{color:var(--orange);text-decoration:underline}
+.dig-link-arrow{color:var(--orange);font-size:12px}
+.dig-child-pages li>em{max-width:140px;text-align:right}
+@media(max-width:550px){.dig-child-pages li>em{max-width:none;text-align:left;width:100%;margin-left:5px}}
