@@ -1,0 +1,1104 @@
+{
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Kokeile elektroniikkaa",
+      "publisher": "Kansalliskirjasto · Finna",
+      "date": "1974",
+      "group": "Katalogit",
+      "url": "https://kansalliskirjasto.finna.fi/Record/fikka.3462399",
+      "note": "Infopress, 227 s. Bibliografinen tekijämerkintä; pitkä tekijäidentiteetin ketju edellyttää ristiintarkastelua."
+    },
+    {
+      "id": "S02",
+      "title": "Elektroniikkarakentelijan kirja",
+      "publisher": "Kansalliskirjasto · Finna",
+      "date": "1975",
+      "group": "Katalogit",
+      "url": "https://kansalliskirjasto.finna.fi/Record/vaari.902769",
+      "note": "Otava, 159 s. Bibliografinen tekijämerkintä."
+    },
+    {
+      "id": "S03",
+      "title": "Elektroniikkarakentelijan kirja — 2. uusittu painos",
+      "publisher": "Finna · Lastu",
+      "date": "1980",
+      "group": "Katalogit",
+      "url": "https://www.finna.fi/Record/lastu.43054",
+      "note": "Uusittu painos. Lähdeluettelossa erillinen tietue, mutta ei erillinen teos kaavion neljän bibliografisen esimerkin valikoimassa."
+    },
+    {
+      "id": "S04",
+      "title": "Omnibot 2000 leikkimielisille",
+      "publisher": "Kansalliskirjasto · Arto / Finna",
+      "date": "1986",
+      "group": "Katalogit",
+      "url": "https://kansalliskirjasto.finna.fi/Record/arto.012689871",
+      "note": "I.D.E.A-lehden artikkelimerkintä. Luettelotieto ei korvaa alkuperäisen artikkelin lukemista."
+    },
+    {
+      "id": "S05",
+      "title": "Ennenaikainen Casio TV-1000",
+      "publisher": "Arto · Finna",
+      "date": "1986",
+      "group": "Katalogit",
+      "url": "https://www.finna.fi/Record/arto.012689866",
+      "note": "I.D.E.A-lehden artikkelimerkintä. Sisältöä ei päätellä otsikosta."
+    },
+    {
+      "id": "S06",
+      "title": "Oppilaita nöyryyttäneelle ex-rehtorille sakot virkarikoksesta",
+      "publisher": "MTV Uutiset · STT",
+      "date": "26.9.2005",
+      "group": "Oikeusuutiset",
+      "url": "https://www.mtvuutiset.fi/artikkeli/oppilaita-noyryyttaneelle-ex-rehtorille-sakot-virkarikoksesta/1978632",
+      "note": "Vuoden 2005 käräjäoikeusratkaisun uutisointi. Ei osoita oikeusprosessin lopputulosta."
+    },
+    {
+      "id": "S07",
+      "title": "Vuoden 2005 STT-uutisen rinnakkaisjulkaisu",
+      "publisher": "Kaleva · STT",
+      "date": "26.9.2005",
+      "group": "Oikeusuutiset",
+      "url": "https://www.kaleva.fi/oppilaita-noyryyttaneelle-ex-rehtorille-sakot-virk/2042135",
+      "note": "Sama STT-uutinen kuin MTV:ssä. Ei itsenäinen, riippumaton vahvistus."
+    },
+    {
+      "id": "S08",
+      "title": "Elävältä haudattu",
+      "publisher": "Martti Hellström · aikalaisblogi",
+      "date": "11.4.2006",
+      "group": "Aikalaisblogit",
+      "url": "https://marttifi.wordpress.com/2006/04/11/elavalta-haudattu/",
+      "note": "Sekundäärinen aikalaiskertomus sivuston sulkemisesta, verkossa käsitellystä oikeusprosessista ja nälkälakosta. Ei oikeuden päätösasiakirja."
+    },
+    {
+      "id": "S09",
+      "title": "Poroila is back",
+      "publisher": "Martti Hellström · aikalaisblogi",
+      "date": "11.4.2006",
+      "group": "Aikalaisblogit",
+      "url": "https://marttifi.wordpress.com/2006/04/11/poroila-is-back/",
+      "note": "Dokumentoi väliaikaisen kotisivun historiallisen osoitteen. Blogin nykyinen HTML ja sen suora DNA-linkki tarkistettu 15.10.2026. Kohteen vuoden 2013 Wayback-tallenne on avattu; vuoden 2006 sisältöä se ei yksin vahvista."
+    },
+    {
+      "id": "S10",
+      "title": "Olli Poroila 15/12 1975",
+      "publisher": "Finna · Doria · kirjeaineiston viite",
+      "date": "15.12.1975",
+      "group": "Avoimet viitteet",
+      "url": "https://www.doria.fi/bitstream/handle/10024/9167/TMP.objres.894.html?sequence=1&isAllowed=y",
+      "note": "Kekkosen vastaus Aholanvaaraan 15.12.1975, Kirjeitä myllystäni 2, s. 256. Alkuperäinen HTML-tekstijäljennös luettu 15.10.2026 yhdessä viitteen 82 kanssa [S16]. Vastauksen vastaanottaja on opettaja. Henkilöyhteyttä tukee Tuntemuksiani-muistelma 19.2.2013 [S37], jossa Poroila sijoittaa opettajauransa alun Aholanvaaraan."
+    },
+    {
+      "id": "S11",
+      "date": "23.5.2007",
+      "title": "Hyvä paha opettaja osa II — STT:n uutisen referaatti",
+      "publisher": "Martti Hellström / blogi",
+      "group": "Aikalaisblogit",
+      "url": "https://pedagogiikkaa.blogspot.com/2007/05/hyv-paha-opettaja-osa-ii.html",
+      "note": "Hellström selostaa STT:n uutisointia: Turun hovioikeus oli kumonnut aiemman ratkaisun käsittelyvirheen vuoksi ja uusi käräjäoikeuskäsittely uutisoitiin vuonna 2007. Alkuperäiset tuomioasiakirjat puuttuvat."
+    },
+    {
+      "id": "S12",
+      "date": "1981",
+      "title": "Nuori sähkökokeilija",
+      "publisher": "Kirjastotietue / JYKDOK",
+      "group": "Katalogit",
+      "url": "https://jyu.finna.fi/Record/keski.353652",
+      "note": "Infopress. Kirjastoluetteloon merkitty Olli Poroilan nimellä julkaistu sähkökokeilukirja."
+    },
+    {
+      "id": "S13",
+      "date": "1985",
+      "title": "PX-8 — Epsonin uusittu laitos",
+      "publisher": "Kansalliskirjasto / Arto",
+      "group": "Katalogit",
+      "url": "https://kansalliskirjasto.finna.fi/Record/arto.012683420",
+      "note": "I.D.E.A-lehden artikkelimerkintä, s. 14–15. Alkuperäisen artikkelin sisältöä ei ole kokonaisuudessaan tarkistettu."
+    },
+    {
+      "id": "S14",
+      "date": "1990",
+      "title": "MikroBITTI 2/1990 — Hyrsylän koulun nimellä esiintyvä ilmoitus",
+      "publisher": "RetroBitti / Isojako, digitoitu lehti",
+      "group": "Avoimet viitteet",
+      "url": "https://isojako.com/bitti/RetroBitti84_92/RetroBitti90_02.pdf#page=35",
+      "note": "Olli Poroilan nimellä julkaistussa tietokoneilmoituksessa mainitaan Hyrsylän koulu. Historiallisia yhteystietoja ei toisteta."
+    },
+    {
+      "id": "S15",
+      "date": "1980",
+      "title": "Taide 4/1980 — kirjoittajanimiosuma",
+      "publisher": "Taide-lehden numeroluettelo",
+      "group": "Avoimet viitteet",
+      "url": "https://taidelehti.fi/numerot/",
+      "note": "Taide-lehden numeroluettelossa esiintyy samanniminen kirjoittaja. Henkilöllisyysyhteys rehtoriin on selvittämättä."
+    },
+    {
+      "id": "S16",
+      "date": "1975",
+      "title": "Kekkosen kirjeaineiston tekstijäljennös",
+      "publisher": "Doria / kirjeaineisto",
+      "group": "Avoimet viitteet",
+      "url": "https://www.doria.fi/bitstream/handle/10024/9638/TMP.objres.4561.html?sequence=1",
+      "note": "Viite 82 jäljentää Olli Poroilan kirjeen 28.11.1975: hän kertoo aloittaneensa syksyllä Aholanvaaran johtajaopettajana ja poistaneensa presidenttikuvat oppilastöiden tieltä. Luettu alkuperäisestä HTML:stä 15.10.2026. Kekkosen vastaus [S10] on eri teksti. Poroilan oma 19.2.2013 Aholanvaara-muistelma [S37] tukee henkilöyhteyttä."
+    },
+    {
+      "id": "S17",
+      "date": "22.6.2001",
+      "title": "Olli Poroilan sivut — alkuperäinen Saunalahden kotisivu",
+      "publisher": "Internet Archive / Wayback, HTML-etusivu",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20010622055404/http://www.saunalahti.fi:80/poroila/",
+      "note": "Vuoden 2001 arkistotallenteessa ilmoitetaan päivityspäiväksi 22.12.2000, mainitaan kaksi alasivua ja kuvaillaan sivuja itse tehdyiksi. Ei vahvista Hyrsylän koulusivujen sisältöä."
+    },
+    {
+      "id": "S18",
+      "date": "29.11.2011",
+      "title": "Nummi-Pusulan koulusivuston sivukartta: Hyrsylän koulu ja kolme alisivua",
+      "publisher": "Internet Archive / kunnan koulusivusto",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20111129034532/http://www.nummi-pusula.fi:80/koulut/sivukartta.asp?kieli=246",
+      "note": "Sivukartassa nimetyt alasivut: Hyrsylän koulu, Hyrsylän Vanhemmat, Kouluelämää ja Japanilainen viikko Hyrsylän koulussa. Alisivujen tekijyyttä tai sisältöä ei ole tarkistettu."
+    },
+    {
+      "id": "S19",
+      "date": "2.3.2015",
+      "title": "Hyrsylän koulun vanhempien palveluverkkokannanotto ja SWOT",
+      "publisher": "Hyrsylän koulun vanhemmat / dokumentin jäljennös",
+      "group": "Avoimet viitteet",
+      "url": "https://abcdocz.com/doc/3735113/hyrsyl%C3%A4-kannanotto-ja-swot",
+      "note": "Kannanotto vuodelta 2015 kuvaa koulun rakennushistoriaa, 41 oppilaan tilannetta, kolmessa yhdysluokassa annettua opetusta sekä vanhempien näkemyksiä koulun tulevaisuudesta. Asiakirja ei liity suoraan Poroilan rehtorikauteen."
+    },
+    {
+      "id": "S20",
+      "date": "2008",
+      "title": "Nummi-Pusulan koulut – alkuperäinen kouluportaali",
+      "publisher": "Nummi-Pusula / Internet Archive",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20081203121419/http://www.nummi-pusula.fi:80/koulut/default.asp?",
+      "note": "Avattu vuoden 2008 kunnan koulusivun tallenne mainitsee Hyrsylän kunnan alakoulujen joukossa sekä Hyrsylässä järjestettävän joulukuun tapahtuman."
+    },
+    {
+      "id": "S21",
+      "date": "2015",
+      "title": "Hyrsylän koulun toiminnan siirto Oinolaan",
+      "publisher": "Lohjan kaupungin tilinpäätös 2015",
+      "group": "Avoimet viitteet",
+      "url": "https://www.lohja.fi/kaupunki-ja-hallinto/lohjan-kaupunki/strategia-ja-talous/attachment/tp2015/",
+      "note": "Kaupunki raportoi Hyrsylän koulutoiminnan siirtyneen Oinolan koulun yhteyteen elokuussa 2015."
+    },
+    {
+      "id": "S22",
+      "date": "2016",
+      "title": "Hyrsylän koulun muodollinen lakkauttaminen",
+      "publisher": "Lohjan kaupungin talousarvio 2016",
+      "group": "Avoimet viitteet",
+      "url": "https://www.lohja.fi/wp-content/uploads/2017/09/TA_2016_hyvaksytty.pdf#page=32",
+      "note": "Vuoden 2016 talousarvion mukaan koulu lakkautetaan 1.8.2016. Koulutoiminnan siirto 2015 ja lakkautus 2016 ovat eri tapahtumia."
+    },
+    {
+      "id": "S23",
+      "date": "1905–1906",
+      "title": "Suomenmaan virallinen tilasto — perustetut maalaiskansakoulut",
+      "publisher": "Tilastokeskus / Suomenmaan virallinen tilasto",
+      "group": "Katalogit",
+      "url": "https://otos.stat.fi/server/api/core/bitstreams/50334344-e3c3-4e48-8705-ca785cda397e/content",
+      "note": "Aikalaistilasto nimeää Hyrsylän koulun Nummelle lukuvuonna 1905–1906 perustettujen kansakoulujen joukossa."
+    },
+    {
+      "id": "S24",
+      "date": "muistitieto / julkaistu verkossa",
+      "title": "Helmi Salmisen muistelut – Kerttu Laineen haastattelu",
+      "publisher": "Nummelaan kylähistoria / haastatteluteksti",
+      "group": "Avoimet viitteet",
+      "url": "https://www.nummela.info/nummelan-kansakoulu-salminen-helmi-muistelee/",
+      "note": "Helmi Salminen kertoo työskennelleensä noin kymmenen vuotta Hyrsylän koulun keittäjänä. Haastattelu kuvaa enimmäkseen Nummelan koulua; kaikkia arkikuvauksia ei voi siirtää Hyrsylään."
+    },
+    {
+      "id": "S25",
+      "date": "2019",
+      "title": "Olavi Leikolan juhlapuhe Hyrsylän koulun sotahistoriasta",
+      "publisher": "Architectural Democracy / muistelu",
+      "group": "Avoimet viitteet",
+      "url": "https://architecturaldemocracy.com/articles/speech-on-the-winter-war-and-hyrsylan-koulu-by-olavi-leikola/",
+      "note": "Julkaistussa puheessa Leikola muistelee 1939 kokoontumista, koulun vuotta 1942 ja vuosien 1955 sekä 2000 muistomerkkejä. Muistelu ei ole sama kuin sotavuosien alkuperäinen asiakirja."
+    },
+    {
+      "id": "S26",
+      "date": "2020",
+      "title": "Hyrsylän koulun dokumentti- ja valokuvakokoelma sekä 360-haastattelu",
+      "publisher": "Gamified Cohousing / projektiraportti",
+      "group": "Avoimet viitteet",
+      "url": "https://gamifiedcohousing.com/what-has-been-ongoing-at-hyrsylan-koulu/",
+      "note": "Omistajatahon verkkokertomus ilmoittaa koulun asiakirjojen ja valokuvien pienkokoelmasta sekä Paula Ojansuun haastattelu- ja 360-videotyöstä. Kokoelmaa ei ole itsenäisesti inventoitu."
+    },
+    {
+      "id": "S27",
+      "date": "2020",
+      "title": "Gamified Cohousing: Hyrsylän koulusta asuinyhteisöksi",
+      "publisher": "Tampereen yliopisto / Riikka Sihvonen, opinnäytetyö",
+      "group": "Katalogit",
+      "url": "https://www.finna.fi/Record/trepo.10024_121163",
+      "note": "Yliopiston opinnäytteen luettelotiedot kuvaavat 1905 valmistuneen koulun myöhempää käyttöä ja 2015 päättyneitä opetustoimintoja."
+    },
+    {
+      "id": "S28",
+      "date": "2015",
+      "title": "Oinolan koulun vanhempaintoimikunnan kouluverkkokannanotto",
+      "publisher": "Vanhempaintoimikunta / julkinen PDF",
+      "group": "Avoimet viitteet",
+      "url": "https://kouluverkkovanhemmat.files.wordpress.com/2015/05/oinolan-koulu-ja-kouluverkkoselvitys.pdf",
+      "note": "Vastaanottavan koulun näkökulmasta laadittu kannanotto käsittelee tiloja, koulukuljetuksia ja Hyrsylän oppilaiden mahdollista siirtoa. Näkemyksiä ei esitetä kaupungin virallisina toteamuksina."
+    },
+    {
+      "id": "S29",
+      "date": "11.8.2015",
+      "title": "Koulukyydit puhuttavat – Hyrsylän oppilaiden aloitus Oinolassa",
+      "publisher": "Lotta Paakkunainen / Oilaanraitilla, aikalaisblogi",
+      "group": "Aikalaisblogit",
+      "url": "https://nummentie.blogspot.com/2015/08/?m=0",
+      "note": "Paikallisen blogin mukaan Hyrsylän oppilaiden Oinolan koulun aloitukseen liittyi perhetapaaminen 11.8.2015 ja kuulemistilaisuus 17.8.2015."
+    },
+    {
+      "id": "S30",
+      "date": "1992–1993",
+      "title": "Hyrsylän ala-aste: 47 oppilasta",
+      "publisher": "Tilastokeskus / oppilaitosluettelo",
+      "group": "Katalogit",
+      "url": "https://www.doria.fi/bitstream/handle/10024/159273/xopluok_199200_1993_dig.pdf",
+      "note": "Tilastokeskuksen luettelo antaa Hyrsylän ala-asteen oppilasmääräksi 47 lukuvuonna 1992–1993."
+    },
+    {
+      "id": "S31",
+      "date": "1994–1995",
+      "title": "Hyrsylän ala-aste: 53 oppilasta",
+      "publisher": "Tilastokeskus / oppilaitosluettelo",
+      "group": "Katalogit",
+      "url": "https://www.doria.fi/bitstream/handle/10024/159281/xopluok_199400_1995_dig.pdf?isAllowed=y&sequence=1",
+      "note": "Tilastokeskuksen luettelo antaa Hyrsylän ala-asteen oppilasmääräksi 53 lukuvuonna 1994–1995."
+    },
+    {
+      "id": "S32",
+      "date": "1997–1998",
+      "title": "Hyrsylän ala-aste: 70 oppilasta",
+      "publisher": "Tilastokeskus / oppilaitosluettelo",
+      "group": "Katalogit",
+      "url": "https://doria.fi/bitstream/handle/10024/159304/xopluok_199700_1998_dig.pdf?isAllowed=y&sequence=1",
+      "note": "Tilastokeskuksen luettelo antaa Hyrsylän ala-asteen oppilasmääräksi 70 lukuvuonna 1997–1998."
+    },
+    {
+      "id": "S33",
+      "date": "2002–2003",
+      "title": "Hyrsylän koulu: 60 oppilasta",
+      "publisher": "Tilastokeskus / oppilaitosluettelo 2002–2003",
+      "group": "Katalogit",
+      "url": "https://www.doria.fi/bitstream/handle/10024/155491/xkjarj_200200_2003_dig.pdf?isAllowed=y&sequence=1",
+      "note": "Tilastokeskuksen luetteloon on merkitty Hyrsylän koulu, oppilaitosnumero 08043, ja 60 oppilasta 20.9.2002."
+    },
+    {
+      "id": "S36",
+      "date": "23.5.2013",
+      "title": "Nummi-Pusula – KOULUT, palautettu HTML-tallenne",
+      "publisher": "Common Crawl / CC-MAIN-2013-20 (WARC)",
+      "group": "Avoimet viitteet",
+      "url": "https://github.com/penny-five/poroila-jaljet/actions/runs/38749281218",
+      "note": "Vuoden 2013 alkuperäinen koulusivun HTML palautettiin WARC-arkistosta. Se mainitsee Hyrsylän koulun ja linkittää vuoden 2011 opetussuunnitelma-asiakirjaan sekä vuoden 2012 kouluoppaaseen. Alkuperäisliitteiden sisältöä ei ole vielä luettu."
+    },
+    {
+      "id": "S34",
+      "date": "3.9.2014",
+      "title": "Heijastimia Hyrsylään ekaluokkalaisille",
+      "publisher": "Lotta Paakkunainen / aikalaisblogi",
+      "group": "Aikalaisblogit",
+      "url": "https://nummentie.blogspot.com/2014/?m=0",
+      "note": "Julkinen koulukäynnin kuvaus vuodelta 2014: ensimmäisen luokan oppilaat keskustelivat liikenneturvallisuudesta ja saivat heijastimia. Ei yksittäisten oppilaiden elämäkerta."
+    },
+    {
+      "id": "S35",
+      "date": "5.12.2017",
+      "title": "Uhanalainen lähikoulu – lakkautusten jälkiseuranta",
+      "publisher": "Lotta Paakkunainen / julkinen kunnallispoliittinen kannanotto",
+      "group": "Aikalaisblogit",
+      "url": "https://lottapaakkunainen.com/tag/koulukyyti/page/2/",
+      "note": "Kirjoittajan mukaan koulujen sulkemisen vaikutuksia perheisiin ei ollut seurattu riittävästi. Tämä on julkinen kannanotto, ei itsenäinen tutkimus eikä entisten oppilaiden lausunto."
+    },
+    {
+      "id": "S37",
+      "date": "1.7.2013",
+      "title": "Tuntemuksiani — 41 päivättyä kohtaa sisältävä alkuperäistallenne",
+      "publisher": "Olli Poroila / Internet Archive, alkuperäinen HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20130701074848/http://kotisivu.dnainternet.net:80/poroila/tuntemuksiani.htm",
+      "note": "Koko säilynyt vuoden 2013 tekstisisältö luettu 15.10.2026. Lähiluku käsittelee koulumuistoja, Aholanvaaraa, rakentelua, kirjoittamista ja omaa puolustuspuhetta. Monet kohdat ovat linkitettyjen kirjoitusten esittelyjä; erillisiä jatkosivuja ei ole palautettu."
+    },
+    {
+      "id": "S38",
+      "date": "tarkistettu 15.10.2026",
+      "title": "Eduskuntaryhmän toimisto — julkinen viestintätehtävä",
+      "publisher": "Vasemmistoliiton eduskuntaryhmä / työnantajan sivu",
+      "group": "Avoimet viitteet",
+      "url": "https://vasemmisto.fi/en/parliamentary-group-office/",
+      "note": "Nimeää Perttu Iso-Markun viestintäpäälliköksi. Mahdollinen yhteys kouluhankkeen kertomuksessa nimettyyn entiseen oppilaaseen; henkilöllisyysketjua ei pidetä varmistettuna."
+    },
+    {
+      "id": "S39",
+      "date": "2020",
+      "title": "What has been ongoing at Hyrsylän Koulu",
+      "publisher": "Pedro Aibéo / kouluhankkeen oma kertomus",
+      "group": "Avoimet viitteet",
+      "url": "https://gamifiedcohousing.com/what-has-been-ongoing-at-hyrsylan-koulu/",
+      "note": "Nimeää Perttu Iso-Markun entiseksi oppilaaksi. Tieto on hankkeen kirjoittajan kertoma, ei oppilaan oma henkilöhistoria."
+    },
+    {
+      "id": "S40",
+      "date": "12.6.2024",
+      "title": "Maailman Kuvalehti ja Maailma.net yhdistyvät",
+      "publisher": "Maailman Kuvalehti / toimitus",
+      "group": "Avoimet viitteet",
+      "url": "https://maailmankuvalehti.fi/2024/vain-verkossa/lyhyet/maailman-kuvalehti-ja-maailma-net-yhdistyvat-yhdistymalla-saamme-aikaan-entistakin-vahvemman-median-tayttamaan-mediakentassa-olevaa-aukkoa/",
+      "note": "Median oma tiedote nimeää Perttu Iso-Markun Maailma.net ry:n puheenjohtajaksi kyseisenä päivänä. Ei yksin vahvista kouluyhteyttä."
+    },
+    {
+      "id": "S41",
+      "date": "2012",
+      "title": "Plan pohtii avointa kehitystä Helsingin avoimen tiedon festareilla",
+      "publisher": "Plan Suomi / oma tiedote, ePressi",
+      "group": "Avoimet viitteet",
+      "url": "https://www.epressi.com/tiedotteet/avustukset-ja-vapaaehtoistyo/plan-pohtii-avointa-kehitysta-helsingin-avoimen-tiedon-festareilla.html",
+      "note": "Nimeää Perttu Iso-Markun verkkotoimittajaksi. Historiallinen julkinen työrooli; ei nykyinen tehtävätieto eikä henkilöllisyystodistus."
+    },
+    {
+      "id": "S42",
+      "date": "7.5.2013",
+      "title": "Erotettu opettaja: Oikeus voitti – aion palata töihin",
+      "publisher": "Yle / Terhi Toivonen",
+      "group": "Avoimet viitteet",
+      "url": "https://yle.fi/a/3-6631612",
+      "note": "Antti Korhosen oma haastattelu ja uutinen opetuslautakunnan ratkaisusta. Taustoittaa Poroilan 16.4. ja 21.4.2013 mainitsemaa julkista tapausta; ei osoita henkilökohtaista yhteyttä."
+    },
+    {
+      "id": "S43",
+      "date": "19.12.2014",
+      "title": "Seksiä, väkivaltaa ja Alppilan kohuopettaja",
+      "publisher": "Yle / Strada, Olli Kangassalo",
+      "group": "Avoimet viitteet",
+      "url": "https://yle.fi/aihe/a/20-74334",
+      "note": "Korhosen oma kirjailijahaastattelu dokumentoi tämän julkisen myöhemmän vaiheen. Antti Korhonen on Poroilan tekstien aikalaisviittaus, ei Hyrsylän opettajaksi tai oppilaaksi tunnistettu henkilö."
+    },
+    {
+      "id": "S44",
+      "date": "29.11.2011",
+      "title": "Nummi-Pusulan yhteisen koulusivun tulostusversio",
+      "publisher": "Nummi-Pusulan kunta / Wayback, alkuperäinen HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20111129034612/http://www.nummi-pusula.fi:80/koulut/tulosta.asp?sivu=1&alasivu=&tiedote=510&tapahtuma=&kieli=246",
+      "note": "Alkuperäinen HTML avattu 15.10.2026. Hyrsylä viiden alakoulun joukossa; yhteisen koulusivun teksti, ei tiedotenumeron perusteella nimetty uutinen. Linkit vuoden 2011 oppaaseen ja ilmoittautumislomakkeeseen."
+    },
+    {
+      "id": "S45",
+      "date": "1.9.2012",
+      "title": "Nummi-Pusulan yhteisen koulusivun tulostusversio, 2012",
+      "publisher": "Nummi-Pusulan kunta / Wayback, alkuperäinen HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20120901071355/http://www.nummi-pusula.fi:80/koulut/tulosta.asp?sivu=1&alasivu=&tiedote=593&tapahtuma=&kieli=246",
+      "note": "Alkuperäinen HTML avattu 15.10.2026. Yhteisen koulusivun sisältö ja Hyrsylän maininta; oppaan ja ilmoittautumislomakkeen linkit viittaavat vuoden 2012 tiedostoihin. Ei Hyrsylän oppilassivu."
+    },
+    {
+      "id": "S46",
+      "date": "11.7.2007",
+      "title": "HYRSYLÄN KOULU — koulun oman sivuston kehysrakenne",
+      "publisher": "Nummi-Pusulan kunta / Wayback, alkuperäinen HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20070711094945/http://www.nummi-pusula.fi:80/sivistys/hyrsylankoulu/",
+      "note": "339 tavun kehystiedosto avattu 15.10.2026. Kaksi absoluuttista kehyslinkkiä: ylaosa.htm ja alaosa.htm. Niiden kokeillut arkistoavaukset palauttivat 404:n; sivun sisältö ja tekijyys avoimia."
+    },
+    {
+      "id": "S47",
+      "date": "4.12.2006",
+      "title": "KKO:2006:98 — Ritva Erman julkinen tuomaritehtävä eri asiassa",
+      "publisher": "Korkein oikeus / Finlex",
+      "group": "Avoimet viitteet",
+      "url": "https://finlex.fi/fi/oikeuskaytanto/korkein-oikeus/ennakkopaatokset/2006/98",
+      "note": "Mainitsee Ritva Erman Lohjan käräjäoikeuden tuomarina. Vain mahdollisen henkilötunnistuksen taustalähde: ei Poroilan asiaa koskeva tuomio."
+    },
+    {
+      "id": "S48",
+      "date": "21.1.2010",
+      "title": "Rauli Pajuharjun haastattelu — julkinen rikoskomisarion tehtävä",
+      "publisher": "Yle / Ari Mölsä",
+      "group": "Avoimet viitteet",
+      "url": "https://yle.fi/a/3-5495048",
+      "note": "Pajuharjun oma haastattelu nimeää hänet Vihdin poliisin rikoskomisarioksi. Eri tutkinta; ei vahvistus Poroilan syytöksille tai hänen asiansa käsittelylle."
+    },
+    {
+      "id": "S49",
+      "date": "26.9.2005",
+      "title": "Aikalaislinkki Poroilan Saunalahti-sivuston WAV-tiedostoon",
+      "publisher": "F1-Forum / julkinen keskustelu, linkkilähde",
+      "group": "Aikalaisblogit",
+      "url": "https://f1-forum.fi/threads/nummi-pusulalla-menee-hyvin.5161/post-399052",
+      "note": "Viestin 399052 nykyinen HTML ajoittaa sen 26.9.2005 klo 18.01.51 +0300 ja sisältää alkuperäisen pauli-parka.wav-linkin. Äänisisältöä ei ole palautettu; keskustelijoiden väitteitä ei käytetä tapahtumatodisteina."
+    },
+    {
+      "id": "S50",
+      "date": "8.3.2011",
+      "title": "Entiseksi Hyrsylän oppilaaksi esittäytyvän kommentoijan muistelu",
+      "publisher": "Kommentit Hellströmin blogissa / kirjoittajan oma kertomus",
+      "group": "Avoimet viitteet",
+      "url": "https://marttifi.wordpress.com/2006/04/11/elavalta-haudattu/#comment-116",
+      "note": "Kommentit 116 ja 117 kertovat yhden vuoden koulunkäynnistä ja kokemuksen myöhemmästä merkityksestä kirjoittajalle. Henkilöllisyys ja koulunkäyntivuosi varmistamatta; ei yhdistetä muihin oppilasnimiin."
+    },
+    {
+      "id": "S51",
+      "date": "28.4.2001",
+      "title": "HYK / MBnet — Hyrsylään ja Olli Poroilaan liittyvä siirtymäsivu",
+      "publisher": "Alkuperäinen MBnet-HTML / Wayback",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20010428205240/http://koti.mbnet.fi/~hyk/",
+      "note": "664 alkuperäistä tavua, Windows-1252. Avainsanoissa Hyrsylä ja Olli Poroila; meta refresh ohjaa www.mbnet.fi/~hyk/linkkisivu.htm-osoitteeseen. Linkkisivun sisältöä ei palautettu. Arkistoitu Last-Modified 16.3.1999 on palvelimen metatieto."
+    },
+    {
+      "id": "S52",
+      "date": "11.2.2002",
+      "title": "HYK ilman tildeä — saman MBnet-siirtymäsivun tallenne",
+      "publisher": "Alkuperäinen MBnet-HTML / Wayback CDX",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20020211130751/http://koti.mbnet.fi:80/hyk/",
+      "note": "HTTP 200 ja alkuperäinen HTML luettu. koti.mbnet.fi/hyk/-osoitteen vuosien 2002, 2003 ja 2004 tallenteilla sama CDX-sisältötiiviste; eivät eri sisältösivuja."
+    },
+    {
+      "id": "S53",
+      "date": "12.10.2000",
+      "title": "Kunnan palvelusivu — Hyrsylän koulun Saunalahti/HYK-linkki",
+      "publisher": "Nummi-Pusulan kunta / alkuperäinen HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20001012205905/http://www.nummi-pusula.fi/infosivu.htm",
+      "note": "Sivun oma päivityspäivä 26.8.2000. Hyrsylän koulun kuvalinkki href=http://www.saunalahti.fi/hyk ja rehtorin nimi Olli Poroila; alkuperäinen HTML luettu."
+    },
+    {
+      "id": "S54",
+      "date": "1.6.2004",
+      "title": "HYRSYLÄN KOULUN sivusto — alkuperäinen Welcome.html",
+      "publisher": "Hyrsylän koulu / Saunalahti / Wayback",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20040601162625/http://www.saunalahti.fi/~hyk/Welcome.html",
+      "note": "Oma päivityspäivä 24.5.2004. Ilmoittaa 720+ sivua ja 2090+ kuvaa/piirrosta/animaatiota. Alkuperäiset pikavalikot, sivukartta ja tekijälinkit luettu. Laajuus on sivuston oma ilmoitus."
+    },
+    {
+      "id": "S55",
+      "date": "20010515",
+      "title": "HYK-sivukartta ja alkuperäiset kuva-alueiden linkit",
+      "publisher": "Hyrsylän koulu / alkuperäinen Saunalahti-HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20010515152409/http://www.saunalahti.fi:80/~hyk/sivukartta.htm",
+      "note": "Alkuperäinen sisältö luettu 15.10.2026. Täsmällinen paikannin ja tarkistussumma katalogissa HYK-033."
+    },
+    {
+      "id": "S56",
+      "date": "20010526",
+      "title": "Hyrsylän koulun henkilökunnan tehtävät",
+      "publisher": "Hyrsylän koulu / alkuperäinen Saunalahti-HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20010526074949/http://www.saunalahti.fi:80/~hyk/aikuiset.htm",
+      "note": "Alkuperäinen sisältö luettu 15.10.2026. Täsmällinen paikannin ja tarkistussumma katalogissa HYK-011."
+    },
+    {
+      "id": "S57",
+      "date": "20010530",
+      "title": "Koulun opetussuunnitelman hakemistosivu",
+      "publisher": "Hyrsylän koulu / alkuperäinen Saunalahti-HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20010530172355/http://www.saunalahti.fi:80/~hyk/opetussuunnitelma.htm",
+      "note": "Alkuperäinen sisältö luettu 15.10.2026. Täsmällinen paikannin ja tarkistussumma katalogissa HYK-015."
+    },
+    {
+      "id": "S58",
+      "date": "20010517",
+      "title": "5/6:n haikuja 1996–1997",
+      "publisher": "Hyrsylän koulu / alkuperäinen Saunalahti-HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20010517022128/http://www.saunalahti.fi:80/~hyk/56-runoja-haikuja-9697.htm",
+      "note": "Alkuperäinen sisältö luettu 15.10.2026. Täsmällinen paikannin ja tarkistussumma katalogissa HYK-005."
+    },
+    {
+      "id": "S59",
+      "date": "20010517",
+      "title": "5/6:n haikuja 1997–1998",
+      "publisher": "Hyrsylän koulu / alkuperäinen Saunalahti-HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20010517023211/http://www.saunalahti.fi:80/~hyk/56-runoja-haikuja-9798.htm",
+      "note": "Alkuperäinen sisältö luettu 15.10.2026. Täsmällinen paikannin ja tarkistussumma katalogissa HYK-006."
+    },
+    {
+      "id": "S60",
+      "date": "20010517",
+      "title": "5/6:n haikuja 1998–1999",
+      "publisher": "Hyrsylän koulu / alkuperäinen Saunalahti-HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20010517012343/http://www.saunalahti.fi:80/~hyk/56-runoja-haikuja-9899.htm",
+      "note": "Alkuperäinen sisältö luettu 15.10.2026. Täsmällinen paikannin ja tarkistussumma katalogissa HYK-007."
+    },
+    {
+      "id": "S61",
+      "date": "20010519",
+      "title": "5/6:n vapaita runoja 1998–1999",
+      "publisher": "Hyrsylän koulu / alkuperäinen Saunalahti-HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20010519032821/http://www.saunalahti.fi:80/~hyk/56-runoja-vapaita-9899.htm",
+      "note": "Alkuperäinen sisältö luettu 15.10.2026. Täsmällinen paikannin ja tarkistussumma katalogissa HYK-008."
+    },
+    {
+      "id": "S62",
+      "date": "20010519",
+      "title": "5/6:n vapaita runoja 2000–2001",
+      "publisher": "Hyrsylän koulu / alkuperäinen Saunalahti-HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20010519033808/http://www.saunalahti.fi:80/~hyk/56-runoja-vapaita.htm",
+      "note": "Alkuperäinen sisältö luettu 15.10.2026. Täsmällinen paikannin ja tarkistussumma katalogissa HYK-009."
+    },
+    {
+      "id": "S63",
+      "date": "20010506",
+      "title": "Henna Bergin kirjoitelmaluettelo ja päiväykset",
+      "publisher": "Hyrsylän koulu / alkuperäinen Saunalahti-HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20010506090428/http://www.saunalahti.fi:80/~hyk/oppilas-henna-berg-kirjoitelmat.htm",
+      "note": "Alkuperäinen sisältö luettu 15.10.2026. Täsmällinen paikannin ja tarkistussumma katalogissa HYK-020."
+    },
+    {
+      "id": "S64",
+      "date": "20010428",
+      "title": "Oppilaiden Maailmanloppusivu",
+      "publisher": "Hyrsylän koulu / alkuperäinen Saunalahti-HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20010428123002/http://www.saunalahti.fi:80/~hyk/oppilas-joonas-lehtonen-loppumaailma.htm",
+      "note": "Alkuperäinen sisältö luettu 15.10.2026. Täsmällinen paikannin ja tarkistussumma katalogissa HYK-027."
+    },
+    {
+      "id": "S65",
+      "date": "20010428",
+      "title": "Josen ja Jarnon Vedenmatoset",
+      "publisher": "Hyrsylän koulu / alkuperäinen Saunalahti-HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20010428122631/http://www.saunalahti.fi:80/~hyk/oppilas-jarno-virtamo-vedenmatoset.htm",
+      "note": "Alkuperäinen sisältö luettu 15.10.2026. Täsmällinen paikannin ja tarkistussumma katalogissa HYK-024."
+    },
+    {
+      "id": "S66",
+      "date": "20010429",
+      "title": "Annan ja Sirkun yhteinen runosivu",
+      "publisher": "Hyrsylän koulu / alkuperäinen Saunalahti-HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20010429015941/http://www.saunalahti.fi:80/~hyk/oppilas-sirkku-mannerkoski-ja-anna-runosivu.htm",
+      "note": "Alkuperäinen sisältö luettu 15.10.2026. Täsmällinen paikannin ja tarkistussumma katalogissa HYK-030."
+    },
+    {
+      "id": "S67",
+      "date": "16.4.2000",
+      "title": "Hyrsylän koulun internet-periaatteemme",
+      "publisher": "Koulun alkuperäinen DLC-sivu / Wayback",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20000416111016/http://www.dlc.fi:80/~hyk/internet-periaatteemme.htm",
+      "note": "Alkuperäinen HTML palautettu ja luettu. Oman sivun valmistaminen viimeistään kuudennella, vapaaehtoinen verkkojulkaisu ja itse tehty kuvitus."
+    },
+    {
+      "id": "S68",
+      "date": "4.12.1999",
+      "title": "Olli Poroilan esittely koulun DLC-sivustolla",
+      "publisher": "Olli Poroila / koulun alkuperäinen HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/19991204200624/http://www.dlc.fi:80/~hyk/olli.htm",
+      "note": "Oma esittely: Hyrsylässä vuodesta 1985; rehtori ja pääasiassa luokkien 5–6 opettaja. Erottaa henkilökohtaisen sivuston koulun sivustosta. Alkuperäinen HTML luettu."
+    },
+    {
+      "id": "S69",
+      "date": "2.6.2000",
+      "title": "Hyrsylän koulun tietokoneet ja verkkoyhteydet",
+      "publisher": "Koulun alkuperäinen DLC-sivu / Wayback",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20000602153811/http://www.dlc.fi:80/~hyk/tietokoneet.htm",
+      "note": "Alkuperäinen HTML luettu. Kuvaa Ethernet-verkon Pentium- ja 486-koneet, Amstrad CPC 6128 -koneet sekä ABC80:n; kyse on sivun omasta laiteluettelosta."
+    },
+    {
+      "id": "S70",
+      "date": "3/1997–2004",
+      "title": "DLC/HYK-kokoelman täydellinen CDX-osoiteluettelo",
+      "publisher": "Internet Archive CDX / hakutulos 15.10.2026",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/cdx/search/cdx?url=www.dlc.fi%2F~hyk%2F&matchType=prefix&output=json&collapse=urlkey&limit=10000",
+      "note": "1104 URL-avainta; 1046 HTTP 200 -tietuetta ja 58 virhevastausta. CDX-löytö ei yksin todista tiedoston nykyistä palautumista; yksilölliset tilat katalogissa."
+    },
+    {
+      "id": "S71",
+      "date": "22.10.2000",
+      "title": "Koulun alkuperäinen siirtymä Poroilan henkilökohtaiselle sivustolle",
+      "publisher": "HYK / DLC / alkuperäinen HTML",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20001022212331/http://www.dlc.fi:80/~hyk/ollin-omalle-sivustolle.htm",
+      "note": "Meta refresh 5 sekuntia osoitteeseen http://www.saunalahti.fi/poroila. Teksti erottaa henkilökohtaiset kannanotot koulun virallisesta sivustosta. Alkuperäinen HTML luettu."
+    },
+    {
+      "id": "S72",
+      "date": "25.7.2002 / artikkeli 1998",
+      "title": "Sähköikkuna kouluunkin — alkuperäinen pidempi artikkeliversio",
+      "publisher": "Olli Poroila / koulun DLC-sivuston tekstikopio",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20020725041404/http://www.dlc.fi:80/~hyk/olli-sahkoikkuna-pidempi.htm",
+      "note": "Artikkelihakemisto nimeää Opettaja-lehden 14/1998. Pitkä ja julkaistuksi nimetty lyhyempi tekstiversio luettu. Koulun oma verkko, käsin tehty HTML, oppilaiden tekijyys ja DLC-osoitteen selitys; lehden sivukuvia ei luettu."
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1974,
+      "title": "Kokeile elektroniikkaa",
+      "description": "Infopressin julkaisema tietokirja, 227 sivua. Finna nimeää tekijäksi Olli Poroilan.",
+      "refs": [
+        "S01"
+      ],
+      "open": false
+    },
+    {
+      "year": 1975,
+      "title": "Elektroniikkarakentelijan kirja",
+      "description": "Otavan julkaisema kirja, 159 sivua. Tekijämerkintä täydentää bibliografista jälkeä.",
+      "refs": [
+        "S02"
+      ],
+      "open": false
+    },
+    {
+      "year": 1975,
+      "title": "Opettajan kirje ja Kekkosen vastaus",
+      "description": "Aholanvaaran johtajaopettajan 28.11.1975 kirje ja Kekkosen 15.12.1975 vastaus on luettu Dorian tekstijäljennöksistä. Aiheena ovat oppilastöiden näyttelytila ja presidenttien kuvat. Poroilan vuoden 2013 oma Aholanvaara-muistelma tukee henkilöyhteyttä [S37].",
+      "refs": [
+        "S10",
+        "S16"
+      ],
+      "open": true
+    },
+    {
+      "year": 1980,
+      "title": "Toinen, uusittu painos",
+      "description": "Elektroniikkarakentelijan kirjan uusittu painos on luetteloitu Finnassa.",
+      "refs": [
+        "S03"
+      ],
+      "open": false
+    },
+    {
+      "year": 1981,
+      "title": "Nuori sähkökokeilija",
+      "description": "Olli Poroilan nimellä kirjattu sähkökokeilukirja.",
+      "refs": [
+        "S12"
+      ]
+    },
+    {
+      "year": 1985,
+      "title": "Epson PX-8",
+      "description": "I.D.E.A-lehden artikkelimerkintä.",
+      "refs": [
+        "S13"
+      ]
+    },
+    {
+      "year": 1986,
+      "title": "Robotti ja televisio lehtiotsikoissa",
+      "description": "I.D.E.A-lehden ”Omnibot 2000 leikkimielisille” ja ”Ennenaikainen Casio TV-1000”.",
+      "refs": [
+        "S04",
+        "S05"
+      ],
+      "open": false
+    },
+    {
+      "year": 1990,
+      "title": "MikroBITTI ja Hyrsylän koulu",
+      "description": "Nimen ja koulun yhdistävä alkuperäinen lehti-ilmoitus.",
+      "refs": [
+        "S14"
+      ]
+    },
+    {
+      "year": 2001,
+      "title": "Poroilan verkkosivujen varhainen etusivu",
+      "description": "Internet Archiven 22.6.2001 tallenteessa mainitaan 22.12.2000 tehty uudistus ja selainten käyttöohjeet.",
+      "refs": [
+        "S17"
+      ]
+    },
+    {
+      "year": 2005,
+      "title": "Lohjan käräjäoikeuden ratkaisu",
+      "description": "MTV / STT uutisoi 26.9.2005 virkavelvollisuuden rikkomisesta annetusta ratkaisusta. Tämä ei osoita lopullista oikeudellista tilannetta.",
+      "refs": [
+        "S06",
+        "S07"
+      ],
+      "open": false
+    },
+    {
+      "year": 2006,
+      "title": "Kotisivu katoaa — uusi osoite kirjataan",
+      "description": "Hellströmin 11.4.2006 blogikirjoitukset kertovat suljetusta sivustosta, oikeusprosessista ja uudesta väliaikaisesta kotisivusta.",
+      "refs": [
+        "S08",
+        "S09"
+      ],
+      "open": false
+    },
+    {
+      "year": 2007,
+      "title": "Oikeusprosessin uutisoitu jatkovaihe",
+      "description": "Hellström referoi STT:n tietoja uudesta käsittelystä ja hovioikeuden käsittelyvirheen takia kumoamasta aiemmasta ratkaisusta. Ei alkuperäinen tuomio.",
+      "refs": [
+        "S11"
+      ],
+      "open": true
+    },
+    {
+      "year": 2013,
+      "title": "Tuntemuksiani: muisteluja ja omaa aikalaiskommentointia",
+      "description": "Tammi–kesäkuun tekstit käsittelevät muun muassa opettajanuran alkua Aholanvaarassa, pedagogiikkaa ja verkkokirjoittamista. Heinäkuun tallenne säilyttää vuoden 2013 pääsivun.",
+      "refs": [
+        "S37"
+      ]
+    }
+  ],
+  "schoolTimeline": [
+    {
+      "year": 1903,
+      "title": "Hyrsylän kylään päätetään perustaa koulu",
+      "description": "Koulun vanhempien vuoden 2015 historiakoosteen mukaan rakentamisesta päätettiin 21.9.1903. Alkuperäistä kunnankokouksen pöytäkirjaa ei tässä ole luettu.",
+      "refs": [
+        "S19"
+      ],
+      "open": true
+    },
+    {
+      "year": 1905,
+      "title": "Hyrsylän kansakoulu virallisessa perustamisluettelossa",
+      "description": "Suomenmaan virallisessa tilastossa Hyrsylän koulu mainitaan lukuvuonna 1905–1906 Nummelle perustettujen kansakoulujen joukossa.",
+      "refs": [
+        "S23"
+      ]
+    },
+    {
+      "year": 1939,
+      "title": "Miehiä kokoontuu koululle – myöhemmin julkaistu muistitieto",
+      "description": "Olavi Leikolan vuonna 2019 julkaistun juhlapuheen mukaan koululla kokoontui lokakuussa 1939 lähes 300 liikekannalle kutsuttua. Sotavuoden alkuperäisiä asiakirjoja ei ole tässä tarkistettu.",
+      "refs": [
+        "S25"
+      ],
+      "open": true
+    },
+    {
+      "year": 1942,
+      "title": "Koulunkäynti sotavuosina – entisen oppilaan muistelussa",
+      "description": "Olavi Leikola kertoo juhlapuheessaan aloittaneensa koulunkäynnin Hyrsylässä syksyllä 1942 ja muistavansa karjalaisia koulutovereita.",
+      "refs": [
+        "S25"
+      ]
+    },
+    {
+      "year": 1955,
+      "title": "Muistotaulu koulun 50-vuotisjuhlassa",
+      "description": "Leikolan 2019 puheen mukaan koulun muistotaulu paljastettiin koulun 50-vuotisjuhlassa vuonna 1955.",
+      "refs": [
+        "S25"
+      ]
+    },
+    {
+      "year": 1985,
+      "title": "Poroilan oman esittelyn ilmoittama aloitus Hyrsylässä",
+      "description": "Vuoden 1999 koulusivun henkilöesittely ilmoittaa Hyrsylän koululla vuodesta 1985. Kyse on hänen omasta esittelystään, ei virkaanottopöytäkirjasta.",
+      "refs": [
+        "S68"
+      ]
+    },
+    {
+      "year": 1992,
+      "title": "Koulun oppilasmäärä 47",
+      "description": "Tilastokeskuksen lukuvuoden 1992–1993 oppilaitosluettelossa Hyrsylän ala-asteella oli 47 oppilasta.",
+      "refs": [
+        "S30"
+      ]
+    },
+    {
+      "year": 1994,
+      "title": "Koulun oppilasmäärä 53",
+      "description": "Tilastokeskuksen lukuvuoden 1994–1995 oppilaitosluettelossa Hyrsylän ala-asteella oli 53 oppilasta.",
+      "refs": [
+        "S31"
+      ]
+    },
+    {
+      "year": 1997,
+      "title": "Koulun oppilasmäärä 70",
+      "description": "Tilastokeskuksen lukuvuoden 1997–1998 oppilaitosluettelossa Hyrsylän ala-asteella oli 70 oppilasta.",
+      "refs": [
+        "S32"
+      ]
+    },
+    {
+      "year": 2000,
+      "title": "Kunta linkittää Hyrsylän koulun HYK-sivuille",
+      "description": "12.10.2000 tallennettu kunnan palvelusivu nimeää rehtori Olli Poroilan ja linkittää Saunalahden /hyk-osoitteeseen.",
+      "refs": [
+        "S53"
+      ]
+    },
+    {
+      "year": 2000,
+      "title": "Sotaanlähdön muistokivi koulun pihalle",
+      "description": "Leikolan myöhemmän juhlapuheen mukaan muistokivi paljastettiin 12.3.2000.",
+      "refs": [
+        "S25"
+      ]
+    },
+    {
+      "year": 2001,
+      "title": "HYK-sisäänkäynti MBnetissä",
+      "description": "28.4.2001 tallennetun sivun HTML yhdistää Hyrsylän ja Olli Poroilan. Sivu ohjaa kahden sivuston linkkisivulle. Koulun sisältöjä on palautunut Saunalahden erillisestä ~hyk-hakemistosta.",
+      "refs": [
+        "S51",
+        "S52"
+      ]
+    },
+    {
+      "year": 2002,
+      "title": "Hyrsylän koulussa 60 oppilasta",
+      "description": "Tilastokeskuksen 20.9.2002 oppilaitosluettelossa oppilaitostunnuksen 08043 Hyrsylän koulussa oli 60 oppilasta.",
+      "refs": [
+        "S33"
+      ]
+    },
+    {
+      "year": 2004,
+      "title": "Koulun laaja verkkosivusto",
+      "description": "1.6.2004 tallennettu etusivu ilmoittaa päivityspäiväksi 24.5.2004 sekä laajuudeksi yli 720 sivua ja 2090 kuvaa tai animaatiota. Sivuston oma laajuusilmoitus.",
+      "refs": [
+        "S54"
+      ]
+    },
+    {
+      "year": 2007,
+      "title": "Hyrsylän koulun oma verkkohakemisto",
+      "description": "11.7.2007 tallennettu HTML otsikolla HYRSYLÄN KOULU jakaa sivun kahteen kehykseen. Kehyksien varsinaiset sisältötiedostot ovat yhä kateissa.",
+      "refs": [
+        "S46"
+      ]
+    },
+    {
+      "year": 2008,
+      "title": "Koulun verkkomaininta kunnan koulusivustolla",
+      "description": "Vuoden 2008 kunnallisella kouluportaalilla Hyrsylä nimetään yhdeksi alakouluista, ja sivu sisältää koulun tapahtumailmoituksen.",
+      "refs": [
+        "S20"
+      ]
+    },
+    {
+      "year": 2011,
+      "title": "Hyrsylän koulun oma osio kunnan verkkosivuilla",
+      "description": "Arkistoitu koulusivuston sivukartta nimeää Hyrsylän koulun ja alasivut Kouluelämää sekä Japanilainen viikko. Alkuperäissivuja tai tekijämerkintöjä ei ole avattu.",
+      "refs": [
+        "S18"
+      ],
+      "open": true
+    },
+    {
+      "year": 2013,
+      "title": "Kunnan koulusivusto keväällä 2013",
+      "description": "23.5.2013 tallennettu Nummi-Pusulan koulusivun alkuperäinen HTML mainitsee Hyrsylän ja linkittää koulun yleisiin asiakirjoihin. Ei oppilaiden omia tekstejä.",
+      "refs": [
+        "S36"
+      ]
+    },
+    {
+      "year": 2015,
+      "title": "Koulutoiminta siirtyy Oinolaan",
+      "description": "Lohjan vuoden 2015 tilinpäätöksen mukaan Hyrsylän koulun toiminta siirrettiin Oinolan kouluun 1.8.2015.",
+      "refs": [
+        "S21"
+      ]
+    },
+    {
+      "year": 2015,
+      "title": "Hyrsylän koulun vanhempien kannanotto",
+      "description": "Vanhempien palveluverkkokannanotto kuvaa koulun toimintaa ja sen jatkamista koskevaa keskustelua 2015. Myöhempi vaihe, ei Poroilan rehtorikauden toiminnan kuvaus.",
+      "refs": [
+        "S19"
+      ]
+    },
+    {
+      "year": 2016,
+      "title": "Hyrsylän koulun lakkautus",
+      "description": "Lohjan talousarvio ilmoittaa lakkautusajankohdaksi 1.8.2016. Toiminnan siirto ja hallinnollinen lakkautus ajoittuvat eri vuosiin.",
+      "refs": [
+        "S22"
+      ]
+    },
+    {
+      "year": 2019,
+      "title": "Koulun historiaa kerätään ja muistellaan",
+      "description": "Koulun uuteen käyttöön liittyvä hanke kertoo entisten oppilaiden ja opettajien haastatteluista sekä pienestä dokumentti- ja valokuvakokoelmasta.",
+      "refs": [
+        "S26"
+      ]
+    },
+    {
+      "year": 2020,
+      "title": "Rakennuksen uuden käytön opinnäytetyö",
+      "description": "Riikka Sihvonen tarkastelee vuonna 2020 julkaistussa Tampereen yliopiston opinnäytetyössä Hyrsylän koulurakennuksen uutta käyttöä.",
+      "refs": [
+        "S27"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "slug": "teknologiaa-ennen-internetia",
+      "number": "01",
+      "category": "JULKAISUT & TEKIJYYS",
+      "title": "Teknologiaa ennen internetiä",
+      "years": "1974—1986",
+      "intro": "Ennen verkkosivuja oli painettuja kirjoja. Bibliografinen jälki avaa uutisotsikoita pidemmän aikaperspektiivin.",
+      "refs": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05"
+      ],
+      "paragraphs": [
+        "Kun henkilön nimi löytyy verkosta ennen kaikkea oikeusuutisten yhteydessä, hakutulos voi näyttää koko elämäntarinalta. Se ei kuitenkaan ole elämäkerta. Tässä selvityksessä kirjastoluetteloiden merkinnät nostavat esiin toisenlaisen aineistoryhmän: elektroniikkaa käsittelevät kirjat ja lehtiartikkelit. Ne ovat päivättyjä julkaisutietoja, eivät arvioita kirjoittajan luonteesta tai myöhemmästä toiminnasta. Niiden arvo on siinä, että ne laajentavat tarkastelun aikajännettä ja erottavat eri lähdetyypit toisistaan.",
+        "Kansalliskirjaston Finna-tietueessa Kokeile elektroniikkaa on Olli Poroilan kirjoittama, Infopressin vuonna 1974 julkaisema 227-sivuinen tietokirja [S01]. Seuraavana vuonna ilmestynyt Elektroniikkarakentelijan kirja on luetteloitu Otavan julkaisuksi, jonka laajuus on 159 sivua [S02]. Finnassa on lisäksi vuonna 1980 ilmestyneen toisen, uusitun painoksen tietue [S03]. Painos on oma bibliografinen havaintonsa, mutta sitä ei pidä automaattisesti laskea erilliseksi teokseksi. Julkaisuvuosi kertoo julkaisusta, ei siitä, kuinka paljon tekijä kirjoitti kyseisenä vuonna.",
+        "Vuoden 1986 Arto-merkinnät tuovat mukaan lehden. Olli Poroilan nimellä on I.D.E.A-lehteen luetteloitu artikkelit ”Omnibot 2000 leikkimielisille” ja ”Ennenaikainen Casio TV-1000” [S04–S05]. Ensimmäinen merkintä liittyy robottiin. Otsikoiden perusteella ei tässä selosteta laitteiden ominaisuuksia, kirjoittajan johtopäätöksiä tai artikkelien vastaanottoa. Sellainen analyysi vaatisi alkuperäisten lehtisivujen lukemisen. Luettelo vahvistaa julkaisutiedon omassa aineistossaan; se ei korvaa koko tekstin tutkimista.",
+        "Näiden vuosien sijoittaminen samalle aikajanalle vuoden 2005 uutisten kanssa on tutkimuksellinen valinta, ei aukoton henkilöllisyystodistus. Pitkä tekijäidentiteetin ketju vaatii yhä ristiintarkastelua: saman nimen esiintyminen eri vuosikymmenillä ei yksin todista jokaisen tietueen liittyvän koulun rehtoriin. Erityisesti eri Poroila-sukunimiset kirjoittajat, kuten Heikki Poroila, on pidettävä erillään. Tässä aineistossa nimetty tekijä on Olli Poroila; henkilöhistorian yhdistäminen vaatii tätä tarkemman perustan.",
+        "Kirja- ja artikkelimerkinnät täydentävät siis pelkkään uutisointiin supistuvaa kuvaa, mutta eivät kumoa eivätkä vahvista oikeudellisia väitteitä. Niistä ei päätellä opetuksen laatua tai oikeusprosessin lopputulosta. Ne muistuttavat ennen kaikkea siitä, että digitaalinen muistijälki koostuu erilaisista, eri tarkoituksiin syntyneistä dokumenteista. Niiden kokoaminen rinnakkain tekee näkyväksi sekä aineiston ajallisen laajuuden että sen rajat. Julkaisuluettelo on tässä tutkimuksen lähtökohta, ei valmis kertomus henkilön elämästä."
+      ]
+    },
+    {
+      "slug": "koulu-auktoriteetti-ja-oikeuden-kieli",
+      "number": "02",
+      "category": "KOULU & OIKEUSPROSESSI",
+      "title": "Koulu, auktoriteetti ja oikeuden kieli",
+      "years": "2001—2007",
+      "intro": "Vuoden 2005 uutinen ja vuoden 2007 aikalaisreferaatti kuvaavat eri käsittelyvaiheita. Päätösasiakirjat ja lainvoimaisuus ovat avoimia.",
+      "refs": [
+        "S06",
+        "S07",
+        "S08",
+        "S11"
+      ],
+      "paragraphs": [
+        "MTV:n julkaisema STT-uutinen 26.9.2005 kertoo Lohjan käräjäoikeuden tuominneen Hyrsylän koulun entisen rehtorin ja luokanopettajan Olli Poroilan virkavelvollisuuden rikkomisesta. Uutinen koskee vuosien 2001–2004 opetustilanteita [S06].",
+        "Uutisen mukaan rangaistus oli 100 päiväsakkoa eli 3 200 euroa. Kahdelle lapselle määrättiin kummallekin 1 000 euron kärsimyskorvaus. Kaleva julkaisi saman STT-uutisen [S07], joten kyse on yhden uutistoimiston tiedon rinnakkaisjulkaisuista.",
+        "Oikeuden uutisoitu arvio koski oppilaita nöyryyttäviä menetelmiä ja valvonnan laiminlyöntiä. Poroila puolusti menetelmiään uutisessa omalla tulkinnallaan oppilaiden suhtautumisesta. Lasten omaa kokemusta ei voi päätellä hänen selityksestään [S06].",
+        "Hellströmin 23.5.2007 julkaisema blogi referoi STT:n edellisen päivän uutista uudesta käräjäoikeuskäsittelystä. Sen mukaan Turun hovioikeus oli kumonnut aiemman tuomion käsittelyvirheen vuoksi. Uudesta käsittelystä blogi mainitsee 1 200 euron sakot [S11].",
+        "Vuoden 2005 sakkomäärä ei siten kuvaa koko prosessin lopputulosta. Vuoden 2007 vaiheesta käytettävissä on aikalaisreferaatti; alkuperäiset päätökset, tarkka ratkaisupäivä ja lainvoimaisuus ovat vielä selvittämättä."
+      ]
+    },
+    {
+      "slug": "kadonnut-kotisivu",
+      "number": "03",
+      "category": "VERKKO & MUISTI",
+      "title": "Kadonnut kotisivu",
+      "years": "2006",
+      "intro": "Sivusto voi kadota. Toisen kirjoittajan tallentama osoite jää silti jäljeksi — mutta ei vielä todisteeksi sivun sisällöstä.",
+      "refs": [
+        "S08",
+        "S09"
+      ],
+      "paragraphs": [
+        "Huhtikuun 11. päivänä 2006 Martti Hellström kirjoitti blogissaan Poroilan sivuston sulkemisesta [S08]. Hän kertoi myös Poroilan kirjoittaneen oikeusprosessista verkossa ja kertoneen nälkälakosta. Nämä ovat Hellströmin aikalaiskertomuksia. Tässä selvityksessä niitä ei esitetä Poroilan alkuperäistekstien suorina havaintoina, eikä nälkälakkoa itsenäisesti tarkistettuna tapahtumana. Ero on tärkeä: säilynyt kertomus viittaa toiseen tekstiin, jonka täsmällistä vuoden 2006 versiota ei ole avattu tutkimuksen aineistoksi.",
+        "Samana päivänä julkaistu ”Poroila is back” dokumentoi uuden väliaikaisen kotisivun osoitteen: http://kotisivu.dnainternet.net/poroila/ [S09]. Osoite on konkreettinen historiallinen tutkimusjohtolanka. Se ei kuitenkaan ole lupaus nykyään toimivasta sivustosta. Myöskään uuden osoitteen kirjaaminen ei yksin kerro, mitä sivulla oli, kuinka pitkään se säilyi tai mitä aiemmalta sivustolta siirtyi sinne. Blogin välittämä havainto ja kohdesivun alkuperäinen sisältö kuuluvat eri todistustasoille.",
+        "Vuoden 2006 verkon muistijälkeä voi tässä tarkastella kahden säilyneen blogitekstin kautta. Toinen kertoo katoamisesta, toinen paluusta uuteen osoitteeseen. Niiden keskinäinen läheisyys auttaa ajoittamaan kirjoittajan havaintoja, mutta ei tee hänestä riippumatonta vahvistajaa jokaiselle kuvaamalleen asialle. Blogi on sekundäärinen lähde Poroilan verkkokirjoittamiseen. Se on samalla oma aikalaisdokumenttinsa siitä, mitä Hellström tuolloin kirjasi. Tämän kaksinaisuuden säilyttäminen estää välitetyn kertomuksen muuttumisen huomaamatta alkuperäislähteeksi.",
+        "Aiempi hakuvaihe on edennyt alkuperäisen HTML:n lukemiseen. Saunalahden etusivu on tallennettu 22.6.2001, DNA-etusivu 29.6.2013 ja tuntemuksiani.htm 1.7.2013. Kaikki kolme avattiin uudelleen 15.10.2026. Saunalahden kuvalinkki johtaa tiedostoon olli-perustiedot.htm, ja päivityslinkki tiedostoon uudistettu.htm. Kohdesivujen kokeillut avaukset palauttivat 404:n, eikä sisältöä vahvisteta. DNA-etusivun linkki tuntemuksiani.htm#UUSIN johtaa saman kirjoitussivun ankkuriin. Vuoden 2013 tallenne ei osoita vuoden 2006 sisällön olleen sama. Täsmälliset alkuperäis- ja arkisto-URL:t sekä tarkistuksen rajat ovat sivun verkkoarkisto-osiossa ja repositorion tarkistusmuistiossa.",
+        "Käyttäjän muistikuva Poroilan ylläpitämistä koulusivuista ja omasta blogista on merkitty avoimeksi tutkimusjohtolangaksi. DNA-kirjoitussivun alkuperäistallenne on avattu. Oppilaiden tekemien sivujen tallenteita tai koulusivujen Poroila-tekijyyttä ei ole vahvistettu, eikä muistikuvan perusteella kuvata niiden sisältöä. Koulusivuille ja blogille on siksi omat jäljityskorttinsa. Kadonneen kotisivun historia rakentuu tässä vaiheessa osoitteesta ja toisen kirjoittajan kertomuksista. Tutkimuksen tehtävä on näyttää, missä jälki kulkee, mutta myös missä se katkeaa. Tyhjiä kohtia ei täytetä keksityllä sisällöllä."
+      ]
+    }
+  ],
+  "navigation": {
+    "names": {
+      "katalogi": "Katalogi",
+      "henkilot": "Henkilömerkinnät",
+      "tuotokset": "Tuotokset",
+      "kuvat": "Kuvaviitteet",
+      "alku": "Etusivu",
+      "kartta": "Yhteyskartta",
+      "aineisto": "Poroila ja lähteet",
+      "hypoteesit": "Hypoteesit",
+      "aikajana": "Poroilan aikajana",
+      "kouluaikajana": "Koulun aikajana",
+      "oikeus": "Oikeuskäsittely",
+      "koulu": "Hyrsylän koulu",
+      "muistitieto": "Muistitieto",
+      "oppilaat": "Oppilastyöt",
+      "jatkovaiheet": "Myöhemmät vaiheet",
+      "arkisto": "Tallenteet ja kuvat",
+      "sivujaljet": "Sivujäljitys",
+      "fiktiot": "Fiktiiviset muistiinpanot",
+      "lahteet": "Lähteet"
+    },
+    "groups": [
+      {
+        "home": "alku",
+        "pages": [
+          "alku"
+        ]
+      },
+      {
+        "home": "sivujaljet",
+        "pages": [
+          "sivujaljet",
+          "arkisto",
+          "oppilaat",
+          "katalogi"
+        ]
+      },
+      {
+        "home": "sivujaljet",
+        "pages": [
+          "katalogi",
+          "henkilot",
+          "tuotokset",
+          "kuvat"
+        ]
+      },
+      {
+        "home": "koulu",
+        "pages": [
+          "koulu",
+          "kouluaikajana",
+          "muistitieto",
+          "jatkovaiheet"
+        ]
+      },
+      {
+        "home": "aineisto",
+        "pages": [
+          "aineisto",
+          "aikajana",
+          "oikeus",
+          "kartta",
+          "hypoteesit"
+        ]
+      },
+      {
+        "home": "fiktiot",
+        "pages": [
+          "fiktiot"
+        ]
+      },
+      {
+        "home": "lahteet",
+        "pages": [
+          "lahteet"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+---
+layout: layouts/legacy-page.njk
+pagination:
+  data: catalog.personPages
+  size: 1
+  alias: person
+permalink: "/tekijat/{{ person.id }}/index.html"
+eleventyComputed:
+  title: "{{ person.name }} — HYRSYLÄ / JÄLJET | Historiallinen henkilömerkintä"
+  parent:
+    label: Tekijät
+    url: /tekijat/
+---
+
+{% if person.id in legacyPersonIds %}
+{% set personSection %}{% include "legacy/sections/henkilot.njk" %}{% endset %}{{ personSection | focusPerson(person) | safe }}
+{% else %}
+{% if person.author %}
+<p class="page-lead">Tällä sivulla kootaan arkistolähteessä tälle tekijänimelle osoitetut kokonaiset teokset, asiakirjapaikantimet ja kuvatiedostoviitteet.</p>
+{% if not person.author.sourceRecord %}<p class="notice">Aineistossa tekijäksi on merkitty vain etunimi. Merkintä säilytetään sellaisenaan.</p>{% endif %}
+<h2>Teokset</h2>
+<div class="data-list">
+{% for work in person.author.works %}
+  <article class="data-item">
+    <h3><a href="{{ ('/teokset/' + work.id + '/') | localUrl }}">{{ work.title }}</a></h3>
+    <p class="metadata">{{ work.genre }} · {{ work.period }} · {{ work.id }} · {{ work.status }}</p>
+    {% if work.note %}<p>{{ work.note }}</p>{% endif %}
+    {% if work.fullText and work.fullText.text %}<h4>Koko teos</h4><pre class="work-copy">{{ work.fullText.text }}</pre>{% elif work.fullText and work.fullText.reason %}<p class="notice">{{ work.fullText.reason }}</p>{% endif %}
+    {% if work.sourcePage and work.sourcePage.localCopy %}<p><a href="{{ work.sourcePage.localCopy.local_path | localUrl }}">Avaa alkuperäisen sivun tarkka HTML-kopio</a> · <a href="{{ work.sourcePage.archive_url }}" rel="noopener noreferrer">Wayback-tallenne ↗</a></p>{% elif work.sourcePage %}<p><a href="{{ work.sourcePage.archive_url }}" rel="noopener noreferrer">Avaa alkuperäinen arkistosivu ↗</a></p>{% endif %}
+  </article>
+{% endfor %}
+</div>
+{% endif %}
+
+{% if person.observations and person.observations.length %}
+<h2>Lähteissä näkyvät merkinnät</h2>
+<ul class="data-list">
+{% for observation in person.observations %}
+  <li class="data-item"><strong>{{ observation.kind }}</strong>{% if observation.detail %}<p>{{ observation.detail }}</p>{% endif %}{% if observation.source %}{% set pageRef = catalog.pages | findSource(observation.source) %}{% set fileRef = catalog.dlc_records | findSource(observation.source) %}{% if pageRef %}<a href="{{ pageRef.archive_url }}" rel="noopener noreferrer">{{ pageRef.id }} · {{ pageRef.filename }}</a>{% elif fileRef %}<a href="{{ fileRef.archive_url }}" rel="noopener noreferrer">{{ fileRef.id }} · {{ fileRef.filename }}</a>{% else %}<span>{{ observation.source }}</span>{% endif %}{% endif %}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if person.documents and person.documents.length %}
+<h2>Asiakirja- ja sivupaikantimet</h2>
+<ul class="data-list">
+{% for document in person.documents %}
+  <li class="data-item"><a href="{{ document.archive_url }}" rel="noopener noreferrer">{{ document.id }} · {{ document.filename }}</a><p class="metadata">{{ document.status }}</p><p><code>{{ document.original_url }}</code></p></li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if person.images and person.images.length %}
+<h2>Kuvaviitteet</h2>
+<ul class="data-list">
+{% for image in person.images %}
+  <li class="data-item"><a href="{{ image.original_url }}" rel="noopener noreferrer">{{ image.filename }}</a><p>{{ image.kind }} · {{ image.status }}</p>{% if image.labels.length %}<p class="metadata">Lähteen kuvateksti tai nimimerkintä: {{ image.labels | join(', ') }}</p>{% endif %}</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if not person.author and (not person.observations or not person.observations.length) and (not person.documents or not person.documents.length) %}
+<p>Tälle nimelle ei ole katalogissa erillistä havaintotekstiä eikä asiakirjapaikanninta. Nimi esiintyy lähteessä teoksen tekijänä.</p>
+{% endif %}
+
+<p class="metadata">Tämä sivu kokoaa lähteessä olevat tiedot. Se ei päättele henkilön nykyistä henkilöllisyyttä tai myöhempiä vaiheita.</p>
+{% endif %}

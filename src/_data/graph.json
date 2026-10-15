@@ -1,0 +1,325 @@
+{
+  "nodes": [
+    {
+      "id": "olli",
+      "name": "Olli Poroila",
+      "label": "Henkilö / tutkimuksen kohde",
+      "subtitle": "Hyrsylän koulun rehtori",
+      "position": {
+        "x": 479,
+        "y": 295
+      },
+      "type": "person",
+      "refs": [
+        "S06",
+        "S14"
+      ],
+      "description": "Vuoden 2005 STT-uutinen nimeää Poroilan Hyrsylän koulun rehtoriksi. Vuoden 1990 lehti-ilmoitus sisältää sekä Olli Poroilan että Hyrsylän koulun nimen. Tämä on tutkimuksen keskuskohde.",
+      "evidenceStatus": "DOKUMENTOITU"
+    },
+    {
+      "id": "hellstrom",
+      "name": "Martti Hellström",
+      "label": "Henkilö / julkinen kirjoittaja",
+      "subtitle": "Blogikirjoituksia vuosilta 2006–2007",
+      "position": {
+        "x": 840,
+        "y": 106
+      },
+      "type": "person",
+      "refs": [
+        "S08",
+        "S09",
+        "S11"
+      ],
+      "description": "Kirjoitti blogissaan Poroilasta vuonna 2006 ja referoi STT:n vuotta 2007 koskevaa uutista. Tämä osoittaa julkisen kirjoittaja–aihe-yhteyden, ei henkilökohtaista suhdetta.",
+      "evidenceStatus": "JULKINEN AIKALAISKIRJOITUS"
+    },
+    {
+      "id": "kekkonen",
+      "name": "Urho Kekkonen",
+      "label": "Henkilö / arkiston vastaanottaja",
+      "subtitle": "Vuoden 1975 nimiosuma",
+      "position": {
+        "x": 42,
+        "y": 120
+      },
+      "type": "person",
+      "refs": [
+        "S10",
+        "S16"
+      ],
+      "description": "Kekkosen kirjeaineistossa esiintyy Olli Poroilan nimi. Poroilan oma Aholanvaara-muistelma 19.2.2013 tukee henkilöyhteyttä. Tämä kortti kuvaa dokumenttien yhteyttä, ei osoitettua henkilökohtaista suhdetta.",
+      "evidenceStatus": "HENKILÖYHTEYS AVOIN"
+    },
+    {
+      "id": "letter",
+      "name": "Vuoden 1975 kirje",
+      "label": "Dokumentti / henkilöllisyys avoin",
+      "subtitle": "Aholanvaaran johtajaopettaja",
+      "position": {
+        "x": 262,
+        "y": 100
+      },
+      "type": "document",
+      "refs": [
+        "S10",
+        "S16"
+      ],
+      "description": "Kirjetekstissä Olli Poroilan niminen kirjoittaja kertoo työstään Sallan Aholanvaaran koulussa. Poroilan vuoden 2013 uramuistelma Aholanvaarasta tukee yhteyttä Hyrsylän rehtoriin.",
+      "evidenceStatus": "AVOIN NIMIOSUMA"
+    },
+    {
+      "id": "website",
+      "name": "Kadonnut kotisivu",
+      "label": "Verkkojälki / avaamaton",
+      "subtitle": "dnainternet.net/poroila/",
+      "position": {
+        "x": 522,
+        "y": 69
+      },
+      "type": "open",
+      "refs": [
+        "S08",
+        "S09"
+      ],
+      "description": "Hellström mainitsi 11.4.2006 uuden väliaikaisen kotisivun osoitteen. Sivuston sisältöä tai Internet Archiven arkistokopiota ei ole tässä vahvistettu.",
+      "evidenceStatus": "ARKISTOSISÄLTÖ TARKISTAMATTA"
+    },
+    {
+      "id": "school",
+      "name": "Hyrsylän koulu",
+      "label": "Instituutio / työpaikka",
+      "subtitle": "Nummi-Pusula",
+      "position": {
+        "x": 858,
+        "y": 319
+      },
+      "type": "institution",
+      "refs": [
+        "S06",
+        "S14"
+      ],
+      "description": "Vuoden 2005 oikeusuutinen sijoittaa Olli Poroilan Hyrsylän kouluun. Vuoden 1990 MikroBITTI-ilmoitus sisältää saman koulun nimen.",
+      "evidenceStatus": "DOKUMENTOITU TYÖYHTEYS"
+    },
+    {
+      "id": "court",
+      "name": "Lohjan käräjäoikeus",
+      "label": "Instituutio / oikeusvaihe",
+      "subtitle": "Uutisoitu 2005 ja 2007",
+      "position": {
+        "x": 757,
+        "y": 518
+      },
+      "type": "institution",
+      "refs": [
+        "S06",
+        "S11"
+      ],
+      "description": "STT:n vuoden 2005 uutinen kertoo käräjäoikeusratkaisusta. Vuoden 2007 jatkokäsittelystä on Hellströmin referaatti. Täydet oikeuden päätösasiakirjat pitää vielä hankkia.",
+      "evidenceStatus": "UUTISOINTI / EI ALKUPERÄINEN TUOMIO"
+    },
+    {
+      "id": "appeal",
+      "name": "Turun hovioikeus",
+      "label": "Instituutio / muutoksenhaku",
+      "subtitle": "Menettelyvirhettä koskeva uutisreferointi",
+      "position": {
+        "x": 1014,
+        "y": 522
+      },
+      "type": "institution",
+      "refs": [
+        "S11"
+      ],
+      "description": "Hellströmin 2007 blogikirjoitus referoi STT:n uutista hovioikeuden käsittelyvirheperusteisesta kumoamisesta. Yhteys on prosessuaalinen.",
+      "evidenceStatus": "REFEROITU RATKAISU"
+    },
+    {
+      "id": "books",
+      "name": "Tekniikkakirjat",
+      "label": "Dokumentit / kirjastoluettelot",
+      "subtitle": "1974 · 1975 · 1980 · 1981",
+      "position": {
+        "x": 275,
+        "y": 324
+      },
+      "type": "document",
+      "refs": [
+        "S01",
+        "S02",
+        "S03",
+        "S12"
+      ],
+      "description": "Finnassa on Olli Poroilan nimellä teoksia vuosilta 1974, 1975, 1980 ja 1981. Tekijäidentiteettien pitkäketju edellyttää vielä ristiintarkastelua.",
+      "evidenceStatus": "JULKAISUTIETOJA"
+    },
+    {
+      "id": "finna",
+      "name": "Finna / Doria",
+      "label": "Instituutio / tiedon säilyttäjä",
+      "subtitle": "Kirja- ja kirjeviitteet",
+      "position": {
+        "x": 37,
+        "y": 484
+      },
+      "type": "institution",
+      "refs": [
+        "S01",
+        "S02",
+        "S10"
+      ],
+      "description": "Kirjastotietueet ovat lähteitä, eivät osoitus henkilökohtaisesta yhteydestä kirjaston henkilöstöön.",
+      "evidenceStatus": "LÄHDEINSTITUUTIO"
+    },
+    {
+      "id": "micro",
+      "name": "MikroBITTI 1990",
+      "label": "Dokumentti / digitoitu lehti",
+      "subtitle": "Hyrsylän koulun nimiosuma",
+      "position": {
+        "x": 288,
+        "y": 563
+      },
+      "type": "document",
+      "refs": [
+        "S14"
+      ],
+      "description": "MikroBITTI-lehden tietokoneilmoituksessa mainitaan Olli Poroila sekä Hyrsylän koulu. Numeron 2/1990 sivulta 69 tarkistettu ilmoitus etsii Amstrad CPC 6128 -konetta ja mustavihreää monitoria.",
+      "evidenceStatus": "DOKUMENTOITU LEHTIJÄLKI"
+    },
+    {
+      "id": "stt",
+      "name": "STT / uutisointi",
+      "label": "Instituutio / uutislähde",
+      "subtitle": "2005 ja 2007",
+      "position": {
+        "x": 519,
+        "y": 561
+      },
+      "type": "institution",
+      "refs": [
+        "S06",
+        "S07",
+        "S11"
+      ],
+      "description": "Vuoden 2005 uutinen julkaistiin MTV:ssä; Kaleva julkaisi saman STT-tekstin. Vuotta 2007 koskeva tieto on toisessa lähteessä referoitu STT-uutinen.",
+      "evidenceStatus": "MEDIALÄHTEIDEN KETJU"
+    },
+    {
+      "id": "salla",
+      "name": "Aholanvaaran koulu",
+      "label": "Instituutio / mahdollinen työpaikka",
+      "subtitle": "Salla, kirje 1975",
+      "position": {
+        "x": 43,
+        "y": 300
+      },
+      "type": "institution",
+      "refs": [
+        "S16"
+      ],
+      "description": "Vuoden 1975 kirjeessä samanniminen henkilö ilmoittaa työskennelleensä tämän koulun johtajaopettajana. Vuoden 2013 oma uramuistelma tukee samaa työpaikkayhteyttä.",
+      "evidenceStatus": "HENKILÖLLISYYS AVOIN"
+    },
+    {
+      "id": "taide",
+      "name": "Taide 4/1980",
+      "label": "Dokumentti / nimiosuma",
+      "subtitle": "Ammatti ilman ammattia",
+      "position": {
+        "x": 1052,
+        "y": 167
+      },
+      "type": "open",
+      "refs": [
+        "S15"
+      ],
+      "description": "Kirjoittajaluettelossa esiintyy Olli Poroilan nimi. Alkuperäistä tekstiä tai identiteettiä ei ole täsmäytetty.",
+      "evidenceStatus": "NIMIOSUMA"
+    }
+  ],
+  "edges": [
+    {
+      "from": "olli",
+      "to": "hellstrom",
+      "status": "solid"
+    },
+    {
+      "from": "hellstrom",
+      "to": "website",
+      "status": "solid"
+    },
+    {
+      "from": "olli",
+      "to": "school",
+      "status": "solid"
+    },
+    {
+      "from": "olli",
+      "to": "court",
+      "status": "solid"
+    },
+    {
+      "from": "court",
+      "to": "appeal",
+      "status": "solid"
+    },
+    {
+      "from": "court",
+      "to": "stt",
+      "status": "solid"
+    },
+    {
+      "from": "olli",
+      "to": "books",
+      "status": "open"
+    },
+    {
+      "from": "books",
+      "to": "finna",
+      "status": "solid"
+    },
+    {
+      "from": "school",
+      "to": "micro",
+      "status": "solid"
+    },
+    {
+      "from": "micro",
+      "to": "olli",
+      "status": "solid"
+    },
+    {
+      "from": "olli",
+      "to": "website",
+      "status": "solid"
+    },
+    {
+      "from": "kekkonen",
+      "to": "letter",
+      "status": "solid"
+    },
+    {
+      "from": "letter",
+      "to": "salla",
+      "status": "solid"
+    },
+    {
+      "from": "letter",
+      "to": "olli",
+      "status": "open"
+    },
+    {
+      "from": "olli",
+      "to": "taide",
+      "status": "open"
+    },
+    {
+      "from": "stt",
+      "to": "hellstrom",
+      "status": "solid"
+    }
+  ]
+}

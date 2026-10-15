@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>Eleventy appearance regression checks</title>
+<style>body{font:14px system-ui;background:#eee;color:#111}iframe{height:900px;border:0;display:block;margin:20px 0}pre{white-space:pre-wrap}button{padding:12px;margin:8px}</style>
+<h1>Original / Eleventy appearance checks</h1>
+<p>Serve the repository root and build with SITE_PREFIX=/_site/. Both frames use identical viewport sizes and fonts. Checks compare visible text, element order, layout geometry and computed styles.</p>
+<button id="desktop">Run desktop (1440px)</button><button id="mobile">Run mobile (390px)</button>
+<pre id="results">Ready</pre><iframe id="original" title="Original"></iframe><iframe id="migrated" title="Eleventy"></iframe>
+<script>
+const results=document.getElementById('results');
+const original=document.getElementById('original'), migrated=document.getElementById('migrated');
+const base=new URLSearchParams(location.search).get('base')||'/_site/';
+const frameReady=async(frame,url,isOriginal,id)=>{
+  const target=new URL(url,location.href);
+  target.searchParams.set('parity',String(Date.now()));
+  await new Promise((resolve,reject)=>{frame.onload=resolve;frame.onerror=reject;frame.src=target.href});
+  const win=frame.contentWindow;
+  const deadline=Date.now()+15000;
+  while(isOriginal ? win.document.body.dataset.page!==id : !win.document.body.dataset.legacyReady){
+    if(Date.now()>deadline)throw Error('Initialization timed out: '+url);
+    await new Promise(resolve=>setTimeout(resolve,20));
+  }
+  // Freeze moving tickers and color transitions at the same state in both
+  // frames; the actual site's stylesheets remain untouched.
+  const stable=win.document.createElement('style');
+  stable.textContent='*,*::before,*::after{animation:none!important;transition:none!important}';
+  win.document.head.append(stable);
+  await win.document.fonts.ready;
+  await Promise.all([...win.document.images].filter(image=>image.checkVisibility()).map(image=>{
+    image.loading='eager';return image.decode().catch(()=>{});
+  }));
+  await new Promise(resolve=>win.requestAnimationFrame(()=>win.requestAnimationFrame(resolve)));
+};
+function snapshot(frame){
+  const doc=frame.contentDocument,win=frame.contentWindow;
+  const elements=[...doc.querySelectorAll('.topbar,.topbar *,#sectionNavigation,#sectionNavigation *,#pageTrail,#pageTrail *,main > section,main > section *,.footer,.footer *,dialog,dialog *')];
+  return elements.filter(el=>el.checkVisibility()&&el.tagName!=='SCRIPT').map(el=>{
+    const rect=el.getBoundingClientRect(),style=win.getComputedStyle(el);
+    const directText=[...el.childNodes].filter(n=>n.nodeType===3).map(n=>n.textContent).join('').replace(/\s+/g,' ').trim();
+    return [el.tagName,el.id,el.getAttribute('class')||'',directText,
+      ...['x','y','width','height'].map(k=>Math.round(rect[k]*64)/64),
+      ...['color','backgroundColor','fontFamily','fontSize','fontWeight','lineHeight','display','padding','margin','border','transform'].map(k=>style[k])];
+  });
+}
+function differences(a,b){
+  const diff=[];
+  if(a.length!==b.length)diff.push({count:[a.length,b.length]});
+  for(let i=0;i<Math.max(a.length,b.length);i++){
+    if(JSON.stringify(a[i])!==JSON.stringify(b[i]))diff.push({index:i,original:a[i],eleventy:b[i]});
+    if(diff.length>=4)break;
+  }
+  return diff;
+}
+function exercise(frame,id){
+  const doc=frame.contentDocument,win=frame.contentWindow;
+  const root=doc.getElementById(id);
+  const search=(selector,value)=>{
+    const input=root.querySelector(selector);if(!input)throw Error('Missing control: '+selector);
+    input.value=value;input.dispatchEvent(new win.Event('input',{bubbles:true}));
+  };
+  if(id==='aikajana')root.querySelector('[data-decade="1980"]').click();
+  else if(id==='kouluaikajana')root.querySelector('[data-decade="2000"]').click();
+  else if(id==='lahteet'){
+    search('#sourceSearch','2005');
+    doc.getElementById('sourceType').value='press';
+    doc.getElementById('sourceType').dispatchEvent(new win.Event('change'));
+  }
+  else if(id==='henkilot')search('[data-catalog-search]','Aila');
+  else if(id==='tuotokset')search('[data-catalog-search]','runo');
+  else if(id==='kartta'){
+    doc.querySelector('[data-id="letter"]').click();
+    doc.querySelector('[data-filter="open"]').click();
+  }
+  else if(id==='aineisto')doc.querySelector('[data-article="tech"]').click();
+  else return false;
+  return true;
+}
+async function run(width){
+  results.textContent='Running';document.body.dataset.status='running';
+  original.style.width=migrated.style.width=width+'px';
+  const routes=await (await fetch('../src/_data/legacyRoutes.json')).json();
+  const reports=[];
+  try{
+    for(const [id,route] of Object.entries(routes)){
+      await Promise.all([frameReady(original,'../index.html#/'+id,true,id),frameReady(migrated,base+route.replace(/^\//,''),false,id)]);
+      const diff=differences(snapshot(original),snapshot(migrated));
+      reports.push({id,width,pass:!diff.length,diff});
+      if(exercise(original,id)){
+        exercise(migrated,id);
+        const controlsDiff=differences(snapshot(original),snapshot(migrated));
+        reports.push({id:id+' controls',width,pass:!controlsDiff.length,diff:controlsDiff});
+      }
+      results.textContent=JSON.stringify(reports,null,2);
+    }
+    for(const [label,route,id] of [
+      ['person','/tekijat/H-f95b196f07/','H-f95b196f07'],
+    ]){
+      await Promise.all([frameReady(original,'../index.html#/henkilot/'+id,true,'henkilot'),frameReady(migrated,base+route.replace(/^\//,''),false,'henkilot')]);
+      const diff=differences(snapshot(original),snapshot(migrated));
+      reports.push({id:label,width,pass:!diff.length,diff});
+    }
+    results.textContent=JSON.stringify(reports,null,2);
+    document.body.dataset.status=reports.every(r=>r.pass)?'passed':'failed';
+  }catch(e){results.textContent+='\n'+e.stack;document.body.dataset.status='error'}
+}
+document.getElementById('desktop').onclick=()=>run(1440);
+document.getElementById('mobile').onclick=()=>run(390);
+</script></html>

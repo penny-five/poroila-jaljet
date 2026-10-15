@@ -1,0 +1,16 @@
+{% set currentSection = navigation.sections | sectionForPath(page.url) %}
+<header class="topbar">
+  <a class="brand" href="{{ '/' | localUrl }}" aria-label="Hyrsylä / Jäljet, alkuun"><span class="brand-glyph">◈</span> HYRSYLÄ<span class="brand-slash">/</span>JÄLJET</a>
+  <nav id="navigation" class="nav" aria-label="Päävalikko">
+    {% for item in navigation.primary %}
+    <a href="{{ item.url | localUrl }}"{% if item | primaryIsCurrent(navigation.primary, page.url) %} aria-current="page"{% endif %}>{{ item.label }}</a>
+    {% endfor %}
+  </nav>
+</header>
+{% if currentSection and currentSection.links.length > 1 %}
+<nav id="sectionNavigation" class="section-navigation" aria-label="{{ currentSection.label }}">
+  {% for item in currentSection.links %}
+  <a href="{{ item.url | localUrl }}"{% if item | navItemIsCurrent(page.url) %} aria-current="page"{% endif %}>{{ item.label }}</a>
+  {% endfor %}
+</nav>
+{% endif %}

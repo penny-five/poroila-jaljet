@@ -15,8 +15,12 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  verify:
+    uses: ./.github/workflows/site-quality.yml
+
   deploy:
-    name: Julkaise staattinen sivusto
+    needs: verify
+    name: Rakenna, tarkista ja julkaise staattinen sivusto
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -25,20 +29,23 @@ jobs:
       - name: Hae lähdekoodi
         uses: actions/checkout@v4
 
-      - name: Kokoa julkaistavat tiedostot
-        shell: bash
-        run: |
-          python3 scripts/site_audit.py
-          mkdir -p _site
-          cp index.html app.js research-data.js style.css .nojekyll _site/
-          cp -R assets _site/assets
-          test -s _site/index.html
-          test -s _site/app.js
-          test -s _site/research-data.js
-          test -s _site/style.css
-          node --check _site/app.js
-          node --check _site/research-data.js
-          grep -q 'research-data.js' _site/app.js
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - name: Asenna Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Asenna riippuvuudet
+        run: pnpm install --frozen-lockfile
+
+      - name: Kokoa GitHub Pages -polulla
+        run: SITE_PREFIX=/poroila-jaljet/ pnpm build
+
+      - name: Tarkista sivut, linkit ja alkuperäiskopiot
+        run: SITE_PREFIX=/poroila-jaljet/ python3 scripts/site_smoke.py
 
       - name: Valmistele GitHub Pages
         uses: actions/configure-pages@v5

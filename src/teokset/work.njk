@@ -1,0 +1,49 @@
+---
+layout: layouts/legacy-page.njk
+pagination:
+  data: catalog.works
+  size: 1
+  alias: work
+permalink: "/teokset/{{ work.id }}/index.html"
+eleventyComputed:
+  title: "{{ work.title }}"
+  parent:
+    label: Oppilaiden teokset
+    url: /teokset/
+---
+
+<p class="page-lead">{{ work.genre }} · {{ work.period }}</p>
+<h2>Tekijät</h2>
+<ul>
+{% for name in work.authors %}
+  {% set person = catalog.authors | pathForPerson(name) %}
+  <li>{% if person %}<a href="{{ ('/tekijat/' + person.id + '/') | localUrl }}">{{ name }}</a>{% else %}{{ name }}{% endif %}</li>
+{% endfor %}
+</ul>
+
+{% if work.note %}<p>{{ work.note }}</p>{% endif %}
+<p class="metadata">Katalogimerkintä {{ work.id }} · {{ work.status }} · lähdesivu {{ work.page }}</p>
+{% if work.sourcePage %}
+<p><a class="button-link" href="{{ work.sourcePage.localCopy.local_path | localUrl }}">Avaa alkuperäisen HTML:n tarkka tiedostokopio</a></p>
+<p><a href="{{ work.sourcePage.archive_url }}" rel="noopener noreferrer">Avaa alkuperäinen Wayback-tallenne ↗</a></p>
+<p class="metadata">Alkuperäinen osoite: <code>{{ work.sourcePage.original_url }}</code>. Tallenne: {{ work.sourcePage.timestamp }}. Tiedostokopion SHA-256: <code>{{ work.sourcePage.localCopy.sha256 }}</code>.</p>
+{% else %}
+<p>Erillistä alkuperäistallennetta ei ole linkitetty tälle merkinnälle. Se mainitaan alkuperäisen sivun sisältöluettelossa.</p>
+{% endif %}
+
+{% if work.fullText and work.fullText.text %}
+<h2>Koko teos</h2>
+<p class="metadata">Koko näkyvä teksti on litteroitu palautetusta HTML:stä. Rivinvaihdot säilytetään. Tiedostolinkistä saa alkuperäiset tavut sellaisinaan.</p>
+<pre class="work-copy">{{ work.fullText.text }}</pre>
+{% elif work.fullText and work.fullText.reason %}
+<div class="notice"><strong>Teoksen sisältöä ei saatu palautetuksi.</strong> {{ work.fullText.reason }} Otsikko ja linkki ovat säilyneet lähdesivun HTML:ssä; kokotekstiä ei täydennetä arvauksella.</div>
+{% else %}
+<div class="notice">Teokselle ei ole tehty tekstilitterointia. Tarkista palautettu lähdesivu ja ilmoita mahdollinen puuttuva aineisto.</div>
+{% endif %}
+
+{% if work.sourcePage and work.sourcePage.localCopy %}
+<details class="source-page-preview">
+  <summary>Avaa koko alkuperäinen lähdesivu tässä</summary>
+  <iframe title="Koko alkuperäinen sivu {{ work.sourcePage.id }}" loading="lazy" src="{{ work.sourcePage.localCopy.local_path | localUrl }}"></iframe>
+</details>
+{% endif %}

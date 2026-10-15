@@ -1,0 +1,21 @@
+---
+layout: layouts/legacy-page.njk
+pagination:
+  data: research.articles
+  size: 1
+  alias: article
+permalink: "/olli-poroila/kirjoitukset/{{ article.slug }}/index.html"
+eleventyComputed:
+  title: "{{ article.title }}"
+  parent:
+    label: Poroilan kirjoitukset ja lähteet
+    url: /olli-poroila/kirjoitukset/
+---
+
+<p class="eyebrow">{{ article.category }} · {{ article.years }}</p>
+<p class="page-lead">{{ article.intro }}</p>
+{% for paragraph in article.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
+<h2>Lähteet</h2>
+<ul>
+{% for id in article.refs %}{% set source = research.sources | findSource(id) %}<li><a href="{{ source.url }}" rel="noopener noreferrer">{{ source.id }} · {{ source.title }}</a> <span class="metadata">{{ source.publisher }} · {{ source.date }}</span></li>{% endfor %}
+</ul>

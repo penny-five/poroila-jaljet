@@ -1,0 +1,21 @@
+{
+  "alku": "/",
+  "koulu": "/koulu/",
+  "kouluaikajana": "/koulu/aikajana/",
+  "muistitieto": "/koulu/muistitieto/",
+  "oppilaat": "/koulu/oppilastyot/",
+  "jatkovaiheet": "/tekijat/myohemmat-vaiheet/",
+  "aineisto": "/olli-poroila/kirjoitukset/",
+  "aikajana": "/olli-poroila/aikajana/",
+  "oikeus": "/olli-poroila/oikeus/",
+  "arkisto": "/verkkoarkisto/tallenteet/",
+  "sivujaljet": "/verkkoarkisto/sivujaljet/",
+  "katalogi": "/verkkoarkisto/katalogi/",
+  "henkilot": "/tekijat/",
+  "tuotokset": "/teokset/",
+  "kuvat": "/verkkoarkisto/kuvat/",
+  "kartta": "/tutkimus/kartta/",
+  "hypoteesit": "/tutkimus/hypoteesit/",
+  "fiktiot": "/fiktiot/",
+  "lahteet": "/lahteet/"
+}

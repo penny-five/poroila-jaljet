@@ -1,0 +1,30 @@
+---
+layout: layouts/legacy-page.njk
+title: Tarkat alkuperäistiedostot
+eyebrow: 148 alkuperäistä tiedostokopiota
+lead: Nämä tiedostot ovat yksityisestä tutkimuspaketista palautettujen arkistotallenteiden tavuntarkkoja kopioita. Niitä ei ole korjattu, uudelleenkoodattu tai siistitty. Tekstimuotoiset teoslitteroinnit on erotettu niistä ja linkitetty vastaavaan lähdesivuun.
+permalink: /verkkoarkisto/alkuperaistiedostot/index.html
+parent:
+  label: Verkkoarkisto
+  url: /verkkoarkisto/
+---
+
+<p>Luettelo sisältää {{ catalog.preservedHyKFilesCount }} Saunalahden koulusivua, {{ catalog.preservedDlcFilesCount }} DLC-alkuperäistiedostoa sekä kolme muuta alkuperäistä kunta- ja MBnet-sivua. Kokonaismäärä: <strong>{{ catalog.originalFileCount }}</strong>. Kolmen HYK-osoitteen HTTP 200 -indeksimerkintä ei tarkoita, että niiden sivusisältö olisi saatu talteen.</p>
+<p>Tiedostojen eheys voidaan tarkistaa kunkin rivin SHA-256-tunnisteella. Arkistotallenteen päiväys ei välttämättä ole sivun julkaisupäivä.</p>
+
+<label class="search-field" for="original-search">Hae tunnisteella, tiedostonimellä, kokoelmalla tai alkuperäisosoitteella
+  <input id="original-search" type="search" data-filter-input="original-list" data-filter-count="original-count" autocomplete="off">
+</label>
+<p id="original-count" class="search-count">{{ catalog.originalFileCount }} tiedostoa</p>
+<div class="data-list" id="original-list">
+{% for file in catalog.originalFiles %}
+  <article class="data-item" data-filter-item>
+    <h2>{{ file.id }} · {{ file.filename }}</h2>
+    <p class="metadata">{{ file.collection }} · {{ file.mime_type }} · {{ file.bytes }} tavua · tallenne {{ file.timestamp }}</p>
+    <p><a class="button-link" href="{{ file.local_path | localUrl }}">Avaa / lataa alkuperäistiedosto</a></p>
+    <p><a href="{{ file.raw_archive_url }}" rel="noopener noreferrer">Waybackin raakasisältö ↗</a> · <a href="{{ file.archive_url }}" rel="noopener noreferrer">Waybackin tavallinen näkymä ↗</a></p>
+    <p>Alkuperäinen URL: <code>{{ file.original_url }}</code></p>
+    <p class="metadata">SHA-256 <code>{{ file.sha256 }}</code></p>
+  </article>
+{% endfor %}
+</div>

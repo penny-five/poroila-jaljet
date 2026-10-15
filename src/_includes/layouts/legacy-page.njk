@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101517">
+  <meta name="site-base" content="{{ '/' | localUrl }}">
+  <meta name="description" content="Hyrsylän koulun historia ja koulua koskevat alkuperäiset verkkolähteet.">
+  <title>{{ title }} — HYRSYLÄ / JÄLJET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/style.css' | localUrl }}">
+  <link rel="stylesheet" href="{{ '/assets/site-layout.css' | localUrl }}">
+  <link rel="icon" href="{{ '/assets/archive/hyk-mbnet-20010428.jpg' | localUrl }}" type="image/jpeg">
+</head>
+<body>
+  <div class="scanline" aria-hidden="true"></div>
+  <a class="skip-link" href="#sisalto">Siirry sisältöön</a>
+  {% include "partials/site-navigation.njk" %}
+  <main id="sisalto">
+    <div class="page-trail" aria-label="Sivun sijainti">
+      <a href="{{ '/' | localUrl }}">ARKISTO / 001</a><span aria-hidden="true">/</span><strong>{{ title }}</strong><span class="page-trail-caption">{{ eyebrow or "LÄHDE · TALLENNE · TUTKIMUS" }}</span>
+    </div>
+    {% if legacySection %}
+      {{ content | prefixPaths | safe }}
+    {% else %}
+      <section class="archive-page section-pad">
+        <div class="section-heading">
+          <div>
+            {% if eyebrow %}<p class="eyebrow">{{ eyebrow }}</p>{% endif %}
+            <h2>{{ title }}</h2>
+            {% if lead %}<p class="heading-intro">{{ lead }}</p>{% endif %}
+          </div>
+          <span class="section-tag">KOULUN AINEISTO</span>
+        </div>
+        <div class="prose">{{ content | prefixPaths | safe }}</div>
+      </section>
+    {% endif %}
+  </main>
+  <footer class="footer">
+    <div><span class="brand">◈ HYRSYLÄ/JÄLJET</span><p>Riippumaton Hyrsylän koulun historian ja digitaalisten lähdejälkien tutkimusarkisto. Lähteet, tutkimushuomiot ja fiktio on merkitty erikseen.</p></div>
+    <a href="{{ '/lahteet/' | localUrl }}">LÄHTEET JA MENETELMÄT ↗</a>
+    <a href="{{ '/' | localUrl }}">ALKUUN ↑</a>
+  </footer>
+  <script type="application/json" id="legacy-route-map">{{ legacyRoutes | toJson | safe }}</script>
+  <script defer src="{{ '/legacy-routes.js' | localUrl }}"></script>
+  <script defer src="{{ '/assets/site.js' | localUrl }}"></script>
+  {% if boardPage %}<script defer src="{{ '/assets/board.js' | localUrl }}"></script>{% endif %}
+</body>
+</html>

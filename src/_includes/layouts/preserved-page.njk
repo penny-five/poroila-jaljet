@@ -1,0 +1,14 @@
+{% include "legacy/head.njk" %}
+<body data-page="{{ legacyPage }}">
+<div class="scanline" aria-hidden="true"></div>
+{% include "partials/preserved-navigation.njk" %}
+<main>
+<div id="pageTrail" class="page-trail"{% if legacyPage == 'alku' %} hidden{% endif %} aria-label="Sivun sijainti"><a href="{{ '/' | localUrl }}">ARKISTO / 001</a><span aria-hidden="true">/</span><strong id="currentPageName">{{ research.navigation.names[legacyPage] | upper }}</strong><span class="page-trail-caption">TUTKIMUSKANSIO</span></div>
+{{ content | prefixPaths | safe }}
+</main>
+{% set footer %}{% include "legacy/footer.njk" %}{% endset %}{{ footer | prefixPaths | safe }}
+<script type="application/json" id="legacy-data">{{ research | toJson | safe }}</script>
+{% if legacyPage == 'kartta' %}<script type="application/json" id="graph-data">{{ graph | toJson | safe }}</script>{% endif %}
+<script type="application/json" id="legacy-route-map">{{ legacyRoutes | toJson | safe }}</script>
+<script defer src="{{ '/legacy-routes.js' | localUrl }}"></script>
+</body></html>
