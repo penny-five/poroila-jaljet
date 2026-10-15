@@ -34,6 +34,9 @@ jobs:
           test -s _site/app.js
           test -s _site/research-data.js
           test -s _site/style.css
+          node --check _site/app.js
+          node --check _site/research-data.js
+          grep -q 'research-data.js' _site/app.js
 
       - name: Valmistele GitHub Pages
         uses: actions/configure-pages@v5
