@@ -1,43 +1,53 @@
 # Hyrsylä / Jäljet
 
-Lähteisiin perustuva verkkosivusto Hyrsylän koulusta, Olli Poroilasta ja heidän vanhoista verkkosivuistaan. Eleventy rakentaa Markdown-sivut, Nunjucks-pohjat ja JSON-katalogit tavallisiksi, suoraan avattaviksi HTML-sivuiksi. Alkuperäisten sivujen HTML, ulkoasu ja selainkontrollit säilyvät. Sivujen välillä liikutaan tavallisilla URL-osoitteilla vanhan hash-reitittimen sijaan.
+Hyrsylän koulun ja Olli Poroilan vanhojen verkkosivujen lähteisiin perustuva tutkimusarkisto. Eleventy rakentaa sisältösivut ja katalogit tavalliseksi HTML:ksi. Alkuperäinen ulkoasu, navigaatio ja selainkontrollit säilyvät.
 
-## Paikallinen esikatselu
+## Kehitys
 
-Asenna riippuvuudet ja käynnistä kehityspalvelin:
+Tarvitaan Node.js 22, pnpm 10 sekä tarkistuksia varten Python 3.
 
 ```sh
-pnpm install
+pnpm install --frozen-lockfile
 pnpm run serve
 ```
 
-Avaa Eleventyn ilmoittama paikallinen osoite (oletuksena `http://localhost:8080`). Tuotantorakennelman voi luoda komennolla `pnpm build`; julkaistavat tiedostot syntyvät `_site/`-hakemistoon.
+Avaa Eleventyn ilmoittama osoite. `pnpm build` tyhjentää vain `_site/`-hakemiston ja rakentaa sen uudelleen. Julkaistavat tiedostot ovat aina `_site/`-hakemistossa.
 
-## Sisältö ja arkistokopiot
+## Mistä mitäkin muokataan
 
-- `src/_includes/legacy/sections/` sisältää alkuperäiset 21 sisältöosiota täsmälleen alkuperäisen HTML:n mukaisina. Muokkaa sisältöä näissä osissa. Eleventy näyttää kullakin alkuperäisellä sivulla saman osion kuin vanha reititin. Etusivun ticker ja loppukehote säilyvät etusivulla; korkkitaulu on alkuperäisellä omalla sivullaan.
-- `src/_includes/layouts/preserved-page.njk`, `legacy/head.njk`, `legacy/footer.njk` ja `partials/preserved-navigation.njk` säilyttävät alkuperäisen sivurungon, valikot, osionavigaation, murupolun ja artikkeli-ikkunat. Alkuperäisillä sivuilla ladataan vain alkuperäinen `style.css`; lisäsivujen tyylejä ei tuoda niiden päälle.
-- `src/assets/legacy.js` sisältää alkuperäiset aikajana- ja lähdesuodattimet, katalogihaun, korkkitaulun ja artikkeli-ikkunat. Jokainen toiminto käynnistyy vain sitä tarvitsevalla sivulla. Data on tiedostoissa `src/_data/research.json` ja `graph.json`.
-- `index.html`, `app.js` ja `research-data.js` säilyvät vanhan sivuston vertailukappaleina. Eleventy ei rakenna eikä julkaise vanhaa `index.html`-tiedostoa. `scripts/port_legacy_site.py`, `port_legacy_behaviour.py` ja `export_legacy_*` ovat kertaluonteisen siirron työkaluja; niitä ei ajeta normaalissa buildissa, sillä ne korvaisivat muokattavat osat vertailukappaleiden sisällöllä.
-- `src/content/` ja aihehakemistot ovat sivujen reittikohtaiset aloitustiedostot. Alkuperäisten näkymien tiedostot sisällyttävät vastaavan HTML-osion; siirron aikana tehdyt täydentävät artikkeli-, kokoteksti- ja arkistosivut ovat edelleen käytettävissä.
-- `src/_data/legacyRoutes.json` on vanhojen `#/...`-kirjanmerkkien ja niiden kanonisten alasivujen yhteinen reittikartta. Sivuston sisäiset linkit muunnetaan tavallisiksi sivuosoitteiksi; vanhat kirjanmerkit ohjataan oikealle alasivulle.
-- `assets/archive/hyk-katalogi.json` on teos-, nimi- ja arkistoluetteloiden metatietojen lähde.
-- `assets/archive/originals/` sisältää 148 talteen saatua alkuperäistiedostoa sellaisinaan. `originals-manifest.json` tallentaa lähdeosoitteet, arkistotallenteet ja SHA-256-tarkisteet.
-- `src/_data/work-texts.json` sisältää 97 palautuneen teoksen täydet näkyvät tekstilitteroinnit. Lähdesivun koko alkuperäinen HTML on lisäksi ladattavissa alkuperäistiedostojen sivulta. Yhden 98 katalogimerkinnästä sisältöä ei saatu palautettua.
-- `RESEARCH-*.md` sisältää tutkimusmuistiot ja perustelut.
-- Tekijä- ja teoskohtaiset lisäsivut löytyvät tekijä-, teos- ja arkistoluetteloista. Historialliset `~hyk`-osoitteet jäävät alkuperäisiksi ulkoisiksi lähdeviitteiksi, ja sivuston sisäinen navigaatio käyttää kanonisia Eleventy-osoitteita.
+| Hakemisto | Tarkoitus |
+| --- | --- |
+| `src/content/` ja aihehakemistot | Sivujen tekstit, osoitteet ja sivukohtainen metadata |
+| `src/_includes/sections/` | Alkuperäisten näkymien sisältöosiot |
+| `src/_includes/catalog/` | Henkilö-, teos-, kuva- ja tiedostokorttien dataohjatut pohjat |
+| `src/_includes/research/` | Aikajanojen, lähdeluettelon ja korkkitaulun pohjat |
+| `src/_includes/layouts/` ja `partials/` | Yhteinen sivurunko sekä alkuperäisen näkymän ja artikkelisivun esitystavat |
+| `src/_data/` | Tutkimustiedot, navigaatio, korkkitaulu ja teosten kokotekstit |
+| `src/assets/controls/` | Pienet selainkontrollit; `main.js` lataa vain sivun tarvitsemat moduulit |
+| `src/styles/` | Alkuperäinen CSS; julkaistaan edelleen osoitteessa `/style.css` |
+| `assets/archive/` | Julkaistavat arkistokuvat, katalogi, alkuperäistiedostot ja lähdemanifestit |
+| `tools/research/` | Tutkimus- ja arkistointityökalut; eivät kuulu buildiin |
+| `docs/research/` | Löytöjen lähteet, tutkimusmuistiot ja perustelut |
+| `tests/fixtures/original-site/` | Jäädytetty vanha sivusto ulkoasun vertailua varten; ei julkaista |
+| `scripts/` | Vain buildin ja laadunvarmistuksen työkalut |
 
-Alkuperäistiedostojen kopioita ei normalisoida tai korjata. Niiden eheyden, vanhojen osioreittien, alasivujen ja sisäisten linkkien kevyt tarkistus ajetaan komennolla `python scripts/site_smoke.py` buildin jälkeen.
+Katalogin metatietojen lähde on `assets/archive/hyk-katalogi.json`. `catalog.js` yhdistää tietueet pohjille; samaa henkilöä ei poimita HTML:stä. Kenttä `catalog_status` säilyttää julkaistun luettelotekstin niissä 12 tietueessa, joiden tutkimusmerkintä `status` oli myöhemmin muuttunut.
 
-## Julkaisu
+`src/_data/work-texts.json` sisältää 97 palautuneen teoksen kokotekstit. Kaikilla 98 teosmerkinnällä on oma sivu. `assets/archive/originals/` sisältää 148 tarkkaa arkistokopiota, joiden lähteet ja SHA-256-tarkisteet ovat `originals-manifest.json`-tiedostossa. Git säilyttää alkuperäistiedostojen tavut ilman rivinvaihtomuunnoksia.
 
-GitHub Actions asentaa pnpm:n ennen Node-välimuistin käyttöönottoa ja rakentaa sivuston GitHub Pagesin `/poroila-jaljet/`-alipolulle, tarkistaa vanhat osioreitit, sisäiset linkit ja alkuperäistiedostojen tarkisteet sekä julkaisee `_site/`-hakemiston. Julkaisuosoite on [penny-five.github.io/poroila-jaljet](https://penny-five.github.io/poroila-jaljet/).
+Navigaatio määritellään `navigation.js`- ja `originalNavigation.json`-tiedostoissa. `legacyRoutes.json` ja `src/scripts/bookmarks.js` säilyttävät vanhojen `#/...`-kirjanmerkkien toiminnan. Historialliset ulkoiset `~hyk`-osoitteet ovat alkuperäisiä lähdeviitteitä.
 
-## Ulkoasun ja toimintojen vertailu
+## Tarkistukset
 
-`scripts/visual-parity.html` vertaa vanhaa sivustoa ja Eleventy-tulosta samalla selainmoottorilla. Tarkistus käy läpi 19 alkuperäistä näkymää ja henkilökohtaisen kortin sekä aikajanat, haut, lähdesuodattimen, artikkeli-ikkunan ja korkkitaulun. Näkyvät tekstit, elementtijärjestys, sijainnit, mitat ja lasketut tyylit verrataan 1440 ja 390 pikselin leveyksillä. Vain testikehyksissä animaatiot pysäytetään ja kuvat sekä fontit odotetaan valmiiksi.
+Buildin jälkeen:
 
-Vertailu käyttää buildia polulla `/_site/`. PowerShellissä:
+```sh
+python scripts/site_smoke.py
+```
+
+Tarkistus varmistaa sivut, sisäiset linkit, kokotekstit, arkistokopioiden tarkisteet ja HTML:ään valmiiksi rakennetut aikajanat, lähteet sekä korkkitaulun kortit. Koko tutkimusdataa ei lähetetä jokaisen sivun mukana. JavaScript lisää suodatuksen, valinnat ja muut kontrollit.
+
+Ulkoasuvertailuun rakennetaan sivusto polulla `/_site/`. PowerShellissä:
 
 ```powershell
 $env:SITE_PREFIX = '/_site/'
@@ -45,4 +55,12 @@ pnpm build
 python -m http.server 8765 --bind 127.0.0.1
 ```
 
-Avaa `http://localhost:8765/scripts/visual-parity.html` ja käynnistä molemmat vertailut. Automaattinen versio on `python scripts/browser_parity.py` (vaatii Playwrightin ja Chromiumin). GitHub Actions ajaa sen erillisessä laatutyössä. Tavallinen `pnpm build` tekee aina puhtaan `_site/`-hakemiston; `SITE_PREFIX` asetetaan buildin julkaisuosoitteen mukaiseksi.
+Avaa `http://localhost:8765/scripts/visual-parity.html` ja käynnistä desktop- ja mobiilivertailu. Vertailu tarkistaa näkyvät tekstit, elementtijärjestyksen, sijainnit, mitat ja lasketut tyylit 1440 ja 390 pikselin leveyksillä. Se odottaa kuvat ja fontit sekä pysäyttää animaatiot samalla tavalla molemmissa testikehyksissä. Alkuperäistä vertailukappaletta ei muokata sivuston kehityksen mukana.
+
+Automaattinen ajo on `python scripts/browser_parity.py` (vaatii Playwrightin ja Chromiumin). GitHub Actions ajaa sen ennen julkaisua.
+
+## Julkaisu
+
+GitHub Pages rakentaa sivuston `/poroila-jaljet/`-alipolulle ja julkaisee `_site/`-hakemiston vasta tarkistusten läpäistyä. Sivuston osoite on [penny-five.github.io/poroila-jaljet](https://penny-five.github.io/poroila-jaljet/).
+
+Paikallisesti alipolku valitaan `SITE_PREFIX`-ympäristömuuttujalla. Tavallinen paikallinen kehitys käyttää `/`-juurta. Muutosten tilanne ja toteutuksen tausta ovat [siirtomuistiossa](docs/migration.md).

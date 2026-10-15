@@ -1,5 +1,5 @@
 ---
-layout: layouts/legacy-page.njk
+layout: layouts/article-page.njk
 title: Hyrsylän koulun yleiskuva
 eyebrow: Nummi-Pusula · nykyinen Lohja
 lead: Hyrsylän koulu oli kylän alakoulu ja yli vuosisadan ajan paikallinen oppimisympäristö. Sen vanhat verkkosivut säilyttivät myös oppilaiden kirjoituksia ja kuvia.

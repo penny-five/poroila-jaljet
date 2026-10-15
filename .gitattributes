@@ -1,0 +1,5 @@
+# These are historical evidence files; their SHA-256 hashes must survive checkout.
+assets/archive/originals/** binary
+tests/fixtures/original-site/** -text whitespace=cr-at-eol
+# The live stylesheet is compared byte-for-byte with the frozen fixture.
+src/styles/site.css -text

@@ -1,5 +1,5 @@
 ---
-layout: layouts/legacy-page.njk
+layout: layouts/article-page.njk
 title: Hyrsylän koulun ja Poroilan verkkoarkisto
 eyebrow: Vuosien 1997–2013 verkkolähteitä
 lead: Vanhoista verkkosivuista on löytynyt Wayback Machine -tallenteita, alkuperäisiä HTML-sivuja, kuvia ja linkkejä. Tämä osio kertoo, mitä niistä on palautunut ja mitä ei.

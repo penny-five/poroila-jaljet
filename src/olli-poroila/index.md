@@ -1,5 +1,5 @@
 ---
-layout: layouts/legacy-page.njk
+layout: layouts/article-page.njk
 title: Olli Poroila
 eyebrow: Opettaja, rehtori ja verkkokirjoittaja
 lead: Olli Poroila toimi Hyrsylän koulussa opettajana ja rehtorina. Hänen omat verkkotekstinsä, julkaisutietonsa ja oikeusprosessia koskeva uutisointi ovat eri lähteitä, joita sivusto tarkastelee rinnakkain.

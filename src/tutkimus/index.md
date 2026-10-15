@@ -1,5 +1,5 @@
 ---
-layout: layouts/legacy-page.njk
+layout: layouts/article-page.njk
 title: Tutkimuksen tausta
 eyebrow: Menetelmät, avoimet kysymykset ja työmuistiot
 lead: Täällä kerrotaan, miten arkistolöytöjä on tehty, mitä ei vielä tiedetä ja mistä tutkimusmuistiot löytyvät.

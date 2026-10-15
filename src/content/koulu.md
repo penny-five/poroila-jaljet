@@ -5,7 +5,7 @@ group: "school"
 parent:
   label: "Hyrsylän koulu"
   url: "/koulu/"
-layout: layouts/legacy-page.njk
+layout: layouts/article-page.njk
 ---
 
 **Hyrsylän koulu, 2011.** Valokuva: Abc10, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hyrsyl%C3%A4n_koulu.jpg). [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Kuva näytetään muuttamattomana; se on erillinen lähde vuosien 2008–2011 koulun verkkoarkiston rinnalla.

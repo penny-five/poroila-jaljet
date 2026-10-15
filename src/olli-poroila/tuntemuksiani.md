@@ -1,5 +1,5 @@
 ---
-layout: layouts/legacy-page.njk
+layout: layouts/article-page.njk
 title: Tuntemuksiani
 eyebrow: Olli Poroilan omat tekstit
 lead: Vuoden 2013 arkistotallenne säilyttää Poroilan oman, 41 päivättyä kohtaa sisältävän kirjoituskokonaisuuden. Alla olevat teemat kuvaavat hänen tekstiensä aiheita; ne eivät yksin vahvista kertomusten kaikkia tapahtumaväitteitä.

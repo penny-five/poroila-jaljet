@@ -15,7 +15,7 @@ const frameReady=async(frame,url,isOriginal,id)=>{
   await new Promise((resolve,reject)=>{frame.onload=resolve;frame.onerror=reject;frame.src=target.href});
   const win=frame.contentWindow;
   const deadline=Date.now()+15000;
-  while(isOriginal ? win.document.body.dataset.page!==id : !win.document.body.dataset.legacyReady){
+  while(isOriginal ? win.document.body.dataset.page!==id : !win.document.body.dataset.siteReady){
     if(Date.now()>deadline)throw Error('Initialization timed out: '+url);
     await new Promise(resolve=>setTimeout(resolve,20));
   }
@@ -81,7 +81,7 @@ async function run(width){
   const reports=[];
   try{
     for(const [id,route] of Object.entries(routes)){
-      await Promise.all([frameReady(original,'../index.html#/'+id,true,id),frameReady(migrated,base+route.replace(/^\//,''),false,id)]);
+      await Promise.all([frameReady(original,'../tests/fixtures/original-site/index.html#/'+id,true,id),frameReady(migrated,base+route.replace(/^\//,''),false,id)]);
       const diff=differences(snapshot(original),snapshot(migrated));
       reports.push({id,width,pass:!diff.length,diff});
       if(exercise(original,id)){
@@ -94,7 +94,7 @@ async function run(width){
     for(const [label,route,id] of [
       ['person','/tekijat/H-f95b196f07/','H-f95b196f07'],
     ]){
-      await Promise.all([frameReady(original,'../index.html#/henkilot/'+id,true,'henkilot'),frameReady(migrated,base+route.replace(/^\//,''),false,'henkilot')]);
+      await Promise.all([frameReady(original,'../tests/fixtures/original-site/index.html#/henkilot/'+id,true,'henkilot'),frameReady(migrated,base+route.replace(/^\//,''),false,'henkilot')]);
       const diff=differences(snapshot(original),snapshot(migrated));
       reports.push({id:label,width,pass:!diff.length,diff});
     }

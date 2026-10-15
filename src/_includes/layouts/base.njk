@@ -1,0 +1,20 @@
+{% if presentation == 'original' %}{% include "partials/head-original.njk" %}{% else %}{% include "partials/head-article.njk" %}{% endif %}
+<body{% if legacyPage %} data-page="{{ legacyPage }}"{% endif %} data-features="{{ features | join(' ') }}">
+<div class="scanline" aria-hidden="true"></div>
+{% if presentation != 'original' %}<a class="skip-link" href="#sisalto">Siirry sisältöön</a>{% endif %}
+{% include "partials/navigation.njk" %}
+<main{% if presentation != 'original' %} id="sisalto"{% endif %}>
+{% if presentation == 'original' %}
+<div id="pageTrail" class="page-trail"{% if legacyPage == 'alku' %} hidden{% endif %} aria-label="Sivun sijainti"><a href="{{ '/' | localUrl }}">ARKISTO / 001</a><span aria-hidden="true">/</span><strong id="currentPageName">{{ navigation.original.names[legacyPage] | upper }}</strong><span class="page-trail-caption">TUTKIMUSKANSIO</span></div>
+{% else %}
+<div class="page-trail" aria-label="Sivun sijainti"><a href="{{ '/' | localUrl }}">ARKISTO / 001</a><span aria-hidden="true">/</span><strong>{{ title }}</strong><span class="page-trail-caption">{{ eyebrow or "LÄHDE · TALLENNE · TUTKIMUS" }}</span></div>
+{% endif %}
+{{ content | safe }}
+</main>
+{% set footer %}{% if presentation == 'original' %}{% include "partials/footer-original.njk" %}{% else %}{% include "partials/footer-article.njk" %}{% endif %}{% endset %}{{ footer | prefixPaths | safe }}
+{% if 'articles' in features %}{% include "partials/article-dialog.njk" %}{% endif %}
+{% if 'board' in features %}<script type="application/json" id="graph-data">{{ graphView | toJson | safe }}</script>{% endif %}
+<script type="application/json" id="legacy-route-map">{{ legacyRoutes | toJson | safe }}</script>
+<script defer src="{{ '/legacy-routes.js' | localUrl }}"></script>
+<script type="module" src="{{ '/assets/main.js' | localUrl }}"></script>
+</body></html>

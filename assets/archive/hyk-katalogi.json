@@ -8980,7 +8980,8 @@
       "digest": "CXB4PJ2HUFTYPKUG7D772BUTJOK2DPWO",
       "status": "HTML luettu",
       "sha256": "faa88337db66c58792b68a99a1cfbdca234314672d1a62d5cfc004abd39d4a01",
-      "bytes": 1921
+      "bytes": 1921,
+      "catalog_status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen"
     },
     {
       "id": "DLC-0109",
@@ -9165,7 +9166,8 @@
       "digest": "UAEIA62RIIK4X2AR3CH5DTFJYSKFRHIF",
       "status": "HTML luettu",
       "sha256": "169a5d7e5c4205427b3c84e4e8153f9e9b88b47e832f6af65f9dee98301c8bf9",
-      "bytes": 4053
+      "bytes": 4053,
+      "catalog_status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen"
     },
     {
       "id": "DLC-0124",
@@ -9387,7 +9389,8 @@
       "digest": "DOW73WOO3RHF3BNP5QYARDMSGCERN2IW",
       "status": "HTML luettu",
       "sha256": "a5a10b277cadb06763736cd1ca2d87d1a8951be9282c6aea362481a79ff3f261",
-      "bytes": 1441
+      "bytes": 1441,
+      "catalog_status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen"
     },
     {
       "id": "DLC-0142",
@@ -9466,7 +9469,8 @@
       "digest": "W4YTUHS4IF42TL4HHSTKFMDMPK7F5GLZ",
       "status": "HTML luettu",
       "sha256": "1ca313553869bd76271b0853d7e22dd61d7e729bc302fcb773968f4579d50569",
-      "bytes": 1522
+      "bytes": 1522,
+      "catalog_status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen"
     },
     {
       "id": "DLC-0149",
@@ -11275,7 +11279,8 @@
       "digest": "EMKDU27UCCRKMHSMPJBVOWGTTKQZWX7A",
       "status": "HTML luettu",
       "sha256": "dade98e5c1db04e7900b598bfb1ded86fd5d5c78f6b483b6aa0cf2b2ec815407",
-      "bytes": 847
+      "bytes": 847,
+      "catalog_status": "CDX 200; sisältö vielä palauttamatta"
     },
     {
       "id": "DLC-0308",
@@ -11288,7 +11293,8 @@
       "digest": "5J75EILSYOLINMWGIPLCK6R7CVLIDKJA",
       "status": "HTML luettu",
       "sha256": "13243d4fb7ad6f9ce44b8f64f3b18680699e57845d525e4307e17d284c8262ea",
-      "bytes": 17275
+      "bytes": 17275,
+      "catalog_status": "CDX 200; sisältö vielä palauttamatta"
     },
     {
       "id": "DLC-0309",
@@ -11301,7 +11307,8 @@
       "digest": "LNWTITVKP4UALWIPI5ANFLZE2WC5ZU2Z",
       "status": "HTML luettu",
       "sha256": "8ac4fe34087cc3419dc7f4585c0bec3aecdf8dd3e55fb363c3fc153c96b20a44",
-      "bytes": 9539
+      "bytes": 9539,
+      "catalog_status": "CDX 200; sisältö vielä palauttamatta"
     },
     {
       "id": "DLC-0310",
@@ -11314,7 +11321,8 @@
       "digest": "YHPAA4SEMUJUYZ6P5PAPGS34GVQSRJ73",
       "status": "HTML luettu",
       "sha256": "0950aa7efe0fd4fbbef8e00916c2b280ae7198830bf049d5084702cb6e316128",
-      "bytes": 1237
+      "bytes": 1237,
+      "catalog_status": "CDX 200; sisältö vielä palauttamatta"
     },
     {
       "id": "DLC-0311",
@@ -11349,7 +11357,8 @@
       "digest": "4JQ3SHMTLHO7DC4WTLQ5G6RAUL5575WD",
       "status": "HTML luettu",
       "sha256": "d3572a8e81018a5add941a6c719df7fa6d4ce3c88a04809f231d93de1b0eac56",
-      "bytes": 6626
+      "bytes": 6626,
+      "catalog_status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen"
     },
     {
       "id": "DLC-0314",
@@ -11362,7 +11371,8 @@
       "digest": "WHXAK5C6L55UQOZZWWUSSH7S3PUM3OPP",
       "status": "HTML luettu",
       "sha256": "380e8c08abb482e8247da8868c6050ec85ca1efc4dbeca2233c6fceed8a0fb88",
-      "bytes": 579
+      "bytes": 579,
+      "catalog_status": "CDX 200; sisältö vielä palauttamatta"
     },
     {
       "id": "DLC-0315",
@@ -19733,7 +19743,8 @@
       "digest": "MTRWPXN2PFS7IMJJSNS3CBIPXBYM4HQX",
       "status": "HTML luettu",
       "sha256": "25cbb5a47c731a7a9f86221307c8603a797c5f468db979dfc22f3db99d99efbf",
-      "bytes": 4693
+      "bytes": 4693,
+      "catalog_status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen"
     },
     {
       "id": "DLC-1072",
@@ -20078,7 +20089,8 @@
       "digest": "KKS2WSM3ZD64CQQF2MIKD7KXYNUX2MTA",
       "status": "HTML luettu",
       "sha256": "238d195eb46d624bd768d3a0d53b3dcb8feb319d05ada9fd2332a499d29ed5be",
-      "bytes": 3602
+      "bytes": 3602,
+      "catalog_status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen"
     },
     {
       "id": "DLC-1103",

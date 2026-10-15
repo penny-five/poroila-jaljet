@@ -1,0 +1,80 @@
+{
+  "names": {
+    "katalogi": "Katalogi",
+    "henkilot": "Henkilömerkinnät",
+    "tuotokset": "Tuotokset",
+    "kuvat": "Kuvaviitteet",
+    "alku": "Etusivu",
+    "kartta": "Yhteyskartta",
+    "aineisto": "Poroila ja lähteet",
+    "hypoteesit": "Hypoteesit",
+    "aikajana": "Poroilan aikajana",
+    "kouluaikajana": "Koulun aikajana",
+    "oikeus": "Oikeuskäsittely",
+    "koulu": "Hyrsylän koulu",
+    "muistitieto": "Muistitieto",
+    "oppilaat": "Oppilastyöt",
+    "jatkovaiheet": "Myöhemmät vaiheet",
+    "arkisto": "Tallenteet ja kuvat",
+    "sivujaljet": "Sivujäljitys",
+    "fiktiot": "Fiktiiviset muistiinpanot",
+    "lahteet": "Lähteet"
+  },
+  "groups": [
+    {
+      "home": "alku",
+      "pages": [
+        "alku"
+      ]
+    },
+    {
+      "home": "sivujaljet",
+      "pages": [
+        "sivujaljet",
+        "arkisto",
+        "oppilaat",
+        "katalogi"
+      ]
+    },
+    {
+      "home": "sivujaljet",
+      "pages": [
+        "katalogi",
+        "henkilot",
+        "tuotokset",
+        "kuvat"
+      ]
+    },
+    {
+      "home": "koulu",
+      "pages": [
+        "koulu",
+        "kouluaikajana",
+        "muistitieto",
+        "jatkovaiheet"
+      ]
+    },
+    {
+      "home": "aineisto",
+      "pages": [
+        "aineisto",
+        "aikajana",
+        "oikeus",
+        "kartta",
+        "hypoteesit"
+      ]
+    },
+    {
+      "home": "fiktiot",
+      "pages": [
+        "fiktiot"
+      ]
+    },
+    {
+      "home": "lahteet",
+      "pages": [
+        "lahteet"
+      ]
+    }
+  ]
+}

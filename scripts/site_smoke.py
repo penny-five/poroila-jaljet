@@ -66,9 +66,8 @@ def check(condition: bool, message: str) -> None:
 def main() -> int:
     check(SITE.is_dir(), "Eleventy output _site/ is missing; build the site first")
     routes = json.loads((ROOT / "src/_data/legacyRoutes.json").read_text(encoding="utf-8"))
-    reference = (ROOT / "index.html").read_text(encoding="utf-8")
-    for asset in ("style.css", "research-data.js"):
-        check((SITE / asset).read_bytes() == (ROOT / asset).read_bytes(), f"Original asset changed: {asset}")
+    for asset in ("style.css",):
+        check((SITE / asset).read_bytes() == (ROOT / "tests/fixtures/original-site" / asset).read_bytes(), f"Original asset changed: {asset}")
     for route in REQUIRED_PAGES:
         check(page_file(route).is_file(), f"Missing page: {route}")
     for name, route in routes.items():
@@ -77,23 +76,36 @@ def main() -> int:
         check(f'id="{name}"' in body, f"Original section missing: {route}")
         check(f'href="{PREFIX}style.css"' in body, f"Original stylesheet missing: {route}")
         check('site-layout.css' not in body, f"Migration CSS overrides original layout: {route}")
-        check(f'src="{PREFIX}assets/legacy.js"' in body, f"Original controls missing: {route}")
+        check('id="legacy-data"' not in body, f"Unneeded research dataset sent to browser: {route}")
+        check(f'src="{PREFIX}assets/main.js"' in body, f"Original controls missing: {route}")
         check(f'src="{PREFIX}app.js"' not in body, f"Old page router still loaded: {route}")
-        check('id="articleDialog"' in body, f"Article dialog missing: {route}")
+        if name == 'aineisto':
+            check('id="articleDialog"' in body, f"Article dialog missing: {route}")
         check('JULKAISE KORJAUKSET AVOIMESTI' in body, f"Original footer missing: {route}")
         check(body.count('aria-current="page"') >= 1, f"Active navigation missing: {route}")
     home = page_file('/').read_text(encoding="utf-8")
     check('id="pageTrail" class="page-trail" hidden' in home, "Homepage breadcrumb must stay hidden")
     check('id="corkboard"' not in home, "Homepage gained the separate corkboard page")
     check('class="ticker"' in home and 'id="copyOriginal"' in home, "Unnamed home sections were lost")
-    people = json.loads((ROOT / 'src/_data/legacyPersonIds.json').read_text(encoding='utf-8'))
+    research = json.loads((ROOT / 'src/_data/research.json').read_text(encoding='utf-8'))
+    for route, rows in (('/olli-poroila/aikajana/', research['timeline']), ('/koulu/aikajana/', research['schoolTimeline'])):
+        body = page_file(route).read_text(encoding='utf-8')
+        check(body.count('<article class="time-row ') == len(rows), f"Timeline requires JavaScript for its initial content: {route}")
+    source_page = page_file('/lahteet/').read_text(encoding='utf-8')
+    check(source_page.count('<a class="source-entry"') == len(research['sources']), 'Source list was not rendered at build time')
+    board_page = page_file('/tutkimus/kartta/').read_text(encoding='utf-8')
+    check(board_page.count('<button class="node paper-') == 14, 'Initial corkboard cards were not rendered at build time')
+    court_page = page_file('/olli-poroila/oikeus/').read_text(encoding='utf-8')
+    court_article = next(article for article in research['articles'] if article['slug'] == 'koulu-auktoriteetti-ja-oikeuden-kieli')
+    check(all(paragraph in unescape(court_page) for paragraph in court_article['paragraphs']), 'Court article requires JavaScript for its content')
+    archive = json.loads((ROOT / "assets/archive/hyk-katalogi.json").read_text(encoding="utf-8"))
+    people = [person["id"] for person in archive["people"]]
     for person_id in people:
         body = page_file(f'/tekijat/{person_id}/').read_text(encoding='utf-8')
         check('data-page="henkilot"' in body, f"Person lost original layout: {person_id}")
         check(body.count('data-person-id=') == 1, f"Person view must show exactly its original card: {person_id}")
         check(f'data-person-id="{person_id}"' in body, f"Wrong original person card: {person_id}")
 
-    archive = json.loads((ROOT / "assets/archive/hyk-katalogi.json").read_text(encoding="utf-8"))
     manifest = json.loads((ROOT / "assets/archive/originals-manifest.json").read_text(encoding="utf-8"))
     saved = manifest["files"]
     check(len(saved) == manifest["original_file_count"] == 148, "Original-file inventory count changed")

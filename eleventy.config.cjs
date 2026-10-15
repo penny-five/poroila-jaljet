@@ -27,12 +27,11 @@ function prefixLocalPath(value) {
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
-    assets: 'assets',
+    'assets/archive': 'assets/archive',
     'src/assets': 'assets',
-    'research-data.js': 'research-data.js',
-    'style.css': 'style.css',
+    'src/styles/site.css': 'style.css',
     '.nojekyll': '.nojekyll',
-    'legacy-routes.js': 'legacy-routes.js',
+    'src/scripts/bookmarks.js': 'legacy-routes.js',
   });
 
   eleventyConfig.addFilter('localUrl', (value = '/') => {
@@ -54,21 +53,12 @@ module.exports = function (eleventyConfig) {
   ));
 
   eleventyConfig.addFilter('findSource', (sources, id) => sources.find((source) => source.id === id));
+  eleventyConfig.addFilter('dateStamp', (value) => String(value).slice(0, 8));
+  eleventyConfig.addFilter('sourceType', group => group === 'Katalogit' ? 'primary' : ['Oikeusuutiset', 'Aikalaisblogit'].includes(group) ? 'press' : 'open');
+  eleventyConfig.addFilter('sourceLabel', kind => ({primary:'KIRJASTOLUETTELO',press:'UUTISOINTI / AIKALAISBLOGI',open:'AVOIN TUTKIMUSPOLKU'})[kind]);
   eleventyConfig.addFilter('legacyGroup', (groups, page) => groups.find((group) => group.pages.includes(page)) || groups[0]);
-  eleventyConfig.addFilter('focusPerson', (html, person) => {
-    if (!person) return html;
-    return String(html)
-      .replace(/<details\b[^>]*data-person-id="([^"]+)"[\s\S]*?<\/details>/g, (entry, id) => id === person.id ? entry.replace('<details ', '<details open ') : '')
-      .replace(/(<h2 id="personHeading">)[\s\S]*?<\/h2>/, (_, start) => `${start}${String(person.name).replace(/&/g, '&amp;').replace(/</g, '&lt;')}</h2>`)
-      .replace('<label class="catalog-search">', '<label class="catalog-search" hidden>')
-      .replace('<p data-catalog-count="personCatalog"', '<p hidden data-catalog-count="personCatalog"')
-      .replace('<p id="personBack" hidden>', '<p id="personBack">');
-  });
-  eleventyConfig.addFilter('findGraphNode', (nodes, id) => nodes.find((node) => node.id === id));
   eleventyConfig.addFilter('concat', (first = [], second = []) => [...first, ...second]);
-  eleventyConfig.addFilter('unique', (values = []) => [...new Set(values)]);
   eleventyConfig.addFilter('pathForPerson', (authors, name) => authors.find((author) => author.name === name));
-  eleventyConfig.addFilter('startsWith', (value, prefixValue) => String(value).startsWith(String(prefixValue)));
   eleventyConfig.addFilter('sectionForPath', (sections = [], path = '') => sections
     .flatMap((section) => section.prefixes.filter((item) => String(path).startsWith(item)).map((prefixValue) => ({ section, prefixValue })))
     .sort((a, b) => b.prefixValue.length - a.prefixValue.length)[0]?.section);

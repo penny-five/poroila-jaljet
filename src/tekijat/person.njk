@@ -1,5 +1,5 @@
 ---
-layout: layouts/legacy-page.njk
+layout: layouts/article-page.njk
 pagination:
   data: catalog.personPages
   size: 1
@@ -12,8 +12,8 @@ eleventyComputed:
     url: /tekijat/
 ---
 
-{% if person.id in legacyPersonIds %}
-{% set personSection %}{% include "legacy/sections/henkilot.njk" %}{% endset %}{{ personSection | focusPerson(person) | safe }}
+{% if catalog.peopleById[person.id] %}
+{% set focusedPerson = catalog.peopleById[person.id] %}{% include "sections/henkilot.njk" %}
 {% else %}
 {% if person.author %}
 <p class="page-lead">Tällä sivulla kootaan arkistolähteessä tälle tekijänimelle osoitetut kokonaiset teokset, asiakirjapaikantimet ja kuvatiedostoviitteet.</p>

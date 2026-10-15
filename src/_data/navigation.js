@@ -1,11 +1,12 @@
 module.exports = {
+  original: require('./originalNavigation.json'),
   primary: [
-    { label: 'Alku', url: '/', prefixes: ['/'] },
-    { label: 'Verkkosivut', url: '/verkkoarkisto/sivujaljet/', prefixes: ['/verkkoarkisto/', '/tekijat/', '/teokset/'] },
-    { label: 'Koulu ja ihmiset', url: '/koulu/', prefixes: ['/koulu/', '/tekijat/myohemmat-vaiheet/'] },
-    { label: 'Poroila', url: '/olli-poroila/', prefixes: ['/olli-poroila/'] },
-    { label: 'Fiktio', url: '/fiktiot/', prefixes: ['/fiktiot/'] },
-    { label: 'Lähteet', url: '/lahteet/', prefixes: ['/lahteet/', '/tutkimus/'] },
+    { id: 'alku', label: 'Alku', url: '/', prefixes: ['/'] },
+    { id: 'sivujaljet', label: 'Verkkosivut', url: '/verkkoarkisto/sivujaljet/', prefixes: ['/verkkoarkisto/', '/tekijat/', '/teokset/'] },
+    { id: 'koulu', label: 'Koulu ja ihmiset', url: '/koulu/', prefixes: ['/koulu/', '/tekijat/myohemmat-vaiheet/'] },
+    { id: 'aineisto', label: 'Poroila', url: '/olli-poroila/', prefixes: ['/olli-poroila/'] },
+    { id: 'fiktiot', label: 'Fiktio', url: '/fiktiot/', prefixes: ['/fiktiot/'] },
+    { id: 'lahteet', label: 'Lähteet', url: '/lahteet/', prefixes: ['/lahteet/', '/tutkimus/'] },
   ],
   sections: [
     {

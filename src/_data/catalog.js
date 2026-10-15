@@ -68,6 +68,8 @@ module.exports = {
   readPagesCount: archive.pages.filter((page) => page.status === 'HTML luettu').length,
   authors,
   people,
+  recordsById: Object.fromEntries([...pages, ...dlcRecords].map(record => [record.id, record])),
+  peopleById: Object.fromEntries(people.map(person => [person.id, person])),
   nonAuthorsCount: people.filter((person) => !person.author).length,
   personPages: [...pagesById.values()].sort((a, b) => a.name.localeCompare(b.name, 'fi')),
 };
