@@ -100,7 +100,7 @@ function showPage(){
     if(link.getAttribute('href')==='#/'+page)link.setAttribute('aria-current','page');
     else link.removeAttribute('aria-current');
   });
-  document.title=(page==='alku'?'POROILA / JÄLJET':pageNames[page]+' — POROILA / JÄLJET')+' | Tutkimusarkisto';
+  document.title=(page==='alku'?'HYRSYLÄ / JÄLJET':pageNames[page]+' — HYRSYLÄ / JÄLJET')+' | Tutkimusarkisto';
   if(modal.open)modal.close();
   window.scrollTo({top:0,behavior:'instant'});
   if(page==='kartta')requestAnimationFrame(lines);
