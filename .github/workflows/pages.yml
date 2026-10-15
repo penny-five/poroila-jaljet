@@ -29,9 +29,10 @@ jobs:
         shell: bash
         run: |
           mkdir -p _site
-          cp index.html app.js style.css .nojekyll _site/
+          cp index.html app.js research-data.js style.css .nojekyll _site/
           test -s _site/index.html
           test -s _site/app.js
+          test -s _site/research-data.js
           test -s _site/style.css
 
       - name: Valmistele GitHub Pages
