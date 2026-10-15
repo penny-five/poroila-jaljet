@@ -38,3 +38,53 @@ main > section[hidden], #pageTrail[hidden] {display:none!important}
 .archive-doc-top{color:var(--orange)}.archive-document h3{font:normal clamp(38px,4vw,65px)/1.1 var(--serif);margin:30px 0 15px}.archive-document a{font:12px/1.8 var(--mono);letter-spacing:.04em;margin-top:auto;align-self:flex-start;padding-top:20px}.archive-document code{overflow-wrap:anywhere}
 @media(max-width:900px){.school-intro,.archive-grid{grid-template-columns:1fr}.school-stats{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:520px){.school-stats{grid-template-columns:1fr}.school-scene:nth-of-type(even){margin-left:0}.scene-meta{gap:9px}.school-record{transform:none}}
+
+/* Verkkosivujen jäljitys: school-first investigative dossier */
+.digital-archaeology{min-height:80vh;background:#101617}
+.dig-hero{max-width:1180px;padding:15px 0 45px;border-bottom:1px solid var(--stroke)}
+.dig-hero h2{font:normal clamp(58px,9vw,140px)/.96 var(--serif);letter-spacing:-.035em;margin:20px 0 25px}.dig-hero h2 em,.dig-column-header h3 em{color:var(--orange)}
+.dig-hero>p:not(.eyebrow){max-width:890px;font-size:clamp(16px,2vw,21px);line-height:1.68;color:var(--muted)}
+.dig-hero>p strong{color:var(--ink)}
+.dig-facts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:38px}
+.dig-facts>div{padding:20px 18px;background:#19211e;border-top:2px solid #9f7655;display:flex;flex-direction:column;gap:5px}
+.dig-facts strong{font:normal clamp(35px,4vw,55px)/1.1 var(--serif)}
+.dig-facts span{font:11px/1.55 var(--mono);color:var(--muted)}
+.dig-method{display:flex;gap:23px;margin:35px 0;padding:23px;border:1px dashed rgba(224,162,98,.55);background:rgba(224,162,98,.04)}
+.dig-method-icon{flex:0 0 42px;height:42px;border-radius:50%;border:1px solid var(--orange);display:grid;place-items:center;font:26px var(--serif);color:var(--orange)}
+.dig-method h3{font:normal 30px var(--serif);margin:0 0 9px}.dig-method p{font-size:14px;color:var(--muted);line-height:1.7;margin:0}
+.dig-split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(26px,5vw,75px);margin-top:60px}
+.dig-column{min-width:0}.dig-column-header{min-height:260px}
+.dig-column-header>span,.dig-signal,.dig-tree-root small,.dig-child-pages em,.dig-priority-label,.dig-era-number,.dig-lookup h4{font:10px/1.5 var(--mono);letter-spacing:.065em}
+.dig-column-header>span{color:var(--orange)}
+.dig-column-header h3{font:normal clamp(40px,5.5vw,73px)/1 var(--serif);margin:16px 0 24px}
+.dig-column-header p{font:14px/1.75 var(--sans);color:var(--muted);max-width:530px}
+.dig-tree-root{background:#252923;border:1px solid #75664e;padding:23px 25px;display:flex;flex-direction:column;gap:11px}
+.dig-tree-root strong{font:25px/1.2 var(--serif)}.dig-tree-root small{color:var(--muted)}
+.dig-tree-root a,.dig-era a,.dig-external a,.dig-observation a,.dig-provenance a{font:11px/1.7 var(--mono);color:var(--orange);text-decoration:none}
+.dig-tree-root a:hover,.dig-era a:hover,.dig-external a:hover,.dig-provenance a:hover{text-decoration:underline}
+.dig-signal{display:inline-block;letter-spacing:.06em;color:#d5c4a8}.dig-signal.known{color:#b1cb9e}.dig-signal.partial{color:#dcb27c}
+.dig-child-pages{list-style:none;padding:10px 0 10px 31px;border-left:1px dashed rgba(230,185,122,.44);margin:0 0 0 32px}
+.dig-child-pages li{position:relative;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;padding:12px 8px;border-bottom:1px solid var(--stroke);font-size:14px}
+.dig-child-pages span:nth-child(2){flex:1}
+.dig-dot{position:absolute;left:-39px;top:19px;width:12px;height:12px;border:2px solid #9b7558;border-radius:50%;background:#1a2020}
+.dig-child-pages em{color:#98a09a;font-style:normal}
+.dig-child-pages .dig-priority{color:#f1d5aa;background:#24271f;padding-left:10px}
+.dig-child-pages .dig-priority .dig-dot{background:var(--orange)}
+.dig-warning{padding:15px;background:#28241f;border-left:2px solid #e79d65;color:#d7c6ae;font-size:12px;line-height:1.7}
+.dig-lookup{padding:25px 0}.dig-lookup h4{font-size:13px;color:var(--ink);margin:0 0 15px}
+.dig-external{display:flex;flex-direction:column;gap:13px}.dig-external a{border-bottom:1px solid var(--stroke);padding-bottom:9px}
+.dig-observation{border:1px solid var(--stroke);padding:24px;margin-top:23px;background:#1b211f}
+.dig-observation h4{font:normal 29px var(--serif);margin:0 0 16px}
+.dig-observation p,.dig-era p{font:14px/1.7 var(--sans);color:var(--muted)}
+.dig-observation strong,.dig-era strong{color:var(--ink)}
+.dig-era{display:grid;grid-template-columns:58px 1fr;gap:22px;border-top:1px solid var(--stroke);padding:27px 0 31px}
+.dig-era-number{font-size:25px;color:#716f61}.dig-era h4{font:normal 36px/1 var(--serif);margin:11px 0}
+.dig-era code{color:#e4c19b;overflow-wrap:anywhere;font-size:12px}
+.dig-footer{margin-top:75px;border-top:1px solid var(--stroke);padding:35px 0}
+.dig-process{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:21px 0}
+.dig-process>div{background:#1a2120;padding:20px;min-height:143px}
+.dig-process b{font:12px var(--mono);color:var(--orange)}
+.dig-process p{font:13px/1.6 var(--sans);color:var(--muted)}
+.dig-provenance{font-size:13px;color:var(--muted);line-height:1.8}
+@media(max-width:1000px){.dig-split{grid-template-columns:1fr}.dig-column-header{min-height:auto;margin-bottom:30px}.dig-facts,.dig-process{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.dig-hero h2{font-size:54px}.dig-facts{grid-template-columns:repeat(2,1fr)}.dig-facts>div{padding:15px}.dig-method{padding:17px;gap:12px}.dig-method h3{font-size:26px}.dig-tree-root{padding:18px}.dig-child-pages{margin-left:22px;padding-left:18px}.dig-dot{left:-27px}.dig-process{grid-template-columns:1fr 1fr;gap:9px}.dig-process>div{padding:15px}}
