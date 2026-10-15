@@ -12,7 +12,7 @@ from playwright.sync_api import sync_playwright
 BASE = os.environ.get("SITE_URL", "http://127.0.0.1:8765")
 ROUTES = [
   "alku", "sivujaljet", "koulu", "muistitieto", "oppilaat", "arkisto",
-  "kartta", "aikajana", "aineisto", "hypoteesit", "fiktiot", "lahteet", "jatkovaiheet"
+  "kartta", "aikajana", "aineisto", "hypoteesit", "fiktiot", "lahteet", "jatkovaiheet", "kouluaikajana", "oikeus"
 ]
 
 def check(condition, msg):
@@ -61,10 +61,16 @@ def test_view(browser, mobile=False):
 
     # Timeline controls are functional.
     page.goto(f"{BASE}/#/aikajana")
-    page.locator('[data-decade="1990"]').click()
+    page.locator('#timeFilters [data-decade="1990"]').click()
     check(page.locator(".time-row").count()>0, "1990s timeline filter returned nothing")
-    page.locator('[data-decade="all"]').click()
+    page.locator('#timeFilters [data-decade="all"]').click()
     check(page.locator(".time-row").count()>=10, "Timeline did not reset")
+
+    page.goto(f"{BASE}/#/kouluaikajana")
+    check(page.locator("#schoolTimelineList .time-row").count() > 0, "School timeline empty")
+    check(page.locator("#schoolTimelineList").get_by_text("Kokeile elektroniikkaa", exact=True).count() == 0, "Personal publication leaked into school timeline")
+    page.goto(f"{BASE}/#/oikeus")
+    check(page.locator("#courtArticle").inner_text().strip(), "Court article empty")
 
     # Research articles must open and close without JavaScript exceptions.
     page.goto(f"{BASE}/#/aineisto")
