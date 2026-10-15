@@ -10,6 +10,7 @@ const extras=[
 {id:'S15',date:'1980',title:'Taide 4/1980 — kirjoittajanimiosuma',publisher:'Taide-lehden numeroluettelo',group:'Avoimet viitteet',url:'https://taidelehti.fi/numerot/',note:'Taide-lehden numeroluettelossa esiintyy samanniminen kirjoittaja. Henkilöllisyysyhteys rehtoriin on selvittämättä.'},
 {id:'S16',date:'1975',title:'Kekkosen kirjeaineiston tekstijäljennös',publisher:'Doria / kirjeaineisto',group:'Avoimet viitteet',url:'https://www.doria.fi/bitstream/handle/10024/9638/TMP.objres.4561.html?sequence=1',note:'Aholanvaaran koulun johtajaopettajana esiintyvän Olli Poroilan nimisen henkilön kirje. Yhteyttä Hyrsylän koulun rehtoriin ei ole varmennettu.'}
 ];
+extras.push({id:'S17',date:'22.6.2001',title:'Olli Poroilan sivut — alkuperäinen Saunalahden kotisivu',publisher:'Internet Archive / Wayback, HTML-etusivu',group:'Avoimet viitteet',url:'https://web.archive.org/web/20010622055404/http://www.saunalahti.fi:80/poroila/',note:'Vuoden 2001 arkistotallenteessa ilmoitetaan päivityspäiväksi 22.12.2000, mainitaan kaksi alasivua ja kuvaillaan sivuja itse tehdyiksi. Ei vahvista Hyrsylän koulusivujen sisältöä.'});
 const sources=[...originals,...extras];
 const byId=Object.fromEntries(sources.map(s=>[s.id,s]));
 const enc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
@@ -55,6 +56,7 @@ document.getElementById('resetBoard').addEventListener('click',()=>{nodeData.for
 document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(x=>x.classList.toggle('active',x===b));const f=b.dataset.filter;document.querySelectorAll('.node').forEach(el=>{const n=nodeData.find(x=>x.id===el.dataset.id);const hit=f==='all'||n.type===f||(f==='open'&&(n.type==='open'||['letter','kekkonen','salla'].includes(n.id)));el.classList.toggle('dim',!hit);});}));
 window.addEventListener('resize',lines);
 const timeline=[...DATA.timeline.map(x=>({year:+x.year,title:x.title,description:x.text,refs:x.refs||[],open:x.open})),
+ {year:2001,title:'Poroilan verkkosivujen varhainen etusivu',description:'Internet Archiven 22.6.2001 tallenteessa mainitaan 22.12.2000 tehty uudistus ja selainten käyttöohjeet.',refs:['S17']},
  {year:1981,title:'Nuori sähkökokeilija',description:'Olli Poroilan nimellä kirjattu sähkökokeilukirja.',refs:['S12']},
  {year:1985,title:'Epson PX-8',description:'I.D.E.A-lehden artikkelimerkintä.',refs:['S13']},
  {year:1990,title:'MikroBITTI ja Hyrsylän koulu',description:'Nimen ja koulun yhdistävä alkuperäinen lehti-ilmoitus.',refs:['S14']},
