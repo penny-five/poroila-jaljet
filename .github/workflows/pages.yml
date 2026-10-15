@@ -1,0 +1,47 @@
+name: Julkaise Poroila / Jäljet GitHub Pagesiin
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Julkaise staattinen sivusto
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Hae lähdekoodi
+        uses: actions/checkout@v4
+
+      - name: Kokoa julkaistavat tiedostot
+        shell: bash
+        run: |
+          mkdir -p _site
+          cp index.html app.js style.css .nojekyll _site/
+          test -s _site/index.html
+          test -s _site/app.js
+          test -s _site/style.css
+
+      - name: Valmistele GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Lataa sivustopaketti
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Julkaise
+        id: deployment
+        uses: actions/deploy-pages@v4
