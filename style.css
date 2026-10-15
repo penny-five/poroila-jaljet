@@ -142,3 +142,10 @@ main > section[hidden], #pageTrail[hidden] {display:none!important}
 .oral-bar a{color:var(--orange);text-decoration:none}
 .oral-numbers-note{font:11px/1.7 var(--mono);color:var(--muted);margin-top:24px}
 @media(max-width:600px){.oral-numbers{padding:22px 17px}.oral-bar{grid-template-columns:71px 1fr 30px 17px;gap:7px}.oral-bar>span{font-size:10px}}
+
+/* Historic photograph with source provenance, no generated imagery */
+.historical-school-photo{max-width:990px;margin:12px 0 42px;border:1px solid var(--stroke);padding:12px 12px 0;background:#1c2522}
+.historical-school-photo img{display:block;width:100%;height:auto;object-fit:contain}
+.historical-school-photo figcaption{padding:14px 3px 17px;font:11px/1.7 var(--mono);color:var(--muted)}
+.historical-school-photo figcaption strong{color:var(--ink)}
+.historical-school-photo a{color:var(--orange);text-decoration:underline;text-underline-offset:3px}
