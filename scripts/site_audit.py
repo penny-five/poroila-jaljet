@@ -89,7 +89,7 @@ def validate() -> int:
         route = href[2:]
         if route not in routes: fail(f"Navigation {route} missing from app route registry")
         if route not in doc.sections: fail(f"Navigation {route} missing matching section id")
-    if len(doc.nav_links) < 8: fail(f"Expected >=8 independent page links, found {len(doc.nav_links)}")
+    if len(doc.nav_links) < 5: fail(f"Expected at least five primary sections, found {len(doc.nav_links)}")
     for route in routes:
         if route not in doc.sections: fail(f"Route without HTML section: {route}")
     for href in doc.all_links:

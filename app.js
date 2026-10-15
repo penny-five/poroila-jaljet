@@ -18,7 +18,7 @@ extras.push(
 extras.push(
 {id:'S20',date:'2008',title:'Nummi-Pusulan koulut – alkuperäinen kouluportaali',publisher:'Nummi-Pusula / Internet Archive',group:'Avoimet viitteet',url:'https://web.archive.org/web/20081203121419/http://www.nummi-pusula.fi:80/koulut/default.asp?',note:'Avattu vuoden 2008 kunnan koulusivun tallenne mainitsee Hyrsylän kunnan alakoulujen joukossa sekä Hyrsylässä järjestettävän joulukuun tapahtuman.'},
 {id:'S21',date:'2015',title:'Hyrsylän koulun toiminnan siirto Oinolaan',publisher:'Lohjan kaupungin tilinpäätös 2015',group:'Avoimet viitteet',url:'https://www.lohja.fi/kaupunki-ja-hallinto/lohjan-kaupunki/strategia-ja-talous/attachment/tp2015/',note:'Kaupunki raportoi Hyrsylän koulutoiminnan siirtyneen Oinolan koulun yhteyteen elokuussa 2015.'},
-{id:'S22',date:'2016',title:'Hyrsylän koulun muodollinen lakkauttaminen',publisher:'Lohjan kaupungin talousarvio 2016',group:'Avoimet viitteet',url:'https://www.lohja.fi/kaupunki-ja-hallinto/lohjan-kaupunki/strategia-ja-talous/attachment/ta_2016_hyvaksytty/',note:'Vuoden 2016 talousarvion mukaan koulu lakkautetaan 1.8.2016. Koulutoiminnan siirto 2015 ja lakkautus 2016 ovat eri tapahtumia.'}
+{id:'S22',date:'2016',title:'Hyrsylän koulun muodollinen lakkauttaminen',publisher:'Lohjan kaupungin talousarvio 2016',group:'Avoimet viitteet',url:'https://www.lohja.fi/wp-content/uploads/2017/09/TA_2016_hyvaksytty.pdf#page=32',note:'Vuoden 2016 talousarvion mukaan koulu lakkautetaan 1.8.2016. Koulutoiminnan siirto 2015 ja lakkautus 2016 ovat eri tapahtumia.'}
 );
 extras.push(
 {id:'S23',date:'1905–1906',title:'Suomenmaan virallinen tilasto — perustetut maalaiskansakoulut',publisher:'Tilastokeskus / Suomenmaan virallinen tilasto',group:'Katalogit',url:'https://otos.stat.fi/server/api/core/bitstreams/50334344-e3c3-4e48-8705-ca785cda397e/content',note:'Aikalaistilasto nimeää Hyrsylän koulun Nummelle lukuvuonna 1905–1906 perustettujen kansakoulujen joukossa.'},
@@ -38,6 +38,7 @@ extras.push(
 {id:'S34',date:'3.9.2014',title:'Heijastimia Hyrsylään ekaluokkalaisille',publisher:'Lotta Paakkunainen / aikalaisblogi',group:'Aikalaisblogit',url:'https://nummentie.blogspot.com/2014/?m=0',note:'Julkinen koulukäynnin kuvaus vuodelta 2014: ensimmäisen luokan oppilaat keskustelivat liikenneturvallisuudesta ja saivat heijastimia. Ei yksittäisten oppilaiden elämäkerta.'},
 {id:'S35',date:'5.12.2017',title:'Uhanalainen lähikoulu – lakkautusten jälkiseuranta',publisher:'Lotta Paakkunainen / julkinen kunnallispoliittinen kannanotto',group:'Aikalaisblogit',url:'https://lottapaakkunainen.com/tag/koulukyyti/page/2/',note:'Kirjoittajan mukaan koulujen sulkemisen vaikutuksia perheisiin ei ollut seurattu riittävästi. Tämä on julkinen kannanotto, ei itsenäinen tutkimus eikä entisten oppilaiden lausunto.'}
 );
+extras.push(...[{id: "S37", "date": "1.7.2013", "title": "Tuntemuksiani — 41 päivättyä kohtaa sisältävä alkuperäistallenne", "publisher": "Olli Poroila / Internet Archive, alkuperäinen HTML", "group": "Avoimet viitteet", "url": "https://web.archive.org/web/20130701074848/http://kotisivu.dnainternet.net:80/poroila/tuntemuksiani.htm", "note": "HTML:n päivämääräankkurit ja kolme tekstikohtaa luettu 15.10.2026. Kirjoittajan oma esitys; oppilaiden kokemuksia ei vahvisteta tällä lähteellä."}, {id: "S38", "date": "tarkistettu 15.10.2026", "title": "Eduskuntaryhmän toimisto — julkinen viestintätehtävä", "publisher": "Vasemmistoliiton eduskuntaryhmä / työnantajan sivu", "group": "Avoimet viitteet", "url": "https://vasemmisto.fi/en/parliamentary-group-office/", "note": "Nimeää Perttu Iso-Markun viestintäpäälliköksi. Mahdollinen yhteys kouluhankkeen kertomuksessa nimettyyn entiseen oppilaaseen; henkilöllisyysketjua ei pidetä varmistettuna."}, {id: "S39", "date": "2020", "title": "What has been ongoing at Hyrsylän Koulu", "publisher": "Pedro Aibéo / kouluhankkeen oma kertomus", "group": "Avoimet viitteet", "url": "https://gamifiedcohousing.com/what-has-been-ongoing-at-hyrsylan-koulu/", "note": "Nimeää Perttu Iso-Markun entiseksi oppilaaksi. Tieto on hankkeen kirjoittajan kertoma, ei oppilaan oma henkilöhistoria."}, {id: "S40", "date": "12.6.2024", "title": "Maailman Kuvalehti ja Maailma.net yhdistyvät", "publisher": "Maailman Kuvalehti / toimitus", "group": "Avoimet viitteet", "url": "https://maailmankuvalehti.fi/2024/vain-verkossa/lyhyet/maailman-kuvalehti-ja-maailma-net-yhdistyvat-yhdistymalla-saamme-aikaan-entistakin-vahvemman-median-tayttamaan-mediakentassa-olevaa-aukkoa/", "note": "Median oma tiedote nimeää Perttu Iso-Markun Maailma.net ry:n puheenjohtajaksi kyseisenä päivänä. Ei yksin vahvista kouluyhteyttä."}, {id: "S41", "date": "2012", "title": "Plan pohtii avointa kehitystä Helsingin avoimen tiedon festareilla", "publisher": "Plan Suomi / oma tiedote, ePressi", "group": "Avoimet viitteet", "url": "https://www.epressi.com/tiedotteet/avustukset-ja-vapaaehtoistyo/plan-pohtii-avointa-kehitysta-helsingin-avoimen-tiedon-festareilla.html", "note": "Nimeää Perttu Iso-Markun verkkotoimittajaksi. Historiallinen julkinen työrooli; ei nykyinen tehtävätieto eikä henkilöllisyystodistus."}]);
 const sources=[...originals,...extras];
 const byId=Object.fromEntries(sources.map(s=>[s.id,s]));
 const enc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c]));
@@ -121,10 +122,11 @@ document.querySelectorAll('[data-article]').forEach(b=>b.addEventListener('click
 document.getElementById('articleClose').addEventListener('click',()=>modal.close());
 modal.addEventListener('click',e=>{if(e.target===modal)modal.close()});
 const copy=document.getElementById('copyOriginal');copy.addEventListener('click',async()=>{const addr='http://kotisivu.dnainternet.net/poroila/';try{await navigator.clipboard.writeText(addr);copy.textContent='KOPIOITU ✓';}catch{copy.textContent=addr;}});
-const menu=document.getElementById('menuToggle'),nav=document.getElementById('navigation');menu.addEventListener('click',()=>{const visible=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(visible))});nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{nav.classList.remove('open');nav.querySelectorAll('details').forEach(d=>d.open=false);menu.setAttribute('aria-expanded','false')}));
+
 
 /* Sivunäkymien reititys: GitHub Pages -yhteensopivat jaettavat hash-URL:t. */
-const pageNames={alku:'Etusivu',kartta:'Yhteyskartta',aineisto:'Poroila ja lähteet',hypoteesit:'Hypoteesit',aikajana:'Aikajana',koulu:'Hyrsylän koulu',muistitieto:'Muistitieto',oppilaat:'Oppilastyöt',arkisto:'Tallenteet ja kuvat',sivujaljet:'Sivujäljitys',fiktiot:'Fiktiiviset muistiinpanot',lahteet:'Lähteet'};
+const pageNames={alku:'Etusivu',kartta:'Yhteyskartta',aineisto:'Poroila ja lähteet',hypoteesit:'Hypoteesit',aikajana:'Aikajana',koulu:'Hyrsylän koulu',muistitieto:'Muistitieto',oppilaat:'Oppilastyöt',jatkovaiheet:'Myöhemmät vaiheet',arkisto:'Tallenteet ja kuvat',sivujaljet:'Sivujäljitys',fiktiot:'Fiktiiviset muistiinpanot',lahteet:'Lähteet'};
+const pageGroups=[{home:'alku',pages:['alku']},{home:'sivujaljet',pages:['sivujaljet','arkisto','oppilaat']},{home:'koulu',pages:['koulu','muistitieto','jatkovaiheet']},{home:'aineisto',pages:['aineisto','aikajana','kartta','hypoteesit']},{home:'fiktiot',pages:['fiktiot']},{home:'lahteet',pages:['lahteet']}];
 function showPage(){
   const raw=decodeURIComponent((location.hash||'').replace(/^#\/?/,'')).split('/')[0];
   const page=Object.prototype.hasOwnProperty.call(pageNames,raw)?raw:'alku';
@@ -135,8 +137,12 @@ function showPage(){
   const breadcrumb=document.getElementById('pageTrail');
   breadcrumb.hidden=page==='alku';
   document.getElementById('currentPageName').textContent=pageNames[page].toUpperCase();
+  const group=pageGroups.find(g=>g.pages.includes(page));
+  const subnav=document.getElementById('sectionNavigation');
+  subnav.hidden=group.pages.length<2;
+  subnav.innerHTML=group.pages.map(id=>'<a href="#/'+id+'"'+(id===page?' aria-current="page"':'')+'>'+enc(pageNames[id])+'</a>').join('');
   document.querySelectorAll('#navigation a').forEach(link=>{
-    if(link.getAttribute('href')==='#/'+page)link.setAttribute('aria-current','page');
+    if(link.getAttribute('href')==='#/'+group.home)link.setAttribute('aria-current','page');
     else link.removeAttribute('aria-current');
   });
   document.title=(page==='alku'?'HYRSYLÄ / JÄLJET':pageNames[page]+' — HYRSYLÄ / JÄLJET')+' | Tutkimusarkisto';

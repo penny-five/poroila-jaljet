@@ -12,7 +12,7 @@ from playwright.sync_api import sync_playwright
 BASE = os.environ.get("SITE_URL", "http://127.0.0.1:8765")
 ROUTES = [
   "alku", "sivujaljet", "koulu", "muistitieto", "oppilaat", "arkisto",
-  "kartta", "aikajana", "aineisto", "hypoteesit", "fiktiot", "lahteet"
+  "kartta", "aikajana", "aineisto", "hypoteesit", "fiktiot", "lahteet", "jatkovaiheet"
 ]
 
 def check(condition, msg):
@@ -45,7 +45,7 @@ def test_view(browser, mobile=False):
         if route=="muistitieto":
             check(page.locator(".oral-numbers .oral-bar").count()==4, "Pupil-count visualization missing")
         if route=="oppilaat":
-            check(page.locator(".alumni-person").count()>=2, "Public alumni stories missing")
+            check(page.get_by_role("heading", name="Missä oppilaiden sivut ovat?").is_visible(), "Pupil-work research page missing")
         if route=="sivujaljet":
             check(page.locator(".dig-child-pages li").count()>=13, "Historical school page tree missing")
         print(f"OK route {route}", flush=True)
@@ -75,8 +75,6 @@ def test_view(browser, mobile=False):
 
     if mobile:
         page.goto(f"{BASE}/#/alku")
-        page.locator("#menuToggle").click()
-        check(page.locator("#navigation").evaluate("(el) => el.classList.contains('open')"), "Mobile menu did not open")
         page.locator('#navigation a[href="#/koulu"]').click()
         check(page.locator("body").get_attribute("data-page")=="koulu", "Mobile menu navigation failed")
         overflow=page.evaluate("document.documentElement.scrollWidth-window.innerWidth")
