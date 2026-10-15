@@ -149,3 +149,30 @@ main > section[hidden], #pageTrail[hidden] {display:none!important}
 .historical-school-photo figcaption{padding:14px 3px 17px;font:11px/1.7 var(--mono);color:var(--muted)}
 .historical-school-photo figcaption strong{color:var(--ink)}
 .historical-school-photo a{color:var(--orange);text-decoration:underline;text-underline-offset:3px}
+
+/* Tutkimusarkiston lisänäkymä */
+.alumni-page{background:#101719;min-height:85vh}
+.alumni-hero{max-width:1200px;border-bottom:1px solid var(--stroke);padding:28px 0 55px}
+.alumni-hero h2{font:normal clamp(60px,9vw,130px)/.98 var(--serif);margin:22px 0}
+.alumni-hero h2 em,.alumni-collective h3 em{color:var(--orange)}
+.alumni-lead{max-width:900px;font:clamp(20px,2vw,26px)/1.5 var(--serif);color:#bec5bc}
+.alumni-stamps{display:flex;gap:9px;flex-wrap:wrap;margin:30px 0}
+.alumni-stamps span{border:1px solid #73664c;padding:10px 13px;font:10px/1.5 var(--mono);color:var(--orange)}
+.alumni-card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:23px;max-width:1200px;margin:45px auto}
+.alumni-person{background:#192321;border:1px solid var(--stroke);padding:clamp(25px,3.5vw,50px)}
+.alumni-id{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font:10px var(--mono);color:var(--orange)}
+.alumni-number{font:normal 42px var(--serif);color:#968674;margin:35px 0 10px}
+.alumni-person h3{font:normal clamp(48px,5.5vw,80px)/1 var(--serif);margin:15px 0}
+.alumni-role{font:21px/1.4 var(--serif)!important;color:var(--orange)!important}
+.alumni-person p,.alumni-column-grid p,.alumni-pathway p{font:15px/1.8 var(--sans);color:#c2cbc2}
+.alumni-evidence{border-left:3px solid #8dbb8b;background:#263128;padding:14px;font:11px/1.6 var(--mono);color:#b7d2aa;margin:24px 0}
+.alumni-evidence.secondary{border-left-color:#dba06e;background:#302820;color:#e8c5aa}
+.alumni-person a,.alumni-column-grid a{font:11px var(--mono);text-decoration:none;color:var(--orange)}
+.alumni-collective,.alumni-pathway{max-width:1200px;margin:55px auto;padding:clamp(25px,4vw,60px);border:1px solid #79654a;background:#1e231f}
+.alumni-collective h3,.alumni-pathway h3{font:normal clamp(44px,6vw,79px)/1.04 var(--serif)}
+.alumni-column-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.alumni-column-grid span{font:11px var(--mono);color:var(--orange)}
+.alumni-pathway{border-style:dashed}
+.alumni-pathway .action{display:inline-flex;margin-top:18px}
+.alumni-closure{max-width:1200px;margin:0 auto;padding:20px;border-left:3px solid var(--orange);background:#2c2822;color:#dfd5c6;font:12px/1.7 var(--sans)}
+@media(max-width:800px){.alumni-card-grid,.alumni-column-grid{grid-template-columns:1fr}}
