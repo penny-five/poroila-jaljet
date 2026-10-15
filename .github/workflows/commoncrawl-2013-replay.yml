@@ -1,0 +1,23 @@
+name: Common Crawl 2013 — alkuperäinen koulusivu
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/commoncrawl_2013_replay.py
+      - .github/workflows/commoncrawl-2013-replay.yml
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/commoncrawl_2013_replay.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: commoncrawl-2013-school-report
+          path: reports/commoncrawl-2013-school-replay.json
+          retention-days: 60
+          if-no-files-found: warn
