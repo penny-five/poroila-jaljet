@@ -10,6 +10,7 @@ from urllib import request, error
 import json, os, re, hashlib, datetime, time
 
 CAPTURES=[
+ ("saunalahti_2001", "20010622055404", "http://www.saunalahti.fi:80/poroila/"),
  ("etusivu", "20130629214829", "http://kotisivu.dnainternet.net:80/poroila/"),
  ("tuntemuksiani", "20130701074848", "http://kotisivu.dnainternet.net:80/poroila/tuntemuksiani.htm"),
 ]
