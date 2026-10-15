@@ -1,0 +1,50 @@
+name: Hyrsylä-sivuston selain- ja laatutestit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - app.js
+      - research-data.js
+      - style.css
+      - scripts/site_audit.py
+      - scripts/site_smoke.py
+      - .github/workflows/site-quality.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hyrsylan-site-quality
+  cancel-in-progress: true
+
+jobs:
+  browser-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Get website source
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit evidence identifiers, routing and assets
+        run: |
+          python scripts/site_audit.py
+          node --check app.js
+          node --check research-data.js
+      - name: Install Chromium for browser tests
+        run: |
+          python -m pip install playwright==1.56.0
+          python -m playwright install --with-deps chromium
+      - name: Run local browser checks on desktop and mobile
+        shell: bash
+        run: |
+          python -m http.server 8765 --bind 127.0.0.1 > /tmp/hyrsylan-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID || true' EXIT
+          sleep 3
+          python scripts/site_smoke.py
