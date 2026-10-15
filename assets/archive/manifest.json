@@ -58,5 +58,17 @@
     "sha256": "e2ad231b9ca66d63f39b686c656b1dde0d687b6bfc28fb37abeff4e89be4b787",
     "width": 1280,
     "height": 720
+  },
+  {
+    "file": "hyk-welcome-20040601.jpg",
+    "title": "Hyrsylän koulun etusivu / 1.6.2004",
+    "archive_url": "https://web.archive.org/web/20040601162625/http://www.saunalahti.fi/~hyk/Welcome.html",
+    "original_url": "http://www.saunalahti.fi/~hyk/Welcome.html",
+    "archive_timestamp": "20040601162625",
+    "screenshot_date": "2026-10-15",
+    "note": "Alkuperäinen etusivu valikot suljettuina. Puuttuvia kuvia ei rekonstruoitu.",
+    "sha256": "f8811a0a359647d0dcf4809616dbad72a0610b9376d8c122aac04813054f339f",
+    "width": 1280,
+    "height": 720
   }
 ]
