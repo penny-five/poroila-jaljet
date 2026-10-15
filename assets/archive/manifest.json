@@ -1,0 +1,50 @@
+[
+  {
+    "file": "saunalahti-20010622.jpg",
+    "title": "Saunalahti / 22.6.2001",
+    "archive_url": "https://web.archive.org/web/20010622055404/http://www.saunalahti.fi:80/poroila/",
+    "original_url": "http://www.saunalahti.fi:80/poroila/",
+    "archive_timestamp": "20010622055404",
+    "screenshot_date": "2026-10-15",
+    "note": "Etusivu kokonaisena selainnäkymänä. Keskellä oleva kuvatiedosto ei lataudu tässä arkistoavauksessa.",
+    "sha256": "81c36cda3ffcb3a830ca1a6fd5182f7adaa481b594b2e9c29434a91af4178c43",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "file": "kouluportaali-20081203.jpg",
+    "title": "Kunnan kouluportaali / 3.12.2008",
+    "archive_url": "https://web.archive.org/web/20081203121419/http://www.nummi-pusula.fi:80/koulut/default.asp?",
+    "original_url": "http://www.nummi-pusula.fi:80/koulut/default.asp?",
+    "archive_timestamp": "20081203121419",
+    "screenshot_date": "2026-10-15",
+    "note": "Kunnan yhteinen koulusivu. Hyrsylä mainitaan koulujen joukossa; tämä ei ole oppilaan oma sivu.",
+    "sha256": "5d7fff3ff9a9d8a0ae98e7aae3fc7c98816fa6e1a10946c649340b18c1db2faf",
+    "width": 1265,
+    "height": 712
+  },
+  {
+    "file": "hyrsylan-sivupuu-20111129.jpg",
+    "title": "Hyrsylän sivupuu / 29.11.2011",
+    "archive_url": "https://web.archive.org/web/20111129034532/http://www.nummi-pusula.fi:80/koulut/sivukartta.asp?kieli=246",
+    "original_url": "http://www.nummi-pusula.fi:80/koulut/sivukartta.asp?kieli=246",
+    "archive_timestamp": "20111129034532",
+    "screenshot_date": "2026-10-15",
+    "note": "Rajattu Hyrsylän haaraan. Otsikot ja linkit näkyvät, mutta kohdesivujen sisältöä ei ole tällä todistettu.",
+    "sha256": "060378aa94707d5e88d4ba41d7c119aab871050beda7da0e44aaaf222780499e",
+    "width": 1260,
+    "height": 395
+  },
+  {
+    "file": "dna-20130629-otsake.jpg",
+    "title": "DNA-etusivun otsake / 29.6.2013",
+    "archive_url": "https://web.archive.org/web/20130629214829/http://kotisivu.dnainternet.net:80/poroila/",
+    "original_url": "http://kotisivu.dnainternet.net:80/poroila/",
+    "archive_timestamp": "20130629214829",
+    "screenshot_date": "2026-10-15",
+    "note": "Rajattu otsakkeeseen ja sisäänkäyntiin. Sivun muu teksti sisältää kirjoittajan omia väitteitä, joita kuva ei vahvista.",
+    "sha256": "fd4e33ca55ba4ffc98d15ade4db12f03decd62f23897ae71bcb266676b2d9cfb",
+    "width": 1280,
+    "height": 275
+  }
+]

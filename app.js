@@ -121,10 +121,10 @@ document.querySelectorAll('[data-article]').forEach(b=>b.addEventListener('click
 document.getElementById('articleClose').addEventListener('click',()=>modal.close());
 modal.addEventListener('click',e=>{if(e.target===modal)modal.close()});
 const copy=document.getElementById('copyOriginal');copy.addEventListener('click',async()=>{const addr='http://kotisivu.dnainternet.net/poroila/';try{await navigator.clipboard.writeText(addr);copy.textContent='KOPIOITU ✓';}catch{copy.textContent=addr;}});
-const menu=document.getElementById('menuToggle'),nav=document.getElementById('navigation');menu.addEventListener('click',()=>{const visible=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(visible))});nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
+const menu=document.getElementById('menuToggle'),nav=document.getElementById('navigation');menu.addEventListener('click',()=>{const visible=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(visible))});nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{nav.classList.remove('open');nav.querySelectorAll('details').forEach(d=>d.open=false);menu.setAttribute('aria-expanded','false')}));
 
 /* Sivunäkymien reititys: GitHub Pages -yhteensopivat jaettavat hash-URL:t. */
-const pageNames={alku:'Etusivu',kartta:'Yhteyskartta',aineisto:'Tutkintalinjat',hypoteesit:'Hypoteesit',aikajana:'Aikajana',koulu:'Hyrsylän koulu',muistitieto:'Muistitieto',oppilaat:'Entiset oppilaat',arkisto:'Verkkoarkisto',sivujaljet:'Sivujäljitys',fiktiot:'Fiktiiviset muistiinpanot',lahteet:'Lähteet'};
+const pageNames={alku:'Etusivu',kartta:'Yhteyskartta',aineisto:'Poroila ja lähteet',hypoteesit:'Hypoteesit',aikajana:'Aikajana',koulu:'Hyrsylän koulu',muistitieto:'Muistitieto',oppilaat:'Oppilastyöt',arkisto:'Tallenteet ja kuvat',sivujaljet:'Sivujäljitys',fiktiot:'Fiktiiviset muistiinpanot',lahteet:'Lähteet'};
 function showPage(){
   const raw=decodeURIComponent((location.hash||'').replace(/^#\/?/,'')).split('/')[0];
   const page=Object.prototype.hasOwnProperty.call(pageNames,raw)?raw:'alku';
