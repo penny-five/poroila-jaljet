@@ -75,4 +75,28 @@ document.getElementById('articleClose').addEventListener('click',()=>modal.close
 modal.addEventListener('click',e=>{if(e.target===modal)modal.close()});
 const copy=document.getElementById('copyOriginal');copy.addEventListener('click',async()=>{const addr='http://kotisivu.dnainternet.net/poroila/';try{await navigator.clipboard.writeText(addr);copy.textContent='KOPIOITU ✓';}catch{copy.textContent=addr;}});
 const menu=document.getElementById('menuToggle'),nav=document.getElementById('navigation');menu.addEventListener('click',()=>{const visible=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(visible))});nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
+
+/* Sivunäkymien reititys: GitHub Pages -yhteensopivat jaettavat hash-URL:t. */
+const pageNames={alku:'Etusivu',kartta:'Yhteyskartta',aineisto:'Tutkintalinjat',hypoteesit:'Hypoteesit',aikajana:'Aikajana',fiktiot:'Fiktiiviset muistiinpanot',lahteet:'Lähteet'};
+function showPage(){
+  const raw=decodeURIComponent((location.hash||'').replace(/^#\/?/,'')).split('/')[0];
+  const page=Object.prototype.hasOwnProperty.call(pageNames,raw)?raw:'alku';
+  document.body.dataset.page=page;
+  document.querySelectorAll('main > section').forEach(section=>{
+    section.hidden=(section.id||'alku')!==page;
+  });
+  const breadcrumb=document.getElementById('pageTrail');
+  breadcrumb.hidden=page==='alku';
+  document.getElementById('currentPageName').textContent=pageNames[page].toUpperCase();
+  document.querySelectorAll('#navigation a').forEach(link=>{
+    if(link.getAttribute('href')==='#/'+page)link.setAttribute('aria-current','page');
+    else link.removeAttribute('aria-current');
+  });
+  document.title=(page==='alku'?'POROILA / JÄLJET':pageNames[page]+' — POROILA / JÄLJET')+' | Tutkimusarkisto';
+  if(modal.open)modal.close();
+  window.scrollTo({top:0,behavior:'instant'});
+  if(page==='kartta')requestAnimationFrame(lines);
+}
+window.addEventListener('hashchange',showPage);
+showPage();
 })().catch(e=>{console.error('Sivuston tietojen alustaminen epäonnistui',e);const el=document.getElementById('nodeDetail');if(el)el.textContent='Tutkimusaineiston lataaminen epäonnistui. Päivitä sivu ja tarkista verkkoyhteys.';});
