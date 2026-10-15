@@ -176,3 +176,25 @@ main > section[hidden], #pageTrail[hidden] {display:none!important}
 .alumni-pathway .action{display:inline-flex;margin-top:18px}
 .alumni-closure{max-width:1200px;margin:0 auto;padding:20px;border-left:3px solid var(--orange);background:#2c2822;color:#dfd5c6;font:12px/1.7 var(--sans)}
 @media(max-width:800px){.alumni-card-grid,.alumni-column-grid{grid-template-columns:1fr}}
+
+/* Alkuperäisen 2013 sivun todellisen linkkirakenteen lähde-etsintä */
+.legacy-archive-dossier{margin:50px 0 30px;border-top:2px solid #a8805d;background:#1c2420;padding:clamp(22px,4vw,45px)}
+.legacy-heading h3{font:normal clamp(39px,5vw,75px)/1.03 var(--serif);margin:17px 0 26px}
+.legacy-heading h3 em{color:var(--orange)}
+.legacy-heading>p:not(.eyebrow){color:#c4cbc0;line-height:1.75;font-size:15px;max-width:1050px}
+.legacy-heading strong{color:var(--ink)}.legacy-heading code,.legacy-file-row code{color:#f0c796}
+.legacy-proof{display:flex;justify-content:space-between;flex-wrap:wrap;gap:15px;margin:32px 0 4px;border-top:1px solid var(--stroke);padding-top:22px;font:11px/1.8 var(--mono);color:#a6b5a8}
+.legacy-proof a,.legacy-file-row a{color:var(--orange);text-decoration:none}
+.legacy-file-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:26px 0}
+.legacy-file-group{border:1px solid var(--stroke);background:#141d1a;padding:clamp(15px,3vw,27px)}
+.legacy-file-group h4{font:normal 31px var(--serif);margin:0 0 19px}
+.legacy-file-group h4 small{display:block;color:#909c91;font:10px/1.5 var(--mono);margin-top:4px}
+.legacy-file-list{display:grid;gap:2px}
+.legacy-file-row{display:flex;justify-content:space-between;gap:10px;padding:11px 0;border-bottom:1px solid var(--stroke);align-items:center}
+.legacy-file-row>div{display:flex;flex-direction:column;min-width:0;gap:3px}
+.legacy-file-row code{font:12px var(--mono);overflow-wrap:anywhere}
+.legacy-file-row small{font:11px/1.4 var(--sans);color:var(--muted)}
+.legacy-file-row a{font:10px/1.5 var(--mono);flex:0 0 auto;text-align:right}
+.legacy-research-note{margin:25px 0;padding:18px 25px;border-left:3px solid var(--orange);background:#29261f;color:#dbd2c4;font:13px/1.8 var(--sans)}
+@media(max-width:850px){.legacy-file-groups{grid-template-columns:1fr}}
+@media(max-width:460px){.legacy-file-row{align-items:flex-start}.legacy-file-row a{max-width:100px}}
