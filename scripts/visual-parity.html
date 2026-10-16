@@ -65,6 +65,8 @@ function compareOriginalContentWithOriginalNavigation(){
   migrated.contentDocument.querySelector('[data-layout-feature="breadcrumbs"]')?.remove();
   migrated.contentDocument.querySelector('[data-layout-feature="page-heading"]')?.remove();
   migrated.contentDocument.querySelector('.page-heading')?.remove();
+  migrated.contentDocument.querySelector('#collectionNavigation')?.remove();
+  migrated.contentDocument.querySelector('[data-layout-feature="collection-navigation"]')?.remove();
   // Page titles and eyebrows are now a shared component, tested independently.
   // Remove the old presentation-specific title from the frozen DOM comparison.
   const root=original.contentDocument.getElementById(original.contentDocument.body.dataset.page);

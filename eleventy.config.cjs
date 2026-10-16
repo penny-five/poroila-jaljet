@@ -82,7 +82,7 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => b.prefixValue.length - a.prefixValue.length)[0];
     return match?.candidate === item;
   });
-  eleventyConfig.addFilter('navItemIsCurrent', (item, path = '') => item.url === path || Boolean(item.prefix && String(path).startsWith(item.prefix)));
+  eleventyConfig.addFilter('navItemIsCurrent', (item, path = '') => item.url === path || [...(item.prefixes || []), ...(item.prefix ? [item.prefix] : [])].some(prefix => String(path).startsWith(prefix)));
   eleventyConfig.addFilter('toJson', (value) => JSON.stringify(value).replace(/</g, '\\u003c'));
   eleventyConfig.addGlobalData('sitePrefix', prefix);
 

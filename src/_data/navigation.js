@@ -16,15 +16,15 @@ module.exports = {
     { id: 'sivujaljet', label: 'Verkkoarkisto', url: '/verkkoarkisto/', prefixes: ['/verkkoarkisto/'] },
     { id: 'lahteet', label: 'Lähteet ja tutkimus', url: '/lahteet/', prefixes: ['/lahteet/', '/tutkimus/', '/fiktiot/'] },
   ],
-  sections: [
+  collections: [
     {
       label: 'Koulun aineistoryhmät',
       home: { label: 'Koulun aineisto', url: '/koulu/aineisto/' },
-      parent: { label: 'Koulu', url: '/koulu/' },
-      collection: true,
       prefixes: schoolCollections.map(item => item.prefix),
       links: schoolCollections,
     },
+  ],
+  sections: [
     {
       label: 'Verkkoarkisto ja aineistokatalogi',
       prefixes: ['/verkkoarkisto/'],
@@ -39,10 +39,10 @@ module.exports = {
     },
     {
       label: 'Koulun alasivut',
-      prefixes: ['/koulu/'],
+      prefixes: ['/koulu/', '/tekijat/', '/teokset/'],
       links: [
         { label: 'Hyrsylän koulu', url: '/koulu/' },
-        { label: 'Koulun aineisto', url: '/koulu/aineisto/' },
+        { label: 'Koulun aineisto', url: '/koulu/aineisto/', prefixes: schoolCollections.map(item => item.prefix) },
         { label: 'Koulun historia', url: '/koulu/historia/' },
         { label: 'Aikajana', url: '/koulu/aikajana/' },
         { label: 'Muistitieto', url: '/koulu/muistitieto/' },

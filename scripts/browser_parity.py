@@ -53,16 +53,22 @@ with sync_playwright() as playwright:
         page.set_viewport_size({'width': width, 'height': 900})
         page.goto(origin + '/_site/koulu/aineisto/')
         hub_links = page.locator('.data-list h3 a').evaluate_all('links=>links.map(link=>link.getAttribute("href"))')
-        menu_links = page.locator('#sectionNavigation a').evaluate_all('links=>links.map(link=>link.getAttribute("href"))')
-        assert set(hub_links).issubset(menu_links), 'An archive category is absent from its contextual menu'
+        school_menu = page.locator('#sectionNavigation a').all_text_contents()
+        menu_links = page.locator('#collectionNavigation a').evaluate_all('links=>links.map(link=>link.getAttribute("href"))')
+        assert set(hub_links).issubset(menu_links), 'An archive category is absent from its third-level menu'
         for url in hub_links:
             page.goto(origin + url)
-            assert page.locator('#sectionNavigation').get_attribute('aria-label') == 'Koulun aineistoryhmät'
-            assert page.locator('#sectionNavigation a[aria-current="page"]').get_attribute('href') == url
-            assert page.locator('#sectionNavigation .collection-parent').get_attribute('href') == '/_site/koulu/'
+            assert page.locator('#sectionNavigation a').all_text_contents() == school_menu
+            assert page.locator('#collectionNavigation').get_attribute('aria-label') == 'Koulun aineistoryhmät'
+            assert page.locator('#sectionNavigation a[aria-current="location"]').get_attribute('href') == '/_site/koulu/aineisto/'
+            assert page.locator('#collectionNavigation a[aria-current="page"]').get_attribute('href') == url
+            for link in page.locator('#collectionNavigation a').all():
+                assert link.is_visible() and link.bounding_box()['height'] >= 44
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), url
         page.goto(origin + '/_site/teokset/T-001/')
-        assert page.locator('#sectionNavigation a[aria-current="location"]').get_attribute('href') == '/_site/teokset/'
+        assert page.locator('#collectionNavigation a[aria-current="location"]').get_attribute('href') == '/_site/teokset/'
+        assert page.locator('#sectionNavigation a').all_text_contents() == school_menu
+        assert page.locator('#sectionNavigation a[aria-current="location"]').get_attribute('href') == '/_site/koulu/aineisto/'
         breadcrumb_style = None
         heading_style = None
         for route, labels in [('/olli-poroila/tuntemuksiani/', ['Etusivu','Poroila','Tuntemuksiani']),
