@@ -1,0 +1,28 @@
+---
+layout: layouts/article-page.njk
+pagination:
+  data: schoolView.schoolYears
+  size: 1
+  alias: schoolYear
+permalink: "/koulu/luokat/lukuvuodet/{{ schoolYear.id }}/index.html"
+eleventyComputed:
+  title: "{{ schoolYear.title }} – koulun oma oppilasmääräkooste"
+parent:
+  label: Luokat ja oppilasluettelot
+  url: /koulu/luokat/
+---
+<p>{{ schoolYear.note }}</p>
+<p><a href="{{ ('/koulu/aineisto/' + schoolYear.sourceId + '/') | localUrl }}">Lue koulun koko paikallinen yhteenvetosivu · {{ schoolYear.sourceId }}</a></p>
+<h2>Luokka-asteittaiset määrät</h2>
+<div class="data-table-wrap"><table><thead><tr><th scope="col">Luokka-aste</th><th scope="col">Oppilaita lähteen mukaan</th></tr></thead><tbody>
+{% for grade in schoolYear.grades %}<tr data-grade-count="{{ grade.grade }}"><th scope="row">{{ grade.grade }}. luokka</th><td>{{ grade.pupils }}</td></tr>{% endfor %}
+<tr><th scope="row">Yhteensä</th><td>{{ schoolYear.total }}</td></tr>
+</tbody></table></div>
+<h2>Yhdysluokkien summat lähteen taulukossa</h2>
+<ul>{% for group in schoolYear.combinedGroups %}<li>{{ group.grades | join('–') }}. luokka: {{ group.pupils }} oppilasta</li>{% endfor %}</ul>
+<h2>Nimiluettelot ja oppilastyöt</h2>
+{% if schoolYear.rosters.length %}<ul>{% for group in schoolYear.rosters %}<li><a href="{{ ('/koulu/luokat/' + group.id + '/') | localUrl }}">{{ group.title }}</a></li>{% endfor %}</ul>
+{% else %}<p>Tähän lukuvuoteen ei ole vielä liitetty erikseen varmennettua luokkakohtaista nimiluetteloa. Muun lukuvuoden luetteloa tai koulun yhteistä oppilasvalikkoa ei käytetä sen korvikkeena.</p>{% endif %}
+<p><a href="{{ '/koulu/oppilaiden-sivut/' | localUrl }}">Selaa säilyneitä oppilassivuja</a> · <a href="{{ '/teokset/' | localUrl }}">Teoskatalogi</a>. Kaikkien töiden luokka-astetta tai lukuvuotta ei ole vahvistettu.</p>
+<p>Lähdesivulla oleva valokuva on nimetty vanhaksi yhteiskuvaksi. Sitä ei tässä esitetä tämän lukuvuoden luokkakuvana.</p>
+<details><summary>Lähde ja tarkiste</summary><p>Lähteen oma lukuvuosimerkintä {{ schoolYear.sourcePeriod }} · tallenne {{ schoolYear.source.timestamp | dateStamp }} · SHA-256 <code>{{ schoolYear.sourceSha256 }}</code>.</p></details>

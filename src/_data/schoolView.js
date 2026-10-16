@@ -17,6 +17,9 @@ const pages = archive.pages.map(page => ({
 }));
 module.exports = {
   pages, sections, byId, classes,
+  schoolYears: require('./schoolYears.json').map(year => ({ ...year, source: byId[year.sourceId],
+    rosters: classes.filter(group => group.period === year.period),
+  })),
   imageSets: archive.imageSets,
   imageSetGroups: ['DLC-0080', 'DLC-0081', 'DLC-0082', 'DLC-0083'].map(id => ({
     source: byId[id], sets: archive.imageSets.filter(set => set.sourceId === id),

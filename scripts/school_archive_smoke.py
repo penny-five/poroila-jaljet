@@ -52,6 +52,18 @@ def main():
     check(counterexample['caption'] == 'Paula Savolainen' and all('kuvamuunnos-elsa-' in image['url'] for image in counterexample['images']), 'Image filename was incorrectly used as author evidence')
     poetry = page_file('/olli-poroila/kirjoitukset/').read_text(encoding='utf-8')
     check('/koulu/aineisto/DLC-0315/' in poetry and 'S73' in poetry, 'Poroila poetry source is missing from writings')
+    years = json.loads((ROOT / 'src/_data/schoolYears.json').read_text(encoding='utf-8'))
+    for year in years:
+        source = page_by_id[year['sourceId']]
+        check(year['sourceSha256'] == originals[source['id']]['sha256'] and not source['digestMismatch'], 'Unverified school-year source')
+        check(year['totalEvidence'] in source['text'] and sum(grade['pupils'] for grade in year['grades']) == year['total'], 'School-year total is unsupported or inconsistent')
+        counts = {grade['grade']:grade['pupils'] for grade in year['grades']}
+        for grade in year['grades']:
+            check(grade['evidence'] in source['text'], 'School-year class count lacks source evidence')
+        for combined in year['combinedGroups']:
+            check(sum(counts[grade] for grade in combined['grades']) == combined['pupils'], 'Combined class total is inconsistent')
+        body = page_file('/koulu/luokat/lukuvuodet/'+year['id']+'/').read_text(encoding='utf-8')
+        check(body.count('data-grade-count=') == len(year['grades']) and '/koulu/aineisto/'+source['id']+'/' in body, 'School-year page lacks counts or local source')
     groups = json.loads((ROOT / 'src/_data/school-collections.json').read_text(encoding='utf-8'))
     check(len({group['id'] for group in groups}) == len(groups), 'Duplicate roster IDs')
     for group in groups:
@@ -90,6 +102,10 @@ def main():
     check({m['id'] for m in data['media']} == {f['id'] for f in originals.values() if f['mime_type'].startswith('image/')}, 'School media inventory is stale')
     for route in ['aineisto','koulukuvat','oppilaiden-sivut','luokat','kuva-ja-taidesivut','runot-ja-kirjoitelmat','koulun-sivut']:
         check(page_file('/koulu/'+route+'/').is_file(), f'Missing school section: {route}')
+    roster_index = page_file('/koulu/luokat/').read_text(encoding='utf-8')
+    for source in data['pages']:
+        if source['category'] == 'Luokat ja oppilasluettelot' and source['digestMismatch']:
+            check('data-digest-mismatch="'+source['id']+'"' in roster_index, 'Roster index hides a CDX discrepancy')
     for page in data['pages']:
         target = page_file('/koulu/aineisto/'+page['id']+'/')
         check(target.is_file(), f'Missing reading page: {page["id"]}')

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1999-2000",
+    "title": "Lukuvuosi 1999–2000",
+    "period": "1999–2000",
+    "sourcePeriod": "99/00",
+    "sourceId": "DLC-0181",
+    "sourceSha256": "1f635a16651e271037aabe345652d7361d11110a9c5b87be90736ce388b16213",
+    "total": 61,
+    "totalEvidence": "YHTEENSÄ KOULULLAMME ON 99/00 OPPILAITA 61",
+    "grades": [
+      {
+        "grade": "1",
+        "pupils": 10,
+        "evidence": "1. oppilaita: | 10"
+      },
+      {
+        "grade": "2",
+        "pupils": 5,
+        "evidence": "2. oppilaita: | 5"
+      },
+      {
+        "grade": "3",
+        "pupils": 11,
+        "evidence": "3. oppilaita: | 11"
+      },
+      {
+        "grade": "4",
+        "pupils": 7,
+        "evidence": "4. oppilaita: | 7"
+      },
+      {
+        "grade": "5",
+        "pupils": 19,
+        "evidence": "5. oppilaita: | 19"
+      },
+      {
+        "grade": "6",
+        "pupils": 9,
+        "evidence": "6. oppilaita: | 9"
+      }
+    ],
+    "combinedGroups": [
+      {
+        "grades": [
+          "1",
+          "2"
+        ],
+        "pupils": 15
+      },
+      {
+        "grades": [
+          "3",
+          "4"
+        ],
+        "pupils": 18
+      },
+      {
+        "grades": [
+          "5",
+          "6"
+        ],
+        "pupils": 28
+      }
+    ],
+    "note": "Koulun oman sivun lukuvuodelle 99/00 ilmoittamat luvut. Sivulla mainitaan erikseen vuoden 2000 koulutulokkaita ja oppilassiirtoja, mutta ei kerrota, onko taulukko päivitetty niiden jälkeen. Arkistotallenteen päivä ei ole tilastointipäivä. Sivun yhteinen oppilasvalikko ei ole tämän lukuvuoden tai yksittäisen luokan varmennettu nimiluettelo."
+  }
+]

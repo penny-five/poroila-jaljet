@@ -13,10 +13,10 @@ parent:
   url: /koulu/aineisto/
 ---
 <p><a href="{{ '/koulu/aineisto/' | localUrl }}">Kaikki koulun aineistoryhmät</a> · <a href="{{ '/koulu/koulukuvat/' | localUrl }}">Paikalliset kuvat</a></p>
-{% if section.slug == 'luokat' %}<h2>Lähteistä eritellyt luettelot</h2><ul>{% for group in schoolView.classes %}<li><a href="{{ ('/koulu/luokat/' + group.id + '/') | localUrl }}">{{ group.title | escape }}</a> — {{ group.members.length }} nimeä · {{ group.period | escape }}</li>{% endfor %}</ul><h2>Alkuperäiset luokka- ja luettelosivut</h2>{% endif %}
+{% if section.slug == 'luokat' %}<h2>Lukuvuosien oppilasmääräkoosteet</h2><ul>{% for year in schoolView.schoolYears %}<li><a href="{{ ('/koulu/luokat/lukuvuodet/' + year.id + '/') | localUrl }}">{{ year.title }}</a> — {{ year.total }} oppilasta koulun oman yhteenvedon mukaan</li>{% endfor %}</ul><h2>Lähteistä eritellyt luettelot</h2><ul>{% for group in schoolView.classes %}<li><a href="{{ ('/koulu/luokat/' + group.id + '/') | localUrl }}">{{ group.title | escape }}</a> — {{ group.members.length }} nimeä · {{ group.period | escape }}</li>{% endfor %}</ul><h2>Alkuperäiset luokka- ja luettelosivut</h2>{% endif %}
 {% if section.slug == 'kuva-ja-taidesivut' %}<p><a href="{{ '/koulu/kuva-ja-taidesivut/kuvamuunnokset/' | localUrl }}">Digitaalisen kuvankäsittelyn työt: ensin ja sitten rinnakkain</a></p>{% endif %}
 <div class="data-list">
 {% for item in section.pages %}
-<article class="data-item"><h3><a href="{{ ('/koulu/aineisto/' + item.id + '/') | localUrl }}">{{ item.title | escape }}</a></h3><p class="metadata">{{ item.id }} · {{ item.filename | escape }} · tallenne {{ item.timestamp | dateStamp }}</p><p>{{ item.people.length }} katalogiin yhdistettyä nimimerkintää · {{ item.workIds.length }} eroteltua teosta · {{ item.images.length }} kuvaviitettä</p></article>
+<article class="data-item"><h3><a href="{{ ('/koulu/aineisto/' + item.id + '/') | localUrl }}">{{ item.title | escape }}</a></h3><p class="metadata">{{ item.id }} · {{ item.filename | escape }} · tallenne {{ item.timestamp | dateStamp }}</p>{% if item.digestMismatch %}<p class="metadata" data-digest-mismatch="{{ item.id }}">CDX-tarkistepoikkeama: säilytettyä tallennevastausta ei ole vahvistettu hakemistossa kuvatuksi alkuperäistallenteeksi.</p>{% endif %}<p>{{ item.people.length }} katalogiin yhdistettyä nimimerkintää · {{ item.workIds.length }} eroteltua teosta · {{ item.images.length }} kuvaviitettä</p></article>
 {% endfor %}
 </div>

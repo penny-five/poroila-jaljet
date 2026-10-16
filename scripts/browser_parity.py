@@ -155,6 +155,13 @@ with sync_playwright() as playwright:
             img.evaluate("img => img.loading = 'eager'")
             page.wait_for_function('(img) => img.complete && img.naturalWidth > 0', arg=img.element_handle())
         assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Comparison gallery overflow'
+        page.goto(origin + '/_site/koulu/luokat/')
+        page.get_by_role('link', name='Lukuvuosi 1999–2000', exact=True).click()
+        assert page.locator('[data-grade-count] td').all_text_contents() == ['10','5','11','7','19','9']
+        assert page.locator('[data-roster-person]').count() == 0
+        assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'School-year page overflow'
+        page.get_by_role('link', name='Lue koulun koko paikallinen yhteenvetosivu · DLC-0181').click()
+        assert page.url.endswith('/koulu/aineisto/DLC-0181/')
         page.goto(origin + '/_site/koulu/aikajana/')
         page.get_by_role('button', name='1980-luku', exact=True).click()
         assert page.locator('#schoolTimelineList [data-year]').count() == 2

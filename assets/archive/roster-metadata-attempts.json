@@ -1,0 +1,12 @@
+[
+  {
+    "checked_at": "2026-10-16T09:09:38.835429+00:00",
+    "endpoint": "https://web.archive.org/cdx/search/cdx?url=www.dlc.fi%2F~hyk%2F2-oppilaat.htm&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Clength%2Cdigest&filter=statuscode%3A200&collapse=digest&limit=10",
+    "error": "The read operation timed out"
+  },
+  {
+    "checked_at": "2026-10-16T09:09:51.222432+00:00",
+    "endpoint": "https://web.archive.org/cdx/search/cdx?url=www.dlc.fi%2F~hyk%2F6-oppilaat.htm&output=json&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Clength%2Cdigest&filter=statuscode%3A200&collapse=digest&limit=10",
+    "error": "HTTP Error 503: Service Unavailable"
+  }
+]
