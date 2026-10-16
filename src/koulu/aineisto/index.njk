@@ -1,0 +1,19 @@
+---
+layout: layouts/article-page.njk
+title: Koulun palautetut sivut ja kuvat
+lead: Tutki koulun vanhoja sivuja, oppilastöitä ja valokuvia tässä arkistossa.
+permalink: /koulu/aineisto/index.html
+parent:
+  label: Hyrsylän koulu
+  url: /koulu/
+---
+<p>Arkistossa on nyt {{ schoolView.pageCount }} koulusivun paikallinen lukuteksti ja {{ schoolView.imageCount }} kuvatiedostoa. Alkuperäiset sivuversiot säilyvät erillisinä: sama aihe voi esiintyä eri palvelimilla tai eri vuosina. Kaikkien sivujen kaikkia kuvia ei ole vielä palautettu.</p>
+<div class="data-list">
+<article class="data-item"><h3><a href="{{ '/koulu/koulukuvat/' | localUrl }}">Koulukuvat ja kuvataide</a></h3><p>{{ schoolView.imageCount }} paikallisesti säilytettyä kuvaa, ryhmiteltyinä luokkakuviin, koulutiloihin, oppilassivujen kuviin ja taiteeseen.</p></article>
+{% for section in schoolView.sections %}
+<article class="data-item"><h3><a href="{{ ('/koulu/' + section.slug + '/') | localUrl }}">{{ section.title }}</a></h3><p>{{ section.intro }}</p><p>{{ section.pages.length }} säilynyttä lähdesivua.</p></article>
+{% endfor %}
+</div>
+<p><a href="{{ '/tekijat/' | localUrl }}">Henkilömerkinnät ja tekijät</a> · <a href="{{ '/teokset/' | localUrl }}">Teoskatalogi</a> · <a href="{{ '/verkkoarkisto/alkuperaistiedostot/' | localUrl }}">Alkuperäistiedostojen luettelo</a></p>
+<h3>Koulun historia ja tausta</h3>
+<p><a href="{{ '/koulu/historia/' | localUrl }}">Koulun historia</a> · <a href="{{ '/koulu/aikajana/' | localUrl }}">Koulun aikajana</a> · <a href="{{ '/koulu/muistitieto/' | localUrl }}">Muistitieto</a> · <a href="{{ '/koulu/oppilastyot/' | localUrl }}">Oppilaiden verkkojulkaisun tausta</a> · <a href="{{ '/koulu/myohemmat-vaiheet/' | localUrl }}">Myöhemmät vaiheet</a></p>

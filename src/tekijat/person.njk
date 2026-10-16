@@ -32,6 +32,8 @@ eleventyComputed:
 </div>
 {% endif %}
 
+
+
 {% if person.observations and person.observations.length %}
 <h2>Lähteissä näkyvät merkinnät</h2>
 <ul class="data-list">
@@ -64,4 +66,14 @@ eleventyComputed:
 {% endif %}
 
 <p class="metadata">Tämä sivu kokoaa lähteessä olevat tiedot. Se ei päättele henkilön nykyistä henkilöllisyyttä tai myöhempiä vaiheita.</p>
+{% endif %}
+
+{% set relatedSchoolPages = schoolView.pages | schoolPagesForPerson(person.id) %}
+{% if relatedSchoolPages.length %}
+<section class="archive-page section-pad" data-archive-expansion>
+<h2>Palautetut koulusivut</h2>
+<p>Henkilömerkintään liittyvät paikalliset lähdesivut. Yhteys perustuu samaan nimiasuun tai katalogin lähdeviitteeseen; se ei yksin todista luokkajäsenyyttä tai nykyistä henkilöllisyyttä.</p>
+<ul>{% for item in relatedSchoolPages %}<li><a href="{{ ('/koulu/aineisto/' + item.id + '/') | localUrl }}">{{ item.title | escape }} · {{ item.id }}</a></li>{% endfor %}</ul>
+<p><a href="{{ '/koulu/aineisto/' | localUrl }}">Koulun koko aineisto</a></p>
+</section>
 {% endif %}

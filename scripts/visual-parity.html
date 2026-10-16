@@ -22,7 +22,9 @@ const frameReady=async(frame,url,isOriginal,id)=>{
   // Freeze moving tickers and color transitions at the same state in both
   // frames; the actual site's stylesheets remain untouched.
   const stable=win.document.createElement('style');
-  stable.textContent='*,*::before,*::after{animation:none!important;transition:none!important}';
+  // Newly archived material is checked separately by school_archive_smoke.py.
+  // Hide only additive content blocks while comparing the frozen original layout.
+  stable.textContent='*,*::before,*::after{animation:none!important;transition:none!important}[data-archive-expansion]{display:none!important}';
   win.document.head.append(stable);
   await win.document.fonts.ready;
   await Promise.all([...win.document.images].filter(image=>image.checkVisibility()).map(image=>{
@@ -49,6 +51,27 @@ function differences(a,b){
     if(diff.length>=4)break;
   }
   return diff;
+}
+function compareOriginalContentWithOriginalNavigation(){
+  // The user explicitly requested a new taxonomy. Test the historical content
+  // against an identical navigation shell; the actual new navigation is tested
+  // independently in browser_parity.py before any comparison replaces its DOM.
+  for(const selector of ['.topbar','#sectionNavigation']){
+    const old=original.contentDocument.querySelector(selector);
+    const current=migrated.contentDocument.querySelector(selector);
+    if(old&&current)current.replaceWith(migrated.contentDocument.importNode(old,true));
+  }
+  // Recovery status changes as new originals are saved. Its current data is
+  // asserted separately; use old status wording only for the old layout check.
+  const oldSummaries=[...original.contentDocument.querySelectorAll('.catalog-entry > summary')];
+  const newSummaries=[...migrated.contentDocument.querySelectorAll('.catalog-entry > summary')];
+  newSummaries.forEach((summary,index)=>{
+    const old=oldSummaries[index];
+    if(summary.parentElement.hasAttribute('data-source-record') && old &&
+       summary.querySelector('strong')?.textContent===old.querySelector('strong')?.textContent){
+      summary.querySelector('span').textContent=old.querySelector('span').textContent;
+    }
+  });
 }
 function exercise(frame,id){
   const doc=frame.contentDocument,win=frame.contentWindow;
@@ -82,6 +105,7 @@ async function run(width){
   try{
     for(const [id,route] of Object.entries(routes)){
       await Promise.all([frameReady(original,'../tests/fixtures/original-site/index.html#/'+id,true,id),frameReady(migrated,base+route.replace(/^\//,''),false,id)]);
+      compareOriginalContentWithOriginalNavigation();
       const diff=differences(snapshot(original),snapshot(migrated));
       reports.push({id,width,pass:!diff.length,diff});
       if(exercise(original,id)){
@@ -95,6 +119,7 @@ async function run(width){
       ['person','/tekijat/H-f95b196f07/','H-f95b196f07'],
     ]){
       await Promise.all([frameReady(original,'../tests/fixtures/original-site/index.html#/henkilot/'+id,true,'henkilot'),frameReady(migrated,base+route.replace(/^\//,''),false,'henkilot')]);
+      compareOriginalContentWithOriginalNavigation();
       const diff=differences(snapshot(original),snapshot(migrated));
       reports.push({id:label,width,pass:!diff.length,diff});
     }

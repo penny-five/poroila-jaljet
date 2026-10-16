@@ -67,6 +67,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('legacyGroup', (groups, page) => groups.find((group) => group.pages.includes(page)) || groups[0]);
   eleventyConfig.addFilter('concat', (first = [], second = []) => [...first, ...second]);
   eleventyConfig.addFilter('pathForPerson', (authors, name) => authors.find((author) => author.name === name));
+  eleventyConfig.addFilter('schoolPagesForPerson', (pages, id) => pages.filter(page => page.people.some(person => person.id === id)));
   eleventyConfig.addFilter('sectionForPath', (sections = [], path = '') => sections
     .flatMap((section) => section.prefixes.filter((item) => String(path).startsWith(item)).map((prefixValue) => ({ section, prefixValue })))
     .sort((a, b) => b.prefixValue.length - a.prefixValue.length)[0]?.section);

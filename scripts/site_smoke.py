@@ -115,7 +115,7 @@ def main() -> int:
 
     manifest = json.loads((ROOT / "assets/archive/originals-manifest.json").read_text(encoding="utf-8"))
     saved = manifest["files"]
-    check(len(saved) == manifest["original_file_count"] == 148, "Original-file inventory count changed")
+    check(len(saved) == manifest["original_file_count"] and len(saved) >= 148, "Original-file inventory count inconsistent or baseline lost")
     check(len({item["id"] for item in saved}) == len(saved), "Duplicate exact-copy identifiers")
     for item in saved:
         target = page_file(item["local_path"])
@@ -184,7 +184,7 @@ def main() -> int:
 
     print(
         f"PASS: {len(LEGACY_PAGES)} legacy sections, {len(author_pages)} person pages, "
-        f"{len(work_pages)} work pages, 97 full transcriptions, 148 SHA-256-verified originals, "
+        f"{len(work_pages)} work pages, 97 full transcriptions, {len(saved)} SHA-256-verified originals, "
         f"{checked_links} local links across {len(html_pages)} pages; shared navigation, canonical page routes, original page layouts, controls, person cards, and exact originals are present."
     )
     return 0

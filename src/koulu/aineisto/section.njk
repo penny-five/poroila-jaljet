@@ -1,0 +1,20 @@
+---
+layout: layouts/article-page.njk
+pagination:
+  data: schoolView.sections
+  size: 1
+  alias: section
+permalink: "/koulu/{{ section.slug }}/index.html"
+eleventyComputed:
+  title: "{{ section.title }}"
+  lead: "{{ section.intro }}"
+parent:
+  label: Koulun aineisto
+  url: /koulu/aineisto/
+---
+<p><a href="{{ '/koulu/aineisto/' | localUrl }}">Kaikki koulun aineistoryhmät</a> · <a href="{{ '/koulu/koulukuvat/' | localUrl }}">Paikalliset kuvat</a></p>
+<div class="data-list">
+{% for item in section.pages %}
+<article class="data-item"><h3><a href="{{ ('/koulu/aineisto/' + item.id + '/') | localUrl }}">{{ item.title | escape }}</a></h3><p class="metadata">{{ item.id }} · {{ item.filename | escape }} · tallenne {{ item.timestamp | dateStamp }}</p><p>{{ item.people.length }} katalogiin yhdistettyä nimimerkintää · {{ item.workIds.length }} eroteltua teosta · {{ item.images.length }} kuvaviitettä</p></article>
+{% endfor %}
+</div>

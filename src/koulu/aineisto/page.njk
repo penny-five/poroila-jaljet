@@ -1,0 +1,38 @@
+---
+layout: layouts/article-page.njk
+pagination:
+  data: schoolView.pages
+  size: 1
+  alias: source
+permalink: "/koulu/aineisto/{{ source.id }}/index.html"
+eleventyComputed:
+  title: "{{ source.title | escape }}"
+parent:
+  label: Koulun aineisto
+  url: /koulu/aineisto/
+---
+<p class="metadata">{{ source.id }} · {{ source.filename | escape }} · arkistotallenne {{ source.timestamp | dateStamp }}</p>
+{% if source.digestMismatch %}<p class="notice">Tallennepalvelusta saatu tiedosto on säilytetty muuttamattomana, mutta sen tarkiste poikkeaa arkiston CDX-hakemiston tarkisteesta. Syytä ei ole varmistettu. Tätä kopiota ei ole vahvistettu täsmälleen hakemistossa kuvatuksi alkuperäistallenteeksi.</p>{% endif %}
+<p>Tämä lukusivu on tehty säilyneestä HTML-tiedostosta. Alkuperäiset skriptit ja lomakkeet eivät ole käytössä. Teksti on purettu automaattisesti: taulukot ja kappalejako voivat poiketa alkuperäisestä. Koulun yhteinen oppilasvalikko on siirretty lähdesivun linkkeihin, sillä se ei ole tämän sivun luokan oppilasluettelo. Alkuperäisen tallenteen päivä ei ole sisällön kirjoituspäivä.</p>
+<p><a href="{{ source.localPath | localUrl }}">Säilytetty HTML-tiedosto</a> · <a href="{{ source.archiveUrl | escape }}" rel="noopener noreferrer">Wayback-lähde</a></p>
+<details><summary>Alkuperä ja tarkiste</summary><p>Alkuperäinen osoite: <code>{{ source.originalUrl | escape }}</code></p><p>SHA-256: <code>{{ source.sha256 }}</code> · tulkittu merkistö {{ source.encoding }}</p></details>
+
+{% if source.people.length %}
+<h3>Sivuun liittyvät nimimerkinnät</h3><p>Nimilinkki yhdistää tämän historiallisen lähdehavainnon katalogiin. Se ei yksin vahvista luokkajäsenyyttä tai henkilöllisyyttä muissa lähteissä.</p>
+<ul>{% for person in source.people %}<li><a href="{{ ('/tekijat/' + person.id + '/') | localUrl }}">{{ person.name | escape }}</a> — {{ person.basis | escape }}</li>{% endfor %}</ul>
+{% endif %}
+{% if source.works.length %}<h3>Teoksiksi erotellut sisällöt</h3><ul>{% for work in source.works %}<li><a href="{{ ('/teokset/' + work.id + '/') | localUrl }}">{{ work.title | escape }}</a> — {{ work.authors | join(', ') | escape }}</li>{% endfor %}</ul>{% endif %}
+
+<h3>Lähdesivun teksti</h3>
+{% if source.text %}{% for paragraph in source.text.split('\n\n') %}<p>{{ paragraph | escape }}</p>{% endfor %}{% else %}<p>Tämä on kehys- tai kuvasivu ilman varsinaista lukutekstiä. Katso kuvat ja lähdesivun linkit alta.</p>{% endif %}
+
+{% if source.localImages.length %}<h3>Paikallisesti palautuneet kuvat</h3>
+{% for image in source.localImages %}<figure><a href="{{ image.displayPath | localUrl }}"><img src="{{ image.displayPath | localUrl }}" alt="{{ image.label | escape }}" loading="lazy" style="max-width:100%;height:auto"></a><figcaption>{{ image.label | escape }}. Lähdesivun kuvaviite; kuva on voinut palautua eri arkistotallenteesta kuin HTML.</figcaption></figure>{% endfor %}
+{% endif %}
+{% if source.missingImages.length %}<details><summary>Vielä puuttuvat kuvaviitteet ({{ source.missingImages.length }})</summary><ul>{% for image in source.missingImages %}<li>{{ image.label | escape }} — <code>{{ image.url | escape }}</code></li>{% endfor %}</ul></details>{% endif %}
+
+{% if source.links.length %}<h3>Lähdesivun linkit ja arkistoinnin tilanne</h3><ul>
+{% for link in source.links %}<li>{% if link.readerPath %}<a href="{{ link.readerPath | localUrl }}">{{ link.label | escape }}</a> — paikallinen lukusivu{% elif link.localPath %}<a href="{{ link.localPath | localUrl }}">{{ link.label | escape }}</a> — paikallinen tiedosto{% else %}{{ link.label | escape }} — vain lähdeviite, ei paikallista kopiota{% endif %}{% if link.sourceId %} · {{ link.sourceId }}{% endif %}<details><summary>Alkuperäinen linkki</summary><a href="{{ link.url | escape }}" rel="noopener noreferrer">{{ link.url | escape }}</a></details></li>{% endfor %}
+</ul>{% endif %}
+{% if source.incoming.length %}<h3>Tähän sivuun viittaavat säilyneet sivut</h3><ul>{% for item in source.incoming %}<li><a href="{{ ('/koulu/aineisto/' + item.id + '/') | localUrl }}">{{ item.title | escape }} · {{ item.id }}</a></li>{% endfor %}</ul>{% endif %}
+<p><a href="{{ '/koulu/aineisto/' | localUrl }}">Takaisin koulun aineistoon</a></p>

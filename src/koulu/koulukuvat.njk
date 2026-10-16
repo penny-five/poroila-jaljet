@@ -1,0 +1,18 @@
+---
+layout: layouts/article-page.njk
+title: Koulukuvat ja kuvataide
+lead: Paikallisesti säilytetyt luokkakuvat, koulutilat, oppilassivujen kuvat ja kuvataide.
+permalink: /koulu/koulukuvat/index.html
+parent:
+  label: Koulun aineisto
+  url: /koulu/aineisto/
+---
+<p>{{ schoolView.imageCount }} kuvaa on tallennettu tähän arkistoon. Kuvat latautuvat paikallisista tiedostoista. Ryhmittely perustuu lähdepolkuun ja sivuyhteyteen; se ei ole kuvassa esiintyvien henkilöiden tunnistus. Tiedostonimen vuosiluku ja arkistotallenteen päivä eivät yksin vahvista kuvausajankohtaa.</p>
+<p><a href="{{ '/koulu/aineisto/DLC-0129/' | localUrl }}">Koulun oma vanhojen luokkakuvien hakemisto: lukuvuodet ja kuvaviitteet</a> · <a href="{{ '/koulu/luokat/' | localUrl }}">Luokat ja oppilasluettelot</a> · <a href="{{ '/koulu/kuva-ja-taidesivut/' | localUrl }}">Kuva- ja taidesivujen hakemistot</a></p>
+<ul>{% for group in schoolView.mediaGroups %}<li><a href="#ryhma-{{ loop.index }}">{{ group.title }} ({{ group.images.length }})</a></li>{% endfor %}</ul>
+{% for group in schoolView.mediaGroups %}<h3 id="ryhma-{{ loop.index }}">{{ group.title }}</h3><div class="data-list">
+{% for image in group.images %}<article class="data-item" id="{{ image.id }}"><h4>{{ image.filename | escape }}</h4>
+<figure><a href="{{ image.displayPath | localUrl }}"><img src="{{ image.displayPath | localUrl }}" alt="Arkistotiedosto {{ image.filename | escape }}" loading="lazy" style="max-width:100%;max-height:32rem;width:auto;height:auto"></a><figcaption>{{ image.id }} · arkistotallenne {{ image.timestamp | dateStamp }}. Avaa kuva alkuperäisessä koossa napsauttamalla.</figcaption></figure>
+{% if image.uses.length %}<p>Lähdesivujen kuvaviitteet:</p><ul>{% for use in image.uses %}<li><a href="{{ ('/koulu/aineisto/' + use.pageId + '/') | localUrl }}">{{ use.pageId }}</a> — lähteen linkkiteksti, ALT-teksti tai tiedostonimi: {{ use.label | escape }}{% if use.periodLabel %} · lähteen otsikko: {{ use.periodLabel | escape }}{% endif %}</li>{% endfor %}</ul>{% endif %}
+<p><a href="{{ image.localPath | localUrl }}">Säilytetty alkuperäistiedosto</a> · <a href="{{ image.archiveUrl | escape }}" rel="noopener noreferrer">Arkistolähde</a></p></article>{% endfor %}
+</div>{% endfor %}

@@ -15,6 +15,8 @@ Avaa Eleventyn ilmoittama osoite. `pnpm build` tyhjentää vain `_site/`-hakemis
 
 ## Mistä mitäkin muokataan
 
+Aineistoa täydentäville agenteille: [AGENTS.md](AGENTS.md) kuvaa sivuston osiot ja toteutuksen. [Sisällönkeruun ohje](docs/content-collection.md) määrittää koulukuvien, oppilassivujen, luetteloiden ja töiden tavoitehierarkian sekä uusien löytöjen arkistoinnin ja linkityksen.
+
 | Hakemisto | Tarkoitus |
 | --- | --- |
 | `src/content/` ja aihehakemistot | Sivujen tekstit, osoitteet ja sivukohtainen metadata |
@@ -33,9 +35,13 @@ Avaa Eleventyn ilmoittama osoite. `pnpm build` tyhjentää vain `_site/`-hakemis
 
 Katalogin metatietojen lähde on `assets/archive/hyk-katalogi.json`. `catalog.js` yhdistää tietueet pohjille; samaa henkilöä ei poimita HTML:stä. Kenttä `catalog_status` säilyttää julkaistun luettelotekstin niissä 12 tietueessa, joiden tutkimusmerkintä `status` oli myöhemmin muuttunut.
 
-`src/_data/work-texts.json` sisältää 97 palautuneen teoksen kokotekstit. Kaikilla 98 teosmerkinnällä on oma sivu. `assets/archive/originals/` sisältää 148 tarkkaa arkistokopiota, joiden lähteet ja SHA-256-tarkisteet ovat `originals-manifest.json`-tiedostossa. Git säilyttää alkuperäistiedostojen tavut ilman rivinvaihtomuunnoksia.
+`src/_data/work-texts.json` sisältää 97 palautuneen teoksen kokotekstit. Kaikilla 98 teosmerkinnällä on oma sivu. `assets/archive/originals/` sisältää alkuperäisen 148 tiedoston tutkimuspaketin sekä uudet arkistohaut. Lähteet ja SHA-256-tarkisteet ovat `originals-manifest.json`-tiedostossa. Uusien hakujen CDX-tarkistevertailu kirjataan tiedostokohtaisesti; poikkeava vastaus säilytetään varmistamattomana ja merkitään lukusivulla. Git säilyttää tiedostojen tavut ilman rivinvaihtomuunnoksia.
 
-Navigaatio määritellään `navigation.js`- ja `originalNavigation.json`-tiedostoissa. `legacyRoutes.json` ja `src/scripts/bookmarks.js` säilyttävät vanhojen `#/...`-kirjanmerkkien toiminnan. `routeAliases.json` tuottaa uudelleenohjaukset siirrettyjen sivujen vanhoista osoitteista ja pitää sisäiset linkit kanonisina. Kartta ja hypoteesit ovat `/olli-poroila/`-osiossa, entisten oppilaiden myöhemmät vaiheet `/koulu/`-osiossa. Historialliset ulkoiset `~hyk`-osoitteet ovat alkuperäisiä lähdeviitteitä.
+Päävalikko on Etusivu, Koulu, Poroila, Verkkoarkisto sekä Lähteet ja tutkimus. Koulu omistaa myös `/tekijat/`- ja `/teokset/`-sivujen navigaation. Fiktio on Lähteet ja tutkimus -osion alasivu. Yhteinen navigaatio määritellään `navigation.js`-tiedostossa; `originalNavigation.json` säilyttää vanhojen näkymien nimet. `legacyRoutes.json` ja `src/scripts/bookmarks.js` säilyttävät vanhojen `#/...`-kirjanmerkkien toiminnan. `routeAliases.json` tuottaa uudelleenohjaukset siirrettyjen sivujen vanhoista osoitteista ja pitää sisäiset linkit kanonisina. Kartta ja hypoteesit ovat `/olli-poroila/`-osiossa, entisten oppilaiden myöhemmät vaiheet `/koulu/`-osiossa. Historialliset ulkoiset `~hyk`-osoitteet ovat alkuperäisiä lähdeviitteitä.
+
+Koulun aihekohtainen aineistohakemisto on `/koulu/aineisto/`: kuvat, oppilassivut, luokat ja luettelot, runokokoelmat, taidesivut ja muu kouluaineisto. Paikalliset lukusivut generoidaan säilytetyistä HTML-tiedostoista `schoolArchive.json`-aineistoon komennolla `python tools/research/build_school_archive.py`. `schoolView.js` yhdistää ne henkilöihin, teoksiin ja toisiinsa. Koulun yhteisen oppilasvalikon nimiä ei käsitellä yksittäisen luokan oppilasluettelona. Lukusivut eivät suorita historiallisia skriptejä eivätkä tarvitse Waybackia tekstin tai palautettujen kuvien näyttämiseen.
+
+`python tools/research/recover_school_links.py --limit 20` hakee rajatun erän katalogin tunnetuista tallenteista, joihin säilyneet sivut linkittävät. `--retry` yrittää uudelleen aiemmin epäonnistuneita hakuja. Työkalu päivittää manifestin ja katalogin ja kirjaa kaikki yritykset `assets/archive/recovery-attempts.json`-tiedostoon. Aja sen jälkeen aineistogeneraattori uudelleen. Varmista aina build ja alla olevat tarkistukset ennen julkaisua.
 
 ## Tarkistukset
 
@@ -43,6 +49,7 @@ Buildin jälkeen:
 
 ```sh
 python scripts/site_smoke.py
+python scripts/school_archive_smoke.py
 ```
 
 Tarkistus varmistaa sivut, sisäiset linkit, kokotekstit, arkistokopioiden tarkisteet ja HTML:ään valmiiksi rakennetut aikajanat, lähteet sekä korkkitaulun kortit. Koko tutkimusdataa ei lähetetä jokaisen sivun mukana. JavaScript lisää suodatuksen, valinnat ja muut kontrollit.
@@ -57,7 +64,7 @@ python -m http.server 8765 --bind 127.0.0.1
 
 Avaa `http://localhost:8765/scripts/visual-parity.html` ja käynnistä desktop- ja mobiilivertailu. Vertailu tarkistaa näkyvät tekstit, elementtijärjestyksen, sijainnit, mitat ja lasketut tyylit 1440 ja 390 pikselin leveyksillä. Se odottaa kuvat ja fontit sekä pysäyttää animaatiot samalla tavalla molemmissa testikehyksissä. Alkuperäistä vertailukappaletta ei muokata sivuston kehityksen mukana.
 
-Automaattinen ajo on `python scripts/browser_parity.py` (vaatii Playwrightin ja Chromiumin). Ainoa GitHub Actions -työnkulku on `.github/workflows/pages.yml`: se tarkistaa ulkoasun ja toiminnan ennen julkaisua. Vanhat tutkimusajot on poistettu.
+Automaattinen ajo on `python scripts/browser_parity.py` (vaatii Playwrightin ja Chromiumin; paikallisen selaimen polun voi antaa `BROWSER_EXECUTABLE`-muuttujalla). Uusi navigaatio, aktiiviset osiot, henkilöiden paluulinkit ja koko paikallinen kuvagalleria tarkistetaan erikseen molemmilla leveyksillä. Historiallisten sisältöjen vertailu käyttää testissä vanhaa navigaatiorunkoa ja palautustilatekstejä; lisätyt aineistolohkot piilotetaan vain tässä vertailussa. Julkaistulla sivulla ovat aina uudet valikot, ajantasainen palautustila ja uudet aineistot. Ainoa GitHub Actions -työnkulku on `.github/workflows/pages.yml`: se tarkistaa ulkoasun ja toiminnan ennen julkaisua. Vanhat tutkimusajot on poistettu.
 
 ## Julkaisu
 
