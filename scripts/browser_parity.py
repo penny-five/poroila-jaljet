@@ -40,6 +40,14 @@ with sync_playwright() as playwright:
         card = page.locator('[data-work-record="'+work['id']+'"]')
         assert card.locator('summary strong').text_content() == work['title']
         assert card.locator('a[href="/_site/teokset/'+work['id']+'/"]').count() == 1
+    recovered = page.locator('[data-work-record="T-098"]')
+    assert 'Kokoteksti paikallisessa arkistossa' in recovered.text_content()
+    page.goto(origin + '/_site/teokset/T-098/')
+    assert 'Pontus oli kymmenenvuotias pikkupiru.' in page.locator('.work-copy').text_content()
+    page.get_by_role('link', name='aiemmin säilyneessä kirjoitelmaluettelossa').click()
+    assert page.url.endswith('/koulu/aineisto/HYK-020/')
+    assert page.locator('a[href="/_site/teokset/T-098/"]').count() >= 1
+    page.goto(origin + '/_site/teokset/')
     page.locator('[data-catalog-search]').fill('LAIVAMATKA')
     assert page.locator('[data-work-record]:visible').count() == 1
     assert page.locator('[data-catalog-count]').text_content().strip() == f'1 / {len(catalog["works"])} merkintää'

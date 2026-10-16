@@ -108,6 +108,11 @@ function compareOriginalContentWithOriginalNavigation(){
     const old=root.querySelector('a[href="#/tuotokset"]'),current=migrated.contentDocument.querySelector('[data-work-total-link]');
     if(old&&current)current.textContent=old.textContent;
   }
+  // T-098 now has a recovered full text. Its live source chain is verified in
+  // browser_parity.py; compare the historical card geometry with its old caption.
+  const recovered=migrated.contentDocument.querySelector('[data-work-record="T-098"] summary');
+  const oldRecovered=[...original.contentDocument.querySelectorAll('#workCatalog summary')].find(summary=>summary.querySelector('strong')?.textContent==='Pontus-piru');
+  if(recovered&&oldRecovered)recovered.querySelector('span').textContent=oldRecovered.querySelector('span').textContent;
   const oldSummaries=[...original.contentDocument.querySelectorAll('.catalog-entry > summary')];
   const oldByLabel=new Map(oldSummaries.map(summary=>[summary.querySelector('strong')?.textContent,summary]));
   const oldByRecord=new Map([...original.contentDocument.querySelectorAll('#dlcCatalog > .catalog-entry')].map(card=>[card.textContent.match(/DLC-[0-9]{4}/)?.[0],card.querySelector('summary')]));

@@ -191,7 +191,7 @@ def build():
                       "originalUrl": f["original_url"], "archiveUrl": f["archive_url"], "timestamp": f["timestamp"],
                       "localPath": f["local_path"], "sha256": f["sha256"], "links": links, "images": images,
                       "digestMismatch": f.get('capture_digest_match') is False,
-                      "people": people, "workIds": [w["id"] for w in catalog["works"] if w["page"] == f["id"]]})
+                      "people": people, "workIds": [w["id"] for w in catalog["works"] if w["page"] == f["id"] or w.get("previousSourceId") == f["id"]]})
     media = []
     for f in school_files:
         if not f["mime_type"].startswith("image/"):

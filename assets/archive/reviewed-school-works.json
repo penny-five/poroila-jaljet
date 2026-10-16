@@ -300,5 +300,89 @@
     ],
     "authorHeading": "Jenna Paukkio:",
     "genre": "kertomus"
+  },
+  {
+    "id": "T-129",
+    "sourceId": "DLC-0478",
+    "title": "AJOKOIRA, JOKA EI AJANUT",
+    "authors": [
+      "Henna Berg"
+    ],
+    "authorHeading": "Henna Berg:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-130",
+    "sourceId": "DLC-0479",
+    "title": "LUMIKOT",
+    "authors": [
+      "Henna Berg"
+    ],
+    "authorHeading": "Henna Berg:",
+    "genre": "tietokirjoitelma"
+  },
+  {
+    "id": "T-131",
+    "sourceId": "DLC-0480",
+    "title": "NUKKUMATIN UNITOMUPULMA",
+    "authors": [
+      "Henna Berg"
+    ],
+    "authorHeading": "Henna Berg:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-132",
+    "sourceId": "DLC-0495",
+    "title": "BOA- JA PYTONKÄÄRMEET",
+    "authors": [
+      "Ira Ristimäki"
+    ],
+    "authorHeading": "Ira Ristimäki:",
+    "genre": "tietokirjoitelma"
+  },
+  {
+    "id": "T-133",
+    "sourceId": "DLC-0507",
+    "title": "VIIKINGIT",
+    "authors": [
+      "Jaakko Virta"
+    ],
+    "authorHeading": "Jaakko Virta:",
+    "genre": "tietokirjoitelma"
+  },
+  {
+    "id": "T-134",
+    "sourceId": "DLC-0589",
+    "title": "KÄÄPIÖHAMSTERI KARKAA",
+    "authors": [
+      "Jenni Laakso"
+    ],
+    "authorHeading": "Jenni Laakso:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-135",
+    "sourceId": "DLC-0590",
+    "title": "KÄÄPIÖHAMSTERIT",
+    "authors": [
+      "Jenni Laakso"
+    ],
+    "authorHeading": "Jenni Laakso:",
+    "genre": "tietokirjoitelma"
+  },
+  {
+    "id": "T-098",
+    "sourceId": "DLC-0481",
+    "title": "Pontus-piru",
+    "sourceTitle": "PONTUS-PIRU",
+    "authors": [
+      "Henna Berg"
+    ],
+    "authorHeading": "Henna Berg:",
+    "genre": "kertomus",
+    "previousSourceId": "HYK-020",
+    "period": "Luettelossa 5.11.1998; kokotekstissä ei päiväystä",
+    "previousLinkUrl": "http://www.saunalahti.fi:80/~hyk/oppilas-henna-berg-kirjoitelma-pontus.htm"
   }
 ]

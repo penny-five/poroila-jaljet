@@ -6,6 +6,7 @@ Original files are never edited. Run build_school_archive.py after this import.
 from __future__ import annotations
 import hashlib
 import json
+from urllib.parse import urlsplit
 from build_school_archive import ROOT, load
 
 
@@ -27,17 +28,25 @@ def main():
         raw = (ROOT / original['local_path'].lstrip('/')).read_bytes()
         assert hashlib.sha256(raw).hexdigest() == source['sha256'] == original['sha256']
         lines = source['text'].split('\n\n')
-        assert lines[:2] == [selection['authorHeading'], selection['title']], selection['sourceId']
+        assert lines[:2] == [selection['authorHeading'], selection.get('sourceTitle', selection['title'])], selection['sourceId']
         assert len(lines) > 3, 'Source must contain the actual work, not just a link'
         record = {
             'id': selection['id'], 'title': selection['title'], 'authors': selection['authors'],
-            'genre': selection['genre'], 'period': 'Ei päiväystä lähdesivulla', 'page': source['id'],
+            'genre': selection['genre'], 'period': selection.get('period', 'Ei päiväystä lähdesivulla'), 'page': source['id'],
             'status': 'Kokoteksti paikallisessa arkistossa',
             'note': 'Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.',
             'reviewedSourceSha256': source['sha256'],
+            **({'previousSourceId': selection['previousSourceId']} if selection.get('previousSourceId') else {}),
         }
         if record['id'] in works:
-            assert works[record['id']]['page'] == source['id'], 'Existing ID belongs to another work'
+            assert works[record['id']]['page'] in {source['id'], selection.get('previousSourceId')}, 'Existing ID belongs to another work'
+            if selection.get('previousSourceId'):
+                previous = sources[selection['previousSourceId']]
+                assert any(link['url'] == selection['previousLinkUrl'] and link['label'].casefold() == selection['title'].casefold() for link in previous['links']), 'Previous listing must contain the reviewed work link and title'
+                assert urlsplit(selection['previousLinkUrl']).path == urlsplit(source['originalUrl']).path, 'Recovered work path differs from reviewed listing'
+                assert works[record['id']]['title'].casefold() == selection['title'].casefold(), 'Existing title differs from recovered work'
+                assert works[record['id']]['authors'] == selection['authors'], 'Recovered attribution differs from original entry'
+                record['note'] += ' Aiempi luettelolähde ' + selection['previousSourceId'] + '; kokoteksti palautettu DLC-tallenteesta.'
             works[record['id']].update(record)
         else:
             catalog['works'].append(record)

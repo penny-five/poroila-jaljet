@@ -1,6 +1,6 @@
 # Kouluaineiston keruu ja julkaiseminen
 
-Tämä ohje määrittää sisältötyön menetelmät. Lähtöinventaario on tarkistettu 16.10.2026. Ensimmäiset aihekohtaiset koonnit, paikalliset HTML-lukusivut, kuvagalleria ja henkilösivujen paluulinkit on sittemmin toteutettu; katso [ensimmäisen erän raportti](research/2026-10-16-kouluaineisto.md). Luetteloiden tietomalli ja ensimmäiset 30 uutta kirjoitelmaa on toteutettu; katso [teos- ja luetteloerän raportti](research/2026-10-16-teokset-ja-luettelot.md). Jäljellä olevan aineiston erottelu jatkuu.
+Tämä ohje määrittää sisältötyön menetelmät. Lähtöinventaario on tarkistettu 16.10.2026. Ensimmäiset aihekohtaiset koonnit, paikalliset HTML-lukusivut, kuvagalleria ja henkilösivujen paluulinkit on sittemmin toteutettu; katso [ensimmäisen erän raportti](research/2026-10-16-kouluaineisto.md). Luetteloiden tietomalli ja ensimmäiset 30 uutta kirjoitelmaa on toteutettu; katso [teos- ja luetteloerän raportti](research/2026-10-16-teokset-ja-luettelot.md). Uudemmat oppilassivut, kuvat ja Pontus-pirun palautus on kuvattu [jatkoerän raportissa](research/2026-10-16-oppilassivut-ja-pontus.md). Jäljellä olevan aineiston erottelu jatkuu.
 
 ## Lähtötilanne ennen sisältövaihetta
 

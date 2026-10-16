@@ -28,6 +28,13 @@ def main():
         check(work['id'] in source['workIds'], f'Work missing from source reader: {work["id"]}')
         body = page_file('/teokset/'+work['id']+'/').read_text(encoding='utf-8')
         check('/koulu/aineisto/'+source['id']+'/' in body, f'Missing local work source link: {work["id"]}')
+        if selection.get('previousSourceId'):
+            previous = page_by_id[selection['previousSourceId']]
+            check(work['id'] in previous['workIds'], 'Recovered work lost its original listing relationship')
+            check(any(link['url'] == selection['previousLinkUrl'] and link['label'].casefold() == work['title'].casefold() for link in previous['links']), 'Recovered work does not match the reviewed listing link')
+            check('/koulu/aineisto/'+previous['id']+'/' in body, 'Recovered work lost its previous-source link')
+            check(not source['digestMismatch'] and bool(texts[work['id']]['text']), 'Recovered text is missing or unverified')
+
     groups = json.loads((ROOT / 'src/_data/school-collections.json').read_text(encoding='utf-8'))
     check(len({group['id'] for group in groups}) == len(groups), 'Duplicate roster IDs')
     for group in groups:

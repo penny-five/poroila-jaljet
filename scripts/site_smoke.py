@@ -136,7 +136,7 @@ def main() -> int:
         check(match is not None, f"Full transcription block missing on {work_id}")
         check(unescape(match.group(1)).strip() == work_text["text"].strip(), f"Transcription differs from source data on {work_id}")
     check(len({work['id'] for work in archive['works']}) == len(archive['works']), 'Duplicate work IDs')
-    check((SITE / "teokset/T-098/index.html").is_file(), "Unrecovered work needs its catalog page")
+    check((SITE / "teokset/T-098/index.html").is_file(), "Previously incomplete work must retain its permanent catalog page")
 
     author_pages = list((SITE / "tekijat").glob("H-*/index.html"))
     work_pages = list((SITE / "teokset").glob("T-*/index.html"))

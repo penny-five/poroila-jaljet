@@ -21,6 +21,7 @@ eleventyComputed:
 {% endfor %}
 </ul>
 
+{% if work.previousSourceId %}<p>Teos on mainittu myös <a href="{{ ('/koulu/aineisto/' + work.previousSourceId + '/') | localUrl }}">aiemmin säilyneessä kirjoitelmaluettelossa</a>. Kokoteksti on palautettu alla yksilöidystä DLC-tallenteesta; eri palvelimien tallenteet säilyvät erillisinä lähteinä.</p>{% endif %}
 {% if work.note %}<p>{{ work.note }}</p>{% endif %}
 <p class="metadata">Katalogimerkintä {{ work.id }} · {{ work.status }} · lähdesivu {{ work.page }}</p>
 {% if work.sourcePage %}
