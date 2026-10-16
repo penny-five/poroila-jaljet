@@ -125,7 +125,8 @@ def main() -> int:
 
     work_texts = json.loads((ROOT / "src/_data/work-texts.json").read_text(encoding="utf-8"))
     full_texts = {work_id: item for work_id, item in work_texts.items() if item.get("text")}
-    check(len(work_texts) == 98 and len(full_texts) == 97, f"Expected 97 complete texts among 98 catalog entries, found {len(full_texts)}")
+    check(set(work_texts) == {work['id'] for work in archive['works']}, 'Work text inventory differs from catalogue')
+    check(len(work_texts) >= 98 and len(full_texts) >= 97, 'Baseline work texts were lost')
     for work_id, work_text in full_texts.items():
         target = SITE / "teokset" / work_id / "index.html"
         check(target.is_file(), f"Work page missing: {work_id}")
@@ -134,7 +135,7 @@ def main() -> int:
         match = re.search(r'<pre class="work-copy">([\s\S]*?)</pre>', body)
         check(match is not None, f"Full transcription block missing on {work_id}")
         check(unescape(match.group(1)).strip() == work_text["text"].strip(), f"Transcription differs from source data on {work_id}")
-    check(len(archive["works"]) == 98, "Unexpected work catalog size")
+    check(len({work['id'] for work in archive['works']}) == len(archive['works']), 'Duplicate work IDs')
     check((SITE / "teokset/T-098/index.html").is_file(), "Unrecovered work needs its catalog page")
 
     author_pages = list((SITE / "tekijat").glob("H-*/index.html"))
@@ -196,7 +197,7 @@ def main() -> int:
 
     print(
         f"PASS: {len(LEGACY_PAGES)} legacy sections, {len(author_pages)} person pages, "
-        f"{len(work_pages)} work pages, 97 full transcriptions, {len(saved)} SHA-256-verified originals, "
+        f"{len(work_pages)} work pages, {len(full_texts)} full transcriptions, {len(saved)} SHA-256-verified originals, "
         f"{checked_links} local links across {len(html_pages)} pages; shared navigation, canonical page routes, original page layouts, controls, person cards, and exact originals are present."
     )
     return 0

@@ -8,10 +8,10 @@ test('the introduction is the Poroila owner, without duplicate ancestors', () =>
   ]);
 });
 test('works belong to school and retain the work index as a parent', () => {
-  assert.deepEqual(breadcrumbs('/teokset/T-001/', { title: 'Ignored title', work: { title: 'MUTANAAMIO' }, parent: { label: 'Oppilaiden teokset', url: '/teokset/' } }).map(item => item.label), ['Etusivu', 'Koulu', 'Teokset', 'MUTANAAMIO']);
+  assert.deepEqual(breadcrumbs('/teokset/T-001/', { title: 'Ignored title', work: { title: 'MUTANAAMIO' }, parent: { label: 'Oppilaiden teokset', url: '/teokset/' } }).map(item => item.label), ['Etusivu', 'Koulu', 'Koulun aineisto', 'Teoskatalogi', 'MUTANAAMIO']);
 });
 test('person pages use their person name rather than a generic legacy page name', () => {
-  assert.deepEqual(breadcrumbs('/tekijat/H-123/', { title: 'Henkilömerkintä — HYRSYLÄ / JÄLJET', person: { name: 'Aila Rantanen' }, parent: { label: 'Tekijät', url: '/tekijat/' } }).map(item => item.label), ['Etusivu', 'Koulu', 'Henkilöt ja tekijät', 'Aila Rantanen']);
+  assert.deepEqual(breadcrumbs('/tekijat/H-123/', { title: 'Henkilömerkintä — HYRSYLÄ / JÄLJET', person: { name: 'Aila Rantanen' }, parent: { label: 'Tekijät', url: '/tekijat/' } }).map(item => item.label), ['Etusivu', 'Koulu', 'Koulun aineisto', 'Henkilöt ja tekijät', 'Aila Rantanen']);
 });
 test('home has no redundant trail; owner landing pages have no duplicate owner', () => {
   assert.deepEqual(breadcrumbs('/', { title: 'Etusivu' }), []);

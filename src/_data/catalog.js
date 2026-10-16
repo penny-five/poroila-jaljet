@@ -9,14 +9,14 @@ const originalById = new Map(originals.files.map((file) => [file.id, file]));
 const pages = archive.pages.map((page) => ({ ...page, localCopy: originalById.get(page.id) || null }));
 const pageById = new Map(pages.map((page) => [page.id, page]));
 const recordByName = new Map(archive.people.map((person) => [person.name, person]));
+const dlcRecords = archive.dlc_records.map((record) => ({ ...record, localCopy: originalById.get(record.id) || null }));
+const documentById = new Map(dlcRecords.map((record) => [record.id, record]));
 const works = archive.works.map((work) => ({
   ...work,
-  sourcePage: pages.find((page) => page.id === work.page) || null,
+  sourcePage: pageById.get(work.page) || documentById.get(work.page) || null,
   fullText: workTexts[work.id] || null,
 }));
 const workById = new Map(works.map((work) => [work.id, work]));
-const dlcRecords = archive.dlc_records.map((record) => ({ ...record, localCopy: originalById.get(record.id) || null }));
-const documentById = new Map(dlcRecords.map((record) => [record.id, record]));
 const allWorksByName = new Map();
 
 for (const work of works) {

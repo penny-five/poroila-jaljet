@@ -1,3 +1,12 @@
+const schoolSections = require('./schoolSections.json');
+const schoolCollections = [
+  { label: 'Aineiston alku', url: '/koulu/aineisto/', prefix: '/koulu/aineisto/' },
+  { label: 'Koulukuvat ja kuvataide', url: '/koulu/koulukuvat/', prefix: '/koulu/koulukuvat/' },
+  ...schoolSections.map(section => ({ label: section.title, url: `/koulu/${section.slug}/`, prefix: `/koulu/${section.slug}/` })),
+  { label: 'Henkilöt ja tekijät', url: '/tekijat/', prefix: '/tekijat/' },
+  { label: 'Teoskatalogi', url: '/teokset/', prefix: '/teokset/' },
+];
+
 module.exports = {
   original: require('./originalNavigation.json'),
   primary: [
@@ -8,6 +17,14 @@ module.exports = {
     { id: 'lahteet', label: 'Lähteet ja tutkimus', url: '/lahteet/', prefixes: ['/lahteet/', '/tutkimus/', '/fiktiot/'] },
   ],
   sections: [
+    {
+      label: 'Koulun aineistoryhmät',
+      home: { label: 'Koulun aineisto', url: '/koulu/aineisto/' },
+      parent: { label: 'Koulu', url: '/koulu/' },
+      collection: true,
+      prefixes: schoolCollections.map(item => item.prefix),
+      links: schoolCollections,
+    },
     {
       label: 'Verkkoarkisto ja aineistokatalogi',
       prefixes: ['/verkkoarkisto/'],
@@ -22,16 +39,14 @@ module.exports = {
     },
     {
       label: 'Koulun alasivut',
-      prefixes: ['/koulu/', '/tekijat/', '/teokset/'],
+      prefixes: ['/koulu/'],
       links: [
         { label: 'Hyrsylän koulu', url: '/koulu/' },
         { label: 'Koulun aineisto', url: '/koulu/aineisto/' },
-        { label: 'Koulukuvat', url: '/koulu/koulukuvat/' },
-        { label: 'Oppilaiden sivut', url: '/koulu/oppilaiden-sivut/' },
-        { label: 'Luokat ja luettelot', url: '/koulu/luokat/' },
-        { label: 'Henkilöt ja tekijät', url: '/tekijat/', prefix: '/tekijat/' },
-        { label: 'Teokset', url: '/teokset/', prefix: '/teokset/' },
         { label: 'Koulun historia', url: '/koulu/historia/' },
+        { label: 'Aikajana', url: '/koulu/aikajana/' },
+        { label: 'Muistitieto', url: '/koulu/muistitieto/' },
+        { label: 'Myöhemmät vaiheet', url: '/koulu/myohemmat-vaiheet/' },
       ],
     },
     {

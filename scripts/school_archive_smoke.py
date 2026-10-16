@@ -15,6 +15,34 @@ def main():
     originals = {f['id']: f for f in manifest['files'] if 'Hyrsylän koulu' in f['collection']}
     records = {r['id'] for r in catalog['pages'] + catalog['dlc_records']}
     people = {p['id'] for p in catalog['people']}
+    work_by_id = {work['id']: work for work in catalog['works']}
+    page_by_id = {page['id']: page for page in data['pages']}
+    texts = json.loads((ROOT / 'src/_data/work-texts.json').read_text(encoding='utf-8'))
+    selections = json.loads((ROOT / 'assets/archive/reviewed-school-works.json').read_text(encoding='utf-8'))
+    for selection in selections:
+        work = work_by_id[selection['id']]
+        source = page_by_id[selection['sourceId']]
+        check(work['title'] == selection['title'] and work['authors'] == selection['authors'], f'Reviewed attribution changed: {work["id"]}')
+        check(texts[work['id']]['text'] == source['text'].replace('\n\n','\n'), f'Reviewed text differs from source: {work["id"]}')
+        check(work['reviewedSourceSha256'] == originals[source['id']]['sha256'], f'Stale reviewed work: {work["id"]}')
+        check(work['id'] in source['workIds'], f'Work missing from source reader: {work["id"]}')
+        body = page_file('/teokset/'+work['id']+'/').read_text(encoding='utf-8')
+        check('/koulu/aineisto/'+source['id']+'/' in body, f'Missing local work source link: {work["id"]}')
+    groups = json.loads((ROOT / 'src/_data/school-collections.json').read_text(encoding='utf-8'))
+    check(len({group['id'] for group in groups}) == len(groups), 'Duplicate roster IDs')
+    for group in groups:
+        source = page_by_id[group['sourceId']]
+        check(group['sourceSha256'] == originals[source['id']]['sha256'], f'Stale roster: {group["id"]}')
+        check(not source['digestMismatch'], f'Unverified roster source: {group["id"]}')
+        body = page_file('/koulu/luokat/'+group['id']+'/').read_text(encoding='utf-8')
+        check(body.count('data-roster-person=') == len(group['members']), f'Roster members missing: {group["id"]}')
+        for member in group['members']:
+            check(member['sourceName'] in source['text'] and member['evidence'] in source['text'], f'Unsupported roster name: {member["sourceName"]}')
+            check(member['personId'] in people, f'Unknown roster person: {member["personId"]}')
+            person_body = page_file('/tekijat/'+member['personId']+'/').read_text(encoding='utf-8')
+            check('/koulu/luokat/'+group['id']+'/' in person_body, f'Missing roster backlink: {member["personId"]}')
+    dated = next(group for group in groups if group['id'] == 'L-HYK-002')
+    check(dated['period'] == '2000–2001' and any(image['label'] == '5. luokka 00/01' for image in page_by_id['HYK-002']['images']), 'Roster period lacks source caption')
     for item in originals.values():
         if 'cdx_digest' in item:
             raw = page_file(item['local_path']).read_bytes()

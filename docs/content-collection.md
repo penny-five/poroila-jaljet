@@ -1,8 +1,8 @@
 # Kouluaineiston keruu ja julkaiseminen
 
-Tämä ohje määrittää sisältötyön menetelmät. Lähtöinventaario on tarkistettu 16.10.2026. Ensimmäiset aihekohtaiset koonnit, paikalliset HTML-lukusivut, kuvagalleria ja henkilösivujen paluulinkit on sittemmin toteutettu; katso [ensimmäisen erän raportti](research/2026-10-16-kouluaineisto.md). Erillinen luokka-/jäsenyystietomalli ja uusien töiden erottelu ovat edelleen toteutettavia asioita.
+Tämä ohje määrittää sisältötyön menetelmät. Lähtöinventaario on tarkistettu 16.10.2026. Ensimmäiset aihekohtaiset koonnit, paikalliset HTML-lukusivut, kuvagalleria ja henkilösivujen paluulinkit on sittemmin toteutettu; katso [ensimmäisen erän raportti](research/2026-10-16-kouluaineisto.md). Luetteloiden tietomalli ja ensimmäiset 30 uutta kirjoitelmaa on toteutettu; katso [teos- ja luetteloerän raportti](research/2026-10-16-teokset-ja-luettelot.md). Jäljellä olevan aineiston erottelu jatkuu.
 
-## Nykytila ja ensimmäinen työerä
+## Lähtötilanne ennen sisältövaihetta
 
 Katalogissa on 34 HYK-sivumerkintää, 1 104 DLC-paikanninta, 125 henkilömerkintää, 98 työtä ja 105 kuvaviitettä. Paikallisia alkuperäistiedostoja on 148 ja kokotekstejä 97. Luvut ovat lähtötilanteen inventaario, eivät keruun kattavuuslupaus. Kuvaviite ei tarkoita palautettua kuvaa eikä DLC-paikannin luettua sisältöä. Henkilösivuja syntyy myös töiden tekijänimistä, joten niiden määrä eroaa henkilörekisterin määrästä.
 
@@ -38,7 +38,7 @@ Nykyiset kentät ja tunnisteet säilytetään. Älä kirjoita uuden skeeman näk
 | Kokoteksti | `src/_data/work-texts.json`, teoksen ID avaimena | `text`, `sourcePage`, `transcription`; puuttuva sisältö kuvataan, sitä ei täytetä arvauksella. |
 | Kuva | katalogin `images` | Nykyiset `id`, `original_url`, `filename`, `kind`, `status`, `sources`, `labels`. Lisää paikallisen tiedoston ja kuvatekstin tuki sekä kuvan esityspohja keruun yhteydessä. |
 | Paikallinen alkuperäistiedosto | `assets/archive/originals/` ja `originals-manifest.json` | Tiedoston `id`, kokoelma, lähde- ja raaka-arkisto-URL, aikaleima, MIME, tavut, SHA-256, `local_path`, tarkkojen alkuperäistavujen tila. Johdannaista ei merkitä tarkaksi alkuperäiskopioksi. |
-| Luokka/lukuvuosi ja oppilassivukokonaisuus | ei vielä omaa tietomallia | Lisää tarvittaessa esimerkiksi `src/_data/school-collections.json`: pysyvä ID, tyyppi, otsikko, ajallinen rajaus, lähde-ID:t ja jäsenviitteet henkilöihin, sivuihin, töihin ja kuviin. Toteuta samalla koontipohjat. |
+| Luokkaluettelo | `src/_data/school-collections.json` | Pysyvä ID, otsikko, luokka-aste, ajallinen rajaus perusteluineen, lähde-ID ja SHA-256 sekä nimimerkintöjen henkilöviitteet. Älä yhdistä eri vuosien listoja samaksi luokaksi ilman näyttöä. |
 | Historiallinen väite | `src/_data/research.json` | Lisää lähde `sources`-listaan ja käytä sen ID:tä aikajanan/artikkelin `refs`-kentässä. Katalogin `HYK-*`/`DLC-*`-tunniste ei yksin ole `S*`-lähdetunniste. |
 | Korkkitaulu | `src/_data/graph.json` | Solmuilla on `refs`, kuvaus ja todistustila; nykyisillä reunoilla vain `from`, `to`, `status`. Suhteen perustelun ja lähdeviitteen tuki pitää toteuttaa, jos nykyinen solmukuvaus ei yksilöi sitä. |
 

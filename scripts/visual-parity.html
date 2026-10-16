@@ -34,6 +34,12 @@ const frameReady=async(frame,url,isOriginal,id)=>{
 };
 function snapshot(frame){
   const doc=frame.contentDocument,win=frame.contentWindow;
+  // Current catalogue counts are asserted against live data separately. The
+  // frozen comparison uses the same original record subset and counter wording.
+  if(frame===migrated)for(const counter of doc.querySelectorAll('[data-catalog-count]')){
+    const old=original.contentDocument.querySelector(`[data-catalog-count="${counter.dataset.catalogCount}"]`);
+    if(old)counter.textContent=old.textContent;
+  }
   const elements=[...doc.querySelectorAll('.topbar,.topbar *,#sectionNavigation,#sectionNavigation *,#pageTrail,#pageTrail *,main > section,main > section *,.footer,.footer *,dialog,dialog *')];
   return elements.filter(el=>el.checkVisibility()&&el.tagName!=='SCRIPT').map(el=>{
     const rect=el.getBoundingClientRect(),style=win.getComputedStyle(el);
@@ -85,11 +91,28 @@ function compareOriginalContentWithOriginalNavigation(){
   }
   // Recovery status changes as new originals are saved. Its current data is
   // asserted separately; use old status wording only for the old layout check.
+  for(const id of ['workCatalog','personCatalog']){
+    const old=original.contentDocument.getElementById(id),current=migrated.contentDocument.getElementById(id);
+    if(old&&current)Array.from(current.children).slice(old.children.length).forEach(entry=>entry.remove());
+  }
+  if(root?.id==='katalogi'){
+    const oldHeadings=root.querySelectorAll('.archive-note-grid h3');
+    migrated.contentDocument.querySelectorAll('#katalogi .archive-note-grid h3').forEach((heading,index)=>{if(oldHeadings[index])heading.textContent=oldHeadings[index].textContent});
+    const oldNote=root.querySelector('.archive-primary-notes > p:not(.eyebrow)');
+    const currentNote=migrated.contentDocument.querySelector('#katalogi .archive-primary-notes > p:not(.eyebrow)');
+    if(oldNote&&currentNote)currentNote.replaceWith(migrated.contentDocument.importNode(oldNote,true));
+  }
+  if(root?.id==='oppilaat'){
+    const old=root.querySelector('a[href="#/tuotokset"]'),current=migrated.contentDocument.querySelector('[data-work-total-link]');
+    if(old&&current)current.textContent=old.textContent;
+  }
   const oldSummaries=[...original.contentDocument.querySelectorAll('.catalog-entry > summary')];
+  const oldByLabel=new Map(oldSummaries.map(summary=>[summary.querySelector('strong')?.textContent,summary]));
+  const oldByRecord=new Map([...original.contentDocument.querySelectorAll('#dlcCatalog > .catalog-entry')].map(card=>[card.textContent.match(/DLC-[0-9]{4}/)?.[0],card.querySelector('summary')]));
   const newSummaries=[...migrated.contentDocument.querySelectorAll('.catalog-entry > summary')];
   newSummaries.forEach((summary,index)=>{
-    const old=oldSummaries[index];
-    if(summary.parentElement.hasAttribute('data-source-record') && old &&
+    const old=summary.parentElement.dataset.sourceRecord ? oldByRecord.get(summary.parentElement.dataset.sourceRecord) : oldByLabel.get(summary.querySelector('strong')?.textContent);
+    if((summary.parentElement.hasAttribute('data-source-record')||summary.parentElement.hasAttribute('data-person-id')) && old &&
        summary.querySelector('strong')?.textContent===old.querySelector('strong')?.textContent){
       summary.querySelector('span').textContent=old.querySelector('span').textContent;
     }

@@ -390,7 +390,10 @@
         "DLC-0329",
         "DLC-0330"
       ],
-      "works": []
+      "works": [
+        "T-112",
+        "T-113"
+      ]
     },
     {
       "id": "H-83e96fe72e",
@@ -409,6 +412,12 @@
           "detail": "CDX 200; sisältö vielä palauttamatta",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-aleksi-tupola.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "DLC-0011",
+          "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -540,7 +549,10 @@
       "works": [
         "T-031",
         "T-046",
-        "T-063"
+        "T-063",
+        "T-108",
+        "T-109",
+        "T-110"
       ]
     },
     {
@@ -576,7 +588,8 @@
       ],
       "works": [
         "T-001",
-        "T-020"
+        "T-020",
+        "T-099"
       ]
     },
     {
@@ -624,7 +637,13 @@
         "DLC-0372",
         "DLC-0373"
       ],
-      "works": []
+      "works": [
+        "T-101",
+        "T-102",
+        "T-103",
+        "T-104",
+        "T-105"
+      ]
     },
     {
       "id": "H-10da219e43",
@@ -661,7 +680,9 @@
         "DLC-0381",
         "DLC-0382"
       ],
-      "works": []
+      "works": [
+        "T-111"
+      ]
     },
     {
       "id": "H-136191aa93",
@@ -694,7 +715,8 @@
         "DLC-0385"
       ],
       "works": [
-        "T-018"
+        "T-018",
+        "T-107"
       ]
     },
     {
@@ -836,7 +858,11 @@
         "DLC-0406",
         "DLC-0407"
       ],
-      "works": []
+      "works": [
+        "T-114",
+        "T-115",
+        "T-116"
+      ]
     },
     {
       "id": "H-627e23f056",
@@ -855,6 +881,12 @@
           "detail": "CDX 200; sisältö vielä palauttamatta",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-camilla-sippola.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "DLC-0011",
+          "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -880,6 +912,12 @@
           "detail": "Arkistoitu virhevastaus 404",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-eeki-kairenius.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "DLC-0011",
+          "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -1030,7 +1068,11 @@
         "T-032",
         "T-053",
         "T-054",
-        "T-072"
+        "T-072",
+        "T-117",
+        "T-118",
+        "T-119",
+        "T-120"
       ]
     },
     {
@@ -1086,7 +1128,10 @@
         "DLC-0445",
         "DLC-0446"
       ],
-      "works": []
+      "works": [
+        "T-121",
+        "T-122"
+      ]
     },
     {
       "id": "H-d9d9b7e166",
@@ -1130,7 +1175,9 @@
         "DLC-0453",
         "DLC-0454"
       ],
-      "works": []
+      "works": [
+        "T-123"
+      ]
     },
     {
       "id": "H-a7b8454d09",
@@ -1290,6 +1337,12 @@
           "detail": "CDX 200; sisältö vielä palauttamatta",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-heikki-niemimaa.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "HYK-002",
+          "detail": "5. luokka 2000–2001; 2000–2001",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -2165,7 +2218,9 @@
         "DLC-0567",
         "DLC-0568"
       ],
-      "works": []
+      "works": [
+        "T-126"
+      ]
     },
     {
       "id": "H-1a1bbd0c23",
@@ -2214,7 +2269,9 @@
       ],
       "works": [
         "T-040",
-        "T-067"
+        "T-067",
+        "T-127",
+        "T-128"
       ]
     },
     {
@@ -2288,6 +2345,12 @@
           "detail": "CDX 200; sisältö vielä palauttamatta",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-jenni-laakso.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "HYK-002",
+          "detail": "5. luokka 2000–2001; 2000–2001",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -2318,6 +2381,12 @@
           "detail": "CDX 200; sisältö vielä palauttamatta",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-jenni-liiberg.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "DLC-0011",
+          "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -2434,6 +2503,12 @@
           "detail": "CDX 200; sisältö vielä palauttamatta",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-jesse-laihoaho.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "HYK-002",
+          "detail": "5. luokka 2000–2001; 2000–2001",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -2458,6 +2533,12 @@
           "detail": "CDX 200; sisältö vielä palauttamatta",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-johanna-virtamo.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "DLC-0011",
+          "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -2671,6 +2752,12 @@
           "detail": "CDX 200; sisältö vielä palauttamatta",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "HYK-002",
+          "detail": "5. luokka 2000–2001; 2000–2001",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -2796,6 +2883,12 @@
           "detail": "CDX 200; sisältö vielä palauttamatta",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-virolainen.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "DLC-0011",
+          "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -3326,6 +3419,12 @@
           "detail": "CDX 200; sisältö vielä palauttamatta",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-lauri-iso-markku.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "HYK-002",
+          "detail": "5. luokka 2000–2001; 2000–2001",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -3420,6 +3519,12 @@
           "detail": "CDX 200; sisältö vielä palauttamatta",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-marianne-oikkonen.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "HYK-002",
+          "detail": "5. luokka 2000–2001; 2000–2001",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -3453,6 +3558,12 @@
           "detail": "CDX 200; sisältö vielä palauttamatta",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-meiju-laakso.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "DLC-0011",
+          "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -4396,6 +4507,12 @@
           "detail": "CDX 200; sisältö vielä palauttamatta",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-susa-virolainen.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "HYK-002",
+          "detail": "5. luokka 2000–2001; 2000–2001",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -4841,6 +4958,12 @@
           "detail": "CDX 200; sisältö vielä palauttamatta",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-toni-laihoaho.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "DLC-0011",
+          "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -4989,6 +5112,12 @@
           "detail": "CDX 200; sisältö vielä palauttamatta",
           "name_basis": "Alkuperäisen URL:n nimiosa; henkilön nimi ja sivun sisältö tarkistetaan HTML:stä",
           "profile_url": "http://www.dlc.fi:80/~hyk/oppilas-tytti-hartikainen.htm"
+        },
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "DLC-0011",
+          "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
         }
       ],
       "documents": [
@@ -5067,6 +5196,76 @@
         "DLC-0918",
         "DLC-0919"
       ],
+      "works": []
+    },
+    {
+      "id": "H-af2929fd6d",
+      "name": "Patrick Bang",
+      "observations": [
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "DLC-0011",
+          "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+        }
+      ],
+      "documents": [],
+      "works": []
+    },
+    {
+      "id": "H-f1936d8a8e",
+      "name": "Robert Bang",
+      "observations": [
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "DLC-0011",
+          "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+        }
+      ],
+      "documents": [],
+      "works": []
+    },
+    {
+      "id": "H-970a4a2da9",
+      "name": "Eero Tiainen",
+      "observations": [
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "DLC-0011",
+          "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+        }
+      ],
+      "documents": [],
+      "works": []
+    },
+    {
+      "id": "H-6d3d2fa8f2",
+      "name": "Kim Virolainen",
+      "observations": [
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "DLC-0011",
+          "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+        }
+      ],
+      "documents": [],
+      "works": []
+    },
+    {
+      "id": "H-27470d52bc",
+      "name": "Taru Holappa",
+      "observations": [
+        {
+          "kind": "Oppilasluettelon nimimerkintä",
+          "source": "DLC-0011",
+          "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+          "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+        }
+      ],
+      "documents": [],
       "works": []
     }
   ],
@@ -6258,6 +6457,398 @@
       "page": "HYK-020",
       "status": "Vain alkuperäinen sisältöluettelolinkki",
       "note": "Tarina mainitaan kirjoitelmaluettelossa; itse tekstiä ei ole palautettu."
+    },
+    {
+      "id": "T-099",
+      "title": "LAIVAMATKA",
+      "authors": [
+        "Anna Saukkolin"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0358",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "86222e3e8ddc81ac2df0d67bff43850201379ea91e2520e2e244b09504e5bf2c"
+    },
+    {
+      "id": "T-100",
+      "title": "RYUN SEIKKAILU",
+      "authors": [
+        "Antti"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0363",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "46534be513328ee23affab4ecf2a68f1f377f8b9e272b08db963dd386ca10432"
+    },
+    {
+      "id": "T-101",
+      "title": "AMERIKANHARMAAKARHU",
+      "authors": [
+        "Antti Kokkonen"
+      ],
+      "genre": "tietokirjoitelma",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0367",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "d17fcf0a8ca1d8a50166bc23f80e74702f839ecfd950876f1f34a4010c3cf9b8"
+    },
+    {
+      "id": "T-102",
+      "title": "ISOPANDA",
+      "authors": [
+        "Antti Kokkonen"
+      ],
+      "genre": "tietokirjoitelma",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0368",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "73e5ae7a9b1a01f870341d5d4d0e204122e55497c4afae4fe77032af15a9d3eb"
+    },
+    {
+      "id": "T-103",
+      "title": "JÄÄKARHU",
+      "authors": [
+        "Antti Kokkonen"
+      ],
+      "genre": "tietokirjoitelma",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0369",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "28dce1c45bbda33a6c33ae080f01751b1dc9ee072e59ed0438eccc5bbca38533"
+    },
+    {
+      "id": "T-104",
+      "title": "MARS-PLANEETTA",
+      "authors": [
+        "Antti Kokkonen"
+      ],
+      "genre": "tietokirjoitelma",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0370",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "5a75310003e0ce2d440f1ed2821710e02c7b705da34dbcb063d4cca2a0c8b9ff"
+    },
+    {
+      "id": "T-105",
+      "title": "SEITSEMÄN LOHIKÄÄRMETTÄ",
+      "authors": [
+        "Antti Kokkonen"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0371",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "d705215b29915c7c5db86289111295f73cd3cae591b9c0706cb6843c78db7afb"
+    },
+    {
+      "id": "T-106",
+      "title": "KAAPPAUS",
+      "authors": [
+        "Anu L"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0374",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "ca5f65f0cc518404506c004c7f9cf4c11d846a2211f9f7c405344643a4b5fb82"
+    },
+    {
+      "id": "T-107",
+      "title": "TIUKAT PAIKAT",
+      "authors": [
+        "Ari Keskitalo"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0383",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "8a31ebb68e7de1f5b4318f92ef079f514504a7c7fa77423df4b69e18773aa313"
+    },
+    {
+      "id": "T-108",
+      "title": "NELLY-PONIN SEIKKAILU",
+      "authors": [
+        "Anna Rasinkangas"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0345",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "330ee09a5ad0a4222d429da270ac0e3d1521ee8fc0d47a8df0f85ab83b4c8e95"
+    },
+    {
+      "id": "T-109",
+      "title": "ORPOTYTTÖ SOFIA UUDESSA KODISSA",
+      "authors": [
+        "Anna Rasinkangas"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0346",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "38e3fb3122be54fe2e6569c1a117eae802dbd79bb63d66d072ea2a514d6dda40"
+    },
+    {
+      "id": "T-110",
+      "title": "RATSASTUS",
+      "authors": [
+        "Anna Rasinkangas"
+      ],
+      "genre": "tietokirjoitelma",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0347",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "37a8be1a612414ad59dee5509c06222ff7bf25edff3f4e07c7eca09cddd41e78"
+    },
+    {
+      "id": "T-111",
+      "title": "IHMEELLINEN LÄHDE",
+      "authors": [
+        "Anu Leskinen"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0378",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "17276d7de6de2752f002135aeb2683e12ba6ebc656f62f057246173c69d9a706"
+    },
+    {
+      "id": "T-112",
+      "title": "SAMUN SUURI MUUTOS",
+      "authors": [
+        "Aleksi Korpijaakko"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0326",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "da70658719982a0adf4b8e2d2d8407c9a8f23800e6b54f2d8d5d40ca0fa8256d"
+    },
+    {
+      "id": "T-113",
+      "title": "SUPER-MATO",
+      "authors": [
+        "Aleksi Korpijaakko"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0328",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "03398bdb6c824d92fbd040e71e1e5a17b53bffdb8f23112d695e9f598fcebd9f"
+    },
+    {
+      "id": "T-114",
+      "title": "HARRY POTTER -KIRJAT",
+      "authors": [
+        "Astra Kanervo"
+      ],
+      "genre": "kirja-arvio",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0401",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "fcc1067e66e3f7b132446d570f3a53a39767d591c7be82db936e7c0a2cd17a37"
+    },
+    {
+      "id": "T-115",
+      "title": "KALKKUNA KOULUSSA",
+      "authors": [
+        "Astra Kanervo"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0402",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "552204fd7d0d213f993a739687f46d471fc146086c3303d5fafe4f2db2b3457a"
+    },
+    {
+      "id": "T-116",
+      "title": "REIJO-ROBOTTI RUOTSISSA",
+      "authors": [
+        "Astra Kanervo"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0403",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "53443001ccdcf12cf26046d0e76a7f4872fb38b9d4cf425fa606592a3ed672f1"
+    },
+    {
+      "id": "T-117",
+      "title": "KOLIBRIT",
+      "authors": [
+        "Elina Laine"
+      ],
+      "genre": "tietokirjoitelma",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0429",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "5c3db92f616a77c792a00443d6ac2a30d9957facdc5245e892ad9aaf07ae79e9"
+    },
+    {
+      "id": "T-118",
+      "title": "KUUHEVONEN",
+      "authors": [
+        "Elina Laine"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0430",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "e426a97304bc305f87042c9f4dff3b0b7830950db5a046798781e3bc495d779b"
+    },
+    {
+      "id": "T-119",
+      "title": "LINDA JA PANDA",
+      "authors": [
+        "Elina Laine"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0431",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "3b8276318f0eb0869174f045855d7cdc526672545f064bea3415474f0053990f"
+    },
+    {
+      "id": "T-120",
+      "title": "RAIDALLINEN SARVIKUONO",
+      "authors": [
+        "Elina Laine"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0432",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "adda3b262ed84f3612bc8ef62f85a174d490fb0443a2fb6b72d9a8c125374a68"
+    },
+    {
+      "id": "T-121",
+      "title": "ANNAN VAARALLINEN MUUTTO",
+      "authors": [
+        "Elsa Hagelberg"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0442",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "3f0937874c4669d69877219f3d20afff18cbaf4766b48d6fffc8c4abe28237a6"
+    },
+    {
+      "id": "T-122",
+      "title": "PIANONSOITTO HARRASTUKSENA",
+      "authors": [
+        "Elsa Hagelberg"
+      ],
+      "genre": "tietokirjoitelma",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0443",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "6e174ac7c533986e04445a506f7418b9c9ecac3f3c03a69f4e4964a4165dde69"
+    },
+    {
+      "id": "T-123",
+      "title": "KIINALAINEN KISSA",
+      "authors": [
+        "Erika Korpijaakko"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0449",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "96b48df8c441abb8acc959721671b91f27893cefebf72a69022a09b6a5954f60"
+    },
+    {
+      "id": "T-124",
+      "title": "ANNAN PONI",
+      "authors": [
+        "Jatta"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0562",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "a5220389adfbf684a03fb7ec1bca54de3da476beced43ed210406af1e19a88ed"
+    },
+    {
+      "id": "T-125",
+      "title": "ELÄINTEN ORPOKOTI",
+      "authors": [
+        "Roosa",
+        "Kreeta",
+        "Jatta"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0563",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "58ea1dbbca109634b53b814305dc4fd5ad165c75ffe73cf3995dcf3d7048ea3b"
+    },
+    {
+      "id": "T-126",
+      "title": "SUOMENHEVONEN",
+      "authors": [
+        "Jatta Virolainen"
+      ],
+      "genre": "tietokirjoitelma",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0565",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "ffc8d7cd628e2a288f8604274fd5b039aa102fc7559ad5298aa199f13613ef98"
+    },
+    {
+      "id": "T-127",
+      "title": "EN JAKSA ELÄÄ",
+      "authors": [
+        "Jenna Paukkio"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0569",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "a1a44a4a1ec137b58c569f718eaeb6461a898234b16eaea7bdfec1827fe2c41f"
+    },
+    {
+      "id": "T-128",
+      "title": "OPPILASKUMMITUS",
+      "authors": [
+        "Jenna Paukkio"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0570",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "28396d5ec1031751bbb9ee126146204e53c221aa4cd9bd049137653f1c5091ed"
     }
   ],
   "images": [

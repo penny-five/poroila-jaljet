@@ -346,55 +346,183 @@
         {
           "id": "H-83e96fe72e",
           "name": "Aleksi Tupola",
-          "observations": [],
+          "observations": [
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "DLC-0011",
+              "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+            }
+          ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         },
         {
           "id": "H-627e23f056",
           "name": "Camilla Sippola",
-          "observations": [],
+          "observations": [
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "DLC-0011",
+              "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+            }
+          ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         },
         {
           "id": "H-8f6ce79b2b",
           "name": "Eeki Kairenius",
-          "observations": [],
+          "observations": [
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "DLC-0011",
+              "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+            }
+          ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         },
         {
           "id": "H-27e43abb79",
           "name": "Jenni Liiberg",
-          "observations": [],
+          "observations": [
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "DLC-0011",
+              "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+            }
+          ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         },
         {
           "id": "H-db0402f00b",
           "name": "Johanna Virtamo",
-          "observations": [],
+          "observations": [
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "DLC-0011",
+              "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+            }
+          ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         },
         {
           "id": "H-0448f2ac01",
           "name": "Joonas Virolainen",
-          "observations": [],
+          "observations": [
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "DLC-0011",
+              "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+            }
+          ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         },
         {
           "id": "H-90439107f2",
           "name": "Meiju Laakso",
-          "observations": [],
+          "observations": [
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "DLC-0011",
+              "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+            }
+          ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         },
         {
           "id": "H-fc9de1e5cb",
           "name": "Toni Laihoaho",
-          "observations": [],
+          "observations": [
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "DLC-0011",
+              "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+            }
+          ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         },
         {
           "id": "H-a198d95c87",
           "name": "Tytti Hartikainen",
-          "observations": [],
+          "observations": [
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "DLC-0011",
+              "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+            }
+          ],
+          "basis": "Sama kokonainen nimiasu sivun tekstissä"
+        },
+        {
+          "id": "H-af2929fd6d",
+          "name": "Patrick Bang",
+          "observations": [
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "DLC-0011",
+              "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+            }
+          ],
+          "basis": "Sama kokonainen nimiasu sivun tekstissä"
+        },
+        {
+          "id": "H-f1936d8a8e",
+          "name": "Robert Bang",
+          "observations": [
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "DLC-0011",
+              "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+            }
+          ],
+          "basis": "Sama kokonainen nimiasu sivun tekstissä"
+        },
+        {
+          "id": "H-970a4a2da9",
+          "name": "Eero Tiainen",
+          "observations": [
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "DLC-0011",
+              "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+            }
+          ],
+          "basis": "Sama kokonainen nimiasu sivun tekstissä"
+        },
+        {
+          "id": "H-6d3d2fa8f2",
+          "name": "Kim Virolainen",
+          "observations": [
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "DLC-0011",
+              "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+            }
+          ],
+          "basis": "Sama kokonainen nimiasu sivun tekstissä"
+        },
+        {
+          "id": "H-27470d52bc",
+          "name": "Taru Holappa",
+          "observations": [
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "DLC-0011",
+              "detail": "1. luokan nimiluettelo; Lukuvuosi ei ilmene",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
+            }
+          ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
@@ -11505,7 +11633,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-099"
+      ]
     },
     {
       "id": "DLC-0363",
@@ -11582,7 +11712,9 @@
       ],
       "digestMismatch": false,
       "people": [],
-      "workIds": []
+      "workIds": [
+        "T-100"
+      ]
     },
     {
       "id": "DLC-0367",
@@ -11666,7 +11798,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-101"
+      ]
     },
     {
       "id": "DLC-0368",
@@ -11750,7 +11884,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-102"
+      ]
     },
     {
       "id": "DLC-0369",
@@ -11834,7 +11970,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-103"
+      ]
     },
     {
       "id": "DLC-0370",
@@ -11918,7 +12056,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-104"
+      ]
     },
     {
       "id": "DLC-0371",
@@ -12002,7 +12142,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-105"
+      ]
     },
     {
       "id": "DLC-0372",
@@ -12292,7 +12434,9 @@
       ],
       "digestMismatch": false,
       "people": [],
-      "workIds": []
+      "workIds": [
+        "T-106"
+      ]
     },
     {
       "id": "DLC-0383",
@@ -12369,7 +12513,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-107"
+      ]
     },
     {
       "id": "DLC-1071",
@@ -13854,6 +14000,12 @@
               "detail": "",
               "name_basis": "Alkuperäisen URL:n nimiosa; kirjoitusasu voi olla puutteellinen",
               "profile_url": "http://www.saunalahti.fi:80/~hyk/oppilas-heikki-niemimaa.htm"
+            },
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "HYK-002",
+              "detail": "5. luokka 2000–2001; 2000–2001",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
             }
           ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
@@ -13868,6 +14020,12 @@
               "detail": "",
               "name_basis": "Alkuperäisen URL:n nimiosa; kirjoitusasu voi olla puutteellinen",
               "profile_url": "http://www.saunalahti.fi:80/~hyk/oppilas-jenni-laakso.htm"
+            },
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "HYK-002",
+              "detail": "5. luokka 2000–2001; 2000–2001",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
             }
           ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
@@ -13882,6 +14040,12 @@
               "detail": "",
               "name_basis": "Alkuperäisen URL:n nimiosa; kirjoitusasu voi olla puutteellinen",
               "profile_url": "http://www.saunalahti.fi:80/~hyk/oppilas-jesse-laihoaho.htm"
+            },
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "HYK-002",
+              "detail": "5. luokka 2000–2001; 2000–2001",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
             }
           ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
@@ -13896,6 +14060,12 @@
               "detail": "",
               "name_basis": "Alkuperäisen URL:n nimiosa; kirjoitusasu voi olla puutteellinen",
               "profile_url": "http://www.saunalahti.fi:80/~hyk/oppilas-joonas-maittila.htm"
+            },
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "HYK-002",
+              "detail": "5. luokka 2000–2001; 2000–2001",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
             }
           ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
@@ -13910,6 +14080,12 @@
               "detail": "",
               "name_basis": "Alkuperäisen URL:n nimiosa; kirjoitusasu voi olla puutteellinen",
               "profile_url": "http://www.saunalahti.fi:80/~hyk/oppilas-lauri-iso-markku.htm"
+            },
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "HYK-002",
+              "detail": "5. luokka 2000–2001; 2000–2001",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
             }
           ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
@@ -13924,6 +14100,12 @@
               "detail": "",
               "name_basis": "Alkuperäisen URL:n nimiosa; kirjoitusasu voi olla puutteellinen",
               "profile_url": "http://www.saunalahti.fi:80/~hyk/oppilas-marianne-oikkonen.htm"
+            },
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "HYK-002",
+              "detail": "5. luokka 2000–2001; 2000–2001",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
             }
           ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
@@ -13938,6 +14120,12 @@
               "detail": "",
               "name_basis": "Alkuperäisen URL:n nimiosa; kirjoitusasu voi olla puutteellinen",
               "profile_url": "http://www.saunalahti.fi:80/~hyk/oppilas-susa-virolainen.htm"
+            },
+            {
+              "kind": "Oppilasluettelon nimimerkintä",
+              "source": "HYK-002",
+              "detail": "5. luokka 2000–2001; 2000–2001",
+              "name_basis": "Kokonainen nimi lähdesivun varsinaisessa nimiluettelossa; ei nykyhenkilöllisyyden vahvistus"
             }
           ],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
@@ -29903,7 +30091,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-108"
+      ]
     },
     {
       "id": "DLC-0346",
@@ -29987,7 +30177,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-109"
+      ]
     },
     {
       "id": "DLC-0347",
@@ -30080,7 +30272,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-110"
+      ]
     },
     {
       "id": "DLC-0378",
@@ -30164,7 +30358,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-111"
+      ]
     },
     {
       "id": "DLC-0398",
@@ -31428,7 +31624,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-112"
+      ]
     },
     {
       "id": "DLC-0328",
@@ -31512,7 +31710,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-113"
+      ]
     },
     {
       "id": "DLC-0401",
@@ -31596,7 +31796,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-114"
+      ]
     },
     {
       "id": "DLC-0402",
@@ -31680,7 +31882,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-115"
+      ]
     },
     {
       "id": "DLC-0403",
@@ -31764,7 +31968,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-116"
+      ]
     },
     {
       "id": "DLC-0429",
@@ -31848,7 +32054,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-117"
+      ]
     },
     {
       "id": "DLC-0430",
@@ -31932,7 +32140,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-118"
+      ]
     },
     {
       "id": "DLC-0431",
@@ -32016,7 +32226,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-119"
+      ]
     },
     {
       "id": "DLC-0432",
@@ -32100,7 +32312,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-120"
+      ]
     },
     {
       "id": "DLC-0442",
@@ -32184,7 +32398,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-121"
+      ]
     },
     {
       "id": "DLC-0443",
@@ -32268,7 +32484,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-122"
+      ]
     },
     {
       "id": "DLC-0449",
@@ -32352,7 +32570,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-123"
+      ]
     },
     {
       "id": "DLC-0562",
@@ -32436,7 +32656,9 @@
           "basis": "Katalogin lähdeviite; tunnistuksen peruste tarkistettava"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-124"
+      ]
     },
     {
       "id": "DLC-0563",
@@ -32520,7 +32742,9 @@
           "basis": "Katalogin lähdeviite; tunnistuksen peruste tarkistettava"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-125"
+      ]
     },
     {
       "id": "DLC-0565",
@@ -32604,7 +32828,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-126"
+      ]
     },
     {
       "id": "DLC-0569",
@@ -32672,7 +32898,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-127"
+      ]
     },
     {
       "id": "DLC-0570",
@@ -32740,7 +32968,9 @@
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
         }
       ],
-      "workIds": []
+      "workIds": [
+        "T-128"
+      ]
     }
   ],
   "media": [

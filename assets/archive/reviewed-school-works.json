@@ -1,0 +1,304 @@
+[
+  {
+    "id": "T-099",
+    "sourceId": "DLC-0358",
+    "title": "LAIVAMATKA",
+    "authors": [
+      "Anna Saukkolin"
+    ],
+    "authorHeading": "Anna Saukkolin:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-100",
+    "sourceId": "DLC-0363",
+    "title": "RYUN SEIKKAILU",
+    "authors": [
+      "Antti"
+    ],
+    "authorHeading": "Antti:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-101",
+    "sourceId": "DLC-0367",
+    "title": "AMERIKANHARMAAKARHU",
+    "authors": [
+      "Antti Kokkonen"
+    ],
+    "authorHeading": "Antti Kokkonen:",
+    "genre": "tietokirjoitelma"
+  },
+  {
+    "id": "T-102",
+    "sourceId": "DLC-0368",
+    "title": "ISOPANDA",
+    "authors": [
+      "Antti Kokkonen"
+    ],
+    "authorHeading": "Antti Kokkonen:",
+    "genre": "tietokirjoitelma"
+  },
+  {
+    "id": "T-103",
+    "sourceId": "DLC-0369",
+    "title": "JÄÄKARHU",
+    "authors": [
+      "Antti Kokkonen"
+    ],
+    "authorHeading": "Antti Kokkonen:",
+    "genre": "tietokirjoitelma"
+  },
+  {
+    "id": "T-104",
+    "sourceId": "DLC-0370",
+    "title": "MARS-PLANEETTA",
+    "authors": [
+      "Antti Kokkonen"
+    ],
+    "authorHeading": "Antti Kokkonen:",
+    "genre": "tietokirjoitelma"
+  },
+  {
+    "id": "T-105",
+    "sourceId": "DLC-0371",
+    "title": "SEITSEMÄN LOHIKÄÄRMETTÄ",
+    "authors": [
+      "Antti Kokkonen"
+    ],
+    "authorHeading": "Antti Kokkonen:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-106",
+    "sourceId": "DLC-0374",
+    "title": "KAAPPAUS",
+    "authors": [
+      "Anu L"
+    ],
+    "authorHeading": "Anu L:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-107",
+    "sourceId": "DLC-0383",
+    "title": "TIUKAT PAIKAT",
+    "authors": [
+      "Ari Keskitalo"
+    ],
+    "authorHeading": "Ari Keskitalo:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-108",
+    "sourceId": "DLC-0345",
+    "title": "NELLY-PONIN SEIKKAILU",
+    "authors": [
+      "Anna Rasinkangas"
+    ],
+    "authorHeading": "Anna Rasinkangas:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-109",
+    "sourceId": "DLC-0346",
+    "title": "ORPOTYTTÖ SOFIA UUDESSA KODISSA",
+    "authors": [
+      "Anna Rasinkangas"
+    ],
+    "authorHeading": "Anna Rasinkangas:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-110",
+    "sourceId": "DLC-0347",
+    "title": "RATSASTUS",
+    "authors": [
+      "Anna Rasinkangas"
+    ],
+    "authorHeading": "Anna Rasinkangas:",
+    "genre": "tietokirjoitelma"
+  },
+  {
+    "id": "T-111",
+    "sourceId": "DLC-0378",
+    "title": "IHMEELLINEN LÄHDE",
+    "authors": [
+      "Anu Leskinen"
+    ],
+    "authorHeading": "Anu Leskinen:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-112",
+    "sourceId": "DLC-0326",
+    "title": "SAMUN SUURI MUUTOS",
+    "authors": [
+      "Aleksi Korpijaakko"
+    ],
+    "authorHeading": "Aleksi Korpijaakko:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-113",
+    "sourceId": "DLC-0328",
+    "title": "SUPER-MATO",
+    "authors": [
+      "Aleksi Korpijaakko"
+    ],
+    "authorHeading": "Aleksi Korpijaakko:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-114",
+    "sourceId": "DLC-0401",
+    "title": "HARRY POTTER -KIRJAT",
+    "authors": [
+      "Astra Kanervo"
+    ],
+    "authorHeading": "Astra Kanervo:",
+    "genre": "kirja-arvio"
+  },
+  {
+    "id": "T-115",
+    "sourceId": "DLC-0402",
+    "title": "KALKKUNA KOULUSSA",
+    "authors": [
+      "Astra Kanervo"
+    ],
+    "authorHeading": "Astra Kanervo:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-116",
+    "sourceId": "DLC-0403",
+    "title": "REIJO-ROBOTTI RUOTSISSA",
+    "authors": [
+      "Astra Kanervo"
+    ],
+    "authorHeading": "Astra Kanervo:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-117",
+    "sourceId": "DLC-0429",
+    "title": "KOLIBRIT",
+    "authors": [
+      "Elina Laine"
+    ],
+    "authorHeading": "Elina Laine:",
+    "genre": "tietokirjoitelma"
+  },
+  {
+    "id": "T-118",
+    "sourceId": "DLC-0430",
+    "title": "KUUHEVONEN",
+    "authors": [
+      "Elina Laine"
+    ],
+    "authorHeading": "Elina Laine:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-119",
+    "sourceId": "DLC-0431",
+    "title": "LINDA JA PANDA",
+    "authors": [
+      "Elina Laine"
+    ],
+    "authorHeading": "Elina Laine:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-120",
+    "sourceId": "DLC-0432",
+    "title": "RAIDALLINEN SARVIKUONO",
+    "authors": [
+      "Elina Laine"
+    ],
+    "authorHeading": "Elina Laine:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-121",
+    "sourceId": "DLC-0442",
+    "title": "ANNAN VAARALLINEN MUUTTO",
+    "authors": [
+      "Elsa Hagelberg"
+    ],
+    "authorHeading": "Elsa Hagelberg:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-122",
+    "sourceId": "DLC-0443",
+    "title": "PIANONSOITTO HARRASTUKSENA",
+    "authors": [
+      "Elsa Hagelberg"
+    ],
+    "authorHeading": "Elsa Hagelberg:",
+    "genre": "tietokirjoitelma"
+  },
+  {
+    "id": "T-123",
+    "sourceId": "DLC-0449",
+    "title": "KIINALAINEN KISSA",
+    "authors": [
+      "Erika Korpijaakko"
+    ],
+    "authorHeading": "Erika Korpijaakko:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-124",
+    "sourceId": "DLC-0562",
+    "title": "ANNAN PONI",
+    "authors": [
+      "Jatta"
+    ],
+    "authorHeading": "Jatta:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-125",
+    "sourceId": "DLC-0563",
+    "title": "ELÄINTEN ORPOKOTI",
+    "authors": [
+      "Roosa",
+      "Kreeta",
+      "Jatta"
+    ],
+    "authorHeading": "Roosa, Kreeta ja Jatta:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-126",
+    "sourceId": "DLC-0565",
+    "title": "SUOMENHEVONEN",
+    "authors": [
+      "Jatta Virolainen"
+    ],
+    "authorHeading": "Jatta Virolainen:",
+    "genre": "tietokirjoitelma"
+  },
+  {
+    "id": "T-127",
+    "sourceId": "DLC-0569",
+    "title": "EN JAKSA ELÄÄ",
+    "authors": [
+      "Jenna Paukkio"
+    ],
+    "authorHeading": "Jenna Paukkio:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-128",
+    "sourceId": "DLC-0570",
+    "title": "OPPILASKUMMITUS",
+    "authors": [
+      "Jenna Paukkio"
+    ],
+    "authorHeading": "Jenna Paukkio:",
+    "genre": "kertomus"
+  }
+]

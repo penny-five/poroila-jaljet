@@ -17,7 +17,7 @@ eleventyComputed:
 {% else %}
 {% if person.author %}
 <p class="page-lead">Tällä sivulla kootaan arkistolähteessä tälle tekijänimelle osoitetut kokonaiset teokset, asiakirjapaikantimet ja kuvatiedostoviitteet.</p>
-{% if not person.author.sourceRecord %}<p class="notice">Aineistossa tekijäksi on merkitty vain etunimi. Merkintä säilytetään sellaisenaan.</p>{% endif %}
+{% if not person.author.sourceRecord %}<p class="notice">Tekijämerkintä on osittainen tai puuttuu erillisestä henkilörekisteristä. Se säilytetään lähteen mukaisena eikä nimiosia täydennetä automaattisesti.</p>{% endif %}
 <h2>Teokset</h2>
 <div class="data-list">
 {% for work in person.author.works %}
@@ -75,5 +75,7 @@ eleventyComputed:
 <p>Henkilömerkintään liittyvät paikalliset lähdesivut. Yhteys perustuu samaan nimiasuun tai katalogin lähdeviitteeseen; se ei yksin todista luokkajäsenyyttä tai nykyistä henkilöllisyyttä.</p>
 <ul>{% for item in relatedSchoolPages %}<li><a href="{{ ('/koulu/aineisto/' + item.id + '/') | localUrl }}">{{ item.title | escape }} · {{ item.id }}</a></li>{% endfor %}</ul>
 <p><a href="{{ '/koulu/aineisto/' | localUrl }}">Koulun koko aineisto</a></p>
+{% set relatedClasses = schoolView.classes | classesForPerson(person.id) %}
+{% if relatedClasses.length %}<h3>Lähteiden luokkamerkinnät</h3><ul>{% for group in relatedClasses %}<li><a href="{{ ('/koulu/luokat/' + group.id + '/') | localUrl }}">{{ group.title | escape }}</a> — {{ group.period | escape }} · {{ group.sourceId }}</li>{% endfor %}</ul>{% endif %}
 </section>
 {% endif %}

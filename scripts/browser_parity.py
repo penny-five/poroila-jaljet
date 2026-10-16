@@ -34,15 +34,42 @@ with sync_playwright() as playwright:
     for record in catalog['dlc_records']:
         expected = record['mimetype'] + ' · ' + record.get('catalog_status', record['status'])
         assert displayed[record['id']] == expected, f'Stale recovery status: {record["id"]}'
+    page.goto(origin + '/_site/teokset/')
+    assert page.locator('[data-work-record]').count() == len(catalog['works'])
+    for work in catalog['works']:
+        card = page.locator('[data-work-record="'+work['id']+'"]')
+        assert card.locator('summary strong').text_content() == work['title']
+        assert card.locator('a[href="/_site/teokset/'+work['id']+'/"]').count() == 1
+    page.locator('[data-catalog-search]').fill('LAIVAMATKA')
+    assert page.locator('[data-work-record]:visible').count() == 1
+    assert page.locator('[data-catalog-count]').text_content().strip() == f'1 / {len(catalog["works"])} merkintää'
+    page.goto(origin + '/_site/tekijat/')
+    people_cards = page.locator('[data-person-id]').evaluate_all("cards=>Object.fromEntries(cards.map(card=>[card.dataset.personId,{name:card.querySelector('summary strong').textContent,count:card.querySelector('summary span').textContent}]))")
+    assert len(people_cards) == len(catalog['people'])
+    for person in catalog['people']:
+        assert people_cards[person['id']]['name'] == person['name']
+        assert people_cards[person['id']]['count'].startswith(str(len(person['works'])) + ' tekijämerkintää ·')
     for width in (1440, 390):
         page.set_viewport_size({'width': width, 'height': 900})
+        page.goto(origin + '/_site/koulu/aineisto/')
+        hub_links = page.locator('.data-list h3 a').evaluate_all('links=>links.map(link=>link.getAttribute("href"))')
+        menu_links = page.locator('#sectionNavigation a').evaluate_all('links=>links.map(link=>link.getAttribute("href"))')
+        assert set(hub_links).issubset(menu_links), 'An archive category is absent from its contextual menu'
+        for url in hub_links:
+            page.goto(origin + url)
+            assert page.locator('#sectionNavigation').get_attribute('aria-label') == 'Koulun aineistoryhmät'
+            assert page.locator('#sectionNavigation a[aria-current="page"]').get_attribute('href') == url
+            assert page.locator('#sectionNavigation .collection-parent').get_attribute('href') == '/_site/koulu/'
+            assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), url
+        page.goto(origin + '/_site/teokset/T-001/')
+        assert page.locator('#sectionNavigation a[aria-current="location"]').get_attribute('href') == '/_site/teokset/'
         breadcrumb_style = None
         heading_style = None
         for route, labels in [('/olli-poroila/tuntemuksiani/', ['Etusivu','Poroila','Tuntemuksiani']),
                               ('/olli-poroila/', ['Etusivu','Poroila']),
                               ('/koulu/', ['Etusivu','Koulu']),
-                              ('/teokset/T-001/', ['Etusivu','Koulu','Teokset','MUTANAAMIO']),
-                              ('/tekijat/H-f95b196f07/', ['Etusivu','Koulu','Henkilöt ja tekijät','Aila Rantanen'])]:
+                              ('/teokset/T-001/', ['Etusivu','Koulu','Koulun aineisto','Teoskatalogi','MUTANAAMIO']),
+                              ('/tekijat/H-f95b196f07/', ['Etusivu','Koulu','Koulun aineisto','Henkilöt ja tekijät','Aila Rantanen'])]:
             page.goto(origin + '/_site' + route)
             trail = page.locator('#pageTrail')
             assert trail.locator('a,strong').all_text_contents() == labels, route
@@ -82,6 +109,15 @@ with sync_playwright() as playwright:
         page.get_by_role('link', name='Antti Kokkonen', exact=True).click()
         assert '/tekijat/' in page.url
         assert page.locator('[data-archive-expansion]').get_by_role('link').count() >= 2
+        page.goto(origin + '/_site/koulu/luokat/L-HYK-002/')
+        assert page.locator('[data-roster-person]').count() == 7
+        page.get_by_role('link', name='Lauri Iso-Markku', exact=True).click()
+        page.get_by_role('link', name='5. luokka 2000–2001', exact=True).click()
+        assert page.url.endswith('/koulu/luokat/L-HYK-002/')
+        page.goto(origin + '/_site/teokset/T-099/')
+        assert 'LAIVAMATKA' in page.locator('pre.work-copy').text_content()
+        page.get_by_role('link', name='Anna Saukkolin', exact=True).click()
+        assert page.get_by_role('link', name='LAIVAMATKA', exact=True).count() >= 1
         page.goto(origin + '/_site/koulu/koulukuvat/')
         page.locator('.prose img').evaluate_all("images => images.forEach(image => image.loading='eager')")
         page.wait_for_function("Array.from(document.querySelectorAll('.prose img')).every(image=>image.complete && image.naturalWidth>0)")
@@ -90,6 +126,11 @@ with sync_playwright() as playwright:
             Path('.cache').mkdir(exist_ok=True)
             page.screenshot(path=f'.cache/school-gallery-{width}.png')
         print(f'PASS: {width}px school hierarchy, active navigation, person round-trip and all local gallery images')
+    for width in (2048, 3000):
+        page.set_viewport_size({'width': width, 'height': 1000})
+        page.goto(origin + '/_site/koulu/')
+        layout = page.locator('.page-heading').evaluate("el=>{const s=el.nextElementSibling,a=getComputedStyle(el),b=getComputedStyle(s);return {heading:parseFloat(a.paddingLeft),content:parseFloat(b.paddingLeft),width:innerWidth-2*parseFloat(a.paddingLeft)}}")
+        assert abs(layout['heading'] - layout['content']) < 1 and layout['width'] <= 1340
     page.set_viewport_size({'width': 1500, 'height': 1000})
     page.goto(origin + '/scripts/visual-parity.html')
     for viewport in ('desktop (1440px)', 'mobile (390px)'):

@@ -1,0 +1,23 @@
+---
+layout: layouts/article-page.njk
+pagination:
+  data: schoolView.classes
+  size: 1
+  alias: classGroup
+permalink: "/koulu/luokat/{{ classGroup.id }}/index.html"
+eleventyComputed:
+  title: "{{ classGroup.title }}"
+parent:
+  label: Luokat ja oppilasluettelot
+  url: /koulu/luokat/
+---
+<p class="metadata">Luokka-aste {{ classGroup.grade }} · {{ classGroup.period }} · lähde {{ classGroup.sourceId }}</p>
+<p>{{ classGroup.periodBasis | escape }}</p>
+<p>Luettelo säilyttää lähteessä mainitut nimet. Linkki kokoaa saman historiallisen nimimerkinnän tietoja; se ei vahvista nykyistä henkilöllisyyttä. Luettelon nimet eivät ole valokuvan henkilöiden tunnistus.</p>
+<p><a href="{{ ('/koulu/aineisto/' + classGroup.sourceId + '/') | localUrl }}">Lue luettelon koko paikallinen lähdesivu</a></p>
+<div class="data-list">
+{% for member in classGroup.members %}<article class="data-item" data-roster-person="{{ member.personId }}"><h2><a href="{{ ('/tekijat/' + member.personId + '/') | localUrl }}">{{ member.sourceName | escape }}</a></h2>
+{% if member.person.works.length %}<h3>Tekijälle lähteissä osoitetut työt</h3><ul>{% for work in member.person.works %}<li><a href="{{ ('/teokset/' + work.id + '/') | localUrl }}">{{ work.title | escape }}</a></li>{% endfor %}</ul><p>Työn ajankohta ja sen yhteys tähän luokkaan tarkistetaan erikseen teoksen lähteestä.</p>{% else %}<p>Tälle nimimerkinnälle ei ole vielä liitetty erillisiä teostietueita.</p>{% endif %}
+</article>{% endfor %}
+</div>
+<details><summary>Lähdetarkiste</summary><p>Luettu lähdesivu {{ classGroup.sourceId }} · SHA-256 <code>{{ classGroup.sourceSha256 }}</code>.</p></details>

@@ -1,0 +1,129 @@
+[
+  {
+    "id": "L-DLC-0011",
+    "title": "1. luokan nimiluettelo",
+    "grade": "1",
+    "period": "Lukuvuosi ei ilmene",
+    "periodBasis": "Sivun otsikko on 1. LUOKKA. Tallenne on 21.10.2000, mutta tallennuspäivää ei käytetä lukuvuoden varmistamiseen.",
+    "sourceId": "DLC-0011",
+    "sourceSha256": "9bdf0e05cb97a5d136ef55a0ede567ea1b8973c7b8d738adef08a799144e3afc",
+    "members": [
+      {
+        "personId": "H-8f6ce79b2b",
+        "sourceName": "Eeki Kairenius",
+        "evidence": "Eeki Kairenius"
+      },
+      {
+        "personId": "H-af2929fd6d",
+        "sourceName": "Patrick Bang",
+        "evidence": "Patrick Bang"
+      },
+      {
+        "personId": "H-f1936d8a8e",
+        "sourceName": "Robert Bang",
+        "evidence": "Robert Bang"
+      },
+      {
+        "personId": "H-83e96fe72e",
+        "sourceName": "Aleksi Tupola",
+        "evidence": "Aleksi Tupola"
+      },
+      {
+        "personId": "H-970a4a2da9",
+        "sourceName": "Eero Tiainen",
+        "evidence": "Eero Tiainen"
+      },
+      {
+        "personId": "H-0448f2ac01",
+        "sourceName": "Joonas Virolainen",
+        "evidence": "Joonas Virolainen"
+      },
+      {
+        "personId": "H-fc9de1e5cb",
+        "sourceName": "Toni Laihoaho",
+        "evidence": "Toni Laihoaho"
+      },
+      {
+        "personId": "H-6d3d2fa8f2",
+        "sourceName": "Kim Virolainen",
+        "evidence": "Kim Virolainen"
+      },
+      {
+        "personId": "H-627e23f056",
+        "sourceName": "Camilla Sippola",
+        "evidence": "Camilla Sippola"
+      },
+      {
+        "personId": "H-27e43abb79",
+        "sourceName": "Jenni Liiberg",
+        "evidence": "Jenni Liiberg"
+      },
+      {
+        "personId": "H-90439107f2",
+        "sourceName": "Meiju Laakso",
+        "evidence": "Meiju Laakso"
+      },
+      {
+        "personId": "H-a198d95c87",
+        "sourceName": "Tytti Hartikainen",
+        "evidence": "Tytti Hartikainen"
+      },
+      {
+        "personId": "H-db0402f00b",
+        "sourceName": "Johanna Virtamo",
+        "evidence": "Johanna Virtamo"
+      },
+      {
+        "personId": "H-27470d52bc",
+        "sourceName": "Taru Holappa",
+        "evidence": "Taru Holappa"
+      }
+    ]
+  },
+  {
+    "id": "L-HYK-002",
+    "title": "5. luokka 2000–2001",
+    "grade": "5",
+    "period": "2000–2001",
+    "periodBasis": "Luokkasivun kuvan ALT-teksti on 5. luokka 00/01. Nimet ovat varsinaisessa luettelossa, eivät koulun yhteisessä oppilasvalikossa.",
+    "sourceId": "HYK-002",
+    "sourceSha256": "038a37b4727bf2f85b786279404a60e66f3a44b154d091b6f97d70d4b70115f4",
+    "members": [
+      {
+        "personId": "H-58ba6873cd",
+        "sourceName": "Lauri Iso-Markku",
+        "evidence": "Lauri Iso-Markku"
+      },
+      {
+        "personId": "H-04c643024b",
+        "sourceName": "Joonas Maittila",
+        "evidence": "Joonas Maittila"
+      },
+      {
+        "personId": "H-d148801d45",
+        "sourceName": "Heikki Niemimaa",
+        "evidence": "Heikki Niemimaa"
+      },
+      {
+        "personId": "H-17717c69b9",
+        "sourceName": "Jesse Laihoaho",
+        "evidence": "Jesse Laihoaho"
+      },
+      {
+        "personId": "H-aae71cec4f",
+        "sourceName": "Marianne Oikkonen",
+        "evidence": "Marianne Oikkonen"
+      },
+      {
+        "personId": "H-82b2349130",
+        "sourceName": "Susa Virolainen",
+        "evidence": "Susa Virolainen"
+      },
+      {
+        "personId": "H-de9e0438bb",
+        "sourceName": "Jenni Laakso",
+        "evidence": "Jenni Laakso"
+      }
+    ]
+  }
+]
