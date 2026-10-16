@@ -21,12 +21,12 @@ PREFIX = PREFIX.rstrip("/") + "/"
 
 LEGACY_PAGES = (
     "/", "/koulu/", "/koulu/aikajana/", "/koulu/muistitieto/",
-    "/koulu/oppilastyot/", "/tekijat/myohemmat-vaiheet/",
+    "/koulu/oppilastyot/", "/koulu/myohemmat-vaiheet/",
     "/olli-poroila/kirjoitukset/", "/olli-poroila/aikajana/",
     "/olli-poroila/oikeus/", "/verkkoarkisto/tallenteet/",
     "/verkkoarkisto/sivujaljet/", "/verkkoarkisto/katalogi/",
     "/tekijat/", "/teokset/", "/verkkoarkisto/kuvat/",
-    "/tutkimus/kartta/", "/tutkimus/hypoteesit/", "/fiktiot/", "/lahteet/",
+    "/olli-poroila/kartta/", "/olli-poroila/hypoteesit/", "/fiktiot/", "/lahteet/",
 )
 REQUIRED_PAGES = (
     *LEGACY_PAGES, "/koulu/historia/", "/olli-poroila/",
@@ -66,6 +66,13 @@ def check(condition: bool, message: str) -> None:
 def main() -> int:
     check(SITE.is_dir(), "Eleventy output _site/ is missing; build the site first")
     routes = json.loads((ROOT / "src/_data/legacyRoutes.json").read_text(encoding="utf-8"))
+    aliases = json.loads((ROOT / 'src/_data/routeAliases.json').read_text(encoding='utf-8'))
+    for old, current in aliases.items():
+        redirect = page_file(old).read_text(encoding='utf-8')
+        destination = PREFIX + current.lstrip('/')
+        check(f'<link rel="canonical" href="{destination}">' in redirect, f'Wrong canonical redirect: {old}')
+        check('window.location.replace(' in redirect and 'window.location.search + window.location.hash' in redirect, f'Redirect drops bookmark state: {old}')
+        check(page_file(current).is_file(), f'Redirect destination missing: {old} -> {current}')
     for asset in ("style.css",):
         check((SITE / asset).read_bytes() == (ROOT / "tests/fixtures/original-site" / asset).read_bytes(), f"Original asset changed: {asset}")
     for route in REQUIRED_PAGES:
@@ -93,7 +100,7 @@ def main() -> int:
         check(body.count('<article class="time-row ') == len(rows), f"Timeline requires JavaScript for its initial content: {route}")
     source_page = page_file('/lahteet/').read_text(encoding='utf-8')
     check(source_page.count('<a class="source-entry"') == len(research['sources']), 'Source list was not rendered at build time')
-    board_page = page_file('/tutkimus/kartta/').read_text(encoding='utf-8')
+    board_page = page_file('/olli-poroila/kartta/').read_text(encoding='utf-8')
     check(board_page.count('<button class="node paper-') == 14, 'Initial corkboard cards were not rendered at build time')
     court_page = page_file('/olli-poroila/oikeus/').read_text(encoding='utf-8')
     court_article = next(article for article in research['articles'] if article['slug'] == 'koulu-auktoriteetti-ja-oikeuden-kieli')
@@ -154,12 +161,17 @@ def main() -> int:
         parser.feed(body)
         for raw in parser.links:
             url = urlsplit(raw)
+            repository_path = '/penny-five/poroila-jaljet/blob/main/'
+            if url.netloc == 'github.com' and url.path.startswith(repository_path):
+                check((ROOT / unquote(url.path[len(repository_path):])).is_file(), f'Repository file link is broken: {raw}')
             if url.scheme or url.netloc or raw.startswith("//"):
                 continue
             if not url.path:
                 continue
             checked_links += 1
             path = unquote(url.path)
+            local_path = '/' + path[len(PREFIX):] if PREFIX != '/' and path.startswith(PREFIX) else path
+            check(local_path.replace('/index.html', '/') not in aliases, f'Internal link still uses an old page address: {source.relative_to(SITE)} -> {raw}')
             if path.startswith("/"):
                 target = page_file(path)
             else:

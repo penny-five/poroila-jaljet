@@ -17,7 +17,7 @@ subpages:
   - label: Oppilaiden verkkotyöt
     url: /koulu/oppilastyot/
   - label: Entisten oppilaiden myöhemmät vaiheet
-    url: /tekijat/myohemmat-vaiheet/
+    url: /koulu/myohemmat-vaiheet/
 ---
 
 Hyrsylän koulu perustettiin Nummen pitäjään 1900-luvun alussa. Suomen virallisen tilaston mukaan koulu oli toiminnassa lukuvuonna 1905–1906. Kunta liitettiin myöhemmin Nummi-Pusulaan ja nykyisin koulualue kuuluu Lohjaan. Kaupunki raportoi opetustoiminnan siirtyneen Oinolan kouluun elokuussa 2015; vuoden 2016 talousarviossa lakkauttamisajaksi ilmoitetaan 1.8.2016.

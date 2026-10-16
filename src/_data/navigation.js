@@ -3,8 +3,8 @@ module.exports = {
   primary: [
     { id: 'alku', label: 'Alku', url: '/', prefixes: ['/'] },
     { id: 'sivujaljet', label: 'Verkkosivut', url: '/verkkoarkisto/sivujaljet/', prefixes: ['/verkkoarkisto/', '/tekijat/', '/teokset/'] },
-    { id: 'koulu', label: 'Koulu ja ihmiset', url: '/koulu/', prefixes: ['/koulu/', '/tekijat/myohemmat-vaiheet/'] },
-    { id: 'aineisto', label: 'Poroila', url: '/olli-poroila/', prefixes: ['/olli-poroila/'] },
+    { id: 'koulu', label: 'Koulu ja ihmiset', url: '/koulu/', prefixes: ['/koulu/'] },
+    { id: 'aineisto', label: 'Poroila', url: '/olli-poroila/kirjoitukset/', prefixes: ['/olli-poroila/'] },
     { id: 'fiktiot', label: 'Fiktio', url: '/fiktiot/', prefixes: ['/fiktiot/'] },
     { id: 'lahteet', label: 'Lähteet', url: '/lahteet/', prefixes: ['/lahteet/', '/tutkimus/'] },
   ],
@@ -25,7 +25,7 @@ module.exports = {
     },
     {
       label: 'Koulun alasivut',
-      prefixes: ['/koulu/', '/tekijat/myohemmat-vaiheet/'],
+      prefixes: ['/koulu/'],
       links: [
         { label: 'Hyrsylän koulu', url: '/koulu/' },
         { label: 'Koulun aikajana', url: '/koulu/aikajana/' },
@@ -33,7 +33,7 @@ module.exports = {
         { label: 'Muistitieto', url: '/koulu/muistitieto/' },
         { label: 'Oppilastyöt', url: '/koulu/oppilastyot/' },
         { label: 'Yhteenveto', url: '/koulu/yhteenveto/' },
-        { label: 'Myöhemmät vaiheet', url: '/tekijat/myohemmat-vaiheet/' },
+        { label: 'Myöhemmät vaiheet', url: '/koulu/myohemmat-vaiheet/' },
       ],
     },
     {
@@ -45,6 +45,8 @@ module.exports = {
         { label: 'Tuntemuksiani', url: '/olli-poroila/tuntemuksiani/' },
         { label: 'Kirjoitukset ja lähteet', url: '/olli-poroila/kirjoitukset/' },
         { label: 'Oikeusprosessi', url: '/olli-poroila/oikeus/' },
+        { label: 'Dokumentoidut yhteydet', url: '/olli-poroila/kartta/' },
+        { label: 'Avoimet hypoteesit', url: '/olli-poroila/hypoteesit/' },
       ],
     },
     {
@@ -52,8 +54,6 @@ module.exports = {
       prefixes: ['/tutkimus/'],
       links: [
         { label: 'Tutkimuksen tausta', url: '/tutkimus/' },
-        { label: 'Dokumentoidut yhteydet', url: '/tutkimus/kartta/' },
-        { label: 'Avoimet hypoteesit', url: '/tutkimus/hypoteesit/' },
       ],
     },
   ],

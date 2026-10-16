@@ -63,6 +63,28 @@ of 55 KB. These figures exclude the untouched historical archive copies.
 - Builds were checked at `/`, `/poroila-jaljet/` and `/_site/`. Asset-copy targets
   are separate to avoid overlapping directory-copy races on Windows.
 
-GitHub Pages waits for browser checks before deployment. The workflow has not run
-on GitHub during this local work. Nothing has been pushed or deployed.
+GitHub Pages waits for browser checks before deployment. Pushes to `main` publish
+only after verification passes.
 See the root README for development and verification commands.
+
+
+## Canonical page paths
+
+Page addresses now follow the subject shown in navigation:
+
+| Old address | Canonical address |
+| --- | --- |
+| `/tutkimus/kartta/` | `/olli-poroila/kartta/` |
+| `/tutkimus/hypoteesit/` | `/olli-poroila/hypoteesit/` |
+| `/tekijat/myohemmat-vaiheet/` | `/koulu/myohemmat-vaiheet/` |
+
+The source templates live in the matching subject directories. Old addresses
+remain as small static redirects; browser redirects retain query parameters and
+fragments. Old hash bookmarks use the same canonical routes. Internal links and
+both navigation presentations now use the canonical addresses. The Poroila
+primary link consistently opens its original writings-and-sources view.
+
+GitHub research-note links now point into `docs/research/`. Smoke checks validate
+redirect targets, reject internal links through old aliases and verify links to
+files in this repository. Builds now contain 261 content pages plus three
+compatibility redirects.

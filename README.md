@@ -35,7 +35,7 @@ Katalogin metatietojen lähde on `assets/archive/hyk-katalogi.json`. `catalog.js
 
 `src/_data/work-texts.json` sisältää 97 palautuneen teoksen kokotekstit. Kaikilla 98 teosmerkinnällä on oma sivu. `assets/archive/originals/` sisältää 148 tarkkaa arkistokopiota, joiden lähteet ja SHA-256-tarkisteet ovat `originals-manifest.json`-tiedostossa. Git säilyttää alkuperäistiedostojen tavut ilman rivinvaihtomuunnoksia.
 
-Navigaatio määritellään `navigation.js`- ja `originalNavigation.json`-tiedostoissa. `legacyRoutes.json` ja `src/scripts/bookmarks.js` säilyttävät vanhojen `#/...`-kirjanmerkkien toiminnan. Historialliset ulkoiset `~hyk`-osoitteet ovat alkuperäisiä lähdeviitteitä.
+Navigaatio määritellään `navigation.js`- ja `originalNavigation.json`-tiedostoissa. `legacyRoutes.json` ja `src/scripts/bookmarks.js` säilyttävät vanhojen `#/...`-kirjanmerkkien toiminnan. `routeAliases.json` tuottaa uudelleenohjaukset siirrettyjen sivujen vanhoista osoitteista ja pitää sisäiset linkit kanonisina. Kartta ja hypoteesit ovat `/olli-poroila/`-osiossa, entisten oppilaiden myöhemmät vaiheet `/koulu/`-osiossa. Historialliset ulkoiset `~hyk`-osoitteet ovat alkuperäisiä lähdeviitteitä.
 
 ## Tarkistukset
 

@@ -1,0 +1,16 @@
+---
+pagination:
+  data: routeAliases
+  size: 1
+  alias: oldPath
+permalink: "{{ oldPath }}index.html"
+eleventyExcludeFromCollections: true
+---
+{% set destination = routeAliases[oldPath] | localUrl %}
+<!doctype html>
+<html lang="fi"><head><meta charset="utf-8"><title>Sivu on siirtynyt</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="{{ destination }}">
+<meta http-equiv="refresh" content="0;url={{ destination }}">
+<script>window.location.replace({{ destination | toJson | safe }} + window.location.search + window.location.hash);</script>
+</head><body><p>Sivu on siirtynyt. <a href="{{ destination }}">Avaa sivu sen uudessa osoitteessa.</a></p></body></html>

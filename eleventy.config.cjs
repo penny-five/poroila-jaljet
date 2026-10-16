@@ -1,5 +1,13 @@
 const prefix = (process.env.SITE_PREFIX || '/').replace(/\/*$/, '/') || '/';
 const legacyRoutes = require('./src/_data/legacyRoutes.json');
+const routeAliases = require('./src/_data/routeAliases.json');
+
+function canonicalPath(value) {
+  const [_, path, suffix] = String(value).match(/^([^?#]*)(.*)$/);
+  const local = prefix !== '/' && path.startsWith(prefix) ? `/${path.slice(prefix.length)}` : path;
+  const route = local.replace(/\/index\.html$/, '/');
+  return routeAliases[route] ? `${routeAliases[route]}${suffix}` : value;
+}
 
 function canonicalLegacyHash(value) {
   const parts = decodeURIComponent(value).split('/').filter(Boolean);
@@ -10,7 +18,7 @@ function canonicalLegacyHash(value) {
 }
 
 function prefixLocalPath(value) {
-  const url = String(value);
+  const url = String(canonicalPath(value));
   if (/^(?:[a-z]+:|\/\/|#)/i.test(url)) return url;
   if (url.startsWith('/')) {
     const base = prefix.replace(/^\/+|\/+$/g, '');
@@ -19,7 +27,7 @@ function prefixLocalPath(value) {
   }
   if (url.startsWith('./') || url.startsWith('../')) {
     const normalized = require('node:path').posix.normalize(url).replace(/^\.\//, '');
-    return `${prefix}${normalized}`;
+    return prefixLocalPath(`/${normalized}`);
   }
   if (/^(?:assets\/|style\.css$|app\.js$|research-data\.js$)/.test(url)) return `${prefix}${url}`;
   return url;
@@ -37,7 +45,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('localUrl', (value = '/') => {
     const url = String(value);
     if (/^(?:[a-z]+:|\/\/|#)/i.test(url)) return url;
-    return `${prefix}${url.replace(/^\/+/, '')}`;
+    return prefixLocalPath(`/${url.replace(/^\/+/, '')}`);
   });
 
   eleventyConfig.addFilter('prefixPaths', (html = '') => String(html).replace(
