@@ -39,8 +39,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56luokka.htm",
           "label": "5/6-LUOKKAAMME",
           "sourceId": "DLC-0104",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0104.html",
+          "readerPath": "/koulu/aineisto/DLC-0104/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/aikuiset.htm",
@@ -170,8 +170,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/1-luokkahuone.htm#alku",
@@ -559,8 +559,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/12-luokan-tuotoksia.htm#alku",
@@ -701,8 +701,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         }
       ],
       "images": [
@@ -2387,10 +2387,10 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-miete.jpg",
           "label": "Miete",
           "sourceId": "DLC-0351",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0351.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0351.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-sirkku-mannerkoski-tuuli.jpg",
@@ -3262,8 +3262,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56luokka.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0104",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0104.html",
+          "readerPath": "/koulu/aineisto/DLC-0104/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/rakennus.htm",
@@ -3276,8 +3276,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/56-tuhmanurkka.htm",
@@ -3435,8 +3435,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56kuvia.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0103",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0103.html",
+          "readerPath": "/koulu/aineisto/DLC-0103/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-elsa-hagelberg.htm",
@@ -4152,19 +4152,19 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-veneet-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0239",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0239.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0239.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-veneet-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0240",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0240.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0240.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-vedessa-ensin.jpg",
@@ -4179,10 +4179,10 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-vedessa-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0238",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0238.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0238.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
@@ -4652,19 +4652,19 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-veneet-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0239",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0239.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0239.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-veneet-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0240",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0240.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0240.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-vedessa-ensin.jpg",
@@ -4679,10 +4679,10 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-vedessa-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0238",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0238.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0238.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
@@ -6248,8 +6248,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56kuvia.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0103",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0103.html",
+          "readerPath": "/koulu/aineisto/DLC-0103/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-paula-ojansuu.htm",
@@ -6414,8 +6414,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56kuvia.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0103",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0103.html",
+          "readerPath": "/koulu/aineisto/DLC-0103/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-kreeta-pekkola.htm",
@@ -6555,8 +6555,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56kuvia.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0103",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0103.html",
+          "readerPath": "/koulu/aineisto/DLC-0103/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/56kuvia-maisema-0203.htm#alku",
@@ -6700,8 +6700,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/abc80.htm#alku",
@@ -6933,8 +6933,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/ruokalista.htm",
@@ -7352,8 +7352,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/englanninluokka.htm#alku",
@@ -7799,8 +7799,8 @@
           "url": "http://www.dlc.fi:80/~hyk/5-oppilaat-heponiemi.htm",
           "label": "5-luokka Heponiemessä keväällä 1986",
           "sourceId": "DLC-0052",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0052.html",
+          "readerPath": "/koulu/aineisto/DLC-0052/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/entiset-luokkakuvat.htm#alku",
@@ -8207,8 +8207,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         }
       ],
       "images": [
@@ -8417,8 +8417,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/---.htm",
@@ -9261,8 +9261,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/koulutalo-ulkoa.htm",
@@ -9388,8 +9388,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/koulunjohtajankoppi.htm#alku",
@@ -9829,8 +9829,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         }
       ],
       "images": [
@@ -9924,8 +9924,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/lj-koko.htm#alku",
@@ -10026,8 +10026,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         }
       ],
       "images": [
@@ -10121,8 +10121,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         }
       ],
       "images": [
@@ -10216,8 +10216,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         }
       ],
       "images": [
@@ -10311,8 +10311,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         }
       ],
       "images": [
@@ -10456,10 +10456,10 @@
           "url": "http://www.dlc.fi:80/~hyk/olli-sahkoikkuna-1-p.jpg",
           "label": "olli-sahkoikkuna-1-p.jpg",
           "sourceId": "DLC-0301",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0301.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0301.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/olli-sahkoikkuna-2-p.jpg",
@@ -10656,10 +10656,10 @@
           "url": "http://www.dlc.fi:80/~hyk/poroilan-kuva-8.gif",
           "label": "poroilan-kuva-8.gif",
           "sourceId": "DLC-0960",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0960.gif",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0960.gif"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
@@ -10943,8 +10943,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/ollin-omalle-sivustolle.htm",
@@ -11106,28 +11106,28 @@
           "url": "http://www.dlc.fi:80/~hyk/aikuinen-olli-poroila-20.jpg",
           "label": "aikuinen-olli-poroila-20.jpg",
           "sourceId": "DLC-0111",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0111.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0111.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/aikuinen-olli-poroila-pikkuisena.jpg",
           "label": "aikuinen-olli-poroila-pikkuisena.jpg",
           "sourceId": "DLC-0112",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0112.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0112.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/olli-sivulle-p.jpg",
           "label": "olli-sivulle-p.jpg",
           "sourceId": "DLC-0311",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0311.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0311.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/amnesty.gif",
@@ -11151,10 +11151,10 @@
           "url": "http://www.dlc.fi:80/~hyk/puita.gif",
           "label": "puita.gif",
           "sourceId": "DLC-0965",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0965.gif",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0965.gif"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/va-logo.gif",
@@ -11187,37 +11187,37 @@
           "url": "http://www.dlc.fi:80/~hyk/pigasus.gif",
           "label": "pigasus.gif",
           "sourceId": "DLC-0947",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0947.gif",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0947.gif"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/olli-sahkoikkuna-1-p.jpg",
           "label": "olli-sahkoikkuna-1-p.jpg",
           "sourceId": "DLC-0301",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0301.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0301.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/frasier.gif",
           "label": "FRASIER/KELSEY LAULAA",
           "sourceId": "DLC-0137",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0137.gif",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0137.gif"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/hp2000a.jpg",
           "label": "HP2000A",
           "sourceId": "DLC-0142",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0142.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0142.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/aim65.jpg",
@@ -11232,55 +11232,55 @@
           "url": "http://www.dlc.fi:80/~hyk/putki.jpg",
           "label": "ELEKTRONIPUTKI",
           "sourceId": "DLC-0971",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0971.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0971.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/mikropiiri.jpg",
           "label": "MIKROPIIRI",
           "sourceId": "DLC-0289",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0289.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0289.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/keesiolli.jpg",
           "label": "OLLI PARTURISSA 1984",
           "sourceId": "DLC-0172",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0172.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0172.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/olli-poroila-ja-joulupukki.jpg",
           "label": "olli-poroila-ja-joulupukki.jpg",
           "sourceId": "DLC-0300",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0300.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0300.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/ferrari.jpg",
           "label": "KORVIKE-LADASSA 1987",
           "sourceId": "DLC-0136",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0136.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0136.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/pojat-sohvalla.jpg",
           "label": "pojat sohvalla",
           "sourceId": "DLC-0952",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0952.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0952.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
@@ -11440,37 +11440,37 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-9899.jpg",
           "label": "ANNA 6.",
           "sourceId": "DLC-0338",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0338.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0338.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-noppa-animaatio.gif",
           "label": "oppilas-anna-rasinkangas-noppa-animaatio.gif",
           "sourceId": "DLC-0352",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0352.gif",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0352.gif"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-kannella.jpg",
           "label": "ANNA",
           "sourceId": "DLC-0344",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0344.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0344.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-koira.jpg",
           "label": "KOIRA",
           "sourceId": "DLC-0349",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0349.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0349.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-juhlakisu.jpg",
@@ -11485,10 +11485,10 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-tuolikisu.jpg",
           "label": "KISSA",
           "sourceId": "DLC-0354",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0354.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0354.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/tausta-runotaulu.jpg",
@@ -11512,10 +11512,10 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-miete.jpg",
           "label": "Miete",
           "sourceId": "DLC-0351",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0351.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0351.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
@@ -12555,8 +12555,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/murto.htm",
@@ -13184,8 +13184,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56luokka.htm",
           "label": "- 5/6-LUOKKAA",
           "sourceId": "DLC-0104",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0104.html",
+          "readerPath": "/koulu/aineisto/DLC-0104/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/5-oppilaat.htm",
@@ -13254,8 +13254,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56kuvia.htm",
           "label": "- KUVIA (5/6)",
           "sourceId": "DLC-0103",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0103.html",
+          "readerPath": "/koulu/aineisto/DLC-0103/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/laajennus.htm",
@@ -13422,8 +13422,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/paivitykset.htm",
@@ -22787,8 +22787,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/---.htm",
@@ -23620,8 +23620,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/---.htm",
@@ -24526,8 +24526,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-astra-kanervo.htm",
@@ -24848,8 +24848,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/12-oppilaat-i.htm#alku",
@@ -25056,15 +25056,15 @@
           "url": "http://www.dlc.fi:80/~hyk/56luokka.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0104",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0104.html",
+          "readerPath": "/koulu/aineisto/DLC-0104/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/---.htm",
@@ -26534,8 +26534,8 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-jarno-virtamo-kirjoitelmat.htm",
           "label": "Haluatko tutustua kirjoituksiini?",
           "sourceId": "DLC-0552",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0552.html",
+          "readerPath": "/koulu/aineisto/DLC-0552/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-jarno-virtamo-vedenmatoset.htm",
@@ -27484,8 +27484,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         }
       ],
       "images": [
@@ -27901,10 +27901,10 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-9899.jpg",
           "label": "TAKAISIN!",
           "sourceId": "DLC-0338",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0338.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0338.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-ja-elina-hessu.jpg",
@@ -28648,10 +28648,10 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-poika.jpg",
           "label": "TAKAISIN!",
           "sourceId": "DLC-0792",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0792.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0792.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-artturi-pekkola-torakka-animaatio.gif",
@@ -28774,8 +28774,8 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-artturi-pekkola-kirjoitelmat.htm",
           "label": "Haluatko tutustua kirjoittamiini tarinoihin?",
           "sourceId": "DLC-0392",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0392.html",
+          "readerPath": "/koulu/aineisto/DLC-0392/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-artturi-pekkola-torakka.htm",
@@ -28824,10 +28824,10 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-poika.jpg",
           "label": "ARTTURI PEKKOLA tulee myöhemmin",
           "sourceId": "DLC-0792",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0792.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0792.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
@@ -33652,8 +33652,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56kuvia.htm",
           "label": "KUVASIVULLE",
           "sourceId": "DLC-0103",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0103.html",
+          "readerPath": "/koulu/aineisto/DLC-0103/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
@@ -34008,8 +34008,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56kuvia.htm",
           "label": "KUVASIVULLE",
           "sourceId": "DLC-0103",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0103.html",
+          "readerPath": "/koulu/aineisto/DLC-0103/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
@@ -37845,8 +37845,8 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo-kirjoitelmat.htm",
           "label": "Haluatko tutustua kirjoittamiini tarinoihini?",
           "sourceId": "DLC-0627",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0627.html",
+          "readerPath": "/koulu/aineisto/DLC-0627/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo.htm#alku",
@@ -37888,28 +37888,28 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo-9900.jpg",
           "label": "Joona 3.",
           "sourceId": "DLC-0623",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0623.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0623.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo-otus.jpg",
           "label": "otus",
           "sourceId": "DLC-0629",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0629.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0629.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo-laiva.jpg",
           "label": "laiva",
           "sourceId": "DLC-0628",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0628.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0628.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
@@ -37985,8 +37985,8 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-jaakko-virta-jakobsivu.htm",
           "label": "Silakka",
           "sourceId": "DLC-0504",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0504.html",
+          "readerPath": "/koulu/aineisto/DLC-0504/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/OPPILAS-jussi-kanervo.htm",
@@ -38193,8 +38193,8 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen-kirjoitelmat.htm",
           "label": "Haluatko tutustua kirjoituksiini?",
           "sourceId": "DLC-0639",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0639.html",
+          "readerPath": "/koulu/aineisto/DLC-0639/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen-loppumaailma.htm",
@@ -38252,10 +38252,10 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen-animaatio.gif",
           "label": "animaatio",
           "sourceId": "DLC-0633",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0633.gif",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0633.gif"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen-littleman.gif",
@@ -38347,8 +38347,8 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-kirjoitelmat.htm",
           "label": "Haluatko tutustua kirjoittamiini tarinoihini?",
           "sourceId": "DLC-0653",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0653.html",
+          "readerPath": "/koulu/aineisto/DLC-0653/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila.htm#alku",
@@ -38390,19 +38390,19 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-9900.jpg",
           "label": "Joonas",
           "sourceId": "DLC-0647",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0647.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0647.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-9899.jpg",
           "label": "Joonas",
           "sourceId": "DLC-0646",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0646.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0646.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-animaatio.gif",
@@ -38417,28 +38417,28 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-neppu1.jpg",
           "label": "Neppu",
           "sourceId": "DLC-0654",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0654.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0654.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-neppu2.jpg",
           "label": "Neppu",
           "sourceId": "DLC-0655",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0655.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0655.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-valolaite.jpg",
           "label": "Joonaksen valolaite",
           "sourceId": "DLC-0656",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0656.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0656.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
@@ -38563,10 +38563,10 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-paukkio-vapaa-aihe.jpg",
           "label": "piirtäjä: Joonas Paukkio",
           "sourceId": "DLC-0664",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0664.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0664.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
@@ -38780,8 +38780,8 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-jose-riikonen-kirjoitelmat.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0675",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0675.html",
+          "readerPath": "/koulu/aineisto/DLC-0675/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-jarno-virtamo-vedenmatoset.htm",
@@ -38830,10 +38830,10 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-jarno-virtamo-vedenmatonen-4.gif",
           "label": "oppilas-jarno-virtamo-vedenmatonen-4.gif",
           "sourceId": "DLC-0555",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0555.gif",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0555.gif"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
@@ -38922,8 +38922,8 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-jose-riikonen-kirjoitelmat.htm",
           "label": "Haluatko tutustua kirjoituksiini?",
           "sourceId": "DLC-0675",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0675.html",
+          "readerPath": "/koulu/aineisto/DLC-0675/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-jarno-virtamo-vedenmatoset.htm",
@@ -39301,10 +39301,10 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-juri-back-puu.gif",
           "label": "oppilas-juri-back-puu.gif",
           "sourceId": "DLC-0678",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0678.gif",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0678.gif"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-juri-back.jpg",
@@ -39410,8 +39410,8 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-jussi-kanervo-kirjoitelmat.htm",
           "label": "Haluatko tutustua kirjoituksiini?",
           "sourceId": "DLC-0683",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0683.html",
+          "readerPath": "/koulu/aineisto/DLC-0683/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-artturi-pekkola-torakka.htm",
@@ -39586,8 +39586,8 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-kalle-saukkolin-kirjoitelmat.htm",
           "label": "Haluatko tutustua kirjoittamiini tarinoihin?",
           "sourceId": "DLC-0697",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0697.html",
+          "readerPath": "/koulu/aineisto/DLC-0697/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-kalle-saukkolin.htm#alku",
@@ -39733,8 +39733,8 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-katri-iso-markku-kirjoitelmat.htm",
           "label": "Haluatko tutustua kirjoittamiini tarinoihini?",
           "sourceId": "DLC-0704",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0704.html",
+          "readerPath": "/koulu/aineisto/DLC-0704/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-katri-iso-markku.htm#alku",
@@ -39899,8 +39899,8 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-kimmo-seppala-kirjoitelmat.htm",
           "label": "Haluatko tutustua kirjoituksiini?",
           "sourceId": "DLC-0709",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0709.html",
+          "readerPath": "/koulu/aineisto/DLC-0709/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen-loppumaailma.htm",
@@ -40082,10 +40082,10 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-9899.jpg",
           "label": "TAKAISIN!",
           "sourceId": "DLC-0338",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0338.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0338.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-sirkku-mannerkoski-9899.jpg",
@@ -40159,15 +40159,15 @@
           "url": "http://www.dlc.fi:80/~hyk/56luokka.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0104",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0104.html",
+          "readerPath": "/koulu/aineisto/DLC-0104/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/56-runoja-haikuja.htm",
@@ -40308,8 +40308,8 @@
           "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
           "label": "KARTTASIVULLE",
           "sourceId": "DLC-0982",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/olliruno.htm#alku",
@@ -40492,6 +40492,2504 @@
           "name": "Salli Karki",
           "observations": [],
           "basis": "Sama kokonainen nimiasu sivun tekstissä"
+        }
+      ],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0103",
+      "filename": "56kuvia.htm",
+      "title": "5/6:N KUVASATOA",
+      "category": "Kuva- ja taidesivut",
+      "text": "5/6:N KUVASATOA\n\nNäpäytä kuvia, jos haluat enemmän, suurempina ja erikseen.\n\n99/00\n\n98/99\n\n96-98",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/56kuvia.htm",
+      "archiveUrl": "https://web.archive.org/web/20001021144532/http://www.dlc.fi:80/~hyk/56kuvia.htm",
+      "timestamp": "20001021144532",
+      "localPath": "/assets/archive/originals/DLC-0103.html",
+      "sha256": "8a65b4f5e6eac09508a3bc5ac0f72d1888d1219d2cd737379092da031e4db662",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56luokka.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0104",
+          "localPath": "/assets/archive/originals/DLC-0104.html",
+          "readerPath": "/koulu/aineisto/DLC-0104/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
+          "label": "KARTTASIVULLE",
+          "sourceId": "DLC-0982",
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56kuvia-ensin-sitten.htm",
+          "label": "DIGI-KUVAT",
+          "sourceId": "DLC-0084",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56kuvia-ihminen-9900.htm",
+          "label": "KASVOGALLERIA",
+          "sourceId": "DLC-0085",
+          "localPath": "/assets/archive/originals/DLC-0085.html",
+          "readerPath": "/koulu/aineisto/DLC-0085/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56kuvia-ensin-sitten-9899.htm",
+          "label": "digitaalinen kuvankäsittely",
+          "sourceId": "DLC-0081",
+          "localPath": "/assets/archive/originals/DLC-0081.html",
+          "readerPath": "/koulu/aineisto/DLC-0081/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56kuvia-kala-9899.htm",
+          "label": "KALAGALLERIA",
+          "sourceId": "DLC-0087",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56kuvia-ihminen.htm",
+          "label": "KASVOGALLERIA",
+          "sourceId": "DLC-0086",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56kuvia-puu.htm",
+          "label": "PUUGALLERIA",
+          "sourceId": "DLC-0095",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56kuvia-talo.htm",
+          "label": "TALOGALLERIA",
+          "sourceId": "DLC-0099",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56kuvia-korkki.htm",
+          "label": "KORKKIGALLERIA",
+          "sourceId": "DLC-0090",
+          "localPath": null,
+          "readerPath": null
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/hyk-emb2.gif",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kartta-nuoli.gif",
+          "label": "KARTTASIVULLE",
+          "sourceId": "DLC-0169",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-tytot.gif",
+          "label": "DIGI-KUVAT",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuva-ihmo-ihmo.gif",
+          "label": "KASVOGALLERIA",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/uutta.gif",
+          "label": "UUTTA",
+          "sourceId": "DLC-1091",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuva-jarnou-jarnou.gif",
+          "label": "digitaalinen kuvankäsittely",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuva-kala-kala.gif",
+          "label": "KALAGALLERIA",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuva-ihminen-ihminen.gif",
+          "label": "KASVOGALLERIA",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuva-puu-puu.gif",
+          "label": "PUUGALLERIA",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-suskususku.gif",
+          "label": "DIGI-KUVAT",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuva-talo-talo.gif",
+          "label": "TALOGALLERIA",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuva-korkki-korkki.gif",
+          "label": "KORKKIGALLERIA",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": true,
+      "people": [],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0104",
+      "filename": "56luokka.htm",
+      "title": "5. luokka: 19 oppilasta * 6. luokka: 9 oppilasta *",
+      "category": "Koulun muut sivut",
+      "text": "5. luokka: 19 oppilasta * 6. luokka: 9 oppilasta *\n\nhyrsylan.5-6dlc.fi\n\nKoko ajan\n\n.\n\nNäpäytä kuvaa, jos haluat katsoa 5/6:n luokkakuvia.\n\nPaljon uusia haiku-runoja.\n\nNäpäytä kuvaa, jos haluat lukea 5/6:n runoja.\n\nUUSIA DIGITAALISESTI MUUNNELTUJA KUVIA!\n\nNäpäytä kuvia,\n\njos haluat katsoa 5/6:n piirroksia yms.\n\nTEHTÄVÄ VAIHDETTU 9.2.2000.\n\nNäpäytä kuvaa,\n\njos haluat tutustua pulmasivuun.\n\n5/6:N LUOKKAHUONETTA\n\nNäpäytä kuvia,\n\njos haluat ne suurempina ja erikseen.\n\n'LEIRIKOULU' ÄHTÄRISSÄ\n\nNäpäytä kuvia,\n\njos haluat ne suurempina ja erikseen.\n\n'LEIRIKOULU' HEPONIEMESSÄ\n\nNäpäytä kuvaa,\n\njos haluat tutustua tarkemmin.",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/56luokka.htm",
+      "archiveUrl": "https://web.archive.org/web/20000419222912/http://www.dlc.fi:80/~hyk/56luokka.htm",
+      "timestamp": "20000419222912",
+      "localPath": "/assets/archive/originals/DLC-0104.html",
+      "sha256": "830ddc7f15d2fa7ce3b35bedfbd5ca3aa07f941699a54dc4b0946be2f6d5cc4d",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
+          "label": "KARTTASIVULLE",
+          "sourceId": "DLC-0982",
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/---.htm",
+          "label": "* VALITSE OPPILAS *",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-henna-berg.htm",
+          "label": "BERG Henna",
+          "sourceId": "DLC-0483",
+          "localPath": "/assets/archive/originals/DLC-0483.html",
+          "readerPath": "/koulu/aineisto/DLC-0483/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-elina-fauth.htm",
+          "label": "FAUTH Elina",
+          "sourceId": "DLC-0427",
+          "localPath": "/assets/archive/originals/DLC-0427.html",
+          "readerPath": "/koulu/aineisto/DLC-0427/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-elsa-hagelberg.htm",
+          "label": "HAGELBERG Elsa",
+          "sourceId": "DLC-0446",
+          "localPath": "/assets/archive/originals/DLC-0446.html",
+          "readerPath": "/koulu/aineisto/DLC-0446/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-teemu-hartikainen.htm",
+          "label": "HARTIKAINEN Teemu",
+          "sourceId": "DLC-0868",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-susanna-hutka.htm",
+          "label": "HUTKA Susanna",
+          "sourceId": "DLC-0859",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-katri-iso-markku.htm",
+          "label": "ISO-MARKKU Katri",
+          "sourceId": "DLC-0705",
+          "localPath": "/assets/archive/originals/DLC-0705.html",
+          "readerPath": "/koulu/aineisto/DLC-0705/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-lauri-iso-markku.htm",
+          "label": "ISO-MARKKU Lauri",
+          "sourceId": "DLC-0725",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-roosa-jakosaari.htm",
+          "label": "JAKOSAARI Roosa",
+          "sourceId": "DLC-0805",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-esko-jarvinen.htm",
+          "label": "JÄRVINEN Esko",
+          "sourceId": "DLC-0458",
+          "localPath": "/assets/archive/originals/DLC-0458.html",
+          "readerPath": "/koulu/aineisto/DLC-0458/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-ali-kairenius.htm",
+          "label": "KAIRENIUS Ali",
+          "sourceId": "DLC-0337",
+          "localPath": "/assets/archive/originals/DLC-0337.html",
+          "readerPath": "/koulu/aineisto/DLC-0337/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-olli-kairenius.htm",
+          "label": "KAIRENIUS Olli",
+          "sourceId": "DLC-0753",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-astra-kanervo.htm",
+          "label": "KANERVO Astra",
+          "sourceId": "DLC-0407",
+          "localPath": "/assets/archive/originals/DLC-0407.html",
+          "readerPath": "/koulu/aineisto/DLC-0407/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-aleksi-korpijaakko.htm",
+          "label": "KORPIJAAKKO Aleksi",
+          "sourceId": "DLC-0330",
+          "localPath": "/assets/archive/originals/DLC-0330.html",
+          "readerPath": "/koulu/aineisto/DLC-0330/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-erika-korpijaakko.htm",
+          "label": "KORPIJAAKKO Erika",
+          "sourceId": "DLC-0454",
+          "localPath": "/assets/archive/originals/DLC-0454.html",
+          "readerPath": "/koulu/aineisto/DLC-0454/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jenni-laakso.htm",
+          "label": "LAAKSO Jenni",
+          "sourceId": "DLC-0593",
+          "localPath": "/assets/archive/originals/DLC-0593.html",
+          "readerPath": "/koulu/aineisto/DLC-0593/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jesse-laihoaho.htm",
+          "label": "LAIHOAHO Jesse",
+          "sourceId": "DLC-0605",
+          "localPath": "/assets/archive/originals/DLC-0605.html",
+          "readerPath": "/koulu/aineisto/DLC-0605/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-anu-leskinen.htm",
+          "label": "LESKINEN Anu",
+          "sourceId": "DLC-0382",
+          "localPath": "/assets/archive/originals/DLC-0382.html",
+          "readerPath": "/koulu/aineisto/DLC-0382/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila.htm",
+          "label": "MAITTILA Joonas",
+          "sourceId": "DLC-0657",
+          "localPath": "/assets/archive/originals/DLC-0657.html",
+          "readerPath": "/koulu/aineisto/DLC-0657/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-hanne-marjoniemi.htm",
+          "label": "MARJONIEMI Hanne",
+          "sourceId": "DLC-0469",
+          "localPath": "/assets/archive/originals/DLC-0469.html",
+          "readerPath": "/koulu/aineisto/DLC-0469/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-heikki-niemimaa.htm",
+          "label": "NIEMIMAA Heikki",
+          "sourceId": "DLC-0476",
+          "localPath": "/assets/archive/originals/DLC-0476.html",
+          "readerPath": "/koulu/aineisto/DLC-0476/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-mikko-norja.htm",
+          "label": "NORJA Mikko",
+          "sourceId": "DLC-0740",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-pekka-norja.htm",
+          "label": "NORJA Pekka",
+          "sourceId": "DLC-0791",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-janika-oikari.htm",
+          "label": "OIKARI Janika",
+          "sourceId": "DLC-0514",
+          "localPath": "/assets/archive/originals/DLC-0514.html",
+          "readerPath": "/koulu/aineisto/DLC-0514/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-marianne-oikkonen.htm",
+          "label": "OIKKONEN Marianne",
+          "sourceId": "DLC-0734",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-sarianna-oikkonen.htm",
+          "label": "OIKKONEN Sarianna",
+          "sourceId": "DLC-0821",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-paula-ojansuu.htm",
+          "label": "OJANSUU Paula",
+          "sourceId": "DLC-0769",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-veera-ojansuu.htm",
+          "label": "OJANSUU Veera",
+          "sourceId": "DLC-0913",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-janika-paukkio.htm",
+          "label": "PAUKKIO Janika",
+          "sourceId": "DLC-0517",
+          "localPath": "/assets/archive/originals/DLC-0517.html",
+          "readerPath": "/koulu/aineisto/DLC-0517/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jenna-paukkio.htm",
+          "label": "PAUKKIO Jenna",
+          "sourceId": "DLC-0573",
+          "localPath": "/assets/archive/originals/DLC-0573.html",
+          "readerPath": "/koulu/aineisto/DLC-0573/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-paukkio.htm",
+          "label": "PAUKKIO Joonas",
+          "sourceId": "DLC-0665",
+          "localPath": "/assets/archive/originals/DLC-0665.html",
+          "readerPath": "/koulu/aineisto/DLC-0665/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-kreeta-pekkola.htm",
+          "label": "PEKKOLA Kreeta",
+          "sourceId": "DLC-0719",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-janne-salin.htm",
+          "label": "SALIN Janne",
+          "sourceId": "DLC-0525",
+          "localPath": "/assets/archive/originals/DLC-0525.html",
+          "readerPath": "/koulu/aineisto/DLC-0525/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jenni-salin.htm",
+          "label": "SALIN Jenni",
+          "sourceId": "DLC-0600",
+          "localPath": "/assets/archive/originals/DLC-0600.html",
+          "readerPath": "/koulu/aineisto/DLC-0600/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-kalle-saukkolin.htm",
+          "label": "SAUKKOLIN Kalle",
+          "sourceId": "DLC-0698",
+          "localPath": "/assets/archive/originals/DLC-0698.html",
+          "readerPath": "/koulu/aineisto/DLC-0698/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-sanna-saukkolin.htm",
+          "label": "SAUKKOLIN Sanna",
+          "sourceId": "DLC-0812",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jarno-savolainen.htm",
+          "label": "SAVOLAINEN Jarno",
+          "sourceId": "DLC-0547",
+          "localPath": "/assets/archive/originals/DLC-0547.html",
+          "readerPath": "/koulu/aineisto/DLC-0547/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-paula-savolainen.htm",
+          "label": "SAVOLAINEN Paula",
+          "sourceId": "DLC-0773",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jari-siren.htm",
+          "label": "SIRÉN Jari",
+          "sourceId": "DLC-0535",
+          "localPath": "/assets/archive/originals/DLC-0535.html",
+          "readerPath": "/koulu/aineisto/DLC-0535/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jenna-siren.htm",
+          "label": "SIREN Jenna",
+          "sourceId": "DLC-0583",
+          "localPath": "/assets/archive/originals/DLC-0583.html",
+          "readerPath": "/koulu/aineisto/DLC-0583/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-tony-sundvall.htm",
+          "label": "SUNDVALL Tony",
+          "sourceId": "DLC-0907",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-sami-tiainen.htm",
+          "label": "TIAINEN Sami",
+          "sourceId": "DLC-0810",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-lauri-tuomikoski.htm",
+          "label": "TUOMIKOSKI Lauri",
+          "sourceId": "DLC-0726",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-patric-vaahtera.htm",
+          "label": "VAAHTERA Patric",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jari-westman.htm",
+          "label": "WESTMAN Jari",
+          "sourceId": "DLC-0540",
+          "localPath": "/assets/archive/originals/DLC-0540.html",
+          "readerPath": "/koulu/aineisto/DLC-0540/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jatta-virolainen.htm",
+          "label": "VIROLAINEN Jatta",
+          "sourceId": "DLC-0568",
+          "localPath": "/assets/archive/originals/DLC-0568.html",
+          "readerPath": "/koulu/aineisto/DLC-0568/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joni-virolainen.htm",
+          "label": "VIROLAINEN Joni",
+          "sourceId": "DLC-0619",
+          "localPath": "/assets/archive/originals/DLC-0619.html",
+          "readerPath": "/koulu/aineisto/DLC-0619/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-susa-virolainen.htm",
+          "label": "VIROLAINEN Susa",
+          "sourceId": "DLC-0838",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-tia-virolainen.htm",
+          "label": "VIROLAINEN Tia",
+          "sourceId": "DLC-0881",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jaakko-virta.htm",
+          "label": "VIRTA Jaakko",
+          "sourceId": "DLC-0509",
+          "localPath": "/assets/archive/originals/DLC-0509.html",
+          "readerPath": "/koulu/aineisto/DLC-0509/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo.htm",
+          "label": "VIRTAMO Joona",
+          "sourceId": "DLC-0632",
+          "localPath": "/assets/archive/originals/DLC-0632.html",
+          "readerPath": "/koulu/aineisto/DLC-0632/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-toni-virtamo.htm",
+          "label": "VIRTAMO Toni",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56-oppilaat.htm",
+          "label": "56-oppilaat.htm",
+          "sourceId": "DLC-0060",
+          "localPath": "/assets/archive/originals/DLC-0060.html",
+          "readerPath": "/koulu/aineisto/DLC-0060/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
+          "label": "RUNOSIVULLE",
+          "sourceId": "DLC-0105",
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56kuvia.htm",
+          "label": "KUVAGALLERIAAN",
+          "sourceId": "DLC-0103",
+          "localPath": "/assets/archive/originals/DLC-0103.html",
+          "readerPath": "/koulu/aineisto/DLC-0103/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/pulmasivu.htm",
+          "label": "PULMASIVULLE",
+          "sourceId": "DLC-0970",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56kuvasivu.htm",
+          "label": "KUVIA LUOKAHUONEESTA",
+          "sourceId": "DLC-0077",
+          "localPath": "/assets/archive/originals/DLC-0077.html",
+          "readerPath": "/koulu/aineisto/DLC-0077/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/leirikoulut.htm",
+          "label": "ÄHTÄRI-SIVULLE",
+          "sourceId": "DLC-0269",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/5-oppilaat-heponiemi.htm",
+          "label": "HEPONIEMI-SIVULLE",
+          "sourceId": "DLC-0052",
+          "localPath": "/assets/archive/originals/DLC-0052.html",
+          "readerPath": "/koulu/aineisto/DLC-0052/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56luokka.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0104",
+          "localPath": "/assets/archive/originals/DLC-0104.html",
+          "readerPath": "/koulu/aineisto/DLC-0104/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/hyk-emb2.gif",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kartta-nuoli.gif",
+          "label": "KARTTASIVULLE",
+          "sourceId": "DLC-0169",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56-taulu.gif",
+          "label": "5/6-TAULU",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/e-mail.gif",
+          "label": "e-mail.gif",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56-oppilaat-9899-p.jpg",
+          "label": "56-oppilaat-9899-p.jpg",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/uutta.gif",
+          "label": "UUTTA",
+          "sourceId": "DLC-1091",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuva-runo-runo.gif",
+          "label": "RUNOSIVULLE",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuva-puu-ihminen.gif",
+          "label": "KUVAGALLERIAAN",
+          "sourceId": "DLC-0195",
+          "localPath": "/assets/archive/originals/DLC-0195.gif",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0195.gif"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/pulma-p.gif",
+          "label": "PULMASIVULLE",
+          "sourceId": "DLC-0968",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56-luokkahuone-p.gif",
+          "label": "KUVIA LUOKAHUONEESTA",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/leirikoulu-p.gif",
+          "label": "ÄHTÄRI-SIVULLE",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/5-oppilaat-heponiemi-seppele-2-p-1.jpg",
+          "label": "HEPONIEMI-SIVULLE",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": false,
+      "people": [],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0982",
+      "filename": "sivukartta.htm",
+      "title": "sivukartta2 image map page",
+      "category": "Koulun muut sivut",
+      "text": "- Uusimmat muutokset eivät näy heti.\n\n- Jos osoitin muuttuu kädeksi, sivulle pääsee suoraan laatikkoa näpäyttämällä.\n\n- Jos laatikkoon ei mene viivaa, sitä ei ole vielä aktivoitu.",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
+      "archiveUrl": "https://web.archive.org/web/20000524225959/http://www.dlc.fi:80/~hyk/sivukartta.htm",
+      "timestamp": "20000524225959",
+      "localPath": "/assets/archive/originals/DLC-0982.html",
+      "sha256": "aab59e5785fbc46eb6f6dea2c03624a7ec0c23abdba1f35bed54f52e82cfb978",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/koko-hyk.htm",
+          "label": "koko-hyk.htm",
+          "sourceId": "DLC-0181",
+          "localPath": "/assets/archive/originals/DLC-0181.html",
+          "readerPath": "/koulu/aineisto/DLC-0181/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/12luokka.htm",
+          "label": "12luokka.htm",
+          "sourceId": "DLC-0032",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/34luokka.htm",
+          "label": "34luokka.htm",
+          "sourceId": "DLC-0047",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56luokka.htm",
+          "label": "56luokka.htm",
+          "sourceId": "DLC-0104",
+          "localPath": "/assets/archive/originals/DLC-0104.html",
+          "readerPath": "/koulu/aineisto/DLC-0104/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/vanhemmat.htm",
+          "label": "vanhemmat.htm",
+          "sourceId": "DLC-1095",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/aikuiset.htm",
+          "label": "aikuiset.htm",
+          "sourceId": "DLC-0114",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/murto.htm",
+          "label": "murto.htm",
+          "sourceId": "DLC-0293",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/puitteet.htm",
+          "label": "puitteet.htm",
+          "sourceId": "DLC-0967",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/linkit.htm",
+          "label": "linkit.htm",
+          "sourceId": "DLC-0271",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/n-p-kunta.htm",
+          "label": "n-p-kunta.htm",
+          "sourceId": "DLC-0296",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/npkoulut.htm",
+          "label": "npkoulut.htm",
+          "sourceId": "DLC-0297",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/palaute.htm",
+          "label": "palaute.htm",
+          "sourceId": "DLC-0943",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/pirjo.htm",
+          "label": "pirjo.htm",
+          "sourceId": "DLC-0948",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/aila.htm",
+          "label": "aila.htm",
+          "sourceId": "DLC-0115",
+          "localPath": "/assets/archive/originals/DLC-0115.html",
+          "readerPath": "/koulu/aineisto/DLC-0115/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/maritta.htm",
+          "label": "maritta.htm",
+          "sourceId": "DLC-0285",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/jaana.htm",
+          "label": "jaana.htm",
+          "sourceId": "DLC-0149",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/paivi.htm",
+          "label": "paivi.htm",
+          "sourceId": "DLC-0933",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/salme.htm",
+          "label": "salme.htm",
+          "sourceId": "DLC-0979",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/5-oppilaat.htm",
+          "label": "5-oppilaat.htm",
+          "sourceId": "DLC-0053",
+          "localPath": "/assets/archive/originals/DLC-0053.html",
+          "readerPath": "/koulu/aineisto/DLC-0053/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/1-oppilaat.htm",
+          "label": "1-oppilaat.htm",
+          "sourceId": "DLC-0011",
+          "localPath": "/assets/archive/originals/DLC-0011.html",
+          "readerPath": "/koulu/aineisto/DLC-0011/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/2-oppilaat.htm",
+          "label": "2-oppilaat.htm",
+          "sourceId": "DLC-0035",
+          "localPath": "/assets/archive/originals/DLC-0035.html",
+          "readerPath": "/koulu/aineisto/DLC-0035/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/3-oppilaat.htm",
+          "label": "3-oppilaat.htm",
+          "sourceId": "DLC-0037",
+          "localPath": "/assets/archive/originals/DLC-0037.html",
+          "readerPath": "/koulu/aineisto/DLC-0037/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/4-oppilaat.htm",
+          "label": "4-oppilaat.htm",
+          "sourceId": "DLC-0050",
+          "localPath": "/assets/archive/originals/DLC-0050.html",
+          "readerPath": "/koulu/aineisto/DLC-0050/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/6-oppilaat.htm",
+          "label": "6-oppilaat.htm",
+          "sourceId": "DLC-0106",
+          "localPath": "/assets/archive/originals/DLC-0106.html",
+          "readerPath": "/koulu/aineisto/DLC-0106/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/olliruno.htm",
+          "label": "olliruno.htm",
+          "sourceId": "DLC-0315",
+          "localPath": "/assets/archive/originals/DLC-0315.html",
+          "readerPath": "/koulu/aineisto/DLC-0315/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/abc80.htm",
+          "label": "abc80.htm",
+          "sourceId": "DLC-0108",
+          "localPath": "/assets/archive/originals/DLC-0108.html",
+          "readerPath": "/koulu/aineisto/DLC-0108/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/lj-koko.htm",
+          "label": "lj-koko.htm",
+          "sourceId": "DLC-0274",
+          "localPath": "/assets/archive/originals/DLC-0274.html",
+          "readerPath": "/koulu/aineisto/DLC-0274/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/lj-ma.htm",
+          "label": "lj-ma.htm",
+          "sourceId": "DLC-0275",
+          "localPath": "/assets/archive/originals/DLC-0275.html",
+          "readerPath": "/koulu/aineisto/DLC-0275/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/lj-ti.htm",
+          "label": "lj-ti.htm",
+          "sourceId": "DLC-0277",
+          "localPath": "/assets/archive/originals/DLC-0277.html",
+          "readerPath": "/koulu/aineisto/DLC-0277/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/lj-ke.htm",
+          "label": "lj-ke.htm",
+          "sourceId": "DLC-0273",
+          "localPath": "/assets/archive/originals/DLC-0273.html",
+          "readerPath": "/koulu/aineisto/DLC-0273/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/lj-to.htm",
+          "label": "lj-to.htm",
+          "sourceId": "DLC-0278",
+          "localPath": "/assets/archive/originals/DLC-0278.html",
+          "readerPath": "/koulu/aineisto/DLC-0278/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/lj-pe.htm",
+          "label": "lj-pe.htm",
+          "sourceId": "DLC-0276",
+          "localPath": "/assets/archive/originals/DLC-0276.html",
+          "readerPath": "/koulu/aineisto/DLC-0276/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/lukujarjestys.htm",
+          "label": "lukujarjestys.htm",
+          "sourceId": "DLC-0283",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/tunnit.htm",
+          "label": "tunnit.htm",
+          "sourceId": "DLC-1080",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/opetussuunnitelma.htm",
+          "label": "opetussuunnitelma.htm",
+          "sourceId": "DLC-0322",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/tietokoneet.htm",
+          "label": "tietokoneet.htm",
+          "sourceId": "DLC-1071",
+          "localPath": "/assets/archive/originals/DLC-1071.html",
+          "readerPath": "/koulu/aineisto/DLC-1071/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/laajennus.htm",
+          "label": "laajennus.htm",
+          "sourceId": "DLC-0242",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/rakennus.htm",
+          "label": "rakennus.htm",
+          "sourceId": "DLC-0973",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56kuvasivu.htm",
+          "label": "56kuvasivu.htm",
+          "sourceId": "DLC-0077",
+          "localPath": "/assets/archive/originals/DLC-0077.html",
+          "readerPath": "/koulu/aineisto/DLC-0077/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
+          "label": "56runoja.htm",
+          "sourceId": "DLC-0105",
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56kuvia.htm",
+          "label": "56kuvia.htm",
+          "sourceId": "DLC-0103",
+          "localPath": "/assets/archive/originals/DLC-0103.html",
+          "readerPath": "/koulu/aineisto/DLC-0103/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
+          "label": "sivukartta.htm",
+          "sourceId": "DLC-0982",
+          "localPath": "/assets/archive/originals/DLC-0982.html",
+          "readerPath": "/koulu/aineisto/DLC-0982/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/paivitykset.htm",
+          "label": "paivitykset.htm",
+          "sourceId": "DLC-0941",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/koko-hyk2.htm",
+          "label": "koko-hyk2.htm",
+          "sourceId": "DLC-0182",
+          "localPath": "/assets/archive/originals/DLC-0182.html",
+          "readerPath": "/koulu/aineisto/DLC-0182/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/olli.htm",
+          "label": "olli.htm",
+          "sourceId": "DLC-0313",
+          "localPath": "/assets/archive/originals/DLC-0313.html",
+          "readerPath": "/koulu/aineisto/DLC-0313/"
+        },
+        {
+          "url": "http://www.",
+          "label": "http://www.",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/hyk-emb2.gif",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivukartta2.gif",
+          "label": "sivukartta2.gif",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": true,
+      "people": [],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0504",
+      "filename": "oppilas-jaakko-virta-jakobsivu.htm",
+      "title": "JAAKKO VIRTA / 5. luokka",
+      "category": "Oppilaiden sivut",
+      "text": "JAAKKO VIRTA / 5. luokka\n\nJAKOB SILAKAN ELÄMÄNKERTA\n\nHän syntyi 1.1.1987; oli hyinen talvi ja pakkanen oli kova.\n\nHän oli syntynyt neroksi ja hänet nimettäisiin Virraksi,\n\nJaakko Virraksi.\n\nVuonna 2000 Jakob Silakka näki meteoriitin iskeytyvän\n\ntaivaanrantaan, yhtäkkiä välähti, hän sokaistui hetkellisesti.\n\n1.1. 2020: Jakob Silakka perusti vastarintaliikkeen\n\nDark Joonasta, maailman valtiasta vastaan. Uusi järjestö oli syntynyt,\n\nJAKOB SILAKAN VASTARINTALIIKE.",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-jaakko-virta-jakobsivu.htm",
+      "archiveUrl": "https://web.archive.org/web/20020830160326/http://www.dlc.fi:80/~hyk/oppilas-jaakko-virta-jakobsivu.htm",
+      "timestamp": "20020830160326",
+      "localPath": "/assets/archive/originals/DLC-0504.html",
+      "sha256": "30fe2d7eda56aad02c711adc2f4217297a5311acda2ea5dac20b47fc5c7da2fa",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen-loppumaailma.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0642",
+          "localPath": "/assets/archive/originals/DLC-0642.html",
+          "readerPath": "/koulu/aineisto/DLC-0642/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jaakko-virta-jakobsivu.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0504",
+          "localPath": "/assets/archive/originals/DLC-0504.html",
+          "readerPath": "/koulu/aineisto/DLC-0504/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/tausta-flames.jpg",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jaakko-virta-jakob.jpg",
+          "label": "Silakka",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jaakko-virta-tk.gif",
+          "label": "Vastarintaliikkeen tukikohta.",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": false,
+      "people": [
+        {
+          "id": "H-4134f0ee98",
+          "name": "Jaakko Virta",
+          "observations": [],
+          "basis": "Sama kokonainen nimiasu sivun tekstissä"
+        }
+      ],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0627",
+      "filename": "oppilas-joona-virtamo-kirjoitelmat.htm",
+      "title": "Joona Virtamon KIRJOITELMAT",
+      "category": "Oppilaiden sivut",
+      "text": "Joona Virtamon KIRJOITELMAT\n\nAavelaiva (19.3.02)\n\nSukeltaja (3.5.02)",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo-kirjoitelmat.htm",
+      "archiveUrl": "https://web.archive.org/web/20020919155720/http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo-kirjoitelmat.htm",
+      "timestamp": "20020919155720",
+      "localPath": "/assets/archive/originals/DLC-0627.html",
+      "sha256": "d409149aebc9dcf6da19db37e03f3e6c306ee4cb72b534ea5a1055e795506508",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0632",
+          "localPath": "/assets/archive/originals/DLC-0632.html",
+          "readerPath": "/koulu/aineisto/DLC-0632/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo-kirjoitelma-aavelaiva.htm",
+          "label": "Aavelaiva",
+          "sourceId": "DLC-0625",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo-kirjoitelma-sukeltaja.htm",
+          "label": "Sukeltaja",
+          "sourceId": "DLC-0626",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo-kirjoitelmat.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0627",
+          "localPath": "/assets/archive/originals/DLC-0627.html",
+          "readerPath": "/koulu/aineisto/DLC-0627/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/tausta-kirjoitelma.gif",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": false,
+      "people": [
+        {
+          "id": "H-fc632c4ca0",
+          "name": "Joona Virtamo",
+          "observations": [],
+          "basis": "Katalogin lähdeviite; tunnistuksen peruste tarkistettava"
+        }
+      ],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0653",
+      "filename": "oppilas-joonas-maittila-kirjoitelmat.htm",
+      "title": "Joonas Maittilan KIRJOITELMAT",
+      "category": "Oppilaiden sivut",
+      "text": "Joonas Maittilan KIRJOITELMAT\n\nTerocin seikkailu (13.12.00)\n\nSylvesteri karkuteillä (9.4.01)\n\nHautausmaan aave (15.4.02)",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-kirjoitelmat.htm",
+      "archiveUrl": "https://web.archive.org/web/20020920235939/http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-kirjoitelmat.htm",
+      "timestamp": "20020920235939",
+      "localPath": "/assets/archive/originals/DLC-0653.html",
+      "sha256": "ce9650de03c34070d9d52222fbe8216b6f842506420475d8a1962cd34272f128",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0657",
+          "localPath": "/assets/archive/originals/DLC-0657.html",
+          "readerPath": "/koulu/aineisto/DLC-0657/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-kirjoitelma-terocin.htm",
+          "label": "Terocin seikkailu",
+          "sourceId": "DLC-0652",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-kirjoitelma-sylvesteri.htm",
+          "label": "Sylvesteri karkuteillä",
+          "sourceId": "DLC-0651",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-kirjoitelma-hautausmaan.htm",
+          "label": "Hautausmaan aave",
+          "sourceId": "DLC-0650",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-kirjoitelmat.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0653",
+          "localPath": "/assets/archive/originals/DLC-0653.html",
+          "readerPath": "/koulu/aineisto/DLC-0653/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/tausta-kirjoitelma.gif",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": false,
+      "people": [
+        {
+          "id": "H-04c643024b",
+          "name": "Joonas Maittila",
+          "observations": [],
+          "basis": "Katalogin lähdeviite; tunnistuksen peruste tarkistettava"
+        }
+      ],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0675",
+      "filename": "oppilas-jose-riikonen-kirjoitelmat.htm",
+      "title": "Jose Riikosen KIRJOITELMAT",
+      "category": "Oppilaiden sivut",
+      "text": "Jose Riikosen KIRJOITELMAT\n\nVedenmatoset (12.3.98)\n\nRekkamies (10.11.98)\n\nLumilautailu (5.5.99)",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-jose-riikonen-kirjoitelmat.htm",
+      "archiveUrl": "https://web.archive.org/web/20001025023904/http://www.dlc.fi:80/~hyk/oppilas-jose-riikonen-kirjoitelmat.htm",
+      "timestamp": "20001025023904",
+      "localPath": "/assets/archive/originals/DLC-0675.html",
+      "sha256": "51edc349818440c18ce46f330bca1c8c7eaa23c8c4c89e42c7838a7bfe4f770a",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jose-riikonen.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0676",
+          "localPath": "/assets/archive/originals/DLC-0676.html",
+          "readerPath": "/koulu/aineisto/DLC-0676/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jose-riikonen-kirjoitelma-veden.htm",
+          "label": "Vedenmatoset",
+          "sourceId": "DLC-0674",
+          "localPath": "/assets/archive/originals/DLC-0674.html",
+          "readerPath": "/koulu/aineisto/DLC-0674/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jose-riikonen-kirjoitelma-rekkamies.htm",
+          "label": "Rekkamies",
+          "sourceId": "DLC-0673",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jose-riikonen-kirjoitelma-lumilautailu.htm",
+          "label": "Lumilautailu",
+          "sourceId": "DLC-0672",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jose-riikonen-kirjoitelmat.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0675",
+          "localPath": "/assets/archive/originals/DLC-0675.html",
+          "readerPath": "/koulu/aineisto/DLC-0675/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/tausta-kirjoitelma.gif",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/uutta.gif",
+          "label": "UUTTA",
+          "sourceId": "DLC-1091",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": true,
+      "people": [
+        {
+          "id": "H-c8206890b2",
+          "name": "Jose Riikonen",
+          "observations": [],
+          "basis": "Katalogin lähdeviite; tunnistuksen peruste tarkistettava"
+        }
+      ],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0683",
+      "filename": "oppilas-jussi-kanervo-kirjoitelmat.htm",
+      "title": "Jussi Kanervon KIRJOITELMAT",
+      "category": "Oppilaiden sivut",
+      "text": "Jussi Kanervon KIRJOITELMAT\n\nErkin elämä (6.3.98)\n\nViemärirotan seikkailut (29.10.98)\n\nPartio (9.4.99)",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-jussi-kanervo-kirjoitelmat.htm",
+      "archiveUrl": "https://web.archive.org/web/20020926035019/http://www.dlc.fi:80/~hyk/oppilas-jussi-kanervo-kirjoitelmat.htm",
+      "timestamp": "20020926035019",
+      "localPath": "/assets/archive/originals/DLC-0683.html",
+      "sha256": "b21381276dcee9dfb45db2ba257cd6c1fc9a41d093eea64683464c71a8a81ac5",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jussi-kanervo.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0684",
+          "localPath": "/assets/archive/originals/DLC-0684.html",
+          "readerPath": "/koulu/aineisto/DLC-0684/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jussi-kanervo-kirjoitelma-erkin.htm",
+          "label": "Erkin elämä",
+          "sourceId": "DLC-0680",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jussi-kanervo-kirjoitelma-viemari.htm",
+          "label": "Viemärirotan seikkailut",
+          "sourceId": "DLC-0682",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jussi-kanervo-kirjoitelma-partio.htm",
+          "label": "Partio",
+          "sourceId": "DLC-0681",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jussi-kanervo-kirjoitelmat.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0683",
+          "localPath": "/assets/archive/originals/DLC-0683.html",
+          "readerPath": "/koulu/aineisto/DLC-0683/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/tausta-kirjoitelma.gif",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/uutta.gif",
+          "label": "UUTTA",
+          "sourceId": "DLC-1091",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": false,
+      "people": [
+        {
+          "id": "H-d273d2b1e7",
+          "name": "Jussi Kanervo",
+          "observations": [],
+          "basis": "Katalogin lähdeviite; tunnistuksen peruste tarkistettava"
+        }
+      ],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0697",
+      "filename": "oppilas-kalle-saukkolin-kirjoitelmat.htm",
+      "title": "Kallen KIRJOITELMAT",
+      "category": "Oppilaiden sivut",
+      "text": "Kallen KIRJOITELMAT\n\nOlli saa kissanpennun (22.1.02)\n\nPietarin kalareissu (7.2.03)",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-kalle-saukkolin-kirjoitelmat.htm",
+      "archiveUrl": "https://web.archive.org/web/20030508122412/http://www.dlc.fi:80/~hyk/oppilas-kalle-saukkolin-kirjoitelmat.htm",
+      "timestamp": "20030508122412",
+      "localPath": "/assets/archive/originals/DLC-0697.html",
+      "sha256": "a8765d7af2f99b097efdc0946b739fa7107aae17002bddd4e20353a89df61038",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-kalle-saukkolin.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0698",
+          "localPath": "/assets/archive/originals/DLC-0698.html",
+          "readerPath": "/koulu/aineisto/DLC-0698/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-kalle-saukkolin-kirjoitelma-olli.htm",
+          "label": "Olli saa kissanpennun",
+          "sourceId": "DLC-0696",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-kalle-s-kirjoitelma-pietarin.htm",
+          "label": "Pietarin kalareissu",
+          "sourceId": "DLC-0695",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-kalle-saukkolin-kirjoitelmat.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0697",
+          "localPath": "/assets/archive/originals/DLC-0697.html",
+          "readerPath": "/koulu/aineisto/DLC-0697/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/tausta-kirjoitelma.gif",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": false,
+      "people": [
+        {
+          "id": "H-17de4bcdfd",
+          "name": "Kalle Saukkolin",
+          "observations": [],
+          "basis": "Katalogin lähdeviite; tunnistuksen peruste tarkistettava"
+        }
+      ],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0709",
+      "filename": "oppilas-kimmo-seppala-kirjoitelmat.htm",
+      "title": "Kimmo Seppälän KIRJOITELMAT",
+      "category": "Oppilaiden sivut",
+      "text": "Kimmo Seppälän KIRJOITELMAT\n\nMato-Masa matkalla Pluto-planeetalle (3.2.98)\n\nSeppo-sopuli lentokoneessa (6.10.98)\n\nTietokonepelit (5.3.99)",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-kimmo-seppala-kirjoitelmat.htm",
+      "archiveUrl": "https://web.archive.org/web/20000517225938/http://www.dlc.fi:80/~hyk/oppilas-kimmo-seppala-kirjoitelmat.htm",
+      "timestamp": "20000517225938",
+      "localPath": "/assets/archive/originals/DLC-0709.html",
+      "sha256": "71b11db2b229f99e418cab745eac6bfa896066cb8ef5fb278a829fe72e3e8808",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-kimmo-seppala.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0710",
+          "localPath": "/assets/archive/originals/DLC-0710.html",
+          "readerPath": "/koulu/aineisto/DLC-0710/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-kimmo-seppala-kirjoitelma-mato-masa.htm",
+          "label": "Mato-Masa matkalla Pluto-planeetalle",
+          "sourceId": "DLC-0706",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-kimmo-seppala-kirjoitelma-seppo.htm",
+          "label": "Seppo-sopuli lentokoneessa",
+          "sourceId": "DLC-0707",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-kimmo-seppala-kirjoitelma-tietokonepelit.htm",
+          "label": "Tietokonepelit",
+          "sourceId": "DLC-0708",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-kimmo-seppala-kirjoitelmat.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0709",
+          "localPath": "/assets/archive/originals/DLC-0709.html",
+          "readerPath": "/koulu/aineisto/DLC-0709/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/tausta-kirjoitelma.gif",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/uutta.gif",
+          "label": "UUTTA",
+          "sourceId": "DLC-1091",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": true,
+      "people": [
+        {
+          "id": "H-93d190d90f",
+          "name": "Kimmo Seppälä",
+          "observations": [],
+          "basis": "Katalogin lähdeviite; tunnistuksen peruste tarkistettava"
+        }
+      ],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0052",
+      "filename": "5-oppilaat-heponiemi.htm",
+      "title": "5. lk LEIRIKOULUSSA",
+      "category": "Luokat ja oppilasluettelot",
+      "text": "5. lk LEIRIKOULUSSA\n\nKarjalohjan Heponiemessä keväällä 1986\n\nLukuvuonna 85/86 Hyrsylässä ei ollut vielä kuudetta luokkaa\n\n- eikä vitosella ollut yhdeksän tytön lisäksi yhtään poikaa.\n\nKuten näkyy, Heponiemessä oli paljon voikukkia.\n\nKarjalohjan kyläkoulun Rolf Oinonen opasti niin kyläkoulussa kuin metsässä.",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/5-oppilaat-heponiemi.htm",
+      "archiveUrl": "https://web.archive.org/web/20001028200014/http://www.dlc.fi:80/~hyk/5-oppilaat-heponiemi.htm",
+      "timestamp": "20001028200014",
+      "localPath": "/assets/archive/originals/DLC-0052.html",
+      "sha256": "6f01940f0dc11e985aa5600f8f20c7999e6b3601d2fb58b84eae3b1d0fbefa76",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56luokka.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0104",
+          "localPath": "/assets/archive/originals/DLC-0104.html",
+          "readerPath": "/koulu/aineisto/DLC-0104/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/5-oppilaat-heponiemi.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0052",
+          "localPath": "/assets/archive/originals/DLC-0052.html",
+          "readerPath": "/koulu/aineisto/DLC-0052/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/5-oppilaat-heponiemi-seppele-1.jpg",
+          "label": "Ollille seppele",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/5-oppilaat-heponiemi-seppele-2.jpg",
+          "label": "ryhmäkuva",
+          "sourceId": "DLC-0051",
+          "localPath": "/assets/archive/originals/DLC-0051.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0051.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/5-oppilaat-heponiemi-metsa.jpg",
+          "label": "metsässä",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/5-oppilaat-heponiemi-kylakoulu-1.jpg",
+          "label": "kyläkoulussa",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/5-oppilaat-heponiemi-kylakoulu-2.jpg",
+          "label": "kyläkoulussa",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": false,
+      "people": [],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0392",
+      "filename": "oppilas-artturi-pekkola-kirjoitelmat.htm",
+      "title": "Artturi Pekkolan KIRJOITELMAT",
+      "category": "Oppilaiden sivut",
+      "text": "Artturi Pekkolan KIRJOITELMAT\n\nPertin kovistelut (20.11.97)\n\nIlkka-torakka sukellusvenematkalla (12.2.98)\n\nVanhus ja strutsi (29.10.98)\n\nGorillojen salametsästys (22.4.99)",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-artturi-pekkola-kirjoitelmat.htm",
+      "archiveUrl": "https://web.archive.org/web/20001101172613/http://www.dlc.fi:80/~hyk/oppilas-artturi-pekkola-kirjoitelmat.htm",
+      "timestamp": "20001101172613",
+      "localPath": "/assets/archive/originals/DLC-0392.html",
+      "sha256": "79e43f96d6286ccb010235ecb10a5c7c813880817e22aed32b76e685e2ea66dc",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-artturi-pekkola.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0395",
+          "localPath": "/assets/archive/originals/DLC-0395.html",
+          "readerPath": "/koulu/aineisto/DLC-0395/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-artturi-pekkola-kirjoitelma-pertin.htm",
+          "label": "Pertin kovistelut",
+          "sourceId": "DLC-0390",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-artturi-pekkola-kirjoitelma-ilkka.htm",
+          "label": "Ilkka-torakka sukellusvenematkalla",
+          "sourceId": "DLC-0389",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-artturi-pekkola-kirjoitelma-vanhus.htm",
+          "label": "Vanhus ja strutsi",
+          "sourceId": "DLC-0391",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-artturi-pekkola-kirjoitelma-gorillojen.htm",
+          "label": "Gorillojen salametsästys",
+          "sourceId": "DLC-0388",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-artturi-pekkola-kirjoitelmat.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0392",
+          "localPath": "/assets/archive/originals/DLC-0392.html",
+          "readerPath": "/koulu/aineisto/DLC-0392/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/tausta-kirjoitelma.gif",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/uutta.gif",
+          "label": "UUTTA",
+          "sourceId": "DLC-1091",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": false,
+      "people": [
+        {
+          "id": "H-664211ea7e",
+          "name": "Artturi Pekkola",
+          "observations": [],
+          "basis": "Katalogin lähdeviite; tunnistuksen peruste tarkistettava"
+        }
+      ],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0552",
+      "filename": "oppilas-jarno-virtamo-kirjoitelmat.htm",
+      "title": "Jarno Virtamon KIRJOITELMAT",
+      "category": "Oppilaiden sivut",
+      "text": "Jarno Virtamon KIRJOITELMAT\n\nErkki-mato Mars-patukassa (31.3.98)\n\nRiihitonttu (10.11.98)\n\nMuurahaiset (19.4.99)",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-jarno-virtamo-kirjoitelmat.htm",
+      "archiveUrl": "https://web.archive.org/web/20001029021414/http://www.dlc.fi:80/~hyk/oppilas-jarno-virtamo-kirjoitelmat.htm",
+      "timestamp": "20001029021414",
+      "localPath": "/assets/archive/originals/DLC-0552.html",
+      "sha256": "928612c55d94f86cf2c46cec90478bd6ab2720fcbf4103c154feda9e14f129ad",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jarno-virtamo.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0557",
+          "localPath": "/assets/archive/originals/DLC-0557.html",
+          "readerPath": "/koulu/aineisto/DLC-0557/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jarno-virtamo-kirjoitelma-erkki-mato.htm",
+          "label": "Erkki-mato Mars-patukassa",
+          "sourceId": "DLC-0549",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jarno-virtamo-kirjoitelma-riihitonttu.htm",
+          "label": "Riihitonttu",
+          "sourceId": "DLC-0551",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jarno-virtamo-kirjoitelma-muurahaiset.htm",
+          "label": "Muurahaiset",
+          "sourceId": "DLC-0550",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-jarno-virtamo-kirjoitelmat.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0552",
+          "localPath": "/assets/archive/originals/DLC-0552.html",
+          "readerPath": "/koulu/aineisto/DLC-0552/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/tausta-kirjoitelma.gif",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/uutta.gif",
+          "label": "UUTTA",
+          "sourceId": "DLC-1091",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": false,
+      "people": [
+        {
+          "id": "H-1c669f0380",
+          "name": "Jarno Virtamo",
+          "observations": [],
+          "basis": "Katalogin lähdeviite; tunnistuksen peruste tarkistettava"
+        }
+      ],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0639",
+      "filename": "oppilas-joonas-lehtonen-kirjoitelmat.htm",
+      "title": "Joonas Lehtosen KIRJOITELMAT",
+      "category": "Oppilaiden sivut",
+      "text": "Joonas Lehtosen KIRJOITELMAT\n\nTappaja (8.12.97)\n\nPoika, joka muuttui ankaksi (9.3.98)\n\nVihattu pingviini (30.10.98)\n\nSusi (22.3.99)",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen-kirjoitelmat.htm",
+      "archiveUrl": "https://web.archive.org/web/20001102160431/http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen-kirjoitelmat.htm",
+      "timestamp": "20001102160431",
+      "localPath": "/assets/archive/originals/DLC-0639.html",
+      "sha256": "3537ef1d2867a9a7f8b92d73507417bfe0db5cb8be899b4adab60a9926924854",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0645",
+          "localPath": "/assets/archive/originals/DLC-0645.html",
+          "readerPath": "/koulu/aineisto/DLC-0645/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen-kirjoitelma-tappaja.htm",
+          "label": "Tappaja",
+          "sourceId": "DLC-0637",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen-kirjoitelma-poika.htm",
+          "label": "Poika, joka muuttui ankaksi",
+          "sourceId": "DLC-0635",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen-kirjoitelma-vihattu.htm",
+          "label": "Vihattu pingviini",
+          "sourceId": "DLC-0638",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen-kirjoitelma-susi.htm",
+          "label": "Susi",
+          "sourceId": "DLC-0636",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen-kirjoitelmat.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0639",
+          "localPath": "/assets/archive/originals/DLC-0639.html",
+          "readerPath": "/koulu/aineisto/DLC-0639/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/tausta-kirjoitelma.gif",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/uutta.gif",
+          "label": "UUTTA",
+          "sourceId": "DLC-1091",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": false,
+      "people": [
+        {
+          "id": "H-37c9d0b6ce",
+          "name": "Joonas Lehtonen",
+          "observations": [],
+          "basis": "Katalogin lähdeviite; tunnistuksen peruste tarkistettava"
+        }
+      ],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0704",
+      "filename": "oppilas-katri-iso-markku-kirjoitelmat.htm",
+      "title": "Katri Iso-Markun KIRJOITELMAT",
+      "category": "Oppilaiden sivut",
+      "text": "Katri Iso-Markun KIRJOITELMAT\n\nPäätön hevonen (8.10.01)\n\nFugur (22.4.02)\n\nVehnäterrierit (18.9.02)",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-katri-iso-markku-kirjoitelmat.htm",
+      "archiveUrl": "https://web.archive.org/web/20020919160436/http://www.dlc.fi:80/~hyk/oppilas-katri-iso-markku-kirjoitelmat.htm",
+      "timestamp": "20020919160436",
+      "localPath": "/assets/archive/originals/DLC-0704.html",
+      "sha256": "196cf4eec684b8a3245aaa5a121b54ce79f6a4d545d624aedaa334dbdbd5d869",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-katri-iso-markku.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0705",
+          "localPath": "/assets/archive/originals/DLC-0705.html",
+          "readerPath": "/koulu/aineisto/DLC-0705/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-katri-iso-markku-kirjoitelma-paaton.htm",
+          "label": "Päätön hevonen",
+          "sourceId": "DLC-0702",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-katri-iso-markku-kirjoitelma-fugur.htm",
+          "label": "Fugur",
+          "sourceId": "DLC-0701",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-katri-iso-markku-kirjoitelma-vehnaterrierit.htm",
+          "label": "Vehnäterrierit",
+          "sourceId": "DLC-0703",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-katri-iso-markku-kirjoitelmat.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0704",
+          "localPath": "/assets/archive/originals/DLC-0704.html",
+          "readerPath": "/koulu/aineisto/DLC-0704/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/tausta-kirjoitelma.gif",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": false,
+      "people": [
+        {
+          "id": "H-792b59e439",
+          "name": "Katri Iso-Markku",
+          "observations": [],
+          "basis": "Katalogin lähdeviite; tunnistuksen peruste tarkistettava"
         }
       ],
       "workIds": []
@@ -40791,7 +43289,13 @@
       "originalUrl": "http://www.dlc.fi:80/~hyk/kuva-puu-ihminen.gif",
       "archiveUrl": "https://web.archive.org/web/20040707080259/http://www.dlc.fi:80/~hyk/kuva-puu-ihminen.gif",
       "timestamp": "20040707080259",
-      "uses": [],
+      "uses": [
+        {
+          "pageId": "DLC-0104",
+          "label": "KUVAGALLERIAAN",
+          "role": "image"
+        }
+      ],
       "sha256": "344d65899c0703af32f70521d0974cac3af6f9c7d85ddd5dc47048ba7b251410"
     },
     {
@@ -42923,6 +45427,768 @@
         }
       ],
       "sha256": "75063618f586cfb49d45188e58e2c60f80705acf2dbf50757ad0ffc28716886d"
+    },
+    {
+      "id": "DLC-0238",
+      "filename": "kuvamuunnos-vedessa-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0238.jpg",
+      "displayPath": "/assets/archive/media/DLC-0238.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-vedessa-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030909042927/http://www.dlc.fi:80/~hyk/kuvamuunnos-vedessa-sitten.jpg",
+      "timestamp": "20030909042927",
+      "uses": [
+        {
+          "pageId": "DLC-0079",
+          "label": "SITTEN",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0080",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "5642feb1bcaefcebf08de962f7e470a2be1ea948e8a522e86aec5c0fab87c0d1"
+    },
+    {
+      "id": "DLC-0239",
+      "filename": "kuvamuunnos-veneet-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0239.jpg",
+      "displayPath": "/assets/archive/media/DLC-0239.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-veneet-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20040616223538/http://www.dlc.fi:80/~hyk/kuvamuunnos-veneet-ensin.jpg",
+      "timestamp": "20040616223538",
+      "uses": [
+        {
+          "pageId": "DLC-0079",
+          "label": "ENSIN",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0080",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "75063618f586cfb49d45188e58e2c60f80705acf2dbf50757ad0ffc28716886d"
+    },
+    {
+      "id": "DLC-0240",
+      "filename": "kuvamuunnos-veneet-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0240.jpg",
+      "displayPath": "/assets/archive/media/DLC-0240.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-veneet-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030909045851/http://www.dlc.fi:80/~hyk/kuvamuunnos-veneet-sitten.jpg",
+      "timestamp": "20030909045851",
+      "uses": [
+        {
+          "pageId": "DLC-0079",
+          "label": "SITTEN",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0080",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "9589225412ef67b7674c473ff1a8dc0f310d154bec0b9e3c5349bfe12ba2273e"
+    },
+    {
+      "id": "DLC-0555",
+      "filename": "oppilas-jarno-virtamo-vedenmatonen-4.gif",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0555.gif",
+      "displayPath": "/assets/archive/media/DLC-0555.gif",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-jarno-virtamo-vedenmatonen-4.gif",
+      "archiveUrl": "https://web.archive.org/web/20030909062309/http://www.dlc.fi:80/~hyk/oppilas-jarno-virtamo-vedenmatonen-4.gif",
+      "timestamp": "20030909062309",
+      "uses": [
+        {
+          "pageId": "DLC-0674",
+          "label": "oppilas-jarno-virtamo-vedenmatonen-4.gif",
+          "role": "image"
+        }
+      ],
+      "sha256": "a35bf059e0e5aaf478cc7b51a6447ab8623d00e58136fd362fe90af8f41b90e1"
+    },
+    {
+      "id": "DLC-0623",
+      "filename": "oppilas-joona-virtamo-9900.jpg",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0623.jpg",
+      "displayPath": "/assets/archive/media/DLC-0623.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo-9900.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030307203359/http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo-9900.jpg",
+      "timestamp": "20030307203359",
+      "uses": [
+        {
+          "pageId": "DLC-0632",
+          "label": "Joona 3.",
+          "role": "image"
+        }
+      ],
+      "sha256": "9a8eb873745a1d6dfde9bda343a098e38ea7342fd5cfd9178173e88c89f2ba6d"
+    },
+    {
+      "id": "DLC-0628",
+      "filename": "oppilas-joona-virtamo-laiva.jpg",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0628.jpg",
+      "displayPath": "/assets/archive/media/DLC-0628.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo-laiva.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030307203846/http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo-laiva.jpg",
+      "timestamp": "20030307203846",
+      "uses": [
+        {
+          "pageId": "DLC-0632",
+          "label": "laiva",
+          "role": "image"
+        }
+      ],
+      "sha256": "a4a809da6f276fa47205d0f6f16e0485c0871ab00f64895cbcb7f2b14ba4a893"
+    },
+    {
+      "id": "DLC-0629",
+      "filename": "oppilas-joona-virtamo-otus.jpg",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0629.jpg",
+      "displayPath": "/assets/archive/media/DLC-0629.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo-otus.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030307204449/http://www.dlc.fi:80/~hyk/oppilas-joona-virtamo-otus.jpg",
+      "timestamp": "20030307204449",
+      "uses": [
+        {
+          "pageId": "DLC-0632",
+          "label": "otus",
+          "role": "image"
+        }
+      ],
+      "sha256": "223f96ee6ff2a6e12a8b973314263f8655b2de636776717c937485b11d5247fd"
+    },
+    {
+      "id": "DLC-0633",
+      "filename": "oppilas-joonas-lehtonen-animaatio.gif",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0633.gif",
+      "displayPath": "/assets/archive/media/DLC-0633.gif",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen-animaatio.gif",
+      "archiveUrl": "https://web.archive.org/web/20030825224238/http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen-animaatio.gif",
+      "timestamp": "20030825224238",
+      "uses": [
+        {
+          "pageId": "DLC-0645",
+          "label": "animaatio",
+          "role": "image"
+        }
+      ],
+      "sha256": "49d619d9773fe9e8704d8861c6a5e2f34eed18126443e7d2e19cb2ec1e04404f"
+    },
+    {
+      "id": "DLC-0646",
+      "filename": "oppilas-joonas-maittila-9899.jpg",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0646.jpg",
+      "displayPath": "/assets/archive/media/DLC-0646.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-9899.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030909084533/http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-9899.jpg",
+      "timestamp": "20030909084533",
+      "uses": [
+        {
+          "pageId": "DLC-0657",
+          "label": "Joonas",
+          "role": "image"
+        }
+      ],
+      "sha256": "2dae03b13dfd1d2009eb0bfb729a0533160700a959f01fa560a8272ebc4b357d"
+    },
+    {
+      "id": "DLC-0647",
+      "filename": "oppilas-joonas-maittila-9900.jpg",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0647.jpg",
+      "displayPath": "/assets/archive/media/DLC-0647.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-9900.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030909093137/http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-9900.jpg",
+      "timestamp": "20030909093137",
+      "uses": [
+        {
+          "pageId": "DLC-0657",
+          "label": "Joonas",
+          "role": "image"
+        }
+      ],
+      "sha256": "c0931c14b64a51610081026192f81b32f88398e30c8cfbdef0421bd3b48cc4f0"
+    },
+    {
+      "id": "DLC-0654",
+      "filename": "oppilas-joonas-maittila-neppu1.jpg",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0654.jpg",
+      "displayPath": "/assets/archive/media/DLC-0654.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-neppu1.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030909102130/http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-neppu1.jpg",
+      "timestamp": "20030909102130",
+      "uses": [
+        {
+          "pageId": "DLC-0657",
+          "label": "Neppu",
+          "role": "image"
+        }
+      ],
+      "sha256": "6ea6c95ead119f1a8139cbb9568679ef3e7a59960c5c52cb2b35dd312f6bc665"
+    },
+    {
+      "id": "DLC-0655",
+      "filename": "oppilas-joonas-maittila-neppu2.jpg",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0655.jpg",
+      "displayPath": "/assets/archive/media/DLC-0655.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-neppu2.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030909103258/http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-neppu2.jpg",
+      "timestamp": "20030909103258",
+      "uses": [
+        {
+          "pageId": "DLC-0657",
+          "label": "Neppu",
+          "role": "image"
+        }
+      ],
+      "sha256": "027472ab3ce82c8cd5dcc9edd8db2a4d8c0ba6cf0f8b1717cc420de7a5265f22"
+    },
+    {
+      "id": "DLC-0656",
+      "filename": "oppilas-joonas-maittila-valolaite.jpg",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0656.jpg",
+      "displayPath": "/assets/archive/media/DLC-0656.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-valolaite.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030909105605/http://www.dlc.fi:80/~hyk/oppilas-joonas-maittila-valolaite.jpg",
+      "timestamp": "20030909105605",
+      "uses": [
+        {
+          "pageId": "DLC-0657",
+          "label": "Joonaksen valolaite",
+          "role": "image"
+        }
+      ],
+      "sha256": "2483760abdb2339db125828f413376e21d235edd631960afa7c8b4bc0f2bfc30"
+    },
+    {
+      "id": "DLC-0664",
+      "filename": "oppilas-joonas-paukkio-vapaa-aihe.jpg",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0664.jpg",
+      "displayPath": "/assets/archive/media/DLC-0664.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-joonas-paukkio-vapaa-aihe.jpg",
+      "archiveUrl": "https://web.archive.org/web/20040707075127/http://www.dlc.fi:80/~hyk/oppilas-joonas-paukkio-vapaa-aihe.jpg",
+      "timestamp": "20040707075127",
+      "uses": [
+        {
+          "pageId": "DLC-0665",
+          "label": "piirtäjä: Joonas Paukkio",
+          "role": "image"
+        }
+      ],
+      "sha256": "cca1bbde7cb6be7e92c8a5bd748d933749041607bfc81f435db185e7f99bcf6b"
+    },
+    {
+      "id": "DLC-0678",
+      "filename": "oppilas-juri-back-puu.gif",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0678.gif",
+      "displayPath": "/assets/archive/media/DLC-0678.gif",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-juri-back-puu.gif",
+      "archiveUrl": "https://web.archive.org/web/20030509132926/http://www.dlc.fi:80/~hyk/oppilas-juri-back-puu.gif",
+      "timestamp": "20030509132926",
+      "uses": [
+        {
+          "pageId": "DLC-0679",
+          "label": "oppilas-juri-back-puu.gif",
+          "role": "image"
+        }
+      ],
+      "sha256": "e7d931c2921c27838d4d6b7ca083931549cb88da8bc440e9559ccf814dc4c348"
+    },
+    {
+      "id": "DLC-0338",
+      "filename": "oppilas-anna-rasinkangas-9899.jpg",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0338.jpg",
+      "displayPath": "/assets/archive/media/DLC-0338.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-9899.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000517050326/http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-9899.jpg",
+      "timestamp": "20000517050326",
+      "uses": [
+        {
+          "pageId": "DLC-0357",
+          "label": "ANNA 6.",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0343",
+          "label": "TAKAISIN!",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0824",
+          "label": "TAKAISIN!",
+          "role": "image"
+        }
+      ],
+      "sha256": "f8b06d463977d76fcee3848933ca86032e859e9328b2776e322aa9891e8a2a9a"
+    },
+    {
+      "id": "DLC-0344",
+      "filename": "oppilas-anna-rasinkangas-kannella.jpg",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0344.jpg",
+      "displayPath": "/assets/archive/media/DLC-0344.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-kannella.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000516064745/http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-kannella.jpg",
+      "timestamp": "20000516064745",
+      "uses": [
+        {
+          "pageId": "DLC-0357",
+          "label": "ANNA",
+          "role": "image"
+        }
+      ],
+      "sha256": "e388851c9517cca88b0d80982e6daac27df15270855ed5dbd5f2fc7512ba4f4d"
+    },
+    {
+      "id": "DLC-0349",
+      "filename": "oppilas-anna-rasinkangas-koira.jpg",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0349.jpg",
+      "displayPath": "/assets/archive/media/DLC-0349.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-koira.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000517134150/http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-koira.jpg",
+      "timestamp": "20000517134150",
+      "uses": [
+        {
+          "pageId": "DLC-0357",
+          "label": "KOIRA",
+          "role": "image"
+        }
+      ],
+      "sha256": "c74e1c53fa1c7f472818f0dee7d275a4bc7987451c32347f7f4c4a4811d8b7cf"
+    },
+    {
+      "id": "DLC-0351",
+      "filename": "oppilas-anna-rasinkangas-miete.jpg",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0351.jpg",
+      "displayPath": "/assets/archive/media/DLC-0351.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-miete.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000516132212/http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-miete.jpg",
+      "timestamp": "20000516132212",
+      "uses": [
+        {
+          "pageId": "DLC-0072",
+          "label": "Miete",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0357",
+          "label": "Miete",
+          "role": "image"
+        }
+      ],
+      "sha256": "3400ead84b696b09f507946185c97388c32bbcc566090cb21d53286d300b1194"
+    },
+    {
+      "id": "DLC-0352",
+      "filename": "oppilas-anna-rasinkangas-noppa-animaatio.gif",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0352.gif",
+      "displayPath": "/assets/archive/media/DLC-0352.gif",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-noppa-animaatio.gif",
+      "archiveUrl": "https://web.archive.org/web/20000516055556/http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-noppa-animaatio.gif",
+      "timestamp": "20000516055556",
+      "uses": [
+        {
+          "pageId": "DLC-0357",
+          "label": "oppilas-anna-rasinkangas-noppa-animaatio.gif",
+          "role": "image"
+        }
+      ],
+      "sha256": "e7cfc04d3172282ad3291eeef243f9cb2fac06c7e414f30916351dae284d421f"
+    },
+    {
+      "id": "DLC-0354",
+      "filename": "oppilas-anna-rasinkangas-tuolikisu.jpg",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0354.jpg",
+      "displayPath": "/assets/archive/media/DLC-0354.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-tuolikisu.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000516122646/http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-tuolikisu.jpg",
+      "timestamp": "20000516122646",
+      "uses": [
+        {
+          "pageId": "DLC-0357",
+          "label": "KISSA",
+          "role": "image"
+        }
+      ],
+      "sha256": "6e0c2e992ec6003ad97ca77961f326f32721508c1677fcf22a544fdc6624fd5e"
+    },
+    {
+      "id": "DLC-0111",
+      "filename": "aikuinen-olli-poroila-20.jpg",
+      "group": "Muut kuvat ja sivugrafiikka",
+      "localPath": "/assets/archive/originals/DLC-0111.jpg",
+      "displayPath": "/assets/archive/media/DLC-0111.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/aikuinen-olli-poroila-20.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000517134816/http://www.dlc.fi:80/~hyk/aikuinen-olli-poroila-20.jpg",
+      "timestamp": "20000517134816",
+      "uses": [
+        {
+          "pageId": "DLC-0313",
+          "label": "aikuinen-olli-poroila-20.jpg",
+          "role": "image"
+        }
+      ],
+      "sha256": "4f0d5bd2460da4a35ace29befb8a2d3ae5684cdde7362dfe4df1a50ee827ae2a"
+    },
+    {
+      "id": "DLC-0112",
+      "filename": "aikuinen-olli-poroila-pikkuisena.jpg",
+      "group": "Muut kuvat ja sivugrafiikka",
+      "localPath": "/assets/archive/originals/DLC-0112.jpg",
+      "displayPath": "/assets/archive/media/DLC-0112.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/aikuinen-olli-poroila-pikkuisena.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000516120500/http://www.dlc.fi:80/~hyk/aikuinen-olli-poroila-pikkuisena.jpg",
+      "timestamp": "20000516120500",
+      "uses": [
+        {
+          "pageId": "DLC-0313",
+          "label": "aikuinen-olli-poroila-pikkuisena.jpg",
+          "role": "image"
+        }
+      ],
+      "sha256": "8d4c32f5d03e8a7acd7ef542d81481031aeed668d7a9c0a3ac7c3b8761035d82"
+    },
+    {
+      "id": "DLC-0136",
+      "filename": "ferrari.jpg",
+      "group": "Muut kuvat ja sivugrafiikka",
+      "localPath": "/assets/archive/originals/DLC-0136.jpg",
+      "displayPath": "/assets/archive/media/DLC-0136.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/ferrari.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000516181040/http://www.dlc.fi:80/~hyk/ferrari.jpg",
+      "timestamp": "20000516181040",
+      "uses": [
+        {
+          "pageId": "DLC-0313",
+          "label": "KORVIKE-LADASSA 1987",
+          "role": "image"
+        }
+      ],
+      "sha256": "d7c65bc87dd95e026c418df49883edffa9989e60445e89b71965fbb3957d0107"
+    },
+    {
+      "id": "DLC-0137",
+      "filename": "frasier.gif",
+      "group": "Muut kuvat ja sivugrafiikka",
+      "localPath": "/assets/archive/originals/DLC-0137.gif",
+      "displayPath": "/assets/archive/media/DLC-0137.gif",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/frasier.gif",
+      "archiveUrl": "https://web.archive.org/web/20000516162219/http://www.dlc.fi:80/~hyk/frasier.gif",
+      "timestamp": "20000516162219",
+      "uses": [
+        {
+          "pageId": "DLC-0313",
+          "label": "FRASIER/KELSEY LAULAA",
+          "role": "image"
+        }
+      ],
+      "sha256": "8644202d7a01c2e25e022455805818999f8c3e13dc3bcd9d1d74dbfe8f0ee26b"
+    },
+    {
+      "id": "DLC-0142",
+      "filename": "hp2000a.jpg",
+      "group": "Muut kuvat ja sivugrafiikka",
+      "localPath": "/assets/archive/originals/DLC-0142.jpg",
+      "displayPath": "/assets/archive/media/DLC-0142.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/hp2000a.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000516234407/http://www.dlc.fi:80/~hyk/hp2000a.jpg",
+      "timestamp": "20000516234407",
+      "uses": [
+        {
+          "pageId": "DLC-0313",
+          "label": "HP2000A",
+          "role": "image"
+        }
+      ],
+      "sha256": "e60719545a2df7610034f2ed6f194eb1f79bcc7af751fb7ff3ca2001797a70a2"
+    },
+    {
+      "id": "DLC-0172",
+      "filename": "keesiolli.jpg",
+      "group": "Muut kuvat ja sivugrafiikka",
+      "localPath": "/assets/archive/originals/DLC-0172.jpg",
+      "displayPath": "/assets/archive/media/DLC-0172.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/keesiolli.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000517023353/http://www.dlc.fi:80/~hyk/keesiolli.jpg",
+      "timestamp": "20000517023353",
+      "uses": [
+        {
+          "pageId": "DLC-0313",
+          "label": "OLLI PARTURISSA 1984",
+          "role": "image"
+        }
+      ],
+      "sha256": "5f9c6d4a92cae7bc4feadd2181fd71a1a433edee4b0e97af11e54c27d5fb0c64"
+    },
+    {
+      "id": "DLC-0289",
+      "filename": "mikropiiri.jpg",
+      "group": "Muut kuvat ja sivugrafiikka",
+      "localPath": "/assets/archive/originals/DLC-0289.jpg",
+      "displayPath": "/assets/archive/media/DLC-0289.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/mikropiiri.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000517100706/http://www.dlc.fi:80/~hyk/mikropiiri.jpg",
+      "timestamp": "20000517100706",
+      "uses": [
+        {
+          "pageId": "DLC-0313",
+          "label": "MIKROPIIRI",
+          "role": "image"
+        }
+      ],
+      "sha256": "b317021d90eb894d6ba7904b92ff9fd0175f8029986afd0957aadaca5b08eb5a"
+    },
+    {
+      "id": "DLC-0300",
+      "filename": "olli-poroila-ja-joulupukki.jpg",
+      "group": "Muut kuvat ja sivugrafiikka",
+      "localPath": "/assets/archive/originals/DLC-0300.jpg",
+      "displayPath": "/assets/archive/media/DLC-0300.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/olli-poroila-ja-joulupukki.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000516190318/http://www.dlc.fi:80/~hyk/olli-poroila-ja-joulupukki.jpg",
+      "timestamp": "20000516190318",
+      "uses": [
+        {
+          "pageId": "DLC-0313",
+          "label": "olli-poroila-ja-joulupukki.jpg",
+          "role": "image"
+        }
+      ],
+      "sha256": "b9ca12fedfe1f6747c833de1c2207d10a1bf832c1241432e21bdd6e5e33ea647"
+    },
+    {
+      "id": "DLC-0301",
+      "filename": "olli-sahkoikkuna-1-p.jpg",
+      "group": "Muut kuvat ja sivugrafiikka",
+      "localPath": "/assets/archive/originals/DLC-0301.jpg",
+      "displayPath": "/assets/archive/media/DLC-0301.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/olli-sahkoikkuna-1-p.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000516203632/http://www.dlc.fi:80/~hyk/olli-sahkoikkuna-1-p.jpg",
+      "timestamp": "20000516203632",
+      "uses": [
+        {
+          "pageId": "DLC-0307",
+          "label": "olli-sahkoikkuna-1-p.jpg",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0313",
+          "label": "olli-sahkoikkuna-1-p.jpg",
+          "role": "image"
+        }
+      ],
+      "sha256": "6e3ab7cef2699dc51bafc6d28acab526fc42a1c77497016e77d410991dd28b5b"
+    },
+    {
+      "id": "DLC-0311",
+      "filename": "olli-sivulle-p.jpg",
+      "group": "Muut kuvat ja sivugrafiikka",
+      "localPath": "/assets/archive/originals/DLC-0311.jpg",
+      "displayPath": "/assets/archive/media/DLC-0311.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/olli-sivulle-p.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000516190711/http://www.dlc.fi:80/~hyk/olli-sivulle-p.jpg",
+      "timestamp": "20000516190711",
+      "uses": [
+        {
+          "pageId": "DLC-0313",
+          "label": "olli-sivulle-p.jpg",
+          "role": "image"
+        }
+      ],
+      "sha256": "75e8cff785d6e1b1eea9287e8d3585f5f822a452166369dfde5186df828739c3"
+    },
+    {
+      "id": "DLC-0051",
+      "filename": "5-oppilaat-heponiemi-seppele-2.jpg",
+      "group": "Luokka- ja ryhmäkuvat",
+      "localPath": "/assets/archive/originals/DLC-0051.jpg",
+      "displayPath": "/assets/archive/media/DLC-0051.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/5-oppilaat-heponiemi-seppele-2.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030920112530/http://www.dlc.fi:80/~hyk/5-oppilaat-heponiemi-seppele-2.jpg",
+      "timestamp": "20030920112530",
+      "uses": [
+        {
+          "pageId": "DLC-0052",
+          "label": "ryhmäkuva",
+          "role": "image"
+        }
+      ],
+      "sha256": "2cfef07c0547e84a9206ceb5ed95a1c3e9f23f6cf2415a6bdc5590f78cf945e8"
+    },
+    {
+      "id": "DLC-0792",
+      "filename": "oppilas-poika.jpg",
+      "group": "Oppilassivujen kuvat",
+      "localPath": "/assets/archive/originals/DLC-0792.jpg",
+      "displayPath": "/assets/archive/media/DLC-0792.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-poika.jpg",
+      "archiveUrl": "https://web.archive.org/web/20001002034327/http://www.dlc.fi:80/~hyk/oppilas-poika.jpg",
+      "timestamp": "20001002034327",
+      "uses": [
+        {
+          "pageId": "DLC-0394",
+          "label": "TAKAISIN!",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0395",
+          "label": "ARTTURI PEKKOLA tulee myöhemmin",
+          "role": "image"
+        }
+      ],
+      "sha256": "c3b75ded32766a8142281ade930e2728765fea6474f424cbee2a1bb3ca1a8384"
+    },
+    {
+      "id": "DLC-0947",
+      "filename": "pigasus.gif",
+      "group": "Muut kuvat ja sivugrafiikka",
+      "localPath": "/assets/archive/originals/DLC-0947.gif",
+      "displayPath": "/assets/archive/media/DLC-0947.gif",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/pigasus.gif",
+      "archiveUrl": "https://web.archive.org/web/20000517045928/http://www.dlc.fi:80/~hyk/pigasus.gif",
+      "timestamp": "20000517045928",
+      "uses": [
+        {
+          "pageId": "DLC-0313",
+          "label": "pigasus.gif",
+          "role": "image"
+        }
+      ],
+      "sha256": "6b01c9df67270f5207ee7a7374bc667f1d396de3902f7614db0c179114766edc"
+    },
+    {
+      "id": "DLC-0952",
+      "filename": "pojat-sohvalla.jpg",
+      "group": "Muut kuvat ja sivugrafiikka",
+      "localPath": "/assets/archive/originals/DLC-0952.jpg",
+      "displayPath": "/assets/archive/media/DLC-0952.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/pojat-sohvalla.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000516230552/http://www.dlc.fi:80/~hyk/pojat-sohvalla.jpg",
+      "timestamp": "20000516230552",
+      "uses": [
+        {
+          "pageId": "DLC-0313",
+          "label": "pojat sohvalla",
+          "role": "image"
+        }
+      ],
+      "sha256": "8882a06eef6d15600dedf5f59bcdb637b33c2e885baf8811222959237fe7110c"
+    },
+    {
+      "id": "DLC-0960",
+      "filename": "poroilan-kuva-8.gif",
+      "group": "Muut kuvat ja sivugrafiikka",
+      "localPath": "/assets/archive/originals/DLC-0960.gif",
+      "displayPath": "/assets/archive/media/DLC-0960.gif",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/poroilan-kuva-8.gif",
+      "archiveUrl": "https://web.archive.org/web/20000829111453/http://www.dlc.fi:80/~hyk/poroilan-kuva-8.gif",
+      "timestamp": "20000829111453",
+      "uses": [
+        {
+          "pageId": "DLC-0308",
+          "label": "poroilan-kuva-8.gif",
+          "role": "image"
+        }
+      ],
+      "sha256": "339515ce717e609b96ab9290c50855e457c82122c4c207a161e48525ba5fc031"
+    },
+    {
+      "id": "DLC-0965",
+      "filename": "puita.gif",
+      "group": "Muut kuvat ja sivugrafiikka",
+      "localPath": "/assets/archive/originals/DLC-0965.gif",
+      "displayPath": "/assets/archive/media/DLC-0965.gif",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/puita.gif",
+      "archiveUrl": "https://web.archive.org/web/20000516145920/http://www.dlc.fi:80/~hyk/puita.gif",
+      "timestamp": "20000516145920",
+      "uses": [
+        {
+          "pageId": "DLC-0313",
+          "label": "puita.gif",
+          "role": "image"
+        }
+      ],
+      "sha256": "492b7e7ceb484819bdc29660c0777b5fc1aeb64e3abb58065d5dac685b341b7f"
+    },
+    {
+      "id": "DLC-0971",
+      "filename": "putki.jpg",
+      "group": "Muut kuvat ja sivugrafiikka",
+      "localPath": "/assets/archive/originals/DLC-0971.jpg",
+      "displayPath": "/assets/archive/media/DLC-0971.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/putki.jpg",
+      "archiveUrl": "https://web.archive.org/web/20000517052741/http://www.dlc.fi:80/~hyk/putki.jpg",
+      "timestamp": "20000517052741",
+      "uses": [
+        {
+          "pageId": "DLC-0313",
+          "label": "ELEKTRONIPUTKI",
+          "role": "image"
+        }
+      ],
+      "sha256": "1b88f193b577d219fed09d9b028c95ec3c305308ab5aa7bae7e64e46c08afb5f"
     }
   ],
   "imageSets": [
@@ -43206,19 +46472,19 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-veneet-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0239",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0239.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0239.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-veneet-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0240",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0240.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0240.jpg"
         }
       ]
     },
@@ -43251,10 +46517,10 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-vedessa-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0238",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0238.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0238.jpg"
         }
       ]
     },

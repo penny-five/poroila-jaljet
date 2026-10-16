@@ -73,6 +73,19 @@ def main():
             actual = base64.b32encode(hashlib.sha1(raw).digest()).decode()
             check(actual == item['response_sha1_base32'], f'Archive response SHA-1 mismatch: {item["id"]}')
             check(item['capture_digest_match'] == (actual == item['cdx_digest']), f'Incorrect CDX verification flag: {item["id"]}')
+    for item in originals.values():
+        if item.get('archive_mime_type'):
+            raw = page_file(item['local_path']).read_bytes()
+            if item['archive_mime_type'] == 'im':
+                expected = 'image/jpeg' if raw.startswith(b'\xff\xd8\xff') else 'image/gif' if raw.startswith((b'GIF87a', b'GIF89a')) else 'image/png' if raw.startswith(b'\x89PNG\r\n\x1a\n') else None
+                check(expected == item['mime_type'], f'Incorrect payload MIME detection: {item["id"]}')
+            elif item['archive_mime_type'] == 'text/plain':
+                check(item['mime_type'] == 'text/html' and (b'<html' in raw.lower() or b'<body' in raw.lower()), 'Plain-text capture is not HTML')
+    trip = page_by_id['DLC-0052']
+    check('Karjalohjan Heponiemessä keväällä 1986' in trip['text'] and not trip['digestMismatch'], 'Trip date lacks verified source text')
+    check(any(image['sourceId'] == 'DLC-0051' and image['displayPath'] for image in trip['images']), 'Trip photo not preserved or not connected to source')
+    history = page_file('/koulu/historia/').read_text(encoding='utf-8')
+    check('/koulu/aineisto/DLC-0052/' in history and 'DLC-0051.jpg' in history, 'Local trip source missing from school history')
     check({p['id'] for p in data['pages']} == {f['id'] for f in originals.values() if 'html' in f['mime_type']}, 'School reading inventory is stale')
     check({m['id'] for m in data['media']} == {f['id'] for f in originals.values() if f['mime_type'].startswith('image/')}, 'School media inventory is stale')
     for route in ['aineisto','koulukuvat','oppilaiden-sivut','luokat','kuva-ja-taidesivut','runot-ja-kirjoitelmat','koulun-sivut']:

@@ -22,6 +22,14 @@ Hyrsylän koulurakennus valmistui vuonna 1905 ja sitä laajennettiin vuonna 1923
 
 Olli Poroilan yhteys kouluun on dokumentoitu vuoden 2005 oikeusuutisessa ja vuoden 1990 MikroBITTI-ilmoituksessa. Koulun oman vuoden 2007 sivuston kehysrakenne on säilynyt, mutta sen varsinainen sisältö ja Poroilan mahdollinen tekijyys ovat vielä selvittämättä.
 
+### Leirikoulussa keväällä 1986
+
+Koulun omalla jälkikäteen julkaistulla sivulla viides luokka on leirikoulussa Karjalohjan Heponiemessä keväällä 1986. Sivun mukaan lukuvuonna 1985–1986 viidennellä luokalla oli yhdeksän tyttöä eikä yhtään poikaa, eikä koulussa ollut vielä kuudetta luokkaa. Tämä on koulun verkkosivun oma kuvaus, jota ei ole verrattu alkuperäiseen luokkapäiväkirjaan [S74].
+
+<figure><a href="/assets/archive/media/DLC-0051.jpg"><img src="/assets/archive/media/DLC-0051.jpg" alt="Lähdesivulla ryhmäkuvaksi nimetty leirikoulukuva" loading="lazy" style="max-width:100%;height:auto"></a><figcaption>Koulusivun ryhmäkuva. Lähdesivun teksti ajoittaa leirikoulun kevääseen 1986; kuvan arkistotallennuspäivä on eri asia. Kuvassa esiintyviä henkilöitä ei tässä tunnisteta.</figcaption></figure>
+
+[Lue koko leirikoulusivu ja kuvaviitteet tässä arkistossa](/koulu/aineisto/DLC-0052/) · [Kuvan alkuperä ja säilytetty tiedosto](/koulu/koulukuvat/#DLC-0051)
+
 TEHTÄVÄ / AVOIN
 
 #### Koulun omat verkkosivut

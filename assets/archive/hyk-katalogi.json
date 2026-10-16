@@ -9045,7 +9045,9 @@
       "mimetype": "image/jpeg",
       "archive_status": "200",
       "digest": "URIILQFS2GTZE34U3HIQ3IDKIZIYC4DJ",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "2cfef07c0547e84a9206ceb5ed95a1c3e9f23f6cf2415a6bdc5590f78cf945e8",
+      "bytes": 30651
     },
     {
       "id": "DLC-0052",
@@ -9056,7 +9058,9 @@
       "mimetype": "text/plain",
       "archive_status": "200",
       "digest": "RK3UD5HCL2SQXOMV4BEUVCT3ZAAPYADY",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "6f01940f0dc11e985aa5600f8f20c7999e6b3601d2fb58b84eae3b1d0fbefa76",
+      "bytes": 1372
     },
     {
       "id": "DLC-0053",
@@ -9665,7 +9669,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "RTV22RGUR7FIJ64ESOAMRLPWLGUZ2T3E",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Tallennevastauksen tavut säilytetty; CDX-tarkiste varmistamatta",
+      "sha256": "8a65b4f5e6eac09508a3bc5ac0f72d1888d1219d2cd737379092da031e4db662",
+      "bytes": 1860
     },
     {
       "id": "DLC-0104",
@@ -9676,7 +9682,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "MWLKPN7IGDZBJOTG5JBDVALX6KCWRGXC",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "830ddc7f15d2fa7ce3b35bedfbd5ca3aa07f941699a54dc4b0946be2f6d5cc4d",
+      "bytes": 5798
     },
     {
       "id": "DLC-0105",
@@ -9760,7 +9768,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "JRRGLPVFMO7GLG6Q2KQMZ56EMP5X52E4",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "4f0d5bd2460da4a35ace29befb8a2d3ae5684cdde7362dfe4df1a50ee827ae2a",
+      "bytes": 4780
     },
     {
       "id": "DLC-0112",
@@ -9771,7 +9781,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "RVA3CX6UX73OXWEL6GY64TQ6TN3W73S4",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "8d4c32f5d03e8a7acd7ef542d81481031aeed668d7a9c0a3ac7c3b8761035d82",
+      "bytes": 4490
     },
     {
       "id": "DLC-0113",
@@ -10078,7 +10090,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "BYPZ5ENK5TIUONTH6GDR6Y2G7UIGQ3W6",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "d7c65bc87dd95e026c418df49883edffa9989e60445e89b71965fbb3957d0107",
+      "bytes": 13156
     },
     {
       "id": "DLC-0137",
@@ -10089,7 +10103,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "7NCC3CYWRNLEKRDVPJDVPKDJJ6NPPKKC",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "8644202d7a01c2e25e022455805818999f8c3e13dc3bcd9d1d74dbfe8f0ee26b",
+      "bytes": 3740
     },
     {
       "id": "DLC-0138",
@@ -10147,7 +10163,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "ZOPZMAB2QBWKO5M3T6HG4XZNDIS7VGM3",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "e60719545a2df7610034f2ed6f194eb1f79bcc7af751fb7ff3ca2001797a70a2",
+      "bytes": 10262
     },
     {
       "id": "DLC-0143",
@@ -10482,7 +10500,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "WHBOTMMJQMQA2HPM3EBBJIF67QDBRFOU",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "5f9c6d4a92cae7bc4feadd2181fd71a1a433edee4b0e97af11e54c27d5fb0c64",
+      "bytes": 4894
     },
     {
       "id": "DLC-0173",
@@ -11320,7 +11340,9 @@
       "mimetype": "image/jpeg",
       "archive_status": "200",
       "digest": "VP3GVNJDXQLVNYR2GXIRSTCDFHZAGV7A",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "5642feb1bcaefcebf08de962f7e470a2be1ea948e8a522e86aec5c0fab87c0d1",
+      "bytes": 26737
     },
     {
       "id": "DLC-0239",
@@ -11331,7 +11353,9 @@
       "mimetype": "image/jpeg",
       "archive_status": "200",
       "digest": "4UCAYP3UY3WY3TZ5JOUGOLMNG6RASEMB",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "75063618f586cfb49d45188e58e2c60f80705acf2dbf50757ad0ffc28716886d",
+      "bytes": 24767
     },
     {
       "id": "DLC-0240",
@@ -11342,7 +11366,9 @@
       "mimetype": "image/jpeg",
       "archive_status": "200",
       "digest": "UAY4ECP3PIK2IQH52DTTUKLXFTDPR5VS",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "9589225412ef67b7674c473ff1a8dc0f310d154bec0b9e3c5349bfe12ba2273e",
+      "bytes": 31065
     },
     {
       "id": "DLC-0241",
@@ -11897,7 +11923,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "2A4K6EO7INLN7LPFYC3R3X22FU4S2QQO",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "b317021d90eb894d6ba7904b92ff9fd0175f8029986afd0957aadaca5b08eb5a",
+      "bytes": 2140
     },
     {
       "id": "DLC-0290",
@@ -12018,7 +12046,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "YL6I44E6KCXTMKJ2ZGJPERHKH6GE275V",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "b9ca12fedfe1f6747c833de1c2207d10a1bf832c1241432e21bdd6e5e33ea647",
+      "bytes": 19433
     },
     {
       "id": "DLC-0301",
@@ -12029,7 +12059,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "5A7XE7LJ64ATDR4B3NFNFLH6GO6H56RC",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "6e3ab7cef2699dc51bafc6d28acab526fc42a1c77497016e77d410991dd28b5b",
+      "bytes": 4778
     },
     {
       "id": "DLC-0302",
@@ -12151,7 +12183,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "UCVSOX7CJKU3Z6H6NCNOTTH5RGXMU5EM",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "75e8cff785d6e1b1eea9287e8d3585f5f822a452166369dfde5186df828739c3",
+      "bytes": 2368
     },
     {
       "id": "DLC-0312",
@@ -12474,7 +12508,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "MSQLLWBL2XN7DS7PD3YQYQHU7EETXDCC",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "f8b06d463977d76fcee3848933ca86032e859e9328b2776e322aa9891e8a2a9a",
+      "bytes": 12108
     },
     {
       "id": "DLC-0339",
@@ -12546,7 +12582,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "7QGSQNUAHYOY7VNZW7RZTIRX5HYPTQSC",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "e388851c9517cca88b0d80982e6daac27df15270855ed5dbd5f2fc7512ba4f4d",
+      "bytes": 6911
     },
     {
       "id": "DLC-0345",
@@ -12609,7 +12647,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "D7FTVCEHTJ4KSSFZNVXKWU523T4YNRHI",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "c74e1c53fa1c7f472818f0dee7d275a4bc7987451c32347f7f4c4a4811d8b7cf",
+      "bytes": 8165
     },
     {
       "id": "DLC-0350",
@@ -12633,7 +12673,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "CROQWRDO67VTQMNATKCZ5Z2ZE6AKWDDA",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "3400ead84b696b09f507946185c97388c32bbcc566090cb21d53286d300b1194",
+      "bytes": 37848
     },
     {
       "id": "DLC-0352",
@@ -12644,7 +12686,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "KFLFSKNB6ZSSGGXEFGLKM3CNHSQV5UXQ",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "e7cfc04d3172282ad3291eeef243f9cb2fac06c7e414f30916351dae284d421f",
+      "bytes": 13032
     },
     {
       "id": "DLC-0353",
@@ -12666,7 +12710,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "KFEOOGVJBD3FDTSYTFQ26S6YVREDGK5X",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "6e0c2e992ec6003ad97ca77961f326f32721508c1677fcf22a544fdc6624fd5e",
+      "bytes": 4370
     },
     {
       "id": "DLC-0355",
@@ -13136,7 +13182,9 @@
       "mimetype": "text/plain",
       "archive_status": "200",
       "digest": "EYCE6IA7772GRWTRD46DWWVJEADLA6FZ",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "79e43f96d6286ccb010235ecb10a5c7c813880817e22aed32b76e685e2ea66dc",
+      "bytes": 1102
     },
     {
       "id": "DLC-0393",
@@ -14486,7 +14534,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "6ONZUY4HB5XT2PU3TP6HQH5CEUZ4ZNXT",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "30fe2d7eda56aad02c711adc2f4217297a5311acda2ea5dac20b47fc5c7da2fa",
+      "bytes": 1417
     },
     {
       "id": "DLC-0505",
@@ -15084,7 +15134,9 @@
       "mimetype": "text/plain",
       "archive_status": "200",
       "digest": "JDJQQR64NAVV2EV6PILDM2CU2ODFOKY3",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "928612c55d94f86cf2c46cec90478bd6ab2720fcbf4103c154feda9e14f129ad",
+      "bytes": 974
     },
     {
       "id": "DLC-0553",
@@ -15121,7 +15173,9 @@
       "mimetype": "image/gif",
       "archive_status": "200",
       "digest": "EHUVST5GVMPWFX7YENOFUHDZKXWK7L3T",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "a35bf059e0e5aaf478cc7b51a6447ab8623d00e58136fd362fe90af8f41b90e1",
+      "bytes": 14347
     },
     {
       "id": "DLC-0556",
@@ -15947,7 +16001,9 @@
       "mimetype": "image/jpeg",
       "archive_status": "200",
       "digest": "YTXHF54OY7WCLLH5GUKKX2Z3F4XPJGXV",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "9a8eb873745a1d6dfde9bda343a098e38ea7342fd5cfd9178173e88c89f2ba6d",
+      "bytes": 11096
     },
     {
       "id": "DLC-0624",
@@ -15991,7 +16047,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "AKSSSPICVLNI4CXAEK6HUKN3DQUTHVIG",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "d409149aebc9dcf6da19db37e03f3e6c306ee4cb72b534ea5a1055e795506508",
+      "bytes": 811
     },
     {
       "id": "DLC-0628",
@@ -16002,7 +16060,9 @@
       "mimetype": "image/jpeg",
       "archive_status": "200",
       "digest": "W7IRWOAOSVIYB7VAB7ZBXKCDWZCEXGOB",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "a4a809da6f276fa47205d0f6f16e0485c0871ab00f64895cbcb7f2b14ba4a893",
+      "bytes": 16446
     },
     {
       "id": "DLC-0629",
@@ -16013,7 +16073,9 @@
       "mimetype": "image/jpeg",
       "archive_status": "200",
       "digest": "JWA36GANNV4NONLXSNEYP6LGX5SS2HYW",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "223f96ee6ff2a6e12a8b973314263f8655b2de636776717c937485b11d5247fd",
+      "bytes": 11970
     },
     {
       "id": "DLC-0630",
@@ -16059,7 +16121,9 @@
       "mimetype": "image/gif",
       "archive_status": "200",
       "digest": "LYB4JIPVHXK2ZBVK4EWJ6M3BMOU44GSF",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "49d619d9773fe9e8704d8861c6a5e2f34eed18126443e7d2e19cb2ec1e04404f",
+      "bytes": 18411
     },
     {
       "id": "DLC-0634",
@@ -16125,7 +16189,9 @@
       "mimetype": "text/plain",
       "archive_status": "200",
       "digest": "CYOE67VKRHCHSWX2ZCERAR2UJ6RAZKVE",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "3537ef1d2867a9a7f8b92d73507417bfe0db5cb8be899b4adab60a9926924854",
+      "bytes": 1058
     },
     {
       "id": "DLC-0640",
@@ -16206,7 +16272,9 @@
       "mimetype": "image/jpeg",
       "archive_status": "200",
       "digest": "4ON5Q5KPHH6W3DKE6XBD2KPIEHTRQT6I",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "2dae03b13dfd1d2009eb0bfb729a0533160700a959f01fa560a8272ebc4b357d",
+      "bytes": 9335
     },
     {
       "id": "DLC-0647",
@@ -16217,7 +16285,9 @@
       "mimetype": "image/jpeg",
       "archive_status": "200",
       "digest": "TPQHGB2EQNDZQJGBR7O6FPMFPSLOOEHA",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "c0931c14b64a51610081026192f81b32f88398e30c8cfbdef0421bd3b48cc4f0",
+      "bytes": 9654
     },
     {
       "id": "DLC-0648",
@@ -16287,7 +16357,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "YC6ZSCH43U7KKY5ANES5RUL44DMOQ2KJ",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "ce9650de03c34070d9d52222fbe8216b6f842506420475d8a1962cd34272f128",
+      "bytes": 947
     },
     {
       "id": "DLC-0654",
@@ -16298,7 +16370,9 @@
       "mimetype": "image/jpeg",
       "archive_status": "200",
       "digest": "VB7UPH7V5ASP4EDXO6VBV5A77SDDF2ZT",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "6ea6c95ead119f1a8139cbb9568679ef3e7a59960c5c52cb2b35dd312f6bc665",
+      "bytes": 23061
     },
     {
       "id": "DLC-0655",
@@ -16309,7 +16383,9 @@
       "mimetype": "image/jpeg",
       "archive_status": "200",
       "digest": "JUKTMGHUVQTMGPAD5DGKAU4D73WXG3U3",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "027472ab3ce82c8cd5dcc9edd8db2a4d8c0ba6cf0f8b1717cc420de7a5265f22",
+      "bytes": 11136
     },
     {
       "id": "DLC-0656",
@@ -16320,7 +16396,9 @@
       "mimetype": "image/jpeg",
       "archive_status": "200",
       "digest": "JOWIPCGVXYD5PBDRKRFV62IWV3ZSWZPQ",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "2483760abdb2339db125828f413376e21d235edd631960afa7c8b4bc0f2bfc30",
+      "bytes": 13354
     },
     {
       "id": "DLC-0657",
@@ -16410,7 +16488,9 @@
       "mimetype": "image/jpeg",
       "archive_status": "200",
       "digest": "NJ7MLFRBHCNIHXZYB4VDIEK4LV764OUW",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "cca1bbde7cb6be7e92c8a5bd748d933749041607bfc81f435db185e7f99bcf6b",
+      "bytes": 60240
     },
     {
       "id": "DLC-0665",
@@ -16537,7 +16617,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "5Y64XF534GCD5XQI5IAPDXJJ7VYCENVY",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Tallennevastauksen tavut säilytetty; CDX-tarkiste varmistamatta",
+      "sha256": "51edc349818440c18ce46f330bca1c8c7eaa23c8c4c89e42c7838a7bfe4f770a",
+      "bytes": 956
     },
     {
       "id": "DLC-0676",
@@ -16574,7 +16656,9 @@
       "mimetype": "image/gif",
       "archive_status": "200",
       "digest": "MG2MSUNAR5JYOQOMGIK5BHHO3JJQ6DJV",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "e7d931c2921c27838d4d6b7ca083931549cb88da8bc440e9559ccf814dc4c348",
+      "bytes": 7723
     },
     {
       "id": "DLC-0679",
@@ -16631,7 +16715,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "ES5Z63Q3HVORC43DWRFLRY5LQVFT2JI2",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "b21381276dcee9dfb45db2ba257cd6c1fc9a41d093eea64683464c71a8a81ac5",
+      "bytes": 952
     },
     {
       "id": "DLC-0684",
@@ -16787,7 +16873,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "VWWSC2UKVFAXSFVLM7KYBZ7PMM42W5RY",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "a8765d7af2f99b097efdc0946b739fa7107aae17002bddd4e20353a89df61038",
+      "bytes": 819
     },
     {
       "id": "DLC-0698",
@@ -16866,7 +16954,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "D76WMZLTIE3K5FMLXFZA5GZIYLB3AM7O",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "196cf4eec684b8a3245aaa5a121b54ce79f6a4d545d624aedaa334dbdbd5d869",
+      "bytes": 923
     },
     {
       "id": "DLC-0705",
@@ -16923,7 +17013,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "IQ3BXS576S3G5DMZ2NEYWHW445SCFBUD",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Tallennevastauksen tavut säilytetty; CDX-tarkiste varmistamatta",
+      "sha256": "71b11db2b229f99e418cab745eac6bfa896066cb8ef5fb278a829fe72e3e8808",
+      "bytes": 999
     },
     {
       "id": "DLC-0710",
@@ -17838,7 +17930,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "HONEEA2RU2EPA3YLQXIXLEIPPUH2H4PO",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "c3b75ded32766a8142281ade930e2728765fea6474f424cbee2a1bb3ca1a8384",
+      "bytes": 7469
     },
     {
       "id": "DLC-0793",
@@ -19545,7 +19639,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "NMZVDSWEFRNO2KDY7JJJYF45KR2WZCYH",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "6b01c9df67270f5207ee7a7374bc667f1d396de3902f7614db0c179114766edc",
+      "bytes": 16820
     },
     {
       "id": "DLC-0948",
@@ -19600,7 +19696,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "NFVZOC7VTEBFT6XKPKS5IXVGRG3XQY77",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "8882a06eef6d15600dedf5f59bcdb637b33c2e885baf8811222959237fe7110c",
+      "bytes": 23849
     },
     {
       "id": "DLC-0953",
@@ -19688,7 +19786,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "N3XIQOZ4NLVCAPF4ISMPU6IAXW7TUNUJ",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "339515ce717e609b96ab9290c50855e457c82122c4c207a161e48525ba5fc031",
+      "bytes": 6696
     },
     {
       "id": "DLC-0961",
@@ -19743,7 +19843,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "YY7CJRJPORQWHDQFE662U3MXMNKFOUJY",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "492b7e7ceb484819bdc29660c0777b5fc1aeb64e3abb58065d5dac685b341b7f",
+      "bytes": 5035
     },
     {
       "id": "DLC-0966",
@@ -19809,7 +19911,9 @@
       "mimetype": "im",
       "archive_status": "200",
       "digest": "6MTHEZRDTANQDXKDDOHV5HFYJ2GXJE5J",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "1b88f193b577d219fed09d9b028c95ec3c305308ab5aa7bae7e64e46c08afb5f",
+      "bytes": 3973
     },
     {
       "id": "DLC-0972",
@@ -19930,7 +20034,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "7F7RHD2C5VFWB33A5AMTVKVNZR6UPSKD",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Tallennevastauksen tavut säilytetty; CDX-tarkiste varmistamatta",
+      "sha256": "aab59e5785fbc46eb6f6dea2c03624a7ec0c23abdba1f35bed54f52e82cfb978",
+      "bytes": 4722
     },
     {
       "id": "DLC-0983",

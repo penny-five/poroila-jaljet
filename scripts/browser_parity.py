@@ -155,6 +155,12 @@ with sync_playwright() as playwright:
             img.evaluate("img => img.loading = 'eager'")
             page.wait_for_function('(img) => img.complete && img.naturalWidth > 0', arg=img.element_handle())
         assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Comparison gallery overflow'
+        page.goto(origin + '/_site/koulu/aikajana/')
+        page.get_by_role('button', name='1980-luku', exact=True).click()
+        assert page.locator('#schoolTimelineList [data-year]').count() == 2
+        page.locator('#schoolTimelineList [data-year="1986"] a').click()
+        assert page.url.endswith('/koulu/aineisto/DLC-0052/')
+        assert page.get_by_text('Karjalohjan Heponiemessä keväällä 1986', exact=True).is_visible()
         page.goto(origin + '/_site/olli-poroila/kirjoitukset/')
         page.get_by_role('link', name='Lue koko runosivu tässä arkistossa').click()
         assert page.url.endswith('/koulu/aineisto/DLC-0315/')

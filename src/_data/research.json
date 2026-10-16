@@ -656,6 +656,16 @@
       "group": "Avoimet viitteet",
       "url": "https://web.archive.org/web/20001022223906/http://www.dlc.fi:80/~hyk/olliruno.htm",
       "note": "Sivun otsikko ja tekijämerkintä nimeävät Olli Poroilan. Sisältää viisi runo-otsikkoa; koko sivu on paikallisesti säilytetty lukusivuna DLC-0315 ja raakatiedostona. CDX-tarkiste täsmää. Runojen puhujaa tai kuvastoa ei tulkita elämäkertatiedoksi."
+    },
+    {
+      "id": "S74",
+      "date": "Kevät 1986 / tallenne 28.10.2000",
+      "title": "Viides luokka leirikoulussa Heponiemessä keväällä 1986",
+      "publisher": "Koulun alkuperäinen DLC-sivusto / oma kuvateksti",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20001028200014/http://www.dlc.fi:80/~hyk/5-oppilaat-heponiemi.htm",
+      "localPath": "/koulu/aineisto/DLC-0052/",
+      "note": "Koulun oma jälkikäteen julkaistu sivu nimeää leirikoulupaikan ja kevään 1986. Tekstissä viidennellä luokalla mainitaan yhdeksän tyttöä eikä yhtään poikaa sekä ettei koulussa ollut vielä kuudetta luokkaa. Ryhmäkuva DLC-0051 on säilytetty paikallisesti. Teksti ja kuva täsmäävät CDX-tarkisteisiin; kuvassa esiintyviä henkilöitä ei tunnistettu."
     }
   ],
   "timeline": [
@@ -826,6 +836,15 @@
       "refs": [
         "S68"
       ]
+    },
+    {
+      "year": 1986,
+      "title": "Viides luokka leirikoulussa Heponiemessä",
+      "description": "Koulun oma verkkosivu kertoo kevään 1986 leirikoulusta Karjalohjan Heponiemessä. Sivun mukaan lukuvuonna 1985–1986 viidennellä luokalla oli yhdeksän tyttöä eikä yhtään poikaa, eikä koulussa ollut vielä kuudetta luokkaa. Jälkikäteen julkaistu koulun oma teksti; alkuperäistä luokkapäiväkirjaa ei ole tarkistettu.",
+      "refs": [
+        "S74"
+      ],
+      "addition": true
     },
     {
       "year": 1992,
