@@ -132,6 +132,12 @@ with sync_playwright() as playwright:
             Path('.cache').mkdir(exist_ok=True)
             page.screenshot(path=f'.cache/school-gallery-{width}.png')
         print(f'PASS: {width}px school hierarchy, active navigation, person round-trip and all local gallery images')
+    for width in (390, 800, 1440, 2048, 3000):
+        page.set_viewport_size({'width': width, 'height': 1000})
+        page.goto(origin + '/_site/koulu/aineisto/')
+        lefts = page.evaluate("""() => ['.brand','#sectionNavigation a','#collectionNavigation a'].map(selector => document.querySelector(selector).getBoundingClientRect().left)""")
+        assert max(lefts) - min(lefts) < 1, f'Navigation left edges differ at {width}px: {lefts}'
+        assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
     for width in (2048, 3000):
         page.set_viewport_size({'width': width, 'height': 1000})
         page.goto(origin + '/_site/koulu/')
