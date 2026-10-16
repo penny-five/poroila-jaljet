@@ -2,8 +2,6 @@
    visual system and navigation remain in style.css. */
 .skip-link{position:absolute;left:-9999px;top:8px;z-index:80;padding:12px 16px;background:#e79d65;color:#111513}
 .skip-link:focus{left:12px}
-.page-trail{display:flex;align-items:center;flex-wrap:wrap;gap:12px;padding:13px 4.8vw;background:#111918;border-bottom:1px solid var(--stroke);color:#a1a69b;font:10px var(--mono);letter-spacing:.08em;text-transform:uppercase}
-.page-trail a,.page-trail strong{color:#e79d65}.page-trail strong{font-weight:400}.page-trail-caption{margin-left:auto;color:#77847c}
 .archive-page{min-height:72vh;background:#111918}
 .archive-page .section-heading{align-items:end;margin-bottom:38px}
 .archive-page .section-heading h1{margin:10px 0 20px;font:normal clamp(48px,7vw,92px)/.94 var(--serif);letter-spacing:-.035em}
@@ -46,4 +44,4 @@
 .data-table-wrap th,.data-table-wrap td{min-width:110px;padding:12px 14px;border-bottom:1px solid var(--stroke);text-align:left;vertical-align:top}
 .data-table-wrap th{background:#1d2822;color:#e7b989;font:10px/1.5 var(--mono);letter-spacing:.05em;text-transform:uppercase}
 .data-table-wrap code{overflow-wrap:anywhere;color:#dfbd98}
-@media(max-width:760px){.page-trail-caption{display:none}.archive-page .section-heading{display:block}.archive-page .section-tag{display:inline-block;margin-top:18px;white-space:normal}.graph-entities{grid-template-columns:1fr}.data-table-wrap th,.data-table-wrap td{padding:9px 10px}}
+@media(max-width:760px){.archive-page .section-heading{display:block}.archive-page .section-tag{display:inline-block;margin-top:18px;white-space:normal}.graph-entities{grid-template-columns:1fr}.data-table-wrap th,.data-table-wrap td{padding:9px 10px}}

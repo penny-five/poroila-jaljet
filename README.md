@@ -41,6 +41,8 @@ Päävalikko on Etusivu, Koulu, Poroila, Verkkoarkisto sekä Lähteet ja tutkimu
 
 Koulun aihekohtainen aineistohakemisto on `/koulu/aineisto/`: kuvat, oppilassivut, luokat ja luettelot, runokokoelmat, taidesivut ja muu kouluaineisto. Paikalliset lukusivut generoidaan säilytetyistä HTML-tiedostoista `schoolArchive.json`-aineistoon komennolla `python tools/research/build_school_archive.py`. `schoolView.js` yhdistää ne henkilöihin, teoksiin ja toisiinsa. Koulun yhteisen oppilasvalikon nimiä ei käsitellä yksittäisen luokan oppilasluettelona. Lukusivut eivät suorita historiallisia skriptejä eivätkä tarvitse Waybackia tekstin tai palautettujen kuvien näyttämiseen.
 
+Murupolku ja otsikkoalue ovat yhteisiä kaikille sisältösivuille. `lib/breadcrumbs.cjs` määrittää osion, vanhemmat ja näyttönimet; yhteiset pohjat ovat `partials/breadcrumbs.njk` ja `partials/page-heading.njk`. Eyebrow näyttää pääosion, H1 sivun nimen ja ingressi sivun `lead`-tekstin. Vanhojen näkymien ingressit ovat `pageIntros.json`-tiedostossa. Sivun sisältöön ei kirjoiteta toista pääotsikkoa. Etusivu säilyttää oman hero-otsikkonsa. Yhteiset tyylit ovat `breadcrumbs.css`- ja `page-heading.css`-tiedostoissa.
+
 `python tools/research/recover_school_links.py --limit 20` hakee rajatun erän katalogin tunnetuista tallenteista, joihin säilyneet sivut linkittävät. `--retry` yrittää uudelleen aiemmin epäonnistuneita hakuja. Työkalu päivittää manifestin ja katalogin ja kirjaa kaikki yritykset `assets/archive/recovery-attempts.json`-tiedostoon. Aja sen jälkeen aineistogeneraattori uudelleen. Varmista aina build ja alla olevat tarkistukset ennen julkaisua.
 
 ## Tarkistukset
@@ -50,6 +52,7 @@ Buildin jälkeen:
 ```sh
 python scripts/site_smoke.py
 python scripts/school_archive_smoke.py
+node --test tests/breadcrumbs.test.cjs
 ```
 
 Tarkistus varmistaa sivut, sisäiset linkit, kokotekstit, arkistokopioiden tarkisteet ja HTML:ään valmiiksi rakennetut aikajanat, lähteet sekä korkkitaulun kortit. Koko tutkimusdataa ei lähetetä jokaisen sivun mukana. JavaScript lisää suodatuksen, valinnat ja muut kontrollit.

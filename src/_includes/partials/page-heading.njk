@@ -1,0 +1,2 @@
+{% set heading = page.url | pageHeading(title, lead, legacyPage, person, work, source, headingTitle) %}
+{% if heading %}<header class="page-heading"><p class="eyebrow">{{ heading.eyebrow | escape }}</p><h1>{{ heading.title | escape }}</h1>{% if heading.lead %}<p class="heading-intro">{{ heading.lead | escape }}</p>{% endif %}</header>{% endif %}

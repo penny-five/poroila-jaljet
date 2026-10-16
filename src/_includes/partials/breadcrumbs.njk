@@ -1,0 +1,2 @@
+{% set trail = page.url | breadcrumbs(title, parent, person, work, source, breadcrumbTitle) %}
+{% if trail.length %}<nav id="pageTrail" class="page-trail" aria-label="Murupolku">{% for item in trail %}{% if not loop.first %}<span aria-hidden="true">/</span>{% endif %}{% if item.url %}<a href="{{ item.url | localUrl }}">{{ item.label | escape }}</a>{% else %}<strong id="currentPageName" aria-current="page">{{ item.label | escape }}</strong>{% endif %}{% endfor %}</nav>{% endif %}

@@ -91,7 +91,7 @@ def main() -> int:
         check('JULKAISE KORJAUKSET AVOIMESTI' in body, f"Original footer missing: {route}")
         check(body.count('aria-current="page"') >= 1, f"Active navigation missing: {route}")
     home = page_file('/').read_text(encoding="utf-8")
-    check('id="pageTrail" class="page-trail" hidden' in home, "Homepage breadcrumb must stay hidden")
+    check('id="pageTrail"' not in home, "Homepage must not show a redundant breadcrumb")
     check('id="corkboard"' not in home, "Homepage gained the separate corkboard page")
     check('class="ticker"' in home and 'id="copyOriginal"' in home, "Unnamed home sections were lost")
     research = json.loads((ROOT / 'src/_data/research.json').read_text(encoding='utf-8'))
@@ -156,6 +156,18 @@ def main() -> int:
     checked_links = 0
     for source in html_pages:
         body = source.read_text(encoding="utf-8", errors="replace")
+        if 'window.location.replace(' not in body:
+            check(len(re.findall(r'<h1\b', body)) == 1, f'Expected exactly one page H1: {source.relative_to(SITE)}')
+        if source != SITE / 'index.html' and 'window.location.replace(' not in body:
+            heading = re.search(r'<header class="page-heading">([\s\S]*?)</header>', body)
+            check(heading is not None and body.count('class="page-heading"') == 1, f'Expected one shared page heading: {source.relative_to(SITE)}')
+            check('<p class="eyebrow">' in heading.group(1) and '<h1>' in heading.group(1), f'Shared heading hierarchy missing: {source.relative_to(SITE)}')
+            trail = re.search(r'<nav id="pageTrail"[^>]*>([\s\S]*?)</nav>', body)
+            check(trail is not None and body.count('id="pageTrail"') == 1, f'Expected one shared breadcrumb: {source.relative_to(SITE)}')
+            check('aria-label="Murupolku"' in trail.group(0), f'Breadcrumb accessibility label missing: {source.relative_to(SITE)}')
+            check(trail.group(1).count('aria-current="page"') == 1, f'Breadcrumb current page missing: {source.relative_to(SITE)}')
+            check(f'href="{PREFIX}"' in trail.group(1), f'Breadcrumb root prefix incorrect: {source.relative_to(SITE)}')
+            check('data-layout-feature="breadcrumbs"' in body, f'Shared breadcrumb style missing: {source.relative_to(SITE)}')
         check(not re.search(r'\bhref\s*=\s*["\'](?:#/|\.\.?/)', body, re.I), f"A legacy or relative link may route differently by page in {source.relative_to(SITE)}")
         parser = Links()
         parser.feed(body)

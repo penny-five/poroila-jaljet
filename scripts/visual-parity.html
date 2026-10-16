@@ -56,10 +56,32 @@ function compareOriginalContentWithOriginalNavigation(){
   // The user explicitly requested a new taxonomy. Test the historical content
   // against an identical navigation shell; the actual new navigation is tested
   // independently in browser_parity.py before any comparison replaces its DOM.
-  for(const selector of ['.topbar','#sectionNavigation']){
+  migrated.contentDocument.querySelector('[data-layout-feature="breadcrumbs"]')?.remove();
+  migrated.contentDocument.querySelector('[data-layout-feature="page-heading"]')?.remove();
+  migrated.contentDocument.querySelector('.page-heading')?.remove();
+  // Page titles and eyebrows are now a shared component, tested independently.
+  // Remove the old presentation-specific title from the frozen DOM comparison.
+  const root=original.contentDocument.getElementById(original.contentDocument.body.dataset.page);
+  if(root&&root.id!=='alku'){
+    const title=root.querySelector('h2');
+    const wrapper=title?.closest('.section-heading');
+    if(wrapper){
+      wrapper.replaceWith(...wrapper.querySelectorAll(':scope > .section-tag,:scope > .source-total'));
+    }else{
+      const following=title?.nextElementSibling;
+      root.querySelector('p.eyebrow')?.remove();
+      root.querySelector('p.oral-type')?.remove();
+      const lead=root.querySelector('p.heading-intro,p.oral-lead');
+      if(lead)lead.remove();
+      else if(root.id==='sivujaljet'&&following?.tagName==='P')following.remove();
+      title?.remove();
+    }
+  }
+  for(const selector of ['.topbar','#sectionNavigation','#pageTrail']){
     const old=original.contentDocument.querySelector(selector);
     const current=migrated.contentDocument.querySelector(selector);
     if(old&&current)current.replaceWith(migrated.contentDocument.importNode(old,true));
+    else if(old&&selector==='#pageTrail')migrated.contentDocument.querySelector('main').prepend(migrated.contentDocument.importNode(old,true));
   }
   // Recovery status changes as new originals are saved. Its current data is
   // asserted separately; use old status wording only for the old layout check.

@@ -36,6 +36,37 @@ with sync_playwright() as playwright:
         assert displayed[record['id']] == expected, f'Stale recovery status: {record["id"]}'
     for width in (1440, 390):
         page.set_viewport_size({'width': width, 'height': 900})
+        breadcrumb_style = None
+        heading_style = None
+        for route, labels in [('/olli-poroila/tuntemuksiani/', ['Etusivu','Poroila','Tuntemuksiani']),
+                              ('/olli-poroila/', ['Etusivu','Poroila']),
+                              ('/koulu/', ['Etusivu','Koulu']),
+                              ('/teokset/T-001/', ['Etusivu','Koulu','Teokset','MUTANAAMIO']),
+                              ('/tekijat/H-f95b196f07/', ['Etusivu','Koulu','Henkilöt ja tekijät','Aila Rantanen'])]:
+            page.goto(origin + '/_site' + route)
+            trail = page.locator('#pageTrail')
+            assert trail.locator('a,strong').all_text_contents() == labels, route
+            assert trail.get_attribute('aria-label') == 'Murupolku'
+            assert trail.locator('[aria-current="page"]').count() == 1
+            assert trail.locator('a').first.get_attribute('href') == '/_site/'
+            style = trail.evaluate("el=>{const s=getComputedStyle(el);return ['fontFamily','fontSize','lineHeight','padding','backgroundColor','color'].map(key=>s[key])}")
+            if breadcrumb_style is not None:
+                assert style == breadcrumb_style, f'Inconsistent breadcrumb style: {route}'
+            breadcrumb_style = style
+            heading = page.locator('.page-heading')
+            assert heading.count() == 1 and page.locator('h1').count() == 1, route
+            expected_eyebrow = 'Poroila' if route.startswith('/olli-poroila/') else 'Koulu'
+            assert heading.locator(':scope > .eyebrow').text_content() == expected_eyebrow, route
+            page.evaluate('document.fonts.ready')
+            style = heading.locator('h1').evaluate("el=>{const s=getComputedStyle(el);return ['fontFamily','fontSize','lineHeight','fontWeight','color'].map(key=>s[key])}")
+            if heading_style is not None:
+                assert style == heading_style, f'Inconsistent page heading style: {route}'
+            heading_style = style
+            if os.environ.get('QA_SCREENSHOTS') and route == '/olli-poroila/tuntemuksiani/':
+                page.screenshot(path=f'.cache/shared-heading-{width}.png')
+            assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), f'Breadcrumb overflow: {route}'
+        page.goto(origin + '/_site/')
+        assert page.locator('#pageTrail').count() == 0
         for route, active in [('/koulu/aineisto/', 'Koulu'), ('/tekijat/H-f95b196f07/', 'Koulu'),
                               ('/teokset/T-001/', 'Koulu'), ('/olli-poroila/kartta/', 'Poroila'),
                               ('/verkkoarkisto/', 'Verkkoarkisto'), ('/fiktiot/', 'Lähteet ja tutkimus')]:

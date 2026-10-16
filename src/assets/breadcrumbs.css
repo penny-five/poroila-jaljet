@@ -1,0 +1,7 @@
+/* Shared by every presentation; content headings and labels stay in the page. */
+.page-trail{display:flex;align-items:center;flex-wrap:wrap;gap:8px 12px;margin:0;padding:14px 4.8vw;background:#111918;border-bottom:1px solid var(--stroke);color:#a1a69b;font:11px/1.5 var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.page-trail a{color:#e79d65;text-decoration:none;overflow-wrap:anywhere}
+.page-trail a:hover{text-decoration:underline}
+.page-trail strong{color:#e79d65;font-weight:400;overflow-wrap:anywhere;min-width:0}
+.page-trail>[aria-hidden]{color:#77847c}
+@media(max-width:700px){.page-trail{padding:12px 20px;font-size:10px}}

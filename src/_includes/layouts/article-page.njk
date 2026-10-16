@@ -6,14 +6,6 @@ presentation: article
       {{ content | prefixPaths | safe }}
     {% else %}
       <section class="archive-page section-pad">
-        <div class="section-heading">
-          <div>
-            {% if eyebrow %}<p class="eyebrow">{{ eyebrow }}</p>{% endif %}
-            <h2>{{ title }}</h2>
-            {% if lead %}<p class="heading-intro">{{ lead }}</p>{% endif %}
-          </div>
-          <span class="section-tag">KOULUN AINEISTO</span>
-        </div>
         <div class="prose">{{ content | prefixPaths | safe }}</div>
       </section>
     {% endif %}

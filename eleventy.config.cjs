@@ -1,6 +1,7 @@
 const prefix = (process.env.SITE_PREFIX || '/').replace(/\/*$/, '/') || '/';
 const legacyRoutes = require('./src/_data/legacyRoutes.json');
 const routeAliases = require('./src/_data/routeAliases.json');
+const breadcrumbs = require('./lib/breadcrumbs.cjs');
 
 function canonicalPath(value) {
   const [_, path, suffix] = String(value).match(/^([^?#]*)(.*)$/);
@@ -34,6 +35,8 @@ function prefixLocalPath(value) {
 }
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addFilter('breadcrumbs', (url, title, parent, person, work, source, breadcrumbTitle) => breadcrumbs(url, { title, parent, person, work, source, breadcrumbTitle }));
+  eleventyConfig.addFilter('pageHeading', (url, title, lead, legacyPage, person, work, source, headingTitle) => breadcrumbs.pageHeading(url, { title, lead, legacyPage, person, work, source, headingTitle }));
   eleventyConfig.addPassthroughCopy({
     'assets/archive': 'assets/archive',
     'src/assets': 'assets',
