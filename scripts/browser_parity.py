@@ -1,7 +1,7 @@
 """Run the browser appearance/interaction harness against a local root server.
 
 Build with SITE_PREFIX=/_site/ and serve the repository root on port 8765.
-Requires Playwright and its Chromium browser (installed by site-quality CI).
+Requires Playwright and its Chromium browser (installed by the Pages deployment workflow).
 """
 import json
 import os

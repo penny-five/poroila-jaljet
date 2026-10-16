@@ -57,7 +57,7 @@ python -m http.server 8765 --bind 127.0.0.1
 
 Avaa `http://localhost:8765/scripts/visual-parity.html` ja käynnistä desktop- ja mobiilivertailu. Vertailu tarkistaa näkyvät tekstit, elementtijärjestyksen, sijainnit, mitat ja lasketut tyylit 1440 ja 390 pikselin leveyksillä. Se odottaa kuvat ja fontit sekä pysäyttää animaatiot samalla tavalla molemmissa testikehyksissä. Alkuperäistä vertailukappaletta ei muokata sivuston kehityksen mukana.
 
-Automaattinen ajo on `python scripts/browser_parity.py` (vaatii Playwrightin ja Chromiumin). GitHub Actions ajaa sen ennen julkaisua.
+Automaattinen ajo on `python scripts/browser_parity.py` (vaatii Playwrightin ja Chromiumin). Ainoa GitHub Actions -työnkulku on `.github/workflows/pages.yml`: se tarkistaa ulkoasun ja toiminnan ennen julkaisua. Vanhat tutkimusajot on poistettu.
 
 ## Julkaisu
 
