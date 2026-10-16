@@ -140,6 +140,25 @@ with sync_playwright() as playwright:
             Path('.cache').mkdir(exist_ok=True)
             page.screenshot(path=f'.cache/school-gallery-{width}.png')
         print(f'PASS: {width}px school hierarchy, active navigation, person round-trip and all local gallery images')
+    school_data = json.loads(Path('src/_data/schoolArchive.json').read_text(encoding='utf-8'))
+    research_data = json.loads(Path('src/_data/research.json').read_text(encoding='utf-8'))
+    page.goto(origin + '/_site/lahteet/')
+    assert page.locator('#sourceList > .source-entry').count() == len(research_data['sources'])
+    assert page.locator('#sourceList').get_by_text('S73', exact=True).count() == 1
+    for width in (1440, 390):
+        page.set_viewport_size({'width': width, 'height': 1000})
+        page.goto(origin + '/_site/koulu/kuva-ja-taidesivut/kuvamuunnokset/')
+        assert page.locator('[data-image-set]').count() == len(school_data['imageSets'])
+        assert page.locator('#K-DLC-0083-010 h3').text_content() == 'Paula Savolainen'
+        for img in page.locator('[data-image-set] img').all():
+            img.scroll_into_view_if_needed()
+            img.evaluate("img => img.loading = 'eager'")
+            page.wait_for_function('(img) => img.complete && img.naturalWidth > 0', arg=img.element_handle())
+        assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), 'Comparison gallery overflow'
+        page.goto(origin + '/_site/olli-poroila/kirjoitukset/')
+        page.get_by_role('link', name='Lue koko runosivu tässä arkistossa').click()
+        assert page.url.endswith('/koulu/aineisto/DLC-0315/')
+        assert page.get_by_text('URUK SISÄLLÄNI', exact=True).is_visible()
     for width in (390, 800, 1440, 2048, 3000):
         page.set_viewport_size({'width': width, 'height': 1000})
         page.goto(origin + '/_site/koulu/aineisto/')

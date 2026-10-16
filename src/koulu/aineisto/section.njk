@@ -14,6 +14,7 @@ parent:
 ---
 <p><a href="{{ '/koulu/aineisto/' | localUrl }}">Kaikki koulun aineistoryhmät</a> · <a href="{{ '/koulu/koulukuvat/' | localUrl }}">Paikalliset kuvat</a></p>
 {% if section.slug == 'luokat' %}<h2>Lähteistä eritellyt luettelot</h2><ul>{% for group in schoolView.classes %}<li><a href="{{ ('/koulu/luokat/' + group.id + '/') | localUrl }}">{{ group.title | escape }}</a> — {{ group.members.length }} nimeä · {{ group.period | escape }}</li>{% endfor %}</ul><h2>Alkuperäiset luokka- ja luettelosivut</h2>{% endif %}
+{% if section.slug == 'kuva-ja-taidesivut' %}<p><a href="{{ '/koulu/kuva-ja-taidesivut/kuvamuunnokset/' | localUrl }}">Digitaalisen kuvankäsittelyn työt: ensin ja sitten rinnakkain</a></p>{% endif %}
 <div class="data-list">
 {% for item in section.pages %}
 <article class="data-item"><h3><a href="{{ ('/koulu/aineisto/' + item.id + '/') | localUrl }}">{{ item.title | escape }}</a></h3><p class="metadata">{{ item.id }} · {{ item.filename | escape }} · tallenne {{ item.timestamp | dateStamp }}</p><p>{{ item.people.length }} katalogiin yhdistettyä nimimerkintää · {{ item.workIds.length }} eroteltua teosta · {{ item.images.length }} kuvaviitettä</p></article>

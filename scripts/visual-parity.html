@@ -36,6 +36,7 @@ function snapshot(frame){
   const doc=frame.contentDocument,win=frame.contentWindow;
   // Current catalogue counts are asserted against live data separately. The
   // frozen comparison uses the same original record subset and counter wording.
+  if(frame===migrated&&doc.querySelector('#sourceCount')&&original.contentDocument.querySelector('#sourceCount'))doc.querySelector('#sourceCount').textContent=original.contentDocument.querySelector('#sourceCount').textContent;
   if(frame===migrated)for(const counter of doc.querySelectorAll('[data-catalog-count]')){
     const old=original.contentDocument.querySelector(`[data-catalog-count="${counter.dataset.catalogCount}"]`);
     if(old)counter.textContent=old.textContent;
@@ -93,7 +94,7 @@ function compareOriginalContentWithOriginalNavigation(){
   }
   // Recovery status changes as new originals are saved. Its current data is
   // asserted separately; use old status wording only for the old layout check.
-  for(const id of ['workCatalog','personCatalog']){
+  for(const id of ['workCatalog','personCatalog','sourceList']){
     const old=original.contentDocument.getElementById(id),current=migrated.contentDocument.getElementById(id);
     if(old&&current)Array.from(current.children).slice(old.children.length).forEach(entry=>entry.remove());
   }
@@ -113,6 +114,10 @@ function compareOriginalContentWithOriginalNavigation(){
   const recovered=migrated.contentDocument.querySelector('[data-work-record="T-098"] summary');
   const oldRecovered=[...original.contentDocument.querySelectorAll('#workCatalog summary')].find(summary=>summary.querySelector('strong')?.textContent==='Pontus-piru');
   if(recovered&&oldRecovered)recovered.querySelector('span').textContent=oldRecovered.querySelector('span').textContent;
+  // New source rows are checked against current research data separately.
+  const oldSourceCount=original.contentDocument.querySelector('#sourceCount');
+  const newSourceCount=migrated.contentDocument.querySelector('#sourceCount');
+  if(oldSourceCount&&newSourceCount)newSourceCount.textContent=oldSourceCount.textContent;
   const oldSummaries=[...original.contentDocument.querySelectorAll('.catalog-entry > summary')];
   const oldByLabel=new Map(oldSummaries.map(summary=>[summary.querySelector('strong')?.textContent,summary]));
   const oldByRecord=new Map([...original.contentDocument.querySelectorAll('#dlcCatalog > .catalog-entry')].map(card=>[card.textContent.match(/DLC-[0-9]{4}/)?.[0],card.querySelector('summary')]));

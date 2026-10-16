@@ -789,8 +789,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0105",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-saukkolin.htm",
@@ -1024,8 +1024,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0105",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-mirka-olin.htm",
@@ -1376,8 +1376,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0105",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-joonas-lehtonen.htm",
@@ -1757,8 +1757,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0105",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-jenna-siren.htm",
@@ -2064,8 +2064,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0105",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-jatta-virolainen.htm",
@@ -2171,8 +2171,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0105",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-sirkku-mannerkoski.htm",
@@ -2602,8 +2602,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0105",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-hanne-marjoniemi.htm",
@@ -2988,8 +2988,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
           "label": "TAKAISIN EDELLISELLE",
           "sourceId": "DLC-0105",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-hanne-marjoniemi.htm",
@@ -4053,37 +4053,37 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-ss-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0227",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0227.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0227.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-jn-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0225",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0225.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0225.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-jn-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0226",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0226.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0226.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-linja-autossa-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0215",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0215.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0215.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-linja-autossa-sitten.jpg",
@@ -4098,28 +4098,28 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0213",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0213.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0213.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0214",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0214.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0214.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-mini-suomi-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0216",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0216.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0216.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-mini-suomi-sitten.jpg",
@@ -4134,10 +4134,10 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-rikke-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0221",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0221.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0221.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-rikke-sitten.jpg",
@@ -4170,10 +4170,10 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-vedessa-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0237",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0237.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0237.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-vedessa-sitten.jpg",
@@ -4553,37 +4553,37 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-ss-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0227",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0227.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0227.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-jn-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0225",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0225.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0225.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-jn-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0226",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0226.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0226.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-linja-autossa-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0215",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0215.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0215.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-linja-autossa-sitten.jpg",
@@ -4598,28 +4598,28 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0213",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0213.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0213.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0214",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0214.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0214.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-mini-suomi-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0216",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0216.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0216.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-mini-suomi-sitten.jpg",
@@ -4634,10 +4634,10 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-rikke-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0221",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0221.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0221.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-rikke-sitten.jpg",
@@ -4670,10 +4670,10 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-vedessa-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0237",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0237.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0237.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-vedessa-sitten.jpg",
@@ -5047,10 +5047,10 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-arttu-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0212",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0212.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0212.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-arttu-sitten.jpg",
@@ -5083,19 +5083,19 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-henna-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0206",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0206.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0206.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-henna-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0207",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0207.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0207.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-tapio-ensin.jpg",
@@ -5110,10 +5110,10 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-tapio-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0234",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0234.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0234.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/animation-jarnou.gif",
@@ -5200,10 +5200,10 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jenni-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0211",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0211.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0211.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jenni-sitten.jpg",
@@ -5515,10 +5515,10 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-tia-sanna-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0235",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0235.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0235.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-mimmi-ensin.jpg",
@@ -5877,37 +5877,37 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-nelostytot-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0218",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0218.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0218.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-nelostytot-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0219",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0219.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0219.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-hirvio-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0208",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0208.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0208.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-hirvio-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0209",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0209.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0209.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-astra-ensin.jpg",
@@ -5922,19 +5922,19 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-astra-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0202",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0202.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0202.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-astra-keltainen-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0201",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0201.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0201.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-astra-keltainen-sitten.jpg",
@@ -5958,73 +5958,73 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jaakko-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0210",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0210.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0210.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-susanna-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0228",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0228.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0228.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-susanna-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0229",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0229.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0229.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-sussu-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0232",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0232.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0232.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-sussu-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0233",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0233.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0233.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-susku2-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0230",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0230.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0230.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-susku2-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0231",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0231.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0231.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-monni-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0217",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0217.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0217.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-monni-sitten.jpg",
@@ -6039,19 +6039,19 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-elsa-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0204",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0204.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0204.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-elsa-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0205",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0205.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0205.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-elina-ensin.jpg",
@@ -6066,19 +6066,19 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-elina-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0203",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0203.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0203.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-toninaama-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0236",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0236.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0236.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-toninaama-sitten.jpg",
@@ -6093,10 +6093,10 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-pasa-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0220",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0220.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0220.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-pasa-sitten.jpg",
@@ -6111,19 +6111,19 @@
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-samppa-ensin.jpg",
           "label": "ENSIN",
           "sourceId": "DLC-0223",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0223.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0223.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-samppa-sitten.jpg",
           "label": "SITTEN",
           "sourceId": "DLC-0224",
-          "localPath": null,
+          "localPath": "/assets/archive/originals/DLC-0224.jpg",
           "readerPath": null,
           "role": "image",
-          "displayPath": null
+          "displayPath": "/assets/archive/media/DLC-0224.jpg"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
@@ -11027,8 +11027,8 @@
           "url": "http://www.dlc.fi:80/~hyk/olliruno.htm",
           "label": "Runot",
           "sourceId": "DLC-0315",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0315.html",
+          "readerPath": "/koulu/aineisto/DLC-0315/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/olli.htm#alku",
@@ -11390,8 +11390,8 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-sirkku-mannerkoski-ja-anna-runosivu.htm",
           "label": "Haluatko tutustua Sirkun ja minun yhteiseen RUNOsivuun?",
           "sourceId": "DLC-0824",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0824.html",
+          "readerPath": "/koulu/aineisto/DLC-0824/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-tiina-hartikainen-yhteissivu-anna.htm",
@@ -12743,8 +12743,8 @@
           "url": "http://www.dlc.fi:80/~hyk/oppilas-sirkku-mannerkoski-ja-anna-runosivu.htm",
           "label": "omia RUNOJA / Anna & Sirkku",
           "sourceId": "DLC-0824",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0824.html",
+          "readerPath": "/koulu/aineisto/DLC-0824/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-artturi-pekkola-torakka.htm",
@@ -13366,8 +13366,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
           "label": "- RUNOJA (5/6)",
           "sourceId": "DLC-0105",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/ruokalista.htm",
@@ -33659,8 +33659,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
           "label": "RUNOSIVULLE",
           "sourceId": "DLC-0105",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
         },
         {
           "url": "http://www.dlc.fi:80/~hyk/oppilas-henna-berg-kirjoitelmat.htm",
@@ -34015,8 +34015,8 @@
           "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
           "label": "RUNOSIVULLE",
           "sourceId": "DLC-0105",
-          "localPath": null,
-          "readerPath": null
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
         },
         {
           "url": "http://www.offspring.com",
@@ -40009,6 +40009,492 @@
         }
       ],
       "workIds": []
+    },
+    {
+      "id": "DLC-0824",
+      "filename": "oppilas-sirkku-mannerkoski-ja-anna-runosivu.htm",
+      "title": "ANNAN JA SIRKUN RUNOSIVU",
+      "category": "Oppilaiden sivut",
+      "text": "ANNAN JA SIRKUN RUNOSIVU\n\nRunollinen moi!\n\nMeijän nimet on Anna ja Sirkku.\n\nMe ollaan hyviä kavereita ja me myös tykätään yhtä paljon eläimistä.\n\nNyt asiaan!\n\nTässä me kerrotaan runoista, tai siis näytetään runoja, joita me ollaan keksitty.\n\nOnnea matkaan jos luet näitä runoja,\n\ntässä näitä nyt on:\n\nTUNTI\n\nEn pysty keskittymään tunnilla,\n\nkoska kaikki nauravat.\n\nYhtäkkiä opettaja keskeyttää naurun:\n\nluokka hiljenee,\n\nja pystyn taas keskittymään.\n\nKALA\n\nolen ongella\n\njoku tuijottaa minua\n\nse on kala\n\nNURMI\n\nKesällä nurmi\n\non vihreä,\n\nmutta syksyllä\n\nse kellastuu ja\n\ntalvella se\n\nkatoaa lumen\n\nalle.\n\nPULLO\n\nPuhallan pulloon\n\nsiitä kuuluu\n\nkumea ääni,\n\nteen orkesterin.\n\nNEULA\n\nYritän pujottaa\n\nlankaa neulaan,\n\nse onnistuu,\n\nalan ommella,\n\nLAPSI\n\nLapsi leikkii\n\nnurmella,\n\nhyvä tuoksu\n\nleijailee keittiöstä,\n\nlapsi jouksee\n\nsisään.\n\nGALILEOKOE\n\nTeen galileokoetta,\n\nse on vaikea\n\nluen tehtävän\n\ntarkemmin,\n\nhuomaan että se\n\nonkin helppo.\n\nHIIHTOKILPAILUT\n\nKoulullamma on\n\nhiihtokilpailut,\n\nlähden kilpailuihin,\n\nmutta kuulen että\n\nkilpailuja ei\n\npidetäkkään,\n\nsillä on alkanut sataa.",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/oppilas-sirkku-mannerkoski-ja-anna-runosivu.htm",
+      "archiveUrl": "https://web.archive.org/web/20001025230920/http://www.dlc.fi:80/~hyk/oppilas-sirkku-mannerkoski-ja-anna-runosivu.htm",
+      "timestamp": "20001025230920",
+      "localPath": "/assets/archive/originals/DLC-0824.html",
+      "sha256": "1f10d653e8ffd9a81cae7379508bd491758c80edbe0cfc1bc0467f10b12df9a2",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas.htm",
+          "label": "TAKAISIN!",
+          "sourceId": "DLC-0357",
+          "localPath": "/assets/archive/originals/DLC-0357.html",
+          "readerPath": "/koulu/aineisto/DLC-0357/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-sirkku-mannerkoski.htm",
+          "label": "TAKAISIN!",
+          "sourceId": "DLC-0829",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
+          "label": "RUNOSIVULLE",
+          "sourceId": "DLC-0105",
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-sirkku-mannerkoski-ja-anna-runosivu.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0824",
+          "localPath": "/assets/archive/originals/DLC-0824.html",
+          "readerPath": "/koulu/aineisto/DLC-0824/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-ja-sirkku-tausta.gif",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-9899.jpg",
+          "label": "TAKAISIN!",
+          "sourceId": "DLC-0338",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-sirkku-mannerkoski-9899.jpg",
+          "label": "TAKAISIN!",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/nuoli-56runosivu.gif",
+          "label": "RUNOSIVULLE",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-rasinkangas-animaatio.gif",
+          "label": "oppilas-anna-rasinkangas-animaatio.gif",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": false,
+      "people": [
+        {
+          "id": "H-47f938f346",
+          "name": "Sirkku Mannerkoski",
+          "observations": [],
+          "basis": "Katalogin lähdeviite; tunnistuksen peruste tarkistettava"
+        }
+      ],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0105",
+      "filename": "56runoja.htm",
+      "title": "5/6:N RUNOSATOA",
+      "category": "Runot ja oppilastyöt",
+      "text": "5/6:N RUNOSATOA\n\n- UUTTA JA VANHAA\n\nHAIKU-RUNOJA 99/00\n\nVAPAAMUOTOISIA RUNOJA 99/00\n\nHAIKU-RUNOJA 98/99\n\nVAPAAMUOTOISIA RUNOJA 98/99\n\nHAIKU-RUNOJA 97/98\n\nVAPAAMUOTOISIA RUNOJA 97/98\n\nHAIKU-RUNOJA 96/97\n\nVAPAAMUOTOISIA RUNOJA 96/97",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/56runoja.htm",
+      "archiveUrl": "https://web.archive.org/web/20000229205517/http://www.dlc.fi:80/~hyk/56runoja.htm",
+      "timestamp": "20000229205517",
+      "localPath": "/assets/archive/originals/DLC-0105.html",
+      "sha256": "ac84ddc5e729b012e894f250b96f29d89516d5c6aae854fc8421bae45e47879e",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56luokka.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0104",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
+          "label": "KARTTASIVULLE",
+          "sourceId": "DLC-0982",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56-runoja-haikuja.htm",
+          "label": "HAIKU-RUNOJA 99/00",
+          "sourceId": "DLC-0067",
+          "localPath": "/assets/archive/originals/DLC-0067.html",
+          "readerPath": "/koulu/aineisto/DLC-0067/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56-runoja-haikuja-9899.htm",
+          "label": "HAIKU-RUNOJA 98/99",
+          "sourceId": "DLC-0066",
+          "localPath": "/assets/archive/originals/DLC-0066.html",
+          "readerPath": "/koulu/aineisto/DLC-0066/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56-runoja-vapaita-9899.htm",
+          "label": "VAPAAMUOTOISIA RUNOJA 98/99",
+          "sourceId": "DLC-0073",
+          "localPath": "/assets/archive/originals/DLC-0073.html",
+          "readerPath": "/koulu/aineisto/DLC-0073/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56-runoja-haikuja-9798.htm",
+          "label": "HAIKU-RUNOJA 97/98",
+          "sourceId": "DLC-0065",
+          "localPath": "/assets/archive/originals/DLC-0065.html",
+          "readerPath": "/koulu/aineisto/DLC-0065/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56-runoja-vapaita-9798.htm",
+          "label": "VAPAAMUOTOISIA RUNOJA 97/98",
+          "sourceId": "DLC-0072",
+          "localPath": "/assets/archive/originals/DLC-0072.html",
+          "readerPath": "/koulu/aineisto/DLC-0072/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56-runoja-haikuja-9697.htm",
+          "label": "HAIKU-RUNOJA 96/97",
+          "sourceId": "DLC-0064",
+          "localPath": "/assets/archive/originals/DLC-0064.html",
+          "readerPath": "/koulu/aineisto/DLC-0064/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56-runoja-vapaita-9697.htm",
+          "label": "VAPAAMUOTOISIA RUNOJA 96/97",
+          "sourceId": "DLC-0071",
+          "localPath": "/assets/archive/originals/DLC-0071.html",
+          "readerPath": "/koulu/aineisto/DLC-0071/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56runoja.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0105",
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/tausta-runosivu.jpg",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kartta-nuoli.gif",
+          "label": "KARTTASIVULLE",
+          "sourceId": "DLC-0169",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": false,
+      "people": [],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0315",
+      "filename": "olliruno.htm",
+      "title": "OLLI POROILAN RUNOJA",
+      "category": "Runot ja oppilastyöt",
+      "text": "OLLI POROILAN RUNOJA\n\nÓ\n\nOlli Poroila\n\nKUOLEMAN KUVA\n\nVärisevä kurki katsoo minuun liikahtamatta\n\nveden kautta\n\nkuin kuoleman peilistä.\n\nKurki on kurki itse\n\nja silti aivan joku muu,\n\nmurskattuna veden pintaan\n\nehjäksi,\n\ntuo kuoleman kuvajainen.\n\nSitä en voi kääntämättä kauan katsoa.\n\nURUK SISÄLLÄNI\n\nNousen ylös vahvalle muurille\n\ntutkimaan,\n\njotta näkisin\n\nminne en haluaisi mennä,\n\njotta katsoisin sitä kaikkea,\n\nminkä näen katsomattakin.\n\nNiin:\n\nsankka on pimeys, ei valoa lainkaan;\n\nei ole minulle suotu taakseni nähdä,\n\nkohtikulkemaani unohtaa.\n\nKADONNUT KAUPUNKINI\n\nKatson kuvia menneestä Helsingistä\n\nmustavalkoiseksi pelkistettynä,\n\nkirjan sivuille kutistettuna,\n\nja se maailma avautuu minulle\n\nvärikkäänä ja runsaana,\n\nja vaikka en ollut\n\nvielä syntynytkään,\n\ntunnen tulevani sieltä, sillä\n\nmennyt Helsinki sykkii minulle\n\nedellisteni elämää,\n\njohon jotenkin tunnen kuuluvani,\n\nkaipaavani osaksi aikakaarta.\n\nKAHLITTU\n\nKevätpuro solisee sormieni läpi\n\nkuin iloinen linnunlaulu;\n\nsinkoilee posliinissa,\n\nsyöksyy läpi ritilän.\n\nÄkkiä on\n\npimeää ja ahdasta.\n\nPois, pakoon -\n\nsiivin viuhuvin.\n\nTurhaan turhaan,\n\nkaukana on kajo, vapaus.\n\nTaas, se kuuluu taas.\n\nKuin lintu\n\nylhäällä -\n\ntaas.\n\nIhoni juoksee pakoon.\n\nMitä teen, mitä teen?\n\nNousen ja\n\nkatson, jotta en näkisi\n\nminkä tiedän.\n\nJa silti hätkähdän, kun\n\nsiivestä nousee\n\nsyöksyy sulkainen pakokauhu.\n\nKuilutuska\n\nimee\n\nminua\n\nsisäänsä,\n\nja huudan itseäni irti.\n\nMitä teen, mitä teen?\n\nJa vihdoin\n\nsaan linnun lentoon ...\n\nIstun ja vapisen, sillä\n\nei kuilutuskalla ole aikaa ei paikkaa.\n\nKAFKAN NÄKEMÄT\n\nJoskus olen miettinyt\n\nmiltä tuntuisi,\n\nmitä ajattelisin,\n\njos joku Kafkan näkemä\n\ntulisi ja veisi,\n\ntoisi takaisin\n\nja hakisi uudestaan.\n\nAvuttomana huutaisin vasten hiljaisuutta\n\ntietämättä, että\n\nlähellä ei olisikaan ketään\n\ntarttumassa ojennettuun käteen ...\n\n*\n\nYritän kirjoittaa Kafkan näkemistä,\n\nriepotelluista,\n\nkun pikkuinen\n\nkävelee\n\nkäteni\n\nalla,\n\naivan kuin se yrittäisi estää\n\nminua kirjoittamasta.\n\nSiirrän kättäni, ja se seuraa\n\nsiirrän: se seuraa,\n\nsiirrän: se seuraa,\n\nkunnes kyllästyy, pikkuinen,\n\npäämäärättömään leikkiinsä,\n\njosta se ei edes tiedä mitään.\n\nVarjoako se hakee,\n\nkäteni alta,\n\nsuojaa siltä, joka voisi murskata sen\n\npelkästään runoa kirjoittamalla ...",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/olliruno.htm",
+      "archiveUrl": "https://web.archive.org/web/20001022223906/http://www.dlc.fi:80/~hyk/olliruno.htm",
+      "timestamp": "20001022223906",
+      "localPath": "/assets/archive/originals/DLC-0315.html",
+      "sha256": "fad3f1add7f87bfb5e11e79263b6e985f45426e901e4bccede037173e9827f2a",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/olli.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0313",
+          "localPath": "/assets/archive/originals/DLC-0313.html",
+          "readerPath": "/koulu/aineisto/DLC-0313/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivukartta.htm",
+          "label": "KARTTASIVULLE",
+          "sourceId": "DLC-0982",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/olliruno.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0315",
+          "localPath": "/assets/archive/originals/DLC-0315.html",
+          "readerPath": "/koulu/aineisto/DLC-0315/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/paper.gif",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kartta-nuoli.gif",
+          "label": "KARTTASIVULLE",
+          "sourceId": "DLC-0169",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": false,
+      "people": [
+        {
+          "id": "H-0383435acb",
+          "name": "Olli Poroila",
+          "observations": [],
+          "basis": "Sama kokonainen nimiasu sivun tekstissä"
+        }
+      ],
+      "workIds": []
+    },
+    {
+      "id": "DLC-0071",
+      "filename": "56-runoja-vapaita-9697.htm",
+      "title": "5/6:N VAPAITA RUNOJA 96/97",
+      "category": "Runot ja oppilastyöt",
+      "text": "5/6:N VAPAITA RUNOJA 96/97\n\nTuikkiva tähti\n\nkirjoittajan nimen vieressä\n\non linkki hänen kotisivulleen - jos sellainen on.\n\nELÄMÄ\n\nElämään sukellan ja\n\nsiellä räpiköin\n\nlöytämättä rantaa\n\nkunnes lopulta vajoan\n\npinnan alle\n\nikuiseen tyhjyyteen\n\nSalli Karki\n\nILTA\n\nKävelen yksin ulkona\n\nilta pimenee ja tummuu\n\nmutta tähdet valaisevat\n\nminulle tien kotiin\n\nPekka Niemimaa\n\nTÄHTI\n\nTähti on kirkas ja heleä kuin timantti\n\nmustalla pimeällä taivaalla mutta\n\nsilti se on vain\n\nhehkuva kaasupallo avaruudessa\n\nAnna Saukkolin",
+      "encoding": "windows-1252",
+      "originalUrl": "http://www.dlc.fi:80/~hyk/56-runoja-vapaita-9697.htm",
+      "archiveUrl": "https://web.archive.org/web/20000529113414/http://www.dlc.fi:80/~hyk/56-runoja-vapaita-9697.htm",
+      "timestamp": "20000529113414",
+      "localPath": "/assets/archive/originals/DLC-0071.html",
+      "sha256": "569397dbc3f7365fcda4e4f6912c3cd2d6b74a1d834a102b594650ef1c2a1fcc",
+      "links": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/Welcome.html#LISTA",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-1098",
+          "localPath": "/assets/archive/originals/DLC-1098.html",
+          "readerPath": "/koulu/aineisto/DLC-1098/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56runoja.htm",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0105",
+          "localPath": "/assets/archive/originals/DLC-0105.html",
+          "readerPath": "/koulu/aineisto/DLC-0105/"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-pekka-niemimaa.htm",
+          "label": "oppilas-pekka-niemimaa.htm",
+          "sourceId": "DLC-0782",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/oppilas-anna-saukkolin.htm",
+          "label": "oppilas-anna-saukkolin.htm",
+          "sourceId": "DLC-0362",
+          "localPath": null,
+          "readerPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/56-runoja-vapaita-9697.htm#alku",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0071",
+          "localPath": "/assets/archive/originals/DLC-0071.html",
+          "readerPath": "/koulu/aineisto/DLC-0071/"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/tausta-runosivu.jpg",
+          "label": "Taustakuva",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "background",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/alkusivunnuoli.gif",
+          "label": "TAKAISIN ALKUUN",
+          "sourceId": "DLC-0119",
+          "localPath": "/assets/archive/originals/DLC-0119.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/edellisennuoli.gif",
+          "label": "TAKAISIN EDELLISELLE",
+          "sourceId": "DLC-0125",
+          "localPath": "/assets/archive/originals/DLC-0125.bin",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/omallesivulle.gif",
+          "label": "omallesivulle.gif",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/sivunalkuun.gif",
+          "label": "SIVUN ALKUUN",
+          "sourceId": "DLC-0983",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ],
+      "digestMismatch": false,
+      "people": [
+        {
+          "id": "H-39ec0c4540",
+          "name": "Anna Saukkolin",
+          "observations": [],
+          "basis": "Sama kokonainen nimiasu sivun tekstissä"
+        },
+        {
+          "id": "H-d8a4bd9225",
+          "name": "Pekka Niemimaa",
+          "observations": [],
+          "basis": "Sama kokonainen nimiasu sivun tekstissä"
+        },
+        {
+          "id": "H-74225486b2",
+          "name": "Salli Karki",
+          "observations": [],
+          "basis": "Sama kokonainen nimiasu sivun tekstissä"
+        }
+      ],
+      "workIds": []
     }
   ],
   "media": [
@@ -41708,6 +42194,2187 @@
         }
       ],
       "sha256": "891f7f1896b34f2599e60e7be90c95e8f5686ffbc8662557ebc860c52709c72e"
+    },
+    {
+      "id": "DLC-0201",
+      "filename": "kuvamuunnos-astra-keltainen-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0201.jpg",
+      "displayPath": "/assets/archive/media/DLC-0201.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-astra-keltainen-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913093553/http://www.dlc.fi:80/~hyk/kuvamuunnos-astra-keltainen-ensin.jpg",
+      "timestamp": "20030913093553",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "7abc01e19ced80bc7e03a93b01ed64b0d4b3e125340ff7e733588dc0bdee83fc"
+    },
+    {
+      "id": "DLC-0202",
+      "filename": "kuvamuunnos-astra-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0202.jpg",
+      "displayPath": "/assets/archive/media/DLC-0202.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-astra-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913102621/http://www.dlc.fi:80/~hyk/kuvamuunnos-astra-sitten.jpg",
+      "timestamp": "20030913102621",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "37a28fc671253ea503a9502455182d9ab6a2718edef92d4f73a02208fdf680a1"
+    },
+    {
+      "id": "DLC-0203",
+      "filename": "kuvamuunnos-elina-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0203.jpg",
+      "displayPath": "/assets/archive/media/DLC-0203.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-elina-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913113913/http://www.dlc.fi:80/~hyk/kuvamuunnos-elina-sitten.jpg",
+      "timestamp": "20030913113913",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "419207c6bbd9433cfeae1ece5153b9992236b6d9f80fcf297d36c96567032f41"
+    },
+    {
+      "id": "DLC-0204",
+      "filename": "kuvamuunnos-elsa-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0204.jpg",
+      "displayPath": "/assets/archive/media/DLC-0204.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-elsa-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913114548/http://www.dlc.fi:80/~hyk/kuvamuunnos-elsa-ensin.jpg",
+      "timestamp": "20030913114548",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "10a1edd665a372d49976ba143364353b8c6ef6e8f7eaa4c8930399e376e9479e"
+    },
+    {
+      "id": "DLC-0205",
+      "filename": "kuvamuunnos-elsa-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0205.jpg",
+      "displayPath": "/assets/archive/media/DLC-0205.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-elsa-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913121821/http://www.dlc.fi:80/~hyk/kuvamuunnos-elsa-sitten.jpg",
+      "timestamp": "20030913121821",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "adce511e3cd473ff05316d88b356c158bbb9092eeea1fa50fbf9d634a185b435"
+    },
+    {
+      "id": "DLC-0206",
+      "filename": "kuvamuunnos-henna-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0206.jpg",
+      "displayPath": "/assets/archive/media/DLC-0206.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-henna-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20040702094714/http://www.dlc.fi:80/~hyk/kuvamuunnos-henna-ensin.jpg",
+      "timestamp": "20040702094714",
+      "uses": [
+        {
+          "pageId": "DLC-0081",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "7ea3b160982d25bcad311db3f8ea5c9d9a219f3f9ab11055f9c25a94ca228158"
+    },
+    {
+      "id": "DLC-0207",
+      "filename": "kuvamuunnos-henna-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0207.jpg",
+      "displayPath": "/assets/archive/media/DLC-0207.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-henna-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20040702100950/http://www.dlc.fi:80/~hyk/kuvamuunnos-henna-sitten.jpg",
+      "timestamp": "20040702100950",
+      "uses": [
+        {
+          "pageId": "DLC-0081",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "0fc1c907d2bdd83569fe68b9882c4c571502f182c88051c4d7cf7d253ef71704"
+    },
+    {
+      "id": "DLC-0208",
+      "filename": "kuvamuunnos-hirvio-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0208.jpg",
+      "displayPath": "/assets/archive/media/DLC-0208.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-hirvio-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913125558/http://www.dlc.fi:80/~hyk/kuvamuunnos-hirvio-ensin.jpg",
+      "timestamp": "20030913125558",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "6b57301fb80db8e69942c135fce0b0e444807c164be9a1cf9fbd366ad7656e7e"
+    },
+    {
+      "id": "DLC-0209",
+      "filename": "kuvamuunnos-hirvio-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0209.jpg",
+      "displayPath": "/assets/archive/media/DLC-0209.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-hirvio-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913131330/http://www.dlc.fi:80/~hyk/kuvamuunnos-hirvio-sitten.jpg",
+      "timestamp": "20030913131330",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "1881aba047924fb26f10a0c8a339e62a059535bbc4cdf2949b8ebfc8537681c4"
+    },
+    {
+      "id": "DLC-0210",
+      "filename": "kuvamuunnos-jaakko-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0210.jpg",
+      "displayPath": "/assets/archive/media/DLC-0210.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jaakko-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913134712/http://www.dlc.fi:80/~hyk/kuvamuunnos-jaakko-sitten.jpg",
+      "timestamp": "20030913134712",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "ff4322961939372788c1641b14d58bee123b73fe39bd18f6d42c1d6f3d5ed81b"
+    },
+    {
+      "id": "DLC-0211",
+      "filename": "kuvamuunnos-jenni-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0211.jpg",
+      "displayPath": "/assets/archive/media/DLC-0211.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jenni-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20040702103106/http://www.dlc.fi:80/~hyk/kuvamuunnos-jenni-ensin.jpg",
+      "timestamp": "20040702103106",
+      "uses": [
+        {
+          "pageId": "DLC-0081",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "08f7f7dc751afb2a18154c9a207fdb460dc86bbd598d2cd86faa63d327e6e042"
+    },
+    {
+      "id": "DLC-0212",
+      "filename": "kuvamuunnos-jose-arttu-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0212.jpg",
+      "displayPath": "/assets/archive/media/DLC-0212.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-arttu-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20040702105301/http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-arttu-ensin.jpg",
+      "timestamp": "20040702105301",
+      "uses": [
+        {
+          "pageId": "DLC-0081",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "56e3543e573a1b6a456b33c077a46dc2316b7afb959c946422a5baa59a524828"
+    },
+    {
+      "id": "DLC-0213",
+      "filename": "kuvamuunnos-jose-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0213.jpg",
+      "displayPath": "/assets/archive/media/DLC-0213.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030521162705/http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-ensin.jpg",
+      "timestamp": "20030521162705",
+      "uses": [
+        {
+          "pageId": "DLC-0079",
+          "label": "ENSIN",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0080",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "e2caa0840e781a196ad9fc87af2233c5cd61b338789c03f2b87f3b13b8f43c01"
+    },
+    {
+      "id": "DLC-0214",
+      "filename": "kuvamuunnos-jose-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0214.jpg",
+      "displayPath": "/assets/archive/media/DLC-0214.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030521165021/http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-sitten.jpg",
+      "timestamp": "20030521165021",
+      "uses": [
+        {
+          "pageId": "DLC-0079",
+          "label": "SITTEN",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0080",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "a98baed7e97311c22bab1e539b2b739ee002c67cac198fd9ee7a449838b00ef8"
+    },
+    {
+      "id": "DLC-0215",
+      "filename": "kuvamuunnos-linja-autossa-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0215.jpg",
+      "displayPath": "/assets/archive/media/DLC-0215.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-linja-autossa-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030521172156/http://www.dlc.fi:80/~hyk/kuvamuunnos-linja-autossa-ensin.jpg",
+      "timestamp": "20030521172156",
+      "uses": [
+        {
+          "pageId": "DLC-0079",
+          "label": "ENSIN",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0080",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "1de98b477047d21b6a515d7ea21fbbf85e5d4def3553fc93a1c2cc8a6a1b4f02"
+    },
+    {
+      "id": "DLC-0216",
+      "filename": "kuvamuunnos-mini-suomi-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0216.jpg",
+      "displayPath": "/assets/archive/media/DLC-0216.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-mini-suomi-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030521175842/http://www.dlc.fi:80/~hyk/kuvamuunnos-mini-suomi-ensin.jpg",
+      "timestamp": "20030521175842",
+      "uses": [
+        {
+          "pageId": "DLC-0079",
+          "label": "ENSIN",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0080",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "bfd250f398ee4dc1d2deea52628d200ff4bca88871146fadb1f5fe1ac937dcd7"
+    },
+    {
+      "id": "DLC-0217",
+      "filename": "kuvamuunnos-monni-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0217.jpg",
+      "displayPath": "/assets/archive/media/DLC-0217.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-monni-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913142637/http://www.dlc.fi:80/~hyk/kuvamuunnos-monni-ensin.jpg",
+      "timestamp": "20030913142637",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "8bb38c70bc534700e4bb493ee2c27c6903702bcdbd9056234ed4dad0a918b450"
+    },
+    {
+      "id": "DLC-0218",
+      "filename": "kuvamuunnos-nelostytot-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0218.jpg",
+      "displayPath": "/assets/archive/media/DLC-0218.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-nelostytot-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913150936/http://www.dlc.fi:80/~hyk/kuvamuunnos-nelostytot-ensin.jpg",
+      "timestamp": "20030913150936",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "f2f20ec68b7b9a8423d94e72f6711c88193acd0ecc80ec72a8c066705b6cede9"
+    },
+    {
+      "id": "DLC-0219",
+      "filename": "kuvamuunnos-nelostytot-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0219.jpg",
+      "displayPath": "/assets/archive/media/DLC-0219.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-nelostytot-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913152212/http://www.dlc.fi:80/~hyk/kuvamuunnos-nelostytot-sitten.jpg",
+      "timestamp": "20030913152212",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "4796887c038d233d1bfe309e3373e30a75895907c27ee79f13d90d7272cb3581"
+    },
+    {
+      "id": "DLC-0220",
+      "filename": "kuvamuunnos-pasa-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0220.jpg",
+      "displayPath": "/assets/archive/media/DLC-0220.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-pasa-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913155516/http://www.dlc.fi:80/~hyk/kuvamuunnos-pasa-ensin.jpg",
+      "timestamp": "20030913155516",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "d04f00c87276e5f120d83a06fd4b4e8d2363b16e8e95e5659b49da3f0c9f67d1"
+    },
+    {
+      "id": "DLC-0221",
+      "filename": "kuvamuunnos-rikke-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0221.jpg",
+      "displayPath": "/assets/archive/media/DLC-0221.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-rikke-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030521184253/http://www.dlc.fi:80/~hyk/kuvamuunnos-rikke-ensin.jpg",
+      "timestamp": "20030521184253",
+      "uses": [
+        {
+          "pageId": "DLC-0079",
+          "label": "ENSIN",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0080",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "d230b63514a4729da617e4806425ddb3bd54a2bfc747181a1a050528d3d7256d"
+    },
+    {
+      "id": "DLC-0223",
+      "filename": "kuvamuunnos-samppa-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0223.jpg",
+      "displayPath": "/assets/archive/media/DLC-0223.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-samppa-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913164535/http://www.dlc.fi:80/~hyk/kuvamuunnos-samppa-ensin.jpg",
+      "timestamp": "20030913164535",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "7b1c9810fce2cbd6ee3b776fad22fe9cc873b78c2148243eb611fbbf24b788e3"
+    },
+    {
+      "id": "DLC-0224",
+      "filename": "kuvamuunnos-samppa-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0224.jpg",
+      "displayPath": "/assets/archive/media/DLC-0224.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-samppa-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913170925/http://www.dlc.fi:80/~hyk/kuvamuunnos-samppa-sitten.jpg",
+      "timestamp": "20030913170925",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "be0e99b61b378ad9a0cf58016bfcb665776478ff14033805c83f6ba8ced23e7f"
+    },
+    {
+      "id": "DLC-0225",
+      "filename": "kuvamuunnos-spicegirls-jn-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0225.jpg",
+      "displayPath": "/assets/archive/media/DLC-0225.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-jn-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030909012210/http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-jn-ensin.jpg",
+      "timestamp": "20030909012210",
+      "uses": [
+        {
+          "pageId": "DLC-0079",
+          "label": "ENSIN",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0080",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "75b0856ed3c59f5987590b3786cf64f0c56d03f8f7fdc6f13ac656eaaaf34e8e"
+    },
+    {
+      "id": "DLC-0226",
+      "filename": "kuvamuunnos-spicegirls-jn-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0226.jpg",
+      "displayPath": "/assets/archive/media/DLC-0226.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-jn-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030909014753/http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-jn-sitten.jpg",
+      "timestamp": "20030909014753",
+      "uses": [
+        {
+          "pageId": "DLC-0079",
+          "label": "SITTEN",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0080",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "70e99f8a5382044c46ee99dfd17b72a76ca045fe120fd47d9a082f258ce77e4a"
+    },
+    {
+      "id": "DLC-0227",
+      "filename": "kuvamuunnos-spicegirls-ss-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0227.jpg",
+      "displayPath": "/assets/archive/media/DLC-0227.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-ss-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030909024834/http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-ss-sitten.jpg",
+      "timestamp": "20030909024834",
+      "uses": [
+        {
+          "pageId": "DLC-0079",
+          "label": "SITTEN",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0080",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "00a0e9fe6621bb19de7f90e20d988f8d951a9e1db53cf9ac644a79d0777c98bb"
+    },
+    {
+      "id": "DLC-0228",
+      "filename": "kuvamuunnos-susanna-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0228.jpg",
+      "displayPath": "/assets/archive/media/DLC-0228.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-susanna-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913173541/http://www.dlc.fi:80/~hyk/kuvamuunnos-susanna-ensin.jpg",
+      "timestamp": "20030913173541",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "679e3aa36beb788dd9d41d86af77a1952a82340460ba27eca36f8308fd4bcccd"
+    },
+    {
+      "id": "DLC-0229",
+      "filename": "kuvamuunnos-susanna-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0229.jpg",
+      "displayPath": "/assets/archive/media/DLC-0229.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-susanna-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913180758/http://www.dlc.fi:80/~hyk/kuvamuunnos-susanna-sitten.jpg",
+      "timestamp": "20030913180758",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "231b5b76ee5ea1bc7211d12d99dd6f14cda236296963f8b1bb29b35a047d65f2"
+    },
+    {
+      "id": "DLC-0230",
+      "filename": "kuvamuunnos-susku2-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0230.jpg",
+      "displayPath": "/assets/archive/media/DLC-0230.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-susku2-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913183020/http://www.dlc.fi:80/~hyk/kuvamuunnos-susku2-ensin.jpg",
+      "timestamp": "20030913183020",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "3658a1107d3289bf9f798514f8c5ba99b365c3d8072d756c1fc5503b70a58545"
+    },
+    {
+      "id": "DLC-0231",
+      "filename": "kuvamuunnos-susku2-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0231.jpg",
+      "displayPath": "/assets/archive/media/DLC-0231.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-susku2-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913190116/http://www.dlc.fi:80/~hyk/kuvamuunnos-susku2-sitten.jpg",
+      "timestamp": "20030913190116",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "90dcb22db95cb1fb6866ed4b47ca97d20c57ddaf33a45c2f545ac485cb57dd97"
+    },
+    {
+      "id": "DLC-0232",
+      "filename": "kuvamuunnos-sussu-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0232.jpg",
+      "displayPath": "/assets/archive/media/DLC-0232.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-sussu-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913190919/http://www.dlc.fi:80/~hyk/kuvamuunnos-sussu-ensin.jpg",
+      "timestamp": "20030913190919",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "679e3aa36beb788dd9d41d86af77a1952a82340460ba27eca36f8308fd4bcccd"
+    },
+    {
+      "id": "DLC-0233",
+      "filename": "kuvamuunnos-sussu-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0233.jpg",
+      "displayPath": "/assets/archive/media/DLC-0233.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-sussu-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913195046/http://www.dlc.fi:80/~hyk/kuvamuunnos-sussu-sitten.jpg",
+      "timestamp": "20030913195046",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "b53156f188b77970c0412633b97e23f654dd4c51c41bd8246a868ac52e8eb09c"
+    },
+    {
+      "id": "DLC-0234",
+      "filename": "kuvamuunnos-tapio-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0234.jpg",
+      "displayPath": "/assets/archive/media/DLC-0234.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-tapio-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030504191506/http://www.dlc.fi:80/~hyk/kuvamuunnos-tapio-sitten.jpg",
+      "timestamp": "20030504191506",
+      "uses": [
+        {
+          "pageId": "DLC-0081",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "4998f0faf5d7a0e08a908e9ac45b1eeaf94c1c7fe1d1872f4cb0ff568d277525"
+    },
+    {
+      "id": "DLC-0235",
+      "filename": "kuvamuunnos-tia-sanna-sitten.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0235.jpg",
+      "displayPath": "/assets/archive/media/DLC-0235.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-tia-sanna-sitten.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030909032846/http://www.dlc.fi:80/~hyk/kuvamuunnos-tia-sanna-sitten.jpg",
+      "timestamp": "20030909032846",
+      "uses": [
+        {
+          "pageId": "DLC-0082",
+          "label": "SITTEN",
+          "role": "image"
+        }
+      ],
+      "sha256": "ba5af7ef505641288f0ec0d9ef1da5e2a2ad9567531e502f94498f26734f1990"
+    },
+    {
+      "id": "DLC-0236",
+      "filename": "kuvamuunnos-toninaama-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0236.jpg",
+      "displayPath": "/assets/archive/media/DLC-0236.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-toninaama-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030913195755/http://www.dlc.fi:80/~hyk/kuvamuunnos-toninaama-ensin.jpg",
+      "timestamp": "20030913195755",
+      "uses": [
+        {
+          "pageId": "DLC-0083",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "be5691536884415970e2cde229f9f6fc6b49e873e41434823d5dca971ff2e2df"
+    },
+    {
+      "id": "DLC-0237",
+      "filename": "kuvamuunnos-vedessa-ensin.jpg",
+      "group": "Oppilastyöt ja kuvataide",
+      "localPath": "/assets/archive/originals/DLC-0237.jpg",
+      "displayPath": "/assets/archive/media/DLC-0237.jpg",
+      "digestMismatch": false,
+      "originalUrl": "http://www.dlc.fi:80/~hyk/kuvamuunnos-vedessa-ensin.jpg",
+      "archiveUrl": "https://web.archive.org/web/20030909035222/http://www.dlc.fi:80/~hyk/kuvamuunnos-vedessa-ensin.jpg",
+      "timestamp": "20030909035222",
+      "uses": [
+        {
+          "pageId": "DLC-0079",
+          "label": "ENSIN",
+          "role": "image"
+        },
+        {
+          "pageId": "DLC-0080",
+          "label": "ENSIN",
+          "role": "image"
+        }
+      ],
+      "sha256": "75063618f586cfb49d45188e58e2c60f80705acf2dbf50757ad0ffc28716886d"
+    }
+  ],
+  "imageSets": [
+    {
+      "id": "K-DLC-0080-001",
+      "sourceId": "DLC-0080",
+      "sourceSha256": "b3838c4b77aae24798a031d8d07375d8b623d2e9d7cdcbf3c7fb437fba25d255",
+      "caption": "työryhmä Anna Saukkolin / Mirka Olin",
+      "people": [
+        {
+          "id": "H-39ec0c4540",
+          "name": "Anna Saukkolin"
+        },
+        {
+          "id": "H-26afc4f4db",
+          "name": "Mirka Olin"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-seepra-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-seepra-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0080-002",
+      "sourceId": "DLC-0080",
+      "sourceSha256": "b3838c4b77aae24798a031d8d07375d8b623d2e9d7cdcbf3c7fb437fba25d255",
+      "caption": "työryhmä Susanna Hanski / Salli Karki",
+      "people": [
+        {
+          "id": "H-74225486b2",
+          "name": "Salli Karki"
+        },
+        {
+          "id": "H-d5a3e4c675",
+          "name": "Susanna Hanski"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-ss-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-ss-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0227",
+          "localPath": "/assets/archive/originals/DLC-0227.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0227.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0080-003",
+      "sourceId": "DLC-0080",
+      "sourceSha256": "b3838c4b77aae24798a031d8d07375d8b623d2e9d7cdcbf3c7fb437fba25d255",
+      "caption": "työryhmä Niko Karvinen / Joonas Riikonen",
+      "people": [
+        {
+          "id": "H-525e20bfdc",
+          "name": "Joonas Riikonen"
+        },
+        {
+          "id": "H-a0e17ead3b",
+          "name": "Niko Karvinen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-jn-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0225",
+          "localPath": "/assets/archive/originals/DLC-0225.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0225.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-spicegirls-jn-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0226",
+          "localPath": "/assets/archive/originals/DLC-0226.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0226.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0080-004",
+      "sourceId": "DLC-0080",
+      "sourceSha256": "b3838c4b77aae24798a031d8d07375d8b623d2e9d7cdcbf3c7fb437fba25d255",
+      "caption": "työryhmä Toni Marjoniemi / Pekka Niemimaa",
+      "people": [
+        {
+          "id": "H-d8a4bd9225",
+          "name": "Pekka Niemimaa"
+        },
+        {
+          "id": "H-308a458797",
+          "name": "Toni Marjoniemi"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-linja-autossa-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0215",
+          "localPath": "/assets/archive/originals/DLC-0215.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0215.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-linja-autossa-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0080-005",
+      "sourceId": "DLC-0080",
+      "sourceSha256": "b3838c4b77aae24798a031d8d07375d8b623d2e9d7cdcbf3c7fb437fba25d255",
+      "caption": "työryhmä Tiina Hartikainen / Elina Laine / Anna Rasinkangas",
+      "people": [
+        {
+          "id": "H-a974d0f10d",
+          "name": "Anna Rasinkangas"
+        },
+        {
+          "id": "H-b82a0da92b",
+          "name": "Elina Laine"
+        },
+        {
+          "id": "H-627b15d897",
+          "name": "Tiina Hartikainen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0213",
+          "localPath": "/assets/archive/originals/DLC-0213.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0213.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0214",
+          "localPath": "/assets/archive/originals/DLC-0214.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0214.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0080-006",
+      "sourceId": "DLC-0080",
+      "sourceSha256": "b3838c4b77aae24798a031d8d07375d8b623d2e9d7cdcbf3c7fb437fba25d255",
+      "caption": "työryhmä Jussi Kanervo / Joonas Lehtonen",
+      "people": [
+        {
+          "id": "H-37c9d0b6ce",
+          "name": "Joonas Lehtonen"
+        },
+        {
+          "id": "H-d273d2b1e7",
+          "name": "Jussi Kanervo"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-mini-suomi-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0216",
+          "localPath": "/assets/archive/originals/DLC-0216.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0216.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-mini-suomi-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0080-007",
+      "sourceId": "DLC-0080",
+      "sourceSha256": "b3838c4b77aae24798a031d8d07375d8b623d2e9d7cdcbf3c7fb437fba25d255",
+      "caption": "työryhmä Oskari Heinonen / Artturi Pekkola / Jani Sirén",
+      "people": [
+        {
+          "id": "H-664211ea7e",
+          "name": "Artturi Pekkola"
+        },
+        {
+          "id": "H-58472d9b9f",
+          "name": "Jani Sirén"
+        },
+        {
+          "id": "H-252029ba70",
+          "name": "Oskari Heinonen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-rikke-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0221",
+          "localPath": "/assets/archive/originals/DLC-0221.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0221.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-rikke-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0222",
+          "localPath": "/assets/archive/originals/DLC-0222.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0222.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0080-008",
+      "sourceId": "DLC-0080",
+      "sourceSha256": "b3838c4b77aae24798a031d8d07375d8b623d2e9d7cdcbf3c7fb437fba25d255",
+      "caption": "työryhmä Janne Kanerva / Ari Keskitalo",
+      "people": [
+        {
+          "id": "H-136191aa93",
+          "name": "Ari Keskitalo"
+        },
+        {
+          "id": "H-dc4c14f831",
+          "name": "Janne Kanerva"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-veneet-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0239",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-veneet-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0240",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0080-009",
+      "sourceId": "DLC-0080",
+      "sourceSha256": "b3838c4b77aae24798a031d8d07375d8b623d2e9d7cdcbf3c7fb437fba25d255",
+      "caption": "työryhmä Kimmo Seppälä / Jarno Virtamo",
+      "people": [
+        {
+          "id": "H-1c669f0380",
+          "name": "Jarno Virtamo"
+        },
+        {
+          "id": "H-93d190d90f",
+          "name": "Kimmo Seppälä"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-vedessa-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0237",
+          "localPath": "/assets/archive/originals/DLC-0237.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0237.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-vedessa-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0238",
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0081-001",
+      "sourceId": "DLC-0081",
+      "sourceSha256": "b47dbea5c20983d9c73c62d2fe043918446022d21c18686427ec8e45f93d0bbf",
+      "caption": "työryhmä Jose Riikonen / Jarno Virtamo",
+      "people": [
+        {
+          "id": "H-1c669f0380",
+          "name": "Jarno Virtamo"
+        },
+        {
+          "id": "H-c8206890b2",
+          "name": "Jose Riikonen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-arttu-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0212",
+          "localPath": "/assets/archive/originals/DLC-0212.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0212.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jose-arttu-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0081-002",
+      "sourceId": "DLC-0081",
+      "sourceSha256": "b47dbea5c20983d9c73c62d2fe043918446022d21c18686427ec8e45f93d0bbf",
+      "caption": "työryhmä Sirkku Mannerkoski / Ira Ristimäki",
+      "people": [
+        {
+          "id": "H-1f4157ce91",
+          "name": "Ira Ristimäki"
+        },
+        {
+          "id": "H-47f938f346",
+          "name": "Sirkku Mannerkoski"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-tiina-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-tiina-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0081-003",
+      "sourceId": "DLC-0081",
+      "sourceSha256": "b47dbea5c20983d9c73c62d2fe043918446022d21c18686427ec8e45f93d0bbf",
+      "caption": "työryhmä Henna Berg / Hanne Marjoniemi",
+      "people": [
+        {
+          "id": "H-aa8c4d5d3e",
+          "name": "Hanne Marjoniemi"
+        },
+        {
+          "id": "H-398ec1832b",
+          "name": "Henna Berg"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-henna-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0206",
+          "localPath": "/assets/archive/originals/DLC-0206.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0206.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-henna-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0207",
+          "localPath": "/assets/archive/originals/DLC-0207.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0207.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0081-004",
+      "sourceId": "DLC-0081",
+      "sourceSha256": "b47dbea5c20983d9c73c62d2fe043918446022d21c18686427ec8e45f93d0bbf",
+      "caption": "työryhmä Sanna Saukkolin / Tiina Hartikainen",
+      "people": [
+        {
+          "id": "H-0dd542f2dc",
+          "name": "Sanna Saukkolin"
+        },
+        {
+          "id": "H-627b15d897",
+          "name": "Tiina Hartikainen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-tapio-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-tapio-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0234",
+          "localPath": "/assets/archive/originals/DLC-0234.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0234.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0081-005",
+      "sourceId": "DLC-0081",
+      "sourceSha256": "b47dbea5c20983d9c73c62d2fe043918446022d21c18686427ec8e45f93d0bbf",
+      "caption": "työryhmä Oskari Heinonen / Artturi Pekkola",
+      "people": [
+        {
+          "id": "H-664211ea7e",
+          "name": "Artturi Pekkola"
+        },
+        {
+          "id": "H-252029ba70",
+          "name": "Oskari Heinonen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/animation-jarnou.gif",
+          "label": "ENSIN/SITTEN",
+          "sourceId": "DLC-0122",
+          "localPath": "/assets/archive/originals/DLC-0122.gif",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0122.gif"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0081-006",
+      "sourceId": "DLC-0081",
+      "sourceSha256": "b47dbea5c20983d9c73c62d2fe043918446022d21c18686427ec8e45f93d0bbf",
+      "caption": "työryhmä Elina Laine / Anna Rasinkangas",
+      "people": [
+        {
+          "id": "H-a974d0f10d",
+          "name": "Anna Rasinkangas"
+        },
+        {
+          "id": "H-b82a0da92b",
+          "name": "Elina Laine"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-tytto-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-tytto-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0081-007",
+      "sourceId": "DLC-0081",
+      "sourceSha256": "b47dbea5c20983d9c73c62d2fe043918446022d21c18686427ec8e45f93d0bbf",
+      "caption": "työryhmä Kimmo Seppälä / Jussi Kanervo",
+      "people": [
+        {
+          "id": "H-d273d2b1e7",
+          "name": "Jussi Kanervo"
+        },
+        {
+          "id": "H-93d190d90f",
+          "name": "Kimmo Seppälä"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-koira-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-koira-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0081-008",
+      "sourceId": "DLC-0081",
+      "sourceSha256": "b47dbea5c20983d9c73c62d2fe043918446022d21c18686427ec8e45f93d0bbf",
+      "caption": "työryhmä Janne Kanerva / Jani Sirén / Jarno Savolainen",
+      "people": [
+        {
+          "id": "H-58472d9b9f",
+          "name": "Jani Sirén"
+        },
+        {
+          "id": "H-dc4c14f831",
+          "name": "Janne Kanerva"
+        },
+        {
+          "id": "H-a175e0e6f8",
+          "name": "Jarno Savolainen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-osku-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-osku-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0081-009",
+      "sourceId": "DLC-0081",
+      "sourceSha256": "b47dbea5c20983d9c73c62d2fe043918446022d21c18686427ec8e45f93d0bbf",
+      "caption": "työryhmä Jaakko Virta / Joonas Lehtonen",
+      "people": [
+        {
+          "id": "H-4134f0ee98",
+          "name": "Jaakko Virta"
+        },
+        {
+          "id": "H-37c9d0b6ce",
+          "name": "Joonas Lehtonen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-luke-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-luke-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0081-010",
+      "sourceId": "DLC-0081",
+      "sourceSha256": "b47dbea5c20983d9c73c62d2fe043918446022d21c18686427ec8e45f93d0bbf",
+      "caption": "työryhmä Tia Virolainen / Jenni Salin",
+      "people": [
+        {
+          "id": "H-8b878ae212",
+          "name": "Jenni Salin"
+        },
+        {
+          "id": "H-32001cdb37",
+          "name": "Tia Virolainen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jenni-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0211",
+          "localPath": "/assets/archive/originals/DLC-0211.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0211.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jenni-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0081-011",
+      "sourceId": "DLC-0081",
+      "sourceSha256": "b47dbea5c20983d9c73c62d2fe043918446022d21c18686427ec8e45f93d0bbf",
+      "caption": "työryhmä Paula Ojansuu / Jenna Paukkio",
+      "people": [
+        {
+          "id": "H-1a1bbd0c23",
+          "name": "Jenna Paukkio"
+        },
+        {
+          "id": "H-c65ac7fd86",
+          "name": "Paula Ojansuu"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-venus-ensin-sitten.jpg",
+          "label": "ENSIN-SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0082-001",
+      "sourceId": "DLC-0082",
+      "sourceSha256": "0bdda83b2429410b2bceb4b84f8b7e619bff64161adcf22eb601baac7fb5627d",
+      "caption": "Paula Ojansuu",
+      "people": [
+        {
+          "id": "H-c65ac7fd86",
+          "name": "Paula Ojansuu"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-tia-sanna-ensin.gif",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-tia-sanna-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0235",
+          "localPath": "/assets/archive/originals/DLC-0235.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0235.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0082-002",
+      "sourceId": "DLC-0082",
+      "sourceSha256": "0bdda83b2429410b2bceb4b84f8b7e619bff64161adcf22eb601baac7fb5627d",
+      "caption": "Henna Berg",
+      "people": [
+        {
+          "id": "H-398ec1832b",
+          "name": "Henna Berg"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-mimmi-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-mimmi-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0082-003",
+      "sourceId": "DLC-0082",
+      "sourceSha256": "0bdda83b2429410b2bceb4b84f8b7e619bff64161adcf22eb601baac7fb5627d",
+      "caption": "Sanna Saukkolin",
+      "people": [
+        {
+          "id": "H-0dd542f2dc",
+          "name": "Sanna Saukkolin"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jennaira-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jennaira-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0082-004",
+      "sourceId": "DLC-0082",
+      "sourceSha256": "0bdda83b2429410b2bceb4b84f8b7e619bff64161adcf22eb601baac7fb5627d",
+      "caption": "Jenni Salin",
+      "people": [
+        {
+          "id": "H-8b878ae212",
+          "name": "Jenni Salin"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-havittaja-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-havittaja-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0082-005",
+      "sourceId": "DLC-0082",
+      "sourceSha256": "0bdda83b2429410b2bceb4b84f8b7e619bff64161adcf22eb601baac7fb5627d",
+      "caption": "Jaakko Virta",
+      "people": [
+        {
+          "id": "H-4134f0ee98",
+          "name": "Jaakko Virta"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-mutamies-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-mutamies-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0082-006",
+      "sourceId": "DLC-0082",
+      "sourceSha256": "0bdda83b2429410b2bceb4b84f8b7e619bff64161adcf22eb601baac7fb5627d",
+      "caption": "Hanne Marjoniemi",
+      "people": [
+        {
+          "id": "H-aa8c4d5d3e",
+          "name": "Hanne Marjoniemi"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-hannen-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-hannen-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0082-007",
+      "sourceId": "DLC-0082",
+      "sourceSha256": "0bdda83b2429410b2bceb4b84f8b7e619bff64161adcf22eb601baac7fb5627d",
+      "caption": "Jenna Paukkio",
+      "people": [
+        {
+          "id": "H-1a1bbd0c23",
+          "name": "Jenna Paukkio"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jennan-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jennan-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0082-008",
+      "sourceId": "DLC-0082",
+      "sourceSha256": "0bdda83b2429410b2bceb4b84f8b7e619bff64161adcf22eb601baac7fb5627d",
+      "caption": "Tia Virolainen",
+      "people": [
+        {
+          "id": "H-32001cdb37",
+          "name": "Tia Virolainen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-matkaahtariin-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-matkaahtariin-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0082-009",
+      "sourceId": "DLC-0082",
+      "sourceSha256": "0bdda83b2429410b2bceb4b84f8b7e619bff64161adcf22eb601baac7fb5627d",
+      "caption": "Jarno Savolainen",
+      "people": [
+        {
+          "id": "H-a175e0e6f8",
+          "name": "Jarno Savolainen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jarno-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jarno-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0083-001",
+      "sourceId": "DLC-0083",
+      "sourceSha256": "a35bac178f6d80b26df5741b9ae01a277e4249d14ec17ebdc6c8d758d09b7054",
+      "caption": "Sarianna Oikkonen",
+      "people": [
+        {
+          "id": "H-7a061df655",
+          "name": "Sarianna Oikkonen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-nelostytot-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0218",
+          "localPath": "/assets/archive/originals/DLC-0218.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0218.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-nelostytot-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0219",
+          "localPath": "/assets/archive/originals/DLC-0219.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0219.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0083-002",
+      "sourceId": "DLC-0083",
+      "sourceSha256": "a35bac178f6d80b26df5741b9ae01a277e4249d14ec17ebdc6c8d758d09b7054",
+      "caption": "Aleksi Korpijaakko",
+      "people": [
+        {
+          "id": "H-33375eb20c",
+          "name": "Aleksi Korpijaakko"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-hirvio-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0208",
+          "localPath": "/assets/archive/originals/DLC-0208.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0208.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-hirvio-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0209",
+          "localPath": "/assets/archive/originals/DLC-0209.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0209.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0083-003",
+      "sourceId": "DLC-0083",
+      "sourceSha256": "a35bac178f6d80b26df5741b9ae01a277e4249d14ec17ebdc6c8d758d09b7054",
+      "caption": "Astra Kanervo",
+      "people": [
+        {
+          "id": "H-0a925a0fbc",
+          "name": "Astra Kanervo"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-astra-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-astra-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0202",
+          "localPath": "/assets/archive/originals/DLC-0202.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0202.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0083-004",
+      "sourceId": "DLC-0083",
+      "sourceSha256": "a35bac178f6d80b26df5741b9ae01a277e4249d14ec17ebdc6c8d758d09b7054",
+      "caption": "Veera Ojansuu",
+      "people": [
+        {
+          "id": "H-8ae42c78b3",
+          "name": "Veera Ojansuu"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-astra-keltainen-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0201",
+          "localPath": "/assets/archive/originals/DLC-0201.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0201.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-astra-keltainen-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0083-005",
+      "sourceId": "DLC-0083",
+      "sourceSha256": "a35bac178f6d80b26df5741b9ae01a277e4249d14ec17ebdc6c8d758d09b7054",
+      "caption": "Esko Järvinen",
+      "people": [
+        {
+          "id": "H-a7b8454d09",
+          "name": "Esko Järvinen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jaakko-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-jaakko-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0210",
+          "localPath": "/assets/archive/originals/DLC-0210.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0210.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0083-006",
+      "sourceId": "DLC-0083",
+      "sourceSha256": "a35bac178f6d80b26df5741b9ae01a277e4249d14ec17ebdc6c8d758d09b7054",
+      "caption": "Susanna Hutka",
+      "people": [
+        {
+          "id": "H-d310a6f89f",
+          "name": "Susanna Hutka"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-susanna-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0228",
+          "localPath": "/assets/archive/originals/DLC-0228.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0228.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-susanna-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0229",
+          "localPath": "/assets/archive/originals/DLC-0229.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0229.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0083-007",
+      "sourceId": "DLC-0083",
+      "sourceSha256": "a35bac178f6d80b26df5741b9ae01a277e4249d14ec17ebdc6c8d758d09b7054",
+      "caption": "Toni Virtamo",
+      "people": [
+        {
+          "id": "H-3096133bc4",
+          "name": "Toni Virtamo"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-sussu-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0232",
+          "localPath": "/assets/archive/originals/DLC-0232.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0232.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-sussu-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0233",
+          "localPath": "/assets/archive/originals/DLC-0233.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0233.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0083-008",
+      "sourceId": "DLC-0083",
+      "sourceSha256": "a35bac178f6d80b26df5741b9ae01a277e4249d14ec17ebdc6c8d758d09b7054",
+      "caption": "Jenna Sirén",
+      "people": [
+        {
+          "id": "H-ce193c3d15",
+          "name": "Jenna Sirén"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-susku2-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0230",
+          "localPath": "/assets/archive/originals/DLC-0230.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0230.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-susku2-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0231",
+          "localPath": "/assets/archive/originals/DLC-0231.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0231.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0083-009",
+      "sourceId": "DLC-0083",
+      "sourceSha256": "a35bac178f6d80b26df5741b9ae01a277e4249d14ec17ebdc6c8d758d09b7054",
+      "caption": "Janika Paukkio",
+      "people": [
+        {
+          "id": "H-1a574ea59c",
+          "name": "Janika Paukkio"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-monni-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0217",
+          "localPath": "/assets/archive/originals/DLC-0217.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0217.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-monni-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0083-010",
+      "sourceId": "DLC-0083",
+      "sourceSha256": "a35bac178f6d80b26df5741b9ae01a277e4249d14ec17ebdc6c8d758d09b7054",
+      "caption": "Paula Savolainen",
+      "people": [
+        {
+          "id": "H-32cc63a471",
+          "name": "Paula Savolainen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-elsa-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0204",
+          "localPath": "/assets/archive/originals/DLC-0204.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0204.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-elsa-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0205",
+          "localPath": "/assets/archive/originals/DLC-0205.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0205.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0083-011",
+      "sourceId": "DLC-0083",
+      "sourceSha256": "a35bac178f6d80b26df5741b9ae01a277e4249d14ec17ebdc6c8d758d09b7054",
+      "caption": "Veera Lehtonen",
+      "people": [
+        {
+          "id": "H-9fc4614f81",
+          "name": "Veera Lehtonen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-elina-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-elina-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0203",
+          "localPath": "/assets/archive/originals/DLC-0203.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0203.jpg"
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0083-012",
+      "sourceId": "DLC-0083",
+      "sourceSha256": "a35bac178f6d80b26df5741b9ae01a277e4249d14ec17ebdc6c8d758d09b7054",
+      "caption": "Tommi Heikkinen",
+      "people": [
+        {
+          "id": "H-e18fdfcabe",
+          "name": "Tommi Heikkinen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-toninaama-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0236",
+          "localPath": "/assets/archive/originals/DLC-0236.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0236.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-toninaama-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0083-013",
+      "sourceId": "DLC-0083",
+      "sourceSha256": "a35bac178f6d80b26df5741b9ae01a277e4249d14ec17ebdc6c8d758d09b7054",
+      "caption": "Elsa Hagelberg",
+      "people": [
+        {
+          "id": "H-cf0b00c90d",
+          "name": "Elsa Hagelberg"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-pasa-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0220",
+          "localPath": "/assets/archive/originals/DLC-0220.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0220.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-pasa-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": null,
+          "localPath": null,
+          "readerPath": null,
+          "role": "image",
+          "displayPath": null
+        }
+      ]
+    },
+    {
+      "id": "K-DLC-0083-014",
+      "sourceId": "DLC-0083",
+      "sourceSha256": "a35bac178f6d80b26df5741b9ae01a277e4249d14ec17ebdc6c8d758d09b7054",
+      "caption": "Juhani Karvinen",
+      "people": [
+        {
+          "id": "H-51f642c052",
+          "name": "Juhani Karvinen"
+        }
+      ],
+      "images": [
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-samppa-ensin.jpg",
+          "label": "ENSIN",
+          "sourceId": "DLC-0223",
+          "localPath": "/assets/archive/originals/DLC-0223.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0223.jpg"
+        },
+        {
+          "url": "http://www.dlc.fi:80/~hyk/kuvamuunnos-samppa-sitten.jpg",
+          "label": "SITTEN",
+          "sourceId": "DLC-0224",
+          "localPath": "/assets/archive/originals/DLC-0224.jpg",
+          "readerPath": null,
+          "role": "image",
+          "displayPath": "/assets/archive/media/DLC-0224.jpg"
+        }
+      ]
     }
   ],
   "categories": [

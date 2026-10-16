@@ -35,6 +35,23 @@ def main():
             check('/koulu/aineisto/'+previous['id']+'/' in body, 'Recovered work lost its previous-source link')
             check(not source['digestMismatch'] and bool(texts[work['id']]['text']), 'Recovered text is missing or unverified')
 
+    image_sets = data['imageSets']
+    check(len(image_sets) == 43 and len({item['id'] for item in image_sets}) == 43, 'Reviewed image comparison blocks lost or duplicated')
+    comparisons = page_file('/koulu/kuva-ja-taidesivut/kuvamuunnokset/').read_text(encoding='utf-8')
+    check(comparisons.count('data-image-set=') == len(image_sets), 'Comparison blocks missing from gallery')
+    for item in image_sets:
+        check(item['sourceSha256'] == originals[item['sourceId']]['sha256'], 'Comparison source changed')
+        check(not page_by_id[item['sourceId']]['digestMismatch'], 'Comparison source is unverified')
+        for person in item['people']:
+            check(person['name'] in item['caption'], 'Comparison credit does not contain the person name')
+            person_body = page_file('/tekijat/'+person['id']+'/').read_text(encoding='utf-8')
+            check('/koulu/kuva-ja-taidesivut/kuvamuunnokset/#'+item['id'] in person_body, 'Comparison credit backlink missing')
+        for image in item['images']:
+            check(image in page_by_id[item['sourceId']]['images'], 'Comparison image detached from source')
+    counterexample = next(item for item in image_sets if item['id'] == 'K-DLC-0083-010')
+    check(counterexample['caption'] == 'Paula Savolainen' and all('kuvamuunnos-elsa-' in image['url'] for image in counterexample['images']), 'Image filename was incorrectly used as author evidence')
+    poetry = page_file('/olli-poroila/kirjoitukset/').read_text(encoding='utf-8')
+    check('/koulu/aineisto/DLC-0315/' in poetry and 'S73' in poetry, 'Poroila poetry source is missing from writings')
     groups = json.loads((ROOT / 'src/_data/school-collections.json').read_text(encoding='utf-8'))
     check(len({group['id'] for group in groups}) == len(groups), 'Duplicate roster IDs')
     for group in groups:

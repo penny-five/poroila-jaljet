@@ -75,6 +75,8 @@ eleventyComputed:
 <p>Henkilömerkintään liittyvät paikalliset lähdesivut. Yhteys perustuu samaan nimiasuun tai katalogin lähdeviitteeseen; se ei yksin todista luokkajäsenyyttä tai nykyistä henkilöllisyyttä.</p>
 <ul>{% for item in relatedSchoolPages %}<li><a href="{{ ('/koulu/aineisto/' + item.id + '/') | localUrl }}">{{ item.title | escape }} · {{ item.id }}</a></li>{% endfor %}</ul>
 <p><a href="{{ '/koulu/aineisto/' | localUrl }}">Koulun koko aineisto</a></p>
+{% set relatedImageSets = schoolView.imageSets | imageSetsForPerson(person.id) %}
+{% if relatedImageSets.length %}<h3>Kuvankäsittelysivujen tekijämerkinnät</h3><p>Nimi esiintyy näiden kuvaryhmien tekstissä. Yhteys ei tarkoita kuvassa esiintymisen tunnistamista.</p><ul>{% for set in relatedImageSets %}<li><a href="{{ ('/koulu/kuva-ja-taidesivut/kuvamuunnokset/#' + set.id) | localUrl }}">{{ set.caption | escape }} · {{ set.sourceId }}</a></li>{% endfor %}</ul>{% endif %}
 {% set relatedClasses = schoolView.classes | classesForPerson(person.id) %}
 {% if relatedClasses.length %}<h3>Lähteiden luokkamerkinnät</h3><ul>{% for group in relatedClasses %}<li><a href="{{ ('/koulu/luokat/' + group.id + '/') | localUrl }}">{{ group.title | escape }}</a> — {{ group.period | escape }} · {{ group.sourceId }}</li>{% endfor %}</ul>{% endif %}
 </section>

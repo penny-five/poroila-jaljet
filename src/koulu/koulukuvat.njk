@@ -9,6 +9,7 @@ parent:
 ---
 <p>{{ schoolView.imageCount }} kuvaa on tallennettu tähän arkistoon. Kuvat latautuvat paikallisista tiedostoista. Ryhmittely perustuu lähdepolkuun ja sivuyhteyteen; se ei ole kuvassa esiintyvien henkilöiden tunnistus. Tiedostonimen vuosiluku ja arkistotallenteen päivä eivät yksin vahvista kuvausajankohtaa.</p>
 <p><a href="{{ '/koulu/aineisto/DLC-0129/' | localUrl }}">Koulun oma vanhojen luokkakuvien hakemisto: lukuvuodet ja kuvaviitteet</a> · <a href="{{ '/koulu/luokat/' | localUrl }}">Luokat ja oppilasluettelot</a> · <a href="{{ '/koulu/kuva-ja-taidesivut/' | localUrl }}">Kuva- ja taidesivujen hakemistot</a></p>
+<p><a href="{{ '/koulu/kuva-ja-taidesivut/kuvamuunnokset/' | localUrl }}">Katso kuvankäsittelytyöt: ensin ja sitten rinnakkain sekä lähteen tekijämerkinnät</a></p>
 <ul>{% for group in schoolView.mediaGroups %}<li><a href="#ryhma-{{ loop.index }}">{{ group.title }} ({{ group.images.length }})</a></li>{% endfor %}</ul>
 {% for group in schoolView.mediaGroups %}<h3 id="ryhma-{{ loop.index }}">{{ group.title }}</h3><div class="data-list">
 {% for image in group.images %}<article class="data-item" id="{{ image.id }}"><h4>{{ image.filename | escape }}</h4>

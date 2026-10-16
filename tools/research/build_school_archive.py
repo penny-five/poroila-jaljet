@@ -192,6 +192,30 @@ def build():
                       "localPath": f["local_path"], "sha256": f["sha256"], "links": links, "images": images,
                       "digestMismatch": f.get('capture_digest_match') is False,
                       "people": people, "workIds": [w["id"] for w in catalog["works"] if w["page"] == f["id"] or w.get("previousSourceId") == f["id"]]})
+    # These reviewed pages separate each image comparison and its literal credit
+    # with HR elements. Do not infer authors from filenames: they often differ.
+    image_sets = []
+    for page in pages:
+        if page['id'] not in {'DLC-0080', 'DLC-0081', 'DLC-0082', 'DLC-0083'}:
+            continue
+        original = next(f for f in school_files if f['id'] == page['id'])
+        assert original.get('exact_original_bytes') and not page['digestMismatch']
+        raw = (ROOT / original['local_path'].lstrip('/')).read_bytes().decode(page['encoding'], errors='replace')
+        by_url = {image['url']: image for image in page['images']}
+        ordinal = 0
+        for fragment in re.split(r'<hr\b[^>]*>', raw, flags=re.I):
+            block = PageParser()
+            block.feed(fragment)
+            comparisons = [image for image in block.images if image['label'].upper() in {'ENSIN', 'SITTEN', 'ENSIN/SITTEN', 'ENSIN-SITTEN'}]
+            if not comparisons:
+                continue
+            ordinal += 1
+            caption = clean(''.join(block.text))
+            named = [person for person in page['people'] if re.search(r'(?<!\w)' + re.escape(person['name']) + r'(?!\w)', caption, re.I)]
+            image_sets.append({'id': f"K-{page['id']}-{ordinal:03}", 'sourceId': page['id'],
+                               'sourceSha256': page['sha256'], 'caption': caption,
+                               'people': [{'id': person['id'], 'name': person['name']} for person in named],
+                               'images': [by_url[urljoin(page['originalUrl'], image['href'])] for image in comparisons]})
     media = []
     for f in school_files:
         if not f["mime_type"].startswith("image/"):
@@ -212,7 +236,7 @@ def build():
                       "originalUrl": f["original_url"], "archiveUrl": f["archive_url"], "timestamp": f["timestamp"],
                       "uses": image_uses.get(key(f["original_url"]), []), "sha256": f["sha256"]})
     result = {"method": "HTMLParser; declared charset or windows-1252 fallback; scripts/styles omitted; original files unchanged",
-              "pages": pages, "media": media,
+              "pages": pages, "media": media, "imageSets": image_sets,
               "categories": list(dict.fromkeys(p["category"] for p in pages)),
               "mediaGroups": list(dict.fromkeys(m["group"] for m in media))}
     target = ROOT / "src/_data/schoolArchive.json"

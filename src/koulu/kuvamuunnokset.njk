@@ -1,0 +1,31 @@
+---
+layout: layouts/article-page.njk
+title: Digitaalinen kuvankäsittely – ensin ja sitten
+lead: Koulun kuvankäsittelytöiden lähtökuvat, muunnokset ja alkuperäiset tekijämerkinnät rinnakkain.
+permalink: /koulu/kuva-ja-taidesivut/kuvamuunnokset/index.html
+parent:
+  label: Kuva- ja taidesivut
+  url: /koulu/kuva-ja-taidesivut/
+---
+<p>Kuvat on ryhmitelty alkuperäisten sivujen erottimien ja ENSIN/SITTEN-merkintöjen mukaan. Tekijämerkintä tulee saman kuvalohkon tekstistä. Tiedostonimessä oleva nimi voi tarkoittaa eri henkilöä kuin työn tekijä; se ei ole tekijyyden tai kuvassa esiintymisen tunnistus.</p>
+<p>{{ schoolView.imageSets.length }} lähdekohtaista kuvaryhmää. Saman kuvan esiintyminen eri lukuvuosien sivuilla säilyy erillisenä lähdehavaintona. Puuttuvaa kuvaa ei korvata toisen sivun samannimisellä tiedostolla.</p>
+{% for group in schoolView.imageSetGroups %}
+<h2>{{ group.source.text.split('
+
+')[1] | escape }}</h2>
+<p><a href="{{ ('/koulu/aineisto/' + group.source.id + '/') | localUrl }}">Koko alkuperäinen hakemistosivu · {{ group.source.id }}</a></p>
+{% for set in group.sets %}
+<article class="data-item" id="{{ set.id }}" data-image-set="{{ set.id }}">
+<h3>{{ set.caption | escape }}</h3>
+<div style="display:flex;flex-wrap:wrap;gap:24px">
+{% for image in set.images %}<figure style="margin:0;max-width:100%;flex:1 1 240px">
+{% if image.displayPath %}<a href="{{ image.displayPath | localUrl }}"><img src="{{ image.displayPath | localUrl }}" alt="{{ image.label | escape }} · {{ set.caption | escape }}" loading="lazy" style="max-width:100%;max-height:26rem;width:auto;height:auto"></a>
+{% else %}<p class="notice">{{ image.label | escape }}: kuvatiedosto puuttuu paikallisesta arkistosta.</p>{% endif %}
+<figcaption>{{ image.label | escape }} · {{ image.url.split('/').pop() | escape }}</figcaption>
+{% if image.localPath %}<p><a href="{{ image.localPath | localUrl }}">Alkuperäistiedosto</a> · <a href="{{ ('/koulu/koulukuvat/#' + image.sourceId) | localUrl }}">Kuvan lähdetiedot</a></p>{% endif %}
+</figure>{% endfor %}
+</div>
+{% if set.people.length %}<p>Lähteen kanssa saman nimiasun henkilömerkinnät: {% for person in set.people %}<a href="{{ ('/tekijat/' + person.id + '/') | localUrl }}">{{ person.name | escape }}</a>{% if not loop.last %} · {% endif %}{% endfor %}.</p>{% endif %}
+<p class="metadata">{{ set.id }} · tekijämerkintä lähteen kuvalohkosta, ei kuvantunnistuksesta · lähteen SHA-256 {{ set.sourceSha256 }}.</p>
+</article>
+{% endfor %}{% endfor %}

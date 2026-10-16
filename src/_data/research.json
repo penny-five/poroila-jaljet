@@ -647,6 +647,15 @@
       "group": "Avoimet viitteet",
       "url": "https://web.archive.org/web/20020725041404/http://www.dlc.fi:80/~hyk/olli-sahkoikkuna-pidempi.htm",
       "note": "Artikkelihakemisto nimeää Opettaja-lehden 14/1998. Pitkä ja julkaistuksi nimetty lyhyempi tekstiversio luettu. Koulun oma verkko, käsin tehty HTML, oppilaiden tekijyys ja DLC-osoitteen selitys; lehden sivukuvia ei luettu."
+    },
+    {
+      "id": "S73",
+      "date": "Tallenne 22.10.2000; runojen päiväys puuttuu",
+      "title": "Olli Poroilan runoja koulun DLC-sivustossa",
+      "publisher": "Koulun alkuperäissivusto / Internet Archive",
+      "group": "Avoimet viitteet",
+      "url": "https://web.archive.org/web/20001022223906/http://www.dlc.fi:80/~hyk/olliruno.htm",
+      "note": "Sivun otsikko ja tekijämerkintä nimeävät Olli Poroilan. Sisältää viisi runo-otsikkoa; koko sivu on paikallisesti säilytetty lukusivuna DLC-0315 ja raakatiedostona. CDX-tarkiste täsmää. Runojen puhujaa tai kuvastoa ei tulkita elämäkertatiedoksi."
     }
   ],
   "timeline": [
@@ -1010,14 +1019,16 @@
       "intro": "Sivusto voi kadota. Toisen kirjoittajan tallentama osoite jää silti jäljeksi — mutta ei vielä todisteeksi sivun sisällöstä.",
       "refs": [
         "S08",
-        "S09"
+        "S09",
+        "S72",
+        "S73"
       ],
       "paragraphs": [
         "Huhtikuun 11. päivänä 2006 Martti Hellström kirjoitti blogissaan Poroilan sivuston sulkemisesta [S08]. Hän kertoi myös Poroilan kirjoittaneen oikeusprosessista verkossa ja kertoneen nälkälakosta. Nämä ovat Hellströmin aikalaiskertomuksia. Tässä selvityksessä niitä ei esitetä Poroilan alkuperäistekstien suorina havaintoina, eikä nälkälakkoa itsenäisesti tarkistettuna tapahtumana. Ero on tärkeä: säilynyt kertomus viittaa toiseen tekstiin, jonka täsmällistä vuoden 2006 versiota ei ole avattu tutkimuksen aineistoksi.",
         "Samana päivänä julkaistu ”Poroila is back” dokumentoi uuden väliaikaisen kotisivun osoitteen: http://kotisivu.dnainternet.net/poroila/ [S09]. Osoite on konkreettinen historiallinen tutkimusjohtolanka. Se ei kuitenkaan ole lupaus nykyään toimivasta sivustosta. Myöskään uuden osoitteen kirjaaminen ei yksin kerro, mitä sivulla oli, kuinka pitkään se säilyi tai mitä aiemmalta sivustolta siirtyi sinne. Blogin välittämä havainto ja kohdesivun alkuperäinen sisältö kuuluvat eri todistustasoille.",
         "Vuoden 2006 verkon muistijälkeä voi tässä tarkastella kahden säilyneen blogitekstin kautta. Toinen kertoo katoamisesta, toinen paluusta uuteen osoitteeseen. Niiden keskinäinen läheisyys auttaa ajoittamaan kirjoittajan havaintoja, mutta ei tee hänestä riippumatonta vahvistajaa jokaiselle kuvaamalleen asialle. Blogi on sekundäärinen lähde Poroilan verkkokirjoittamiseen. Se on samalla oma aikalaisdokumenttinsa siitä, mitä Hellström tuolloin kirjasi. Tämän kaksinaisuuden säilyttäminen estää välitetyn kertomuksen muuttumisen huomaamatta alkuperäislähteeksi.",
         "Aiempi hakuvaihe on edennyt alkuperäisen HTML:n lukemiseen. Saunalahden etusivu on tallennettu 22.6.2001, DNA-etusivu 29.6.2013 ja tuntemuksiani.htm 1.7.2013. Kaikki kolme avattiin uudelleen 15.10.2026. Saunalahden kuvalinkki johtaa tiedostoon olli-perustiedot.htm, ja päivityslinkki tiedostoon uudistettu.htm. Kohdesivujen kokeillut avaukset palauttivat 404:n, eikä sisältöä vahvisteta. DNA-etusivun linkki tuntemuksiani.htm#UUSIN johtaa saman kirjoitussivun ankkuriin. Vuoden 2013 tallenne ei osoita vuoden 2006 sisällön olleen sama. Täsmälliset alkuperäis- ja arkisto-URL:t sekä tarkistuksen rajat ovat sivun verkkoarkisto-osiossa ja repositorion tarkistusmuistiossa.",
-        "Käyttäjän muistikuva Poroilan ylläpitämistä koulusivuista ja omasta blogista on merkitty avoimeksi tutkimusjohtolangaksi. DNA-kirjoitussivun alkuperäistallenne on avattu. Oppilaiden tekemien sivujen tallenteita tai koulusivujen Poroila-tekijyyttä ei ole vahvistettu, eikä muistikuvan perusteella kuvata niiden sisältöä. Koulusivuille ja blogille on siksi omat jäljityskorttinsa. Kadonneen kotisivun historia rakentuu tässä vaiheessa osoitteesta ja toisen kirjoittajan kertomuksista. Tutkimuksen tehtävä on näyttää, missä jälki kulkee, mutta myös missä se katkeaa. Tyhjiä kohtia ei täytetä keksityllä sisällöllä."
+        "Koulusivujen myöhempi keruu on palauttanut paikallisesti oppilaiden omia sivuja, kirjoitelmia ja kuvia. Koulun Sähköikkuna-teksti kuvaa oppilaiden tekijyyttä sekä verkon ja HTML-sivujen rakentamista [S72]. Koulusivustosta palautui myös Olli Poroilan nimellä julkaistu runosivu [S73]. Nämä ovat eri aineistoa kuin Poroilan erillisen kotisivuston vielä puuttuvat alasivut. Koulusivujen tutkiminen jatkuu lähdeversioittain: yksittäisen oppilassivun tekijyyttä ei päätellä koko sivuston ylläpitäjästä."
       ]
     }
   ]

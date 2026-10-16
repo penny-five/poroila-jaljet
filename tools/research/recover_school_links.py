@@ -54,6 +54,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=40)
     parser.add_argument("--retry", action="store_true")
+    parser.add_argument("--ids", nargs="+", help="Select specific referenced catalog IDs within the bounded batch")
     args = parser.parse_args()
     inventory = load("src/_data/schoolArchive.json")
     catalog = load("assets/archive/hyk-katalogi.json")
@@ -68,6 +69,12 @@ def main():
             and r.get("mimetype", "text/html") in {"image/jpeg", "image/gif", "image/png", "text/html", "application/pdf"}]
     # Prioritize linked photographs, artworks, pupil pages and class rosters over decoration.
     todo.sort(key=lambda r: (0 if re.search(r"oppilaat|luokkakuva|kuva-puu|oppilas-", r["filename"]) else 1, r["id"]))
+    if args.ids:
+        requested = set(args.ids)
+        unknown = requested - {record['id'] for record in catalog['dlc_records'] + catalog['pages']}
+        if unknown:
+            parser.error('Unknown catalog IDs: ' + ', '.join(sorted(unknown)))
+        todo = [record for record in todo if record['id'] in requested]
     todo = todo[:args.limit]
     print(f"Recovering {len(todo)} catalogued linked files", flush=True)
     results = []
