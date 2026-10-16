@@ -3,7 +3,7 @@ module.exports = {
   primary: [
     { id: 'alku', label: 'Etusivu', url: '/', prefixes: ['/'] },
     { id: 'koulu', label: 'Koulu', url: '/koulu/', prefixes: ['/koulu/', '/tekijat/', '/teokset/'] },
-    { id: 'aineisto', label: 'Poroila', url: '/olli-poroila/kirjoitukset/', prefixes: ['/olli-poroila/'] },
+    { id: 'aineisto', label: 'Poroila', url: '/olli-poroila/', prefixes: ['/olli-poroila/'] },
     { id: 'sivujaljet', label: 'Verkkoarkisto', url: '/verkkoarkisto/', prefixes: ['/verkkoarkisto/'] },
     { id: 'lahteet', label: 'Lähteet ja tutkimus', url: '/lahteet/', prefixes: ['/lahteet/', '/tutkimus/', '/fiktiot/'] },
   ],

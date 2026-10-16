@@ -41,6 +41,7 @@ with sync_playwright() as playwright:
                               ('/verkkoarkisto/', 'Verkkoarkisto'), ('/fiktiot/', 'Lähteet ja tutkimus')]:
             page.goto(origin + '/_site' + route)
             assert page.locator('#navigation a').all_text_contents() == expected_labels
+            assert page.locator('#navigation a', has_text='Poroila').get_attribute('href') == '/_site/olli-poroila/'
             assert page.locator('#navigation a[aria-current="page"]').text_content().strip() == active, route
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), f'Horizontal overflow: {width} {route}'
             for link in page.locator('#navigation a').all():
