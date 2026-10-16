@@ -1303,7 +1303,8 @@
       ],
       "works": [
         "T-050",
-        "T-060"
+        "T-060",
+        "T-149"
       ]
     },
     {
@@ -1631,7 +1632,8 @@
       "works": [
         "T-055",
         "T-079",
-        "T-133"
+        "T-133",
+        "T-148"
       ]
     },
     {
@@ -1722,7 +1724,8 @@
       "works": [
         "T-030",
         "T-039",
-        "T-080"
+        "T-080",
+        "T-146"
       ]
     },
     {
@@ -1836,7 +1839,9 @@
       "works": [
         "T-027",
         "T-052",
-        "T-081"
+        "T-081",
+        "T-136",
+        "T-150"
       ]
     },
     {
@@ -2076,7 +2081,8 @@
       ],
       "works": [
         "T-056",
-        "T-068"
+        "T-068",
+        "T-137"
       ]
     },
     {
@@ -2276,7 +2282,8 @@
         "T-040",
         "T-067",
         "T-127",
-        "T-128"
+        "T-128",
+        "T-147"
       ]
     },
     {
@@ -2317,7 +2324,9 @@
         "DLC-0582",
         "DLC-0583"
       ],
-      "works": []
+      "works": [
+        "T-138"
+      ]
     },
     {
       "id": "H-de9e0438bb",
@@ -2369,7 +2378,8 @@
       ],
       "works": [
         "T-134",
-        "T-135"
+        "T-135",
+        "T-139"
       ]
     },
     {
@@ -2451,7 +2461,8 @@
       ],
       "works": [
         "T-047",
-        "T-066"
+        "T-066",
+        "T-140"
       ]
     },
     {
@@ -2648,7 +2659,10 @@
         "DLC-0631",
         "DLC-0632"
       ],
-      "works": []
+      "works": [
+        "T-141",
+        "T-142"
+      ]
     },
     {
       "id": "H-37c9d0b6ce",
@@ -2782,7 +2796,11 @@
         "DLC-0656",
         "DLC-0657"
       ],
-      "works": []
+      "works": [
+        "T-143",
+        "T-144",
+        "T-145"
+      ]
     },
     {
       "id": "H-462e0b37a6",
@@ -6466,7 +6484,8 @@
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi. Aiempi luettelolähde HYK-020; kokoteksti palautettu DLC-tallenteesta.",
       "reviewedSourceSha256": "f8c6f5588bff5ec28fb581873efe684246b9abd3f70608133ef76bad12e9b2f2",
-      "previousSourceId": "HYK-020"
+      "previousSourceId": "HYK-020",
+      "textStatus": "complete"
     },
     {
       "id": "T-099",
@@ -6479,7 +6498,8 @@
       "page": "DLC-0358",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "86222e3e8ddc81ac2df0d67bff43850201379ea91e2520e2e244b09504e5bf2c"
+      "reviewedSourceSha256": "86222e3e8ddc81ac2df0d67bff43850201379ea91e2520e2e244b09504e5bf2c",
+      "textStatus": "complete"
     },
     {
       "id": "T-100",
@@ -6492,7 +6512,8 @@
       "page": "DLC-0363",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "46534be513328ee23affab4ecf2a68f1f377f8b9e272b08db963dd386ca10432"
+      "reviewedSourceSha256": "46534be513328ee23affab4ecf2a68f1f377f8b9e272b08db963dd386ca10432",
+      "textStatus": "complete"
     },
     {
       "id": "T-101",
@@ -6505,7 +6526,8 @@
       "page": "DLC-0367",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "d17fcf0a8ca1d8a50166bc23f80e74702f839ecfd950876f1f34a4010c3cf9b8"
+      "reviewedSourceSha256": "d17fcf0a8ca1d8a50166bc23f80e74702f839ecfd950876f1f34a4010c3cf9b8",
+      "textStatus": "complete"
     },
     {
       "id": "T-102",
@@ -6518,7 +6540,8 @@
       "page": "DLC-0368",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "73e5ae7a9b1a01f870341d5d4d0e204122e55497c4afae4fe77032af15a9d3eb"
+      "reviewedSourceSha256": "73e5ae7a9b1a01f870341d5d4d0e204122e55497c4afae4fe77032af15a9d3eb",
+      "textStatus": "complete"
     },
     {
       "id": "T-103",
@@ -6531,7 +6554,8 @@
       "page": "DLC-0369",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "28dce1c45bbda33a6c33ae080f01751b1dc9ee072e59ed0438eccc5bbca38533"
+      "reviewedSourceSha256": "28dce1c45bbda33a6c33ae080f01751b1dc9ee072e59ed0438eccc5bbca38533",
+      "textStatus": "complete"
     },
     {
       "id": "T-104",
@@ -6544,7 +6568,8 @@
       "page": "DLC-0370",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "5a75310003e0ce2d440f1ed2821710e02c7b705da34dbcb063d4cca2a0c8b9ff"
+      "reviewedSourceSha256": "5a75310003e0ce2d440f1ed2821710e02c7b705da34dbcb063d4cca2a0c8b9ff",
+      "textStatus": "complete"
     },
     {
       "id": "T-105",
@@ -6557,7 +6582,8 @@
       "page": "DLC-0371",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "d705215b29915c7c5db86289111295f73cd3cae591b9c0706cb6843c78db7afb"
+      "reviewedSourceSha256": "d705215b29915c7c5db86289111295f73cd3cae591b9c0706cb6843c78db7afb",
+      "textStatus": "complete"
     },
     {
       "id": "T-106",
@@ -6570,7 +6596,8 @@
       "page": "DLC-0374",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "ca5f65f0cc518404506c004c7f9cf4c11d846a2211f9f7c405344643a4b5fb82"
+      "reviewedSourceSha256": "ca5f65f0cc518404506c004c7f9cf4c11d846a2211f9f7c405344643a4b5fb82",
+      "textStatus": "complete"
     },
     {
       "id": "T-107",
@@ -6583,7 +6610,8 @@
       "page": "DLC-0383",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "8a31ebb68e7de1f5b4318f92ef079f514504a7c7fa77423df4b69e18773aa313"
+      "reviewedSourceSha256": "8a31ebb68e7de1f5b4318f92ef079f514504a7c7fa77423df4b69e18773aa313",
+      "textStatus": "complete"
     },
     {
       "id": "T-108",
@@ -6596,7 +6624,8 @@
       "page": "DLC-0345",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "330ee09a5ad0a4222d429da270ac0e3d1521ee8fc0d47a8df0f85ab83b4c8e95"
+      "reviewedSourceSha256": "330ee09a5ad0a4222d429da270ac0e3d1521ee8fc0d47a8df0f85ab83b4c8e95",
+      "textStatus": "complete"
     },
     {
       "id": "T-109",
@@ -6609,7 +6638,8 @@
       "page": "DLC-0346",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "38e3fb3122be54fe2e6569c1a117eae802dbd79bb63d66d072ea2a514d6dda40"
+      "reviewedSourceSha256": "38e3fb3122be54fe2e6569c1a117eae802dbd79bb63d66d072ea2a514d6dda40",
+      "textStatus": "complete"
     },
     {
       "id": "T-110",
@@ -6622,7 +6652,8 @@
       "page": "DLC-0347",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "37a8be1a612414ad59dee5509c06222ff7bf25edff3f4e07c7eca09cddd41e78"
+      "reviewedSourceSha256": "37a8be1a612414ad59dee5509c06222ff7bf25edff3f4e07c7eca09cddd41e78",
+      "textStatus": "complete"
     },
     {
       "id": "T-111",
@@ -6635,7 +6666,8 @@
       "page": "DLC-0378",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "17276d7de6de2752f002135aeb2683e12ba6ebc656f62f057246173c69d9a706"
+      "reviewedSourceSha256": "17276d7de6de2752f002135aeb2683e12ba6ebc656f62f057246173c69d9a706",
+      "textStatus": "complete"
     },
     {
       "id": "T-112",
@@ -6648,7 +6680,8 @@
       "page": "DLC-0326",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "da70658719982a0adf4b8e2d2d8407c9a8f23800e6b54f2d8d5d40ca0fa8256d"
+      "reviewedSourceSha256": "da70658719982a0adf4b8e2d2d8407c9a8f23800e6b54f2d8d5d40ca0fa8256d",
+      "textStatus": "complete"
     },
     {
       "id": "T-113",
@@ -6661,7 +6694,8 @@
       "page": "DLC-0328",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "03398bdb6c824d92fbd040e71e1e5a17b53bffdb8f23112d695e9f598fcebd9f"
+      "reviewedSourceSha256": "03398bdb6c824d92fbd040e71e1e5a17b53bffdb8f23112d695e9f598fcebd9f",
+      "textStatus": "complete"
     },
     {
       "id": "T-114",
@@ -6674,7 +6708,8 @@
       "page": "DLC-0401",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "fcc1067e66e3f7b132446d570f3a53a39767d591c7be82db936e7c0a2cd17a37"
+      "reviewedSourceSha256": "fcc1067e66e3f7b132446d570f3a53a39767d591c7be82db936e7c0a2cd17a37",
+      "textStatus": "complete"
     },
     {
       "id": "T-115",
@@ -6687,7 +6722,8 @@
       "page": "DLC-0402",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "552204fd7d0d213f993a739687f46d471fc146086c3303d5fafe4f2db2b3457a"
+      "reviewedSourceSha256": "552204fd7d0d213f993a739687f46d471fc146086c3303d5fafe4f2db2b3457a",
+      "textStatus": "complete"
     },
     {
       "id": "T-116",
@@ -6700,7 +6736,8 @@
       "page": "DLC-0403",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "53443001ccdcf12cf26046d0e76a7f4872fb38b9d4cf425fa606592a3ed672f1"
+      "reviewedSourceSha256": "53443001ccdcf12cf26046d0e76a7f4872fb38b9d4cf425fa606592a3ed672f1",
+      "textStatus": "complete"
     },
     {
       "id": "T-117",
@@ -6713,7 +6750,8 @@
       "page": "DLC-0429",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "5c3db92f616a77c792a00443d6ac2a30d9957facdc5245e892ad9aaf07ae79e9"
+      "reviewedSourceSha256": "5c3db92f616a77c792a00443d6ac2a30d9957facdc5245e892ad9aaf07ae79e9",
+      "textStatus": "complete"
     },
     {
       "id": "T-118",
@@ -6726,7 +6764,8 @@
       "page": "DLC-0430",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "e426a97304bc305f87042c9f4dff3b0b7830950db5a046798781e3bc495d779b"
+      "reviewedSourceSha256": "e426a97304bc305f87042c9f4dff3b0b7830950db5a046798781e3bc495d779b",
+      "textStatus": "complete"
     },
     {
       "id": "T-119",
@@ -6739,7 +6778,8 @@
       "page": "DLC-0431",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "3b8276318f0eb0869174f045855d7cdc526672545f064bea3415474f0053990f"
+      "reviewedSourceSha256": "3b8276318f0eb0869174f045855d7cdc526672545f064bea3415474f0053990f",
+      "textStatus": "complete"
     },
     {
       "id": "T-120",
@@ -6752,7 +6792,8 @@
       "page": "DLC-0432",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "adda3b262ed84f3612bc8ef62f85a174d490fb0443a2fb6b72d9a8c125374a68"
+      "reviewedSourceSha256": "adda3b262ed84f3612bc8ef62f85a174d490fb0443a2fb6b72d9a8c125374a68",
+      "textStatus": "complete"
     },
     {
       "id": "T-121",
@@ -6765,7 +6806,8 @@
       "page": "DLC-0442",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "3f0937874c4669d69877219f3d20afff18cbaf4766b48d6fffc8c4abe28237a6"
+      "reviewedSourceSha256": "3f0937874c4669d69877219f3d20afff18cbaf4766b48d6fffc8c4abe28237a6",
+      "textStatus": "complete"
     },
     {
       "id": "T-122",
@@ -6778,7 +6820,8 @@
       "page": "DLC-0443",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "6e174ac7c533986e04445a506f7418b9c9ecac3f3c03a69f4e4964a4165dde69"
+      "reviewedSourceSha256": "6e174ac7c533986e04445a506f7418b9c9ecac3f3c03a69f4e4964a4165dde69",
+      "textStatus": "complete"
     },
     {
       "id": "T-123",
@@ -6791,7 +6834,8 @@
       "page": "DLC-0449",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "96b48df8c441abb8acc959721671b91f27893cefebf72a69022a09b6a5954f60"
+      "reviewedSourceSha256": "96b48df8c441abb8acc959721671b91f27893cefebf72a69022a09b6a5954f60",
+      "textStatus": "complete"
     },
     {
       "id": "T-124",
@@ -6804,7 +6848,8 @@
       "page": "DLC-0562",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "a5220389adfbf684a03fb7ec1bca54de3da476beced43ed210406af1e19a88ed"
+      "reviewedSourceSha256": "a5220389adfbf684a03fb7ec1bca54de3da476beced43ed210406af1e19a88ed",
+      "textStatus": "complete"
     },
     {
       "id": "T-125",
@@ -6819,7 +6864,8 @@
       "page": "DLC-0563",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "58ea1dbbca109634b53b814305dc4fd5ad165c75ffe73cf3995dcf3d7048ea3b"
+      "reviewedSourceSha256": "58ea1dbbca109634b53b814305dc4fd5ad165c75ffe73cf3995dcf3d7048ea3b",
+      "textStatus": "complete"
     },
     {
       "id": "T-126",
@@ -6832,7 +6878,8 @@
       "page": "DLC-0565",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "ffc8d7cd628e2a288f8604274fd5b039aa102fc7559ad5298aa199f13613ef98"
+      "reviewedSourceSha256": "ffc8d7cd628e2a288f8604274fd5b039aa102fc7559ad5298aa199f13613ef98",
+      "textStatus": "complete"
     },
     {
       "id": "T-127",
@@ -6845,7 +6892,8 @@
       "page": "DLC-0569",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "a1a44a4a1ec137b58c569f718eaeb6461a898234b16eaea7bdfec1827fe2c41f"
+      "reviewedSourceSha256": "a1a44a4a1ec137b58c569f718eaeb6461a898234b16eaea7bdfec1827fe2c41f",
+      "textStatus": "complete"
     },
     {
       "id": "T-128",
@@ -6858,7 +6906,8 @@
       "page": "DLC-0570",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "28396d5ec1031751bbb9ee126146204e53c221aa4cd9bd049137653f1c5091ed"
+      "reviewedSourceSha256": "28396d5ec1031751bbb9ee126146204e53c221aa4cd9bd049137653f1c5091ed",
+      "textStatus": "complete"
     },
     {
       "id": "T-129",
@@ -6871,7 +6920,10 @@
       "page": "DLC-0478",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "6c560bd0af6195ce85175a5d13819a2d6c18b9b9200eab9758a5f66a426c930d"
+      "reviewedSourceSha256": "6c560bd0af6195ce85175a5d13819a2d6c18b9b9200eab9758a5f66a426c930d",
+      "duplicateOf": "T-084",
+      "duplicateBasis": "Sama tekijä ja otsikko; lukuteksti täsmää vanhaan tietueeseen tekijärivin ja välilyöntien eroa lukuun ottamatta. Eri palvelimien lähdetallenteet säilyvät erillisinä.",
+      "textStatus": "complete"
     },
     {
       "id": "T-130",
@@ -6884,7 +6936,10 @@
       "page": "DLC-0479",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "f4ae80b0867c2397a7f58623c085e142bbe6826282ca1fa87f1703f43e6d2d93"
+      "reviewedSourceSha256": "f4ae80b0867c2397a7f58623c085e142bbe6826282ca1fa87f1703f43e6d2d93",
+      "duplicateOf": "T-085",
+      "duplicateBasis": "Sama tekijä ja otsikko; lukuteksti täsmää vanhaan tietueeseen tekijärivin ja välilyöntien eroa lukuun ottamatta. Eri palvelimien lähdetallenteet säilyvät erillisinä.",
+      "textStatus": "complete"
     },
     {
       "id": "T-131",
@@ -6897,7 +6952,10 @@
       "page": "DLC-0480",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "fac36ead04e2b7ad66e86d83803d6b84d00fe7ec39a3b2dac63ba3d1c04261e4"
+      "reviewedSourceSha256": "fac36ead04e2b7ad66e86d83803d6b84d00fe7ec39a3b2dac63ba3d1c04261e4",
+      "duplicateOf": "T-086",
+      "duplicateBasis": "Sama tekijä ja otsikko; lukuteksti täsmää vanhaan tietueeseen tekijärivin ja välilyöntien eroa lukuun ottamatta. Eri palvelimien lähdetallenteet säilyvät erillisinä.",
+      "textStatus": "complete"
     },
     {
       "id": "T-132",
@@ -6910,7 +6968,10 @@
       "page": "DLC-0495",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "25b582bc45dfa983f8a9cedb6d2dadd6ce2079a6d2c6b232907064b13c85dffd"
+      "reviewedSourceSha256": "25b582bc45dfa983f8a9cedb6d2dadd6ce2079a6d2c6b232907064b13c85dffd",
+      "duplicateOf": "T-087",
+      "duplicateBasis": "Sama tekijä ja otsikko; lukuteksti täsmää vanhaan tietueeseen tekijärivin ja välilyöntien eroa lukuun ottamatta. Eri palvelimien lähdetallenteet säilyvät erillisinä.",
+      "textStatus": "complete"
     },
     {
       "id": "T-133",
@@ -6923,7 +6984,8 @@
       "page": "DLC-0507",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "56b3a99d577e948cbf1c06a3d03ab90ab16ec97fb5292acd3426edca44997846"
+      "reviewedSourceSha256": "56b3a99d577e948cbf1c06a3d03ab90ab16ec97fb5292acd3426edca44997846",
+      "textStatus": "complete"
     },
     {
       "id": "T-134",
@@ -6936,7 +6998,8 @@
       "page": "DLC-0589",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "132b19eb077134c768760880c3e035678f28d28bf70a57a73813ef35da0f333d"
+      "reviewedSourceSha256": "132b19eb077134c768760880c3e035678f28d28bf70a57a73813ef35da0f333d",
+      "textStatus": "complete"
     },
     {
       "id": "T-135",
@@ -6949,7 +7012,218 @@
       "page": "DLC-0590",
       "status": "Kokoteksti paikallisessa arkistossa",
       "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
-      "reviewedSourceSha256": "f4d9a91023308fb8e3ea7f22ad5463edbe6c8ab131dae925eb629a2961eb639d"
+      "reviewedSourceSha256": "f4d9a91023308fb8e3ea7f22ad5463edbe6c8ab131dae925eb629a2961eb639d",
+      "textStatus": "complete"
+    },
+    {
+      "id": "T-136",
+      "title": "BÖRJE JUNASSA",
+      "authors": [
+        "Janne Kanerva"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0519",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "textStatus": "complete",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "b5d97f8cacbf78c91b2e0b06f3e9dd7ad2466ebb0e012f08f3d64760a90c2329"
+    },
+    {
+      "id": "T-137",
+      "title": "POSSUN SEIKKAILUT",
+      "authors": [
+        "Jarno Savolainen"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0542",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "textStatus": "complete",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "21b9a2ff9b9e15858d7ebee0d7afbe11de1774e92917df88d28d712b992899d1"
+    },
+    {
+      "id": "T-138",
+      "title": "JALKAPALLO",
+      "authors": [
+        "Jenna Sirén"
+      ],
+      "genre": "tietokirjoitelma",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0577",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "textStatus": "complete",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "25c3dcb4379f66f07b89a9b792229d3c3859dbbc2869d3ddfa8ce288549559e4"
+    },
+    {
+      "id": "T-139",
+      "title": "PELOTTAVA MAASTORATSASTUS",
+      "authors": [
+        "Jenni Laakso"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0591",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "textStatus": "complete",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "4487103d4389ffce082565ef71a3f273a24f987608beda21a211efa16292cf9c"
+    },
+    {
+      "id": "T-140",
+      "title": "LUOMUVILJELY",
+      "authors": [
+        "Jenni Salin"
+      ],
+      "genre": "tietokirjoitelma",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0596",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "textStatus": "complete",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "28bcbfd69202dc987eff8cf7acc27805f2a175991db97342953a9b45e7932b70"
+    },
+    {
+      "id": "T-141",
+      "title": "AAVELAIVA",
+      "authors": [
+        "Joona Virtamo"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0625",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "textStatus": "complete",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "c49ac7d1d4ebc683141d7bf33a803d8760914d21a675b4dded48416675efad16"
+    },
+    {
+      "id": "T-142",
+      "title": "SUKELTAJA",
+      "authors": [
+        "Joona Virtamo"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0626",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "textStatus": "complete",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "bf162499cecf0ac14276f86a248a32c89c071031fb49f41aa87827f86ef151d6"
+    },
+    {
+      "id": "T-143",
+      "title": "HAUTAUSMAAN AAVE",
+      "authors": [
+        "Joonas Maittila"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0650",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "textStatus": "complete",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "2e98f51db3b0d58c8b910634e33b1bdb94387e3ddcddffd25c06a5ae433b1058"
+    },
+    {
+      "id": "T-144",
+      "title": "SYLVESTERI KARKUTEILLÄ",
+      "authors": [
+        "Joonas Maittila"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0651",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "textStatus": "complete",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "224477fa95eb1411e1da20c0fcac621f4e45d4d9375d107049f68bd22a04e25f"
+    },
+    {
+      "id": "T-145",
+      "title": "TEROCIN SEIKKAILU",
+      "authors": [
+        "Joonas Maittila"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0652",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "textStatus": "complete",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "760437c57cb1a99d3cdecff0807862fc45dfe45ba5140c64fcbe731ecce101e7"
+    },
+    {
+      "id": "T-146",
+      "title": "KALLE OLI PAHASSA PULASSA",
+      "authors": [
+        "Jani Sirén"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0511",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "textStatus": "complete",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "c35fede01422a83ef7f36cdd24f847191bbffa4f019f739ffc027243bcf5f58f"
+    },
+    {
+      "id": "T-147",
+      "title": "VAMPYYRI, JOKA PELKÄSI VARJOAAN",
+      "authors": [
+        "Jenna Paukkio"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0571",
+      "status": "Kokoteksti paikallisessa arkistossa",
+      "textStatus": "complete",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "2559bd1f96859e2100538dc9cce741d681bc0a1539f993eff33357ed4dbad2b5"
+    },
+    {
+      "id": "T-148",
+      "title": "REIJON KESÄLOMA",
+      "authors": [
+        "Jaakko Virta"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0506",
+      "status": "Säilynyt tekstikatkelma; loppu päättyy kesken virkkeen",
+      "textStatus": "fragment",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "cc24fe1a7d2b9febbc8c4705c59a4e9e967c7428fc734b32a8a869ca79b78cde"
+    },
+    {
+      "id": "T-149",
+      "title": "LUPAUKSEN VANKI",
+      "authors": [
+        "Hanne Marjoniemi"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0467",
+      "status": "Säilynyt tekstikatkelma; loppu päättyy kesken virkkeen",
+      "textStatus": "fragment",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "d9f6086a7f4d2840cb213bcab2669c1bbb76d5a4bfa1740e9d77a90fcf3f6332"
+    },
+    {
+      "id": "T-150",
+      "title": "MATKALLA MAAILMALLE",
+      "authors": [
+        "Janne Kanerva"
+      ],
+      "genre": "kertomus",
+      "period": "Ei päiväystä lähdesivulla",
+      "page": "DLC-0520",
+      "status": "Lähteessä viimeistelemättömäksi merkitty teksti",
+      "textStatus": "draft",
+      "note": "Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.",
+      "reviewedSourceSha256": "10bd610b0940625f15ce0b9b628e5df64ece4d25d02d8c4730c78bfaec890a3c"
     }
   ],
   "images": [
@@ -16104,7 +16378,9 @@
       "mimetype": "image/jpeg",
       "archive_status": "200",
       "digest": "OZ62THR4EXMDGOJRSRV5G5WDBVGEFCP3",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "fc183942918acffa51d50b060bf847e2158ef7ba38925aabf250f446cde79550",
+      "bytes": 19129
     },
     {
       "id": "DLC-0631",
@@ -16718,7 +16994,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "4MKC5LHFPOLOJA7OJONWHYS4QN6CYDW2",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Tallennevastauksen tavut säilytetty; CDX-tarkiste varmistamatta",
+      "sha256": "af0249bb63af82bc04ea4b3d5b958cf173af7f778d1675f2918e7f5cfd2bdecc",
+      "bytes": 5671
     },
     {
       "id": "DLC-0681",
@@ -16729,7 +17007,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "UNX27XAEKADDQTEP2YW7FQCY2YB25G5E",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "df561a1739d58a2455579cdd6600aa3afb1163bb886fbb1ca39bace46baf7d7b",
+      "bytes": 2727
     },
     {
       "id": "DLC-0682",
@@ -16740,7 +17020,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "XCGCG6C4XB62CNSCZWW4SUVA5EFYNWKY",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "a313e7f316d418963ce3c1215b0451cbc85744cc3be1d79d302b47963ea7e32c",
+      "bytes": 4574
     },
     {
       "id": "DLC-0683",
@@ -16887,7 +17169,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "WJXWKPFOSNIJODNJSOG2UNNDEXOSGLJP",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "92e7d6bce4db5b4fa2752562a4e33e41510200bddba7676a2e737456e189357c",
+      "bytes": 1707
     },
     {
       "id": "DLC-0696",
@@ -16898,7 +17182,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "7N5JCECV33D5Z4QFI5C4FOPAV4XHNI3M",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "60881d2c82c50569222dd416f360181840c88d182b536bc94e1c7867c6268f3c",
+      "bytes": 2338
     },
     {
       "id": "DLC-0697",
@@ -16957,7 +17243,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "C3TQMS5BEASB2Y2HA4LTDMXFPFEOJLRE",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "2cbcfc06b98ed9755d4b87eebefaf9c9d36a1e9f66cc78a5931c683864756e0c",
+      "bytes": 4918
     },
     {
       "id": "DLC-0702",
@@ -16968,7 +17256,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "MWXSW3ICU3725VDWX7EK2TC46FGAK54N",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "4182830d689b23f365d6de02a95767bf87f8986665bf2a73e836b9ba42b53fc2",
+      "bytes": 1991
     },
     {
       "id": "DLC-0703",
@@ -16979,7 +17269,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "4ZF7ZHFVYFW3TN6YHBBPJX6RQ6SAHSW4",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "5e662a6d2abdc85ccacdfb390b4f8e055506fa1757532163285a000fbfe1d0ce",
+      "bytes": 2194
     },
     {
       "id": "DLC-0704",
@@ -17016,7 +17308,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "2H5Y372TB6KHVP7HTNJZOISO2DCUGSNT",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Tallennevastauksen tavut säilytetty; CDX-tarkiste varmistamatta",
+      "sha256": "f9eb464059af922f5fb4a33216a8fefb3accdf5da1948a94d3e6c8f8eaf5c007",
+      "bytes": 2949
     },
     {
       "id": "DLC-0707",
@@ -17027,7 +17321,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "BO5P2RGXBDJNEPFHQ7TOLETJH4RBMMKL",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Tallennevastauksen tavut säilytetty; CDX-tarkiste varmistamatta",
+      "sha256": "c80c6f3f7c580f5df8c1943280a274d21c343d422553a6b3bc8a72ff6e11f824",
+      "bytes": 3630
     },
     {
       "id": "DLC-0708",
@@ -17038,7 +17334,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "4BP6QHPLEJ4RXNF5BSHRJJENCCXWX3Z6",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Tallennevastauksen tavut säilytetty; CDX-tarkiste varmistamatta",
+      "sha256": "a7d635b76bf3440ffc91fb75745cabf7e0177f6fbaf236a17ecec238667d294a",
+      "bytes": 2562
     },
     {
       "id": "DLC-0709",
@@ -17163,7 +17461,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "QF7BDNRROFCGDJ6M5LWFAEWBS2YVJ3Y4",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "29441dcfd7ab5123f28c5316e3f7dc38c8d4df02c0bd87740d2d2b8fcfb89b4c",
+      "bytes": 1829
     },
     {
       "id": "DLC-0720",
@@ -17229,7 +17529,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "OAPOKZPJLDOK3FHFLED7EFCNEE3J4XGO",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Tallennevastauksen tavut säilytetty; CDX-tarkiste varmistamatta",
+      "sha256": "403c63bcebfff0953ebdab536175bcddb1116f411ce923bcd4f6fa0004bb401a",
+      "bytes": 1837
     },
     {
       "id": "DLC-0726",
@@ -17240,7 +17542,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "3KKAA6J6FYWTLMAMQBEZGXF5JPHXFCS3",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "0dc48ee67d925762eedf3b365fb8ee98d3ba18dd5b1077e60ce5ba53d2b69cb3",
+      "bytes": 1057
     },
     {
       "id": "DLC-0727",
@@ -17328,7 +17632,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "73WXYMVHNOMUK5N6A5M3TUWMDBF2HLFO",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Tallennevastauksen tavut säilytetty; CDX-tarkiste varmistamatta",
+      "sha256": "7ef14c3e792123babc8e5bf005709ab3ec36b412696e8c19052e611bf931d4bb",
+      "bytes": 2396
     },
     {
       "id": "DLC-0735",
@@ -17394,7 +17700,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "LJ35L4Z6IBVRYQYFR3KDRSSPMPE7GCMY",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Tallennevastauksen tavut säilytetty; CDX-tarkiste varmistamatta",
+      "sha256": "d6fa9e8db78f5167744fa1974097745fd6c45b251364b774ab43d135599e3f36",
+      "bytes": 1443
     },
     {
       "id": "DLC-0741",
@@ -17427,7 +17735,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "6UODFOEYZESFJZYI3ARACBBJW3XC3MPK",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "5d0429da13f8b1c352dce100e43b3b8c069e455a8d42d4691b39bc06f59b3049",
+      "bytes": 1517
     },
     {
       "id": "DLC-0744",
@@ -17537,7 +17847,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "VPDQAE7KWET6PWS2P5DU6ULI5A3RRG22",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "8bc20bf01f10cb8a4ef8971d0dfe968131871ed86cffde7b1fdc982205652abf",
+      "bytes": 1652
     },
     {
       "id": "DLC-0754",
@@ -17592,7 +17904,9 @@
       "mimetype": "text/html",
       "archive_status": "200",
       "digest": "EZBQNC7NEOUCITMYVOIVUY44NFLB34HU",
-      "status": "CDX 200; sisältö vielä palauttamatta"
+      "status": "Alkuperäinen tiedosto tallennettu; lähiluku erikseen",
+      "sha256": "bf88d828adce386874429ced641efa11138d43d30ca3d83b0af23e2b05220301",
+      "bytes": 2928
     },
     {
       "id": "DLC-0759",

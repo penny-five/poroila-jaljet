@@ -51,6 +51,14 @@ with sync_playwright() as playwright:
     page.locator('[data-catalog-search]').fill('LAIVAMATKA')
     assert page.locator('[data-work-record]:visible').count() == 1
     assert page.locator('[data-catalog-count]').text_content().strip() == f'1 / {len(catalog["works"])} merkintää'
+    for work_id, status in [('T-148','fragment'), ('T-149','fragment'), ('T-150','draft')]:
+        page.goto(origin + '/_site/teokset/' + work_id + '/')
+        assert page.locator('[data-text-status="'+status+'"]').is_visible()
+        assert page.get_by_role('heading', name='Koko teos', exact=True).count() == 0
+        assert page.locator('.work-copy').text_content().strip()
+    page.goto(origin + '/_site/teokset/T-146/')
+    assert page.locator('h1').text_content() == 'KALLE OLI PAHASSA PULASSA'
+    assert 'KALLE OLI\nPAHASSA PULASSA' in page.locator('.work-copy').text_content()
     page.goto(origin + '/_site/tekijat/')
     people_cards = page.locator('[data-person-id]').evaluate_all("cards=>Object.fromEntries(cards.map(card=>[card.dataset.personId,{name:card.querySelector('summary strong').textContent,count:card.querySelector('summary span').textContent}]))")
     assert len(people_cards) == len(catalog['people'])

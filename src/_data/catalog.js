@@ -65,6 +65,7 @@ module.exports = {
   preservedHyKFilesCount: originals.files.filter((file) => file.collection === 'Saunalahti / Hyrsylän koulu').length,
   preservedDlcFilesCount: originals.files.filter((file) => file.collection === 'DLC / Hyrsylän koulu').length,
   works,
+  distinctWorksCount: works.filter(work => !work.duplicateOf).length,
   readPagesCount: archive.pages.filter((page) => page.status === 'HTML luettu').length,
   authors,
   people,

@@ -124,14 +124,19 @@ def main() -> int:
         check(digest == item["sha256"], f"Exact-copy SHA-256 mismatch: {item['id']}")
 
     work_texts = json.loads((ROOT / "src/_data/work-texts.json").read_text(encoding="utf-8"))
-    full_texts = {work_id: item for work_id, item in work_texts.items() if item.get("text")}
+    available_texts = {work_id: item for work_id, item in work_texts.items() if item.get("text")}
+    full_texts = {work_id: item for work_id, item in available_texts.items() if item.get('textStatus', 'complete') == 'complete'}
     check(set(work_texts) == {work['id'] for work in archive['works']}, 'Work text inventory differs from catalogue')
     check(len(work_texts) >= 98 and len(full_texts) >= 97, 'Baseline work texts were lost')
-    for work_id, work_text in full_texts.items():
+    for work_id, work_text in available_texts.items():
         target = SITE / "teokset" / work_id / "index.html"
         check(target.is_file(), f"Work page missing: {work_id}")
         body = target.read_text(encoding="utf-8")
-        check("Koko teos" in body, f"Complete transcription missing on {work_id}")
+        if work_text.get('textStatus', 'complete') == 'complete':
+            check("Koko teos" in body, f"Complete transcription missing on {work_id}")
+        else:
+            check('<h2>Koko teos</h2>' not in body and 'data-text-status="'+work_text['textStatus']+'"' in body, f'Partial work is incorrectly presented as complete: {work_id}')
+            check(work_text['completenessNote'] in unescape(body), f'Missing partial-text explanation: {work_id}')
         match = re.search(r'<pre class="work-copy">([\s\S]*?)</pre>', body)
         check(match is not None, f"Full transcription block missing on {work_id}")
         check(unescape(match.group(1)).strip() == work_text["text"].strip(), f"Transcription differs from source data on {work_id}")
@@ -197,7 +202,7 @@ def main() -> int:
 
     print(
         f"PASS: {len(LEGACY_PAGES)} legacy sections, {len(author_pages)} person pages, "
-        f"{len(work_pages)} work pages, {len(full_texts)} full transcriptions, {len(saved)} SHA-256-verified originals, "
+        f"{len(work_pages)} work pages, {len(full_texts)} full transcriptions and {len(available_texts) - len(full_texts)} partial/draft texts, {len(saved)} SHA-256-verified originals, "
         f"{checked_links} local links across {len(html_pages)} pages; shared navigation, canonical page routes, original page layouts, controls, person cards, and exact originals are present."
     )
     return 0

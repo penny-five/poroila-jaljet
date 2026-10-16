@@ -28,6 +28,11 @@ def main():
         check(work['id'] in source['workIds'], f'Work missing from source reader: {work["id"]}')
         body = page_file('/teokset/'+work['id']+'/').read_text(encoding='utf-8')
         check('/koulu/aineisto/'+source['id']+'/' in body, f'Missing local work source link: {work["id"]}')
+        check(texts[work['id']].get('textStatus', 'complete') == selection.get('textStatus', 'complete'), 'Text completeness differs from reviewed selection')
+        if selection.get('textStatus') == 'fragment':
+            check(source['text'].endswith(selection['endingEvidence']), 'Fragment ending changed')
+        elif selection.get('textStatus') == 'draft':
+            check(selection['draftEvidence'] in source['text'].split('\n\n')[:3], 'Draft marking missing from source')
         if selection.get('previousSourceId'):
             previous = page_by_id[selection['previousSourceId']]
             check(work['id'] in previous['workIds'], 'Recovered work lost its original listing relationship')
@@ -52,6 +57,14 @@ def main():
     check(counterexample['caption'] == 'Paula Savolainen' and all('kuvamuunnos-elsa-' in image['url'] for image in counterexample['images']), 'Image filename was incorrectly used as author evidence')
     poetry = page_file('/olli-poroila/kirjoitukset/').read_text(encoding='utf-8')
     check('/koulu/aineisto/DLC-0315/' in poetry and 'S73' in poetry, 'Poroila poetry source is missing from writings')
+    for work in catalog['works']:
+        if work.get('duplicateOf'):
+            canonical = work_by_id[work['duplicateOf']]
+            check(work['authors'] == canonical['authors'] and work['title'].casefold() == canonical['title'].casefold(), 'Unsupported parallel work attribution')
+            normalize = lambda text: re.sub(r'\s+', '', text).casefold()
+            check(normalize(texts[canonical['id']]['text']) == normalize(texts[work['id']]['text'].split('\n', 1)[1]), 'Parallel work texts differ')
+            body = page_file('/teokset/'+work['id']+'/').read_text(encoding='utf-8')
+            check('data-duplicate-of="'+canonical['id']+'"' in body and '/teokset/'+canonical['id']+'/' in body, 'Parallel record lacks primary-work link')
     years = json.loads((ROOT / 'src/_data/schoolYears.json').read_text(encoding='utf-8'))
     for year in years:
         source = page_by_id[year['sourceId']]

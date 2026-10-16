@@ -12,6 +12,7 @@ eleventyComputed:
     url: /teokset/
 ---
 
+{% if work.duplicateOf %}<div class="notice" data-duplicate-of="{{ work.duplicateOf }}">Tämä on saman teoksen rinnakkaistallenteeseen perustuva tietue. <a href="{{ ('/teokset/' + work.duplicateOf + '/') | localUrl }}">Aiempi teostietue {{ work.duplicateOf }}</a>. {{ work.duplicateBasis }} Tunniste säilyy aiempia linkkejä varten. Molempien lähteiden erilliset tietueet ovat edelleen tutkittavissa.</div>{% endif %}
 <p class="page-lead">{{ work.genre }} · {{ work.period }}</p>
 <h2>Tekijät</h2>
 <ul>
@@ -36,8 +37,9 @@ eleventyComputed:
 {% endif %}
 
 {% if work.fullText and work.fullText.text %}
-<h2>Koko teos</h2>
-<p class="metadata">Koko näkyvä teksti on litteroitu palautetusta HTML:stä. Rivinvaihdot säilytetään. Tiedostolinkistä saa alkuperäiset tavut sellaisinaan.</p>
+{% if work.fullText.textStatus == 'fragment' %}<h2>Säilynyt tekstikatkelma</h2>{% elif work.fullText.textStatus == 'draft' %}<h2>Viimeistelemätön teksti</h2>{% else %}<h2>Koko teos</h2>{% endif %}
+{% if work.fullText.completenessNote %}<div class="notice" data-text-status="{{ work.fullText.textStatus }}">{{ work.fullText.completenessNote }}</div>{% endif %}
+<p class="metadata">Tallenteessa säilynyt näkyvä teksti on litteroitu palautetusta HTML:stä. Rivinvaihdot säilytetään. Tiedostolinkistä saa alkuperäiset tavut sellaisinaan.</p>
 <pre class="work-copy">{{ work.fullText.text }}</pre>
 {% elif work.fullText and work.fullText.reason %}
 <div class="notice"><strong>Teoksen sisältöä ei saatu palautetuksi.</strong> {{ work.fullText.reason }} Otsikko ja linkki ovat säilyneet lähdesivun HTML:ssä; kokotekstiä ei täydennetä arvauksella.</div>

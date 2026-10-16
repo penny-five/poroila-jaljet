@@ -384,5 +384,179 @@
     "previousSourceId": "HYK-020",
     "period": "Luettelossa 5.11.1998; kokotekstissä ei päiväystä",
     "previousLinkUrl": "http://www.saunalahti.fi:80/~hyk/oppilas-henna-berg-kirjoitelma-pontus.htm"
+  },
+  {
+    "id": "T-136",
+    "sourceId": "DLC-0519",
+    "title": "BÖRJE JUNASSA",
+    "authors": [
+      "Janne Kanerva"
+    ],
+    "authorHeading": "Janne Kanerva:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-137",
+    "sourceId": "DLC-0542",
+    "title": "POSSUN SEIKKAILUT",
+    "authors": [
+      "Jarno Savolainen"
+    ],
+    "authorHeading": "Jarno Savolainen:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-138",
+    "sourceId": "DLC-0577",
+    "title": "JALKAPALLO",
+    "authors": [
+      "Jenna Sirén"
+    ],
+    "authorHeading": "Jenna Sirén:",
+    "genre": "tietokirjoitelma"
+  },
+  {
+    "id": "T-139",
+    "sourceId": "DLC-0591",
+    "title": "PELOTTAVA MAASTORATSASTUS",
+    "authors": [
+      "Jenni Laakso"
+    ],
+    "authorHeading": "Jenni Laakso:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-140",
+    "sourceId": "DLC-0596",
+    "title": "LUOMUVILJELY",
+    "authors": [
+      "Jenni Salin"
+    ],
+    "authorHeading": "Jenni Salin:",
+    "genre": "tietokirjoitelma"
+  },
+  {
+    "id": "T-141",
+    "sourceId": "DLC-0625",
+    "title": "AAVELAIVA",
+    "authors": [
+      "Joona Virtamo"
+    ],
+    "authorHeading": "Joona Virtamo:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-142",
+    "sourceId": "DLC-0626",
+    "title": "SUKELTAJA",
+    "authors": [
+      "Joona Virtamo"
+    ],
+    "authorHeading": "Joona Virtamo:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-143",
+    "sourceId": "DLC-0650",
+    "title": "HAUTAUSMAAN AAVE",
+    "authors": [
+      "Joonas Maittila"
+    ],
+    "authorHeading": "Joonas Maittila:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-144",
+    "sourceId": "DLC-0651",
+    "title": "SYLVESTERI KARKUTEILLÄ",
+    "authors": [
+      "Joonas Maittila"
+    ],
+    "authorHeading": "Joonas Maittila:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-145",
+    "sourceId": "DLC-0652",
+    "title": "TEROCIN SEIKKAILU",
+    "authors": [
+      "Joonas Maittila"
+    ],
+    "authorHeading": "Joonas Maittila:",
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-146",
+    "sourceId": "DLC-0511",
+    "title": "KALLE OLI PAHASSA PULASSA",
+    "authors": [
+      "Jani Sirén"
+    ],
+    "authorHeading": "Jani Sirén:",
+    "sourceHeadingLines": [
+      "Jani Sirén:",
+      "KALLE OLI",
+      "PAHASSA PULASSA"
+    ],
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-147",
+    "sourceId": "DLC-0571",
+    "title": "VAMPYYRI, JOKA PELKÄSI VARJOAAN",
+    "authors": [
+      "Jenna Paukkio"
+    ],
+    "authorHeading": "Jenna Paukkio:",
+    "sourceHeadingLines": [
+      "Jenna Paukkio:",
+      "VAMPYYRI,",
+      "JOKA PELKÄSI VARJOAAN"
+    ],
+    "genre": "kertomus"
+  },
+  {
+    "id": "T-148",
+    "sourceId": "DLC-0506",
+    "title": "REIJON KESÄLOMA",
+    "authors": [
+      "Jaakko Virta"
+    ],
+    "authorHeading": "Jaakko Virta:",
+    "genre": "kertomus",
+    "textStatus": "fragment",
+    "endingEvidence": "missä laulaja oli viettänyt niin pitkän",
+    "completenessNote": "Säilynyt HTML päättää kertomuksen kesken virkkeen ennen PRE-elementin sulkemista. Mahdollista puuttuvaa loppua ei ole palautettu. Katkelma esitetään kokonaan lähteen mukaisena."
+  },
+  {
+    "id": "T-149",
+    "sourceId": "DLC-0467",
+    "title": "LUPAUKSEN VANKI",
+    "authors": [
+      "Hanne Marjoniemi"
+    ],
+    "authorHeading": "Hanne Marjoniemi:",
+    "genre": "kertomus",
+    "textStatus": "fragment",
+    "endingEvidence": "tekivät uuden",
+    "completenessNote": "Säilynyt HTML päättää kertomuksen kesken virkkeen ennen PRE-elementin sulkemista. Mahdollista puuttuvaa loppua ei ole palautettu. Katkelma esitetään kokonaan lähteen mukaisena."
+  },
+  {
+    "id": "T-150",
+    "sourceId": "DLC-0520",
+    "title": "MATKALLA MAAILMALLE",
+    "authors": [
+      "Janne Kanerva"
+    ],
+    "authorHeading": "Janne Kanerva:",
+    "sourceHeadingLines": [
+      "*** VIIMEISTELEMÄTÖN! ***",
+      "Janne Kanerva:",
+      "MATKALLA MAAILMALLE"
+    ],
+    "genre": "kertomus",
+    "textStatus": "draft",
+    "draftEvidence": "*** VIIMEISTELEMÄTÖN! ***",
+    "completenessNote": "Lähdesivu merkitsee tekstin otsikon yläpuolella viimeistelemättömäksi. Merkintä ja koko tallenteessa säilynyt teksti on säilytetty. Tekstiä ei esitetä tekijän viimeistelemänä versiona."
   }
 ]

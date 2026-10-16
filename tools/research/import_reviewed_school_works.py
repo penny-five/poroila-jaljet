@@ -28,12 +28,28 @@ def main():
         raw = (ROOT / original['local_path'].lstrip('/')).read_bytes()
         assert hashlib.sha256(raw).hexdigest() == source['sha256'] == original['sha256']
         lines = source['text'].split('\n\n')
-        assert lines[:2] == [selection['authorHeading'], selection.get('sourceTitle', selection['title'])], selection['sourceId']
+        headings = selection.get('sourceHeadingLines', [selection['authorHeading'], selection.get('sourceTitle', selection['title'])])
+        assert lines[:len(headings)] == headings, selection['sourceId']
+        assert selection['authorHeading'] in headings
+        title_lines = headings[headings.index(selection['authorHeading']) + 1:]
+        assert ' '.join(title_lines) == selection.get('sourceTitle', selection['title']), 'Reviewed title differs from source headings'
+        text_status = selection.get('textStatus', 'complete')
+        assert text_status in {'complete', 'fragment', 'draft'}
+        if text_status == 'fragment':
+            assert len(selection['endingEvidence']) > 8 and source['text'].endswith(selection['endingEvidence']), 'Fragment ending differs from reviewed source'
+        elif text_status == 'draft':
+            assert selection['draftEvidence'] in lines[:3], 'Draft marking is absent from source heading'
+        if text_status != 'complete':
+            assert selection.get('completenessNote'), 'Partial texts need an explicit completeness note'
+        identity = lambda title, authors: (' '.join(title.casefold().split()), tuple(sorted(name.casefold() for name in authors)))
+        assert selection['id'] in works or not any(work['id'] != selection['id'] and identity(work['title'], work['authors']) == identity(selection['title'], selection['authors']) for work in catalog['works']), 'Another work has the same title and author; review before importing'
+
         assert len(lines) > 3, 'Source must contain the actual work, not just a link'
         record = {
             'id': selection['id'], 'title': selection['title'], 'authors': selection['authors'],
             'genre': selection['genre'], 'period': selection.get('period', 'Ei päiväystä lähdesivulla'), 'page': source['id'],
-            'status': 'Kokoteksti paikallisessa arkistossa',
+            'status': {'complete':'Kokoteksti paikallisessa arkistossa', 'fragment':'Säilynyt tekstikatkelma; loppu päättyy kesken virkkeen', 'draft':'Lähteessä viimeistelemättömäksi merkitty teksti'}[text_status],
+            'textStatus': text_status,
             'note': 'Tekijämerkintä säilytetään lähteen mukaisena. Tallennuspäivä ei ole kirjoituspäivä. Oppilastyön sisältöä ei tulkita kirjoittajan elämäkertatiedoksi.',
             'reviewedSourceSha256': source['sha256'],
             **({'previousSourceId': selection['previousSourceId']} if selection.get('previousSourceId') else {}),
@@ -52,7 +68,8 @@ def main():
             catalog['works'].append(record)
         texts[record['id']] = {'text': '\n'.join(lines), 'sourcePage': source['id'],
                               'transcription': 'visible-text-from-complete-original-html; automatic whitespace normalization; original spelling and line breaks retained',
-                              'sourceSha256': source['sha256']}
+                              'sourceSha256': source['sha256'], 'textStatus': text_status,
+                              **({'completenessNote': selection['completenessNote']} if text_status != 'complete' else {})}
         for name in record['authors']:
             if name in people and record['id'] not in people[name]['works']:
                 people[name]['works'].append(record['id'])
